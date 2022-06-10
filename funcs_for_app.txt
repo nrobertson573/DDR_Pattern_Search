@@ -1,0 +1,733 @@
+library(scales)
+
+filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max){
+
+	sl_list = lapply(seq_len(nrow(songlist)),function(i){ lapply(songlist, "[", i)})
+
+	filtered_names_list = lapply(sl_list,function(rowi){
+		##make sure mix isnt null, and if not null, make sure it is not in the acceptable list of mixes
+		if(!is.null(mix) & !(rowi$mix %in% mix)){
+			diff_tf = rep(FALSE,5)
+		}else{
+			##bpm_static is true if we care to filter for only static bpm charts, then check song for fluctuating bpm
+			if(bpm_static & rowi$static_bpm == 0){
+				diff_tf = rep(FALSE,5)  
+			}else{
+				##next is checking for min/max bpm, but if call it static, want to use that static val
+				if(rowi$static_bpm == 0){
+					umin = rowi$bpm_min
+					umax = rowi$bpm_max
+				}else{
+					umin = rowi$static_bpm
+					umax = rowi$static_bpm
+				}
+				if(!is.null(bpm_min) & umin < max(0,bpm_min)){
+					diff_tf = rep(FALSE,5)
+				}else{
+					##now max bpm
+					if(!is.null(bpm_max) & umax > min(bpm_max,9999)){
+						diff_tf = rep(FALSE,5)
+					}else{
+						##here should be the checking for difficulties
+						diff_tf = c(
+							ifelse(sum(grepl("beginner", diff, ignore.case=TRUE))>0,rowi$gSP,0) %in% level,
+							ifelse(sum(grepl("basic", diff, ignore.case=TRUE))>0,rowi$BSP,0) %in% level,
+							ifelse(sum(grepl("difficult", diff, ignore.case=TRUE))>0,rowi$DSP,0) %in% level,
+							ifelse(sum(grepl("expert", diff, ignore.case=TRUE))>0,rowi$ESP,0) %in% level,
+							ifelse(sum(grepl("challenge", diff, ignore.case=TRUE))>0,rowi$CSP,0) %in% level
+						)
+					}
+				}
+			}
+		}
+		if(sum(diff_tf)>0){
+			out = paste(rowi$song,c("gSP","BSP","DSP","ESP","CSP")[diff_tf],sep="_")
+		}else{
+			out = NULL
+		}
+		return(out)
+	})
+	filtered_names = do.call(c,filtered_names_list)
+	return(filtered_names)
+}
+filter_table = function(filterlist,songlist){
+	splitlist = strsplit(filterlist,"_")
+	wiplist = lapply(splitlist,function(si){	
+		rowi = which(songlist$song %in% si[1])
+		lvl = songlist[rowi,colnames(songlist) %in% si[2]]
+		out = data.frame(song = si[1], diff = si[2], level = lvl, mix = songlist$mix[rowi],
+			bpm_min = songlist$bpm_min[rowi], bpm_max = songlist$bpm_max[rowi], static_bpm = songlist$static_bpm[rowi])
+		return(out)
+	})
+	out = do.call(rbind,wiplist)
+	return(out)
+}
+
+
+
+
+rasterpattern = function(smdat,maxcolnum,patternout,highlightcol="deeppink",trim=TRUE,speedmod = 1,
+			main="",sub="",xlab="",ylab="",
+			colramp=c("gray90","gray60","gray40","gray20","gray10","gray0"),...){
+
+	##find half arrow height
+	h.ah = .125 / speedmod
+
+	songvdat = smdat$step
+	##if trim == TRUE, remove empty measures at beginning of song
+	if(trim==TRUE){
+		adjust = floor(songvdat$beat.meas[1])
+		songvdat$beat.meas = songvdat$beat.meas - adjust
+	}else{ adjust = 0 }
+
+	##identify number of measures
+	meascount = ceiling(max(songvdat$beat.meas))
+	##find number of measures for each column of the plot
+	mpf = ceiling(meascount / maxcolnum)
+	##determine X coordinate for each arrow
+	X = songvdat$arrow + rowSums(sapply(1:(maxcolnum-1),function(k){
+		5*(songvdat$beat.meas >= k*mpf)
+	})) - 1
+	##determine Y coordinate for each arrow, 
+	##the -ah/2 alines the arrows so that the  middle of an arrow on beat 1 falls on the measure line
+	Y = songvdat$beat.meas + rowSums(sapply(1:(maxcolnum-1),function(k){
+		-mpf*(songvdat$beat.meas >= k*mpf)
+	})) - h.ah
+
+	##create list with freeze arrow beginnings and endings, each entry in the list is a direction
+	wfb = which(songvdat$freezeB==1)
+	wfe = which(songvdat$freezeE==1)
+	fid = lapply(1:4,function(i){
+		out = data.frame(which(songvdat$freezeB==1 & songvdat$arrow==i),
+			which(songvdat$freezeE==1 & songvdat$arrow==i))
+		colnames(out) = c("FB","FE")
+		return(out)
+	})
+
+	##find coordinates where bpm changes occur or 
+	bpms = smdat$bpm
+	if(trim==TRUE){
+		bpms$beat = bpms$beat - 4*adjust
+		lt0 = sum(bpms$beat<0)
+		if(lt0 > 0){ 
+			bpms = bpms[lt0:nrow(bpms),]
+			bpms$beat[1] = 0
+		}
+	}
+	col_place = bpms$beat / (mpf*4)
+	bpm_X = floor(col_place)
+	bpm_Y = (col_place - bpm_X) * mpf
+	bpmXdf = cbind(5*bpm_X, 5*(bpm_X+1), 
+		c(5*(bpm_X[-1]+1),5*(ceiling(meascount/mpf)) ),
+		c(5*(bpm_X[-1]),5*(ceiling(meascount/mpf)-1) ))
+	bpmYdf = cbind(bpm_Y,bpm_Y, c(bpm_Y[-1],mpf+1), c(bpm_Y[-1],mpf+1))
+
+	##find coordinates of stops
+	if(nrow(smdat$stop) >0){
+		stops = smdat$stop
+		if(trim==TRUE){
+			stops$beat = stops$beat - 4*adjust
+			stops = stops[stops$beat>0,]
+		}
+		stop_col = stops$beat / (mpf*4)
+		stops_X = 5*floor(stop_col)
+		stops_Y = (stop_col - stops_X/5) * mpf
+	}
+
+	##find coordinates of highlighted region
+	HXdf = cbind(X[patternout$index[patternout$Ybeg == 1]] - (X[patternout$index[patternout$Ybeg == 1]]%%5),
+		X[patternout$index[patternout$Ybeg == 1]] - (X[patternout$index[patternout$Ybeg == 1]]%%5) + 5,
+		X[patternout$Yend[patternout$Ybeg == 1]] - (X[patternout$Yend[patternout$Ybeg == 1]]%%5) + 5,
+		X[patternout$Yend[patternout$Ybeg == 1]] - (X[patternout$Yend[patternout$Ybeg == 1]]%%5))
+	HYdf = cbind(Y[patternout$index[patternout$Ybeg == 1]] + h.ah,Y[patternout$index[patternout$Ybeg == 1]] + h.ah,
+		 Y[patternout$Yend[patternout$Ybeg == 1]] + h.ah,  Y[patternout$Yend[patternout$Ybeg == 1]] + h.ah)
+
+
+	col.list = c("red","blue","yellow","green")
+	arrow.img = readRDS("arrowpngs.RData")
+	pal.func = colorRampPalette(colramp,...)
+	ntsc = pal.func(1000)
+
+	par(bg="gray75")
+	plot(NULL, ylim=c(mpf,0),xlim=c(1,5*ceiling(meascount/mpf) - 1),
+		xlab=xlab,ylab=ylab,main=main,sub=sub)
+
+	##create background coloration corresponding to bpm
+	##this is the changes + beginning/endings of columns
+	for(i in 1:nrow(bpmXdf)){
+		if(bpmXdf[i,1] != bpmXdf[i,4]){
+			newx = c(bpmXdf[i,1],bpmXdf[i,2],bpmXdf[i,2],bpmXdf[i,1])
+			newy = c(bpmYdf[i,1],bpmYdf[i,2],mpf+1,mpf+1)
+			polygon(x = newx - c(0,1,1,0), y = newy, col = ntsc[bpms$bpm[i]])
+			newX = newx + 5
+			while(newX[4] != bpmXdf[i,4]){
+				polygon(x=newX - c(0,1,1,0),y=c(-1,-1,mpf+1,mpf+1),col = ntsc[bpms$bpm[i]])
+				newX = newX + 5
+			}
+			newY = c(-1,-1,bpmYdf[i,3],bpmYdf[i,4])
+			polygon(x = newX - c(0,1,1,0), y = newY, col = ntsc[bpms$bpm[i]])
+		}else{
+			polygon(x = bpmXdf[i,] - c(0,1,1,0), y = bpmYdf[i,], col = ntsc[bpms$bpm[i]])
+		}
+	}
+
+	##bold lines separating the columns
+	abline(v=-1+(5*(0:(maxcolnum))),lwd=3)
+	abline(v=0+(5*(0:(maxcolnum))),lwd=3)
+
+	##create highlighted region just like bpm regions were created
+	for(i in 1:nrow(HXdf)){
+		if(HXdf[i,1] != HXdf[i,4]){
+			newx = c(HXdf[i,1],HXdf[i,2],HXdf[i,2],HXdf[i,1])
+			newy = c(HYdf[i,1],HYdf[i,2],mpf+1,mpf+1)
+			polygon(x = newx - c(0,1,1,0), y = newy, col = alpha(highlightcol,.2),border=NA)
+			segments(x0=newx[c(1,2)]-c(0,1), y0=newy[c(1,2)], x1=newx[c(4,3)]-c(0,1), y1=newy[c(4,3)], col=highlightcol,lwd=3)
+			newX = newx + 5
+			while(newX[4] != HXdf[i,4]){
+				polygon(x=newX - c(0,1,1,0),y=c(-1,-1,mpf+1,mpf+1),col = alpha(highlightcol,.2),border=NA)
+				segments(x0=newx[c(1,2)]-c(0,1), y0=c(-1,-1), x1=newx[c(4,3)]-c(0,1), y1=c(mpf+1,mpf+1), col=highlightcol,lwd=3)
+				newX = newX + 5
+			}
+			newY = c(-1,-1,HYdf[i,3],HYdf[i,4])
+			polygon(x = newX - c(0,1,1,0), y = newY, col = alpha(highlightcol,.2),border=NA)
+			segments(x0=newx[c(1,2)]+c(5,4), y0=c(-1,-1), x1=newx[c(4,3)]+c(5,4), y1=HYdf[i,c(4,3)], col=highlightcol,lwd=3)
+		}else{
+			polygon(x = HXdf[i,] - c(0,1,1,0), y = HYdf[i,], col = alpha(highlightcol,.2),border=NA)
+			segments(x0=HXdf[i,c(1,2)]-c(0,1), y0=HYdf[i,c(1,2)], x1=HXdf[i,c(4,3)]-c(0,1), y1=HYdf[i,c(4,3)], col=highlightcol,lwd=3)
+		}
+	}
+
+	##add lines to signify beginning of measures
+	abline(h=0:(mpf),col=alpha("gray30",.5),lwd=3)
+
+	##draw polygons covering space of freeze arrows
+	for(k in 1:4){
+		if(nrow(fid[[k]]) > 0){
+		for(i in 1:nrow(fid[[k]])){
+
+			xs = c(X[fid[[k]]$FB[i]],X[fid[[k]]$FB[i]]+1,X[fid[[k]]$FE[i]]+1,X[fid[[k]]$FE[i]])
+			ys = c(Y[fid[[k]]$FB[i]],Y[fid[[k]]$FB[i]],Y[fid[[k]]$FE[i]],Y[fid[[k]]$FE[i]])
+
+			if(xs[1] != xs[4]){
+				nxs1 = xs[c(1,2,2,1)]
+				nys1 = c(ys[c(1,2)],mpf+1,mpf+1)
+				nys2 = c(-1,-1,ys[c(3,4)])
+				polygon(x=nxs1, y=nys1+h.ah,col="chartreuse",border=NA)
+				polygon(x=nxs1+5, y=nys2+h.ah,col="chartreuse",border=NA)
+			}else{
+				polygon(x=xs, y=ys+h.ah,col="chartreuse",border=NA)
+			}
+	}}}
+
+
+	##draw arrows
+	for(i in 1:nrow(songvdat)){
+		if(songvdat$freezeE[i]!=1){
+			rasterImage(arrow.img[[ifelse(songvdat$mine[i]==1, 16, 4*(songvdat$note.col[i]-1)) + songvdat$arrow[i]]],
+			xleft = X[i], ybottom = Y[i] + 2*h.ah, xright = X[i] + 1, ytop = Y[i])
+		}
+	}
+
+	##add stops if necessary
+	if(nrow(smdat$stop)>=1){
+		segments(x0=stops_X,x1=stops_X+4,y0=stops_Y,y1=stops_Y,
+			col="red", lwd = 3)
+	}
+}
+
+
+rasterplot = function(smdat,maxcolnum,trim=TRUE,speedmod = 1,main="",sub="",xlab="",ylab="",
+			colramp=c("gray90","gray60","gray40","gray20","gray10","gray0"),...){
+
+	##find half arrow height
+	h.ah = .125 / speedmod
+
+	songvdat = smdat$step
+	##if trim == TRUE, remove empty measures at beginning of song
+	if(trim==TRUE){
+		adjust = floor(songvdat$beat.meas[1])
+		songvdat$beat.meas = songvdat$beat.meas - adjust
+	}else{ adjust = 0 }
+
+	##identify number of measures
+	meascount = ceiling(max(songvdat$beat.meas))
+	##find number of measures for each column of the plot
+	mpf = ceiling(meascount / maxcolnum)
+	##determine X coordinate for each arrow
+	X = songvdat$arrow + rowSums(sapply(1:(maxcolnum-1),function(k){
+		5*(songvdat$beat.meas >= k*mpf)
+	})) - 1
+	##determine Y coordinate for each arrow, 
+	##the -ah/2 alines the arrows so that the  middle of an arrow on beat 1 falls on the measure line
+	Y = songvdat$beat.meas + rowSums(sapply(1:(maxcolnum-1),function(k){
+		-mpf*(songvdat$beat.meas >= k*mpf)
+	})) - h.ah
+
+	##create list with freeze arrow beginnings and endings, each entry in the list is a direction
+	wfb = which(songvdat$freezeB==1)
+	wfe = which(songvdat$freezeE==1)
+	fid = lapply(1:4,function(i){
+		out = data.frame(which(songvdat$freezeB==1 & songvdat$arrow==i),
+			which(songvdat$freezeE==1 & songvdat$arrow==i))
+		colnames(out) = c("FB","FE")
+		return(out)
+	})
+
+	##find coordinates where bpm changes occur or 
+	bpms = smdat$bpm
+	if(trim==TRUE){
+		bpms$beat = bpms$beat - 4*adjust
+		lt0 = sum(bpms$beat<0)
+		if(lt0 > 0){ 
+			bpms = bpms[lt0:nrow(bpms),]
+			bpms$beat[1] = 0
+		}
+	}
+	col_place = bpms$beat / (mpf*4)
+	bpm_X = floor(col_place)
+	bpm_Y = (col_place - bpm_X) * mpf
+	bpmXdf = cbind(5*bpm_X, 5*(bpm_X+1), 
+		c(5*(bpm_X[-1]+1),5*(ceiling(meascount/mpf)) ),
+		c(5*(bpm_X[-1]),5*(ceiling(meascount/mpf)-1) ))
+	bpmYdf = cbind(bpm_Y,bpm_Y, c(bpm_Y[-1],mpf+1), c(bpm_Y[-1],mpf+1))
+
+	##find coordinates of stops
+	if(nrow(smdat$stop) >0){
+		stops = smdat$stop
+		if(trim==TRUE){
+			stops$beat = stops$beat - 4*adjust
+			stops = stops[stops$beat>0,]
+		}
+		stop_col = stops$beat / (mpf*4)
+		stops_X = 5*floor(stop_col)
+		stops_Y = (stop_col - stops_X/5) * mpf
+	}
+
+	col.list = c("red","blue","yellow","green")
+	arrow.img = readRDS("arrowpngs.RData")
+	pal.func = colorRampPalette(colramp,...)
+	ntsc = pal.func(1000)
+
+	par(bg="gray75")
+	plot(NULL, ylim=c(mpf,0),xlim=c(1,5*ceiling(meascount/mpf) - 1),
+		xlab=xlab,ylab=ylab,main=main,sub=sub)
+
+	##create background coloration corresponding to bpm
+	##this is the changes + beginning/endings of columns
+	for(i in 1:nrow(bpmXdf)){
+		if(bpmXdf[i,1] != bpmXdf[i,4]){
+			newx = c(bpmXdf[i,1],bpmXdf[i,2],bpmXdf[i,2],bpmXdf[i,1])
+			newy = c(bpmYdf[i,1],bpmYdf[i,2],mpf+1,mpf+1)
+			polygon(x = newx - c(0,1,1,0), y = newy, col = ntsc[bpms$bpm[i]])
+			newX = newx + 5
+			while(newX[4] != bpmXdf[i,4]){
+				polygon(x=newX - c(0,1,1,0),y=c(-1,-1,mpf+1,mpf+1),col = ntsc[bpms$bpm[i]])
+				newX = newX + 5
+			}
+			newY = c(-1,-1,bpmYdf[i,3],bpmYdf[i,4])
+			polygon(x = newX - c(0,1,1,0), y = newY, col = ntsc[bpms$bpm[i]])
+		}else{
+			polygon(x = bpmXdf[i,] - c(0,1,1,0), y = bpmYdf[i,], col = ntsc[bpms$bpm[i]])
+		}
+	}
+
+	##add lines to signify beginning of measures
+	abline(h=0:(mpf),col=alpha("gray30",.5),lwd=3)
+
+	##draw polygons covering space of freeze arrows
+	for(k in 1:4){
+		if(nrow(fid[[k]]) > 0){
+		for(i in 1:nrow(fid[[k]])){
+
+			xs = c(X[fid[[k]]$FB[i]],X[fid[[k]]$FB[i]]+1,X[fid[[k]]$FE[i]]+1,X[fid[[k]]$FE[i]])
+			ys = c(Y[fid[[k]]$FB[i]],Y[fid[[k]]$FB[i]],Y[fid[[k]]$FE[i]],Y[fid[[k]]$FE[i]])
+
+			if(xs[1] != xs[4]){
+				nxs1 = xs[c(1,2,2,1)]
+				nys1 = c(ys[c(1,2)],mpf+1,mpf+1)
+				nys2 = c(-1,-1,ys[c(3,4)])
+				polygon(x=nxs1, y=nys1+h.ah,col="chartreuse",border=NA)
+				polygon(x=nxs1+5, y=nys2+h.ah,col="chartreuse",border=NA)
+			}else{
+				polygon(x=xs, y=ys+h.ah,col="chartreuse",border=NA)
+			}
+	}}}
+
+	##bold lines separating the columns
+	abline(v=-1+(5*(0:(maxcolnum))),lwd=3)
+	abline(v=0+(5*(0:(maxcolnum))),lwd=3)
+
+	##draw arrows
+	for(i in 1:nrow(songvdat)){
+		if(songvdat$freezeE[i]!=1){
+			rasterImage(arrow.img[[ifelse(songvdat$mine[i]==1, 16, 4*(songvdat$note.col[i]-1)) + songvdat$arrow[i]]],
+			xleft = X[i], ybottom = Y[i] + 2*h.ah, xright = X[i] + 1, ytop = Y[i])
+		}
+	}
+
+	##add stops if necessary
+	if(nrow(smdat$stop)>=1){
+		segments(x0=stops_X,x1=stops_X+4,y0=stops_Y,y1=stops_Y,
+			col="red", lwd = 3)
+	}
+}
+
+
+search_common = function(stepdata,PL,pattern_sub=NULL){
+	wip = data.frame(stepdata$step,index=seq_len(nrow(stepdata$step)))
+	if(sum(wip$freezeE == 1 | wip$mine == 1) > 0){
+		wip = wip[-which(wip$freezeE == 1 | wip$mine == 1),]
+	}
+	n = nrow(wip)
+	Yend = numeric(n)
+	if(is.null(pattern_sub)){
+		pattern_sub = search_pick(PL)
+	}
+
+	ps = pattern_sub(stepdata,PL,wip,n)
+	Y = ps$Y
+	Ybeg = ps$Ybeg
+	Ybpm = ps$Ybpm
+	p.len = ps$p.len
+
+	if(sum(Ybeg) > 0){
+		Yend_ind = sapply(which(Ybeg == 1),function(ii){
+			while( sum(Y[(ii+1):(ii+p.len-1)]) > 0 ){
+				ii = ii + which.max(Y[(ii+1):(ii+p.len-1)])
+			}
+			out = wip$ind[ii + p.len-1]
+			return(out)
+		})
+		Yend[which(Ybeg == 1)] = Yend_ind
+		out = data.frame(index = wip$index,Ybeg,Yend,Ybpm)
+		out = out[out$Ybeg != 0 | out$Ybpm != 0,]
+	}else{
+		out = data.frame(index = integer(0), Ybeg = integer(0) ,Yend = integer(0), Ybpm = numeric(0))
+	}
+	return(out)
+
+}
+
+pattern_sub_PO = function(stepdata,PL,wip,n){
+	Y = numeric(n)
+	Ybeg = numeric(n)
+	Ybpm = numeric(n)
+	arrow_p = PL$arrow_p[order(cumsum(seq_len(length(PL$arrow_p)) * PL$new_step),PL$arrow_p)]
+	p.len = length(arrow_p)
+	notnewstep = which(PL$new_step == 0)
+
+	for(i in seq_len(n-p.len+1)){
+		tempA = wip$arrow[i:(i+p.len-1)]
+		tempBM = wip$beat.meas[i:(i+p.len-1)] - wip$beat.meas[i]
+		condition = sum(tempA == arrow_p) == p.len & prod(tempBM[notnewstep] == tempBM[notnewstep-1]) == 1 & length(unique(tempBM)) == sum(PL$new_step)
+		Y[i] = ifelse(condition, wip$ind[i], 0)
+		if(condition){
+			Ybeg[i] = ifelse(sum(Y[c((i-p.len+1):(i))[c((i-p.len+1):(i)) >  0]]) == Y[i], 1, 0)
+			Ybpm[i] = stepdata$bpm$bpm[sum(wip$beat.meas[i] * 4 > stepdata$bpm$beat)]
+		}
+	}
+	out = list(Y = Y, Ybeg = Ybeg, Ybpm = Ybpm, p.len = p.len)
+	return(out)
+}
+
+
+
+
+pattern_sub_PT = function(stepdata,PL,wip,n){
+
+	Y = numeric(n)
+	Ybeg = numeric(n)
+	Ybpm = numeric(n)
+	##debating whether this should be done elsewhere
+	will_cumsum = 1/PL$timing_between_steps
+	will_cumsum[PL$timing_between_steps==0] = 0
+	p_beat_meas = cumsum(will_cumsum)
+	arrow_p = PL$arrow_p[order(p_beat_meas,PL$arrow_p)]
+	zero_locs = which(PL$arrow_p == 0)
+
+	if(sum(zero_locs) > 0){
+		p_beat_meas = p_beat_meas[-zero_locs]
+		arrow_p = arrow_p[-zero_locs]
+	}
+	p.len = length(arrow_p)
+
+	for(i in seq_len(n-p.len+1)){
+		tempA = wip$arrow[i:(i+p.len-1)]
+		tempBM = wip$beat.meas[i:(i+p.len-1)] - wip$beat.meas[i]
+		Y[i] = ifelse(sum(tempA == arrow_p & tempBM == p_beat_meas) == p.len, wip$ind[i], 0)
+		if(sum(tempA == arrow_p & tempBM == p_beat_meas) == p.len){
+			Ybeg[i] = ifelse(sum(Y[c((i-p.len+1):(i))[c((i-p.len+1):(i)) >  0]]) == Y[i], 1, 0)
+			##bpm thing still needs work and havent put in the Yend
+			Ybpm[i] = stepdata$bpm$bpm[sum(wip$beat.meas[i] * 4 > stepdata$bpm$beat)]
+		}
+	}
+	out = list(Y = Y, Ybeg = Ybeg, Ybpm = Ybpm, p.len = p.len)
+	return(out)
+}
+
+pattern_sub_TO = function(stepdata,PL,wip,n){
+	Y = numeric(n)
+	Ybeg = numeric(n)
+	Ybpm = numeric(n)
+
+	##debating whether this should be done elsewhere
+	will_cumsum = 1/PL$timing_between_steps
+	will_cumsum[PL$timing_between_steps==0] = 0
+	p_beat_meas = cumsum(will_cumsum)
+	arrows_per_step = PL$arrows_per_step
+	zero_locs = which(PL$arrows_per_step == 0)
+
+	if(sum(zero_locs) > 0){
+		p_beat_meas = p_beat_meas[-zero_locs]
+		arrows_per_step = arrows_per_step[-zero_locs]
+	}
+	p_beat_meas = do.call(c,mapply(aps = arrows_per_step, pbm = p_beat_meas,function(aps,pbm){rep(pbm,aps)}))
+	p.len = sum(arrows_per_step)
+
+	for(i in seq_len(n-p.len+1)){
+		tempBM = wip$beat.meas[i:(i+p.len-1)] - wip$beat.meas[i]
+		Y[i] = ifelse(sum(tempBM == p_beat_meas) == p.len, wip$ind[i], 0)
+		if(sum(tempBM == p_beat_meas) == p.len){
+			Ybeg[i] = ifelse(sum(Y[c((i-p.len+1):(i))[c((i-p.len+1):(i)) >  0]]) == Y[i], 1, 0)
+			##bpm thing still needs work and havent put in the Yend
+			Ybpm[i] = stepdata$bpm$bpm[sum(wip$beat.meas[i] * 4 > stepdata$bpm$beat)]
+		}
+	}
+	out = list(Y = Y, Ybeg = Ybeg, Ybpm = Ybpm, p.len = p.len)
+	return(out)
+}
+
+search_pick = function(PL){
+	##TO else PO else P&T
+	if(!is.null(PL$arrows_per_step) & !is.null(PL$timing_between_steps)){
+		my_search = pattern_sub_TO
+	}else if(!is.null(PL$arrow_p) & !is.null(PL$new_step) & !is.null(PL$maxbeats)){
+		my_search = pattern_sub_PO
+	}else if(!is.null(PL$arrow_p) & !is.null(PL$timing_between_steps)){
+		my_search = pattern_sub_PT
+	}else{
+		stop("Issue with search inputs")
+	}
+	return(my_search)
+}
+
+patplot_shiny = function(chart,search_object,filterlist,allcharts,readbpm = 600,smod = NULL){
+	i = which(filterlist == chart)
+	if(is.null(smod)){
+		mods = c(.25,.5,.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3,3.25,3.5,3.75,4,4.5,5,5.5,6,6.5,7,7.5,8)
+		smod = mods[sum(search_object$table$maxbpm[i] * mods <= readbpm)]
+	}
+	rasterpattern(allcharts[[search_object$table$all_ind[i]]],maxcolnum=30,patternout = search_object$full[[i]],
+		speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod))	
+}
+
+search_run = function(filterlist,PL,allcharts){
+	chart_loc = unname(sapply(filterlist,function(chart){which(names(allcharts) ==chart)}))
+	subfunc = search_pick(PL)
+	search_res = lapply(filterlist,PL = PL, function(chartname,PL){
+		search_common(allcharts[[which(names(allcharts) %in% chartname)]], PL, pattern_sub=subfunc)
+	})
+	tab_res = data.frame(chart = filterlist, fil_index = seq_len(length(filterlist)), all_index = chart_loc,
+		do.call(rbind,lapply(search_res, function(res){
+			c(sum(res$Ybeg),ifelse(sum(res$Ybeg)>0,min(res$Ybpm),0),ifelse(sum(res$Ybeg)>0,max(res$Ybpm),0))
+	})))
+	colnames(tab_res) = c("chart","fil_index","all_index","count","minbpm","maxbpm")
+	out = list(table = tab_res, full = search_res)	
+	return(out)
+}
+
+
+search_tab_gen = function(search_res,songlist){
+	tab_data = search_res$table
+	splitlist = strsplit(tab_data$chart,"_")
+	wiplist = lapply(splitlist,function(si){	
+		rowi = which(songlist$song %in% si[1])
+		lvl = songlist[rowi,colnames(songlist) %in% si[2]]
+		out = data.frame(song = si[1], diff = si[2], level = lvl, mix = songlist$mix[rowi],
+			bpm_min = songlist$bpm_min[rowi], bpm_max = songlist$bpm_max[rowi], static_bpm = songlist$static_bpm[rowi])
+		return(out)
+	})
+	wipdf = do.call(rbind,wiplist)
+	out = data.frame(song = wipdf$song, diff = wipdf$diff, level = wipdf$level,mix = wipdf$mix,
+		chart_min_bpm = wipdf$bpm_min, chart_max_bpm = wipdf$bpm_max, static_bpm = wipdf$static_bpm,
+		pat_count = tab_data$count, pat_minbpm = tab_data$minbpm, pat_minbpm = tab_data$maxbpm,
+		fil_index = tab_data$fil_index, all_index = tab_data$all_index)
+	return(out)
+}
+
+
+input_to_vec = function(user_str){
+	user_str = gsub("\\s+","",user_str)
+	user_str = gsub(",","",user_str)
+	as.numeric(strsplit(user_str,NULL)[[1]])
+}
+
+APstr_to_vec = function(user_str){
+	LTI = c("L","D","U","R")
+	for(i in 1:4){
+		user_str = gsub(LTI[i],i,user_str,ignore.case=TRUE)
+	}
+	input_to_vec(user_str)
+}
+
+Tstr_to_vec = function(user_str){
+	user_str = gsub(","," ",user_str)
+	user_str = gsub("\\s+"," ",user_str)
+	as.numeric(strsplit(user_str," ")[[1]])
+}
+
+PL_make = function(arrow_p = NULL, arrows_per_step = NULL, timing_between_steps = NULL, new_step = NULL, maxbeats = NULL){
+	if(!is.null(arrow_p)){arrow_p = APstr_to_vec(arrow_p)}
+	if(!is.null(arrows_per_step)){arrows_per_step = input_to_vec(arrows_per_step)}
+	if(!is.null(timing_between_steps)){timing_between_steps = Tstr_to_vec(timing_between_steps)}
+	if(!is.null(new_step)){new_step = input_to_vec(new_step)}
+
+	out = list(arrow_p = arrow_p, arrows_per_step = arrows_per_step,
+		timing_between_steps = timing_between_steps, new_step = new_step, maxbeats = maxbeats)
+	return(out)
+}
+
+pattern_only_rs = function(PL,speedmod = 4){
+	arrow_p = PL$arrow_p
+	new_step = PL$new_step
+	maxbeats = PL$maxbeats
+	step_count = sum(new_step)
+	##want to make evenly spread across beat
+	##will ignore freeze/mine
+	measure_count = maxbeats/4
+	arrows_within_maxbeats = (step_count - 1)
+
+	quant_check = sum(arrows_within_maxbeats * c(1/4,1/8,1/12,1/16,1/24,1/32,1/48,1/64) <= measure_count)
+	if(quant_check == 0){
+		stop("pattern does not fit in beats provided")
+	}else{
+		arrow_quant = c(4,8,12,16,24,32,48,64)[9-quant_check]
+	}
+	
+	beat_meas = cumsum(rep((1/arrow_quant),length(new_step)) * new_step) - (1/arrow_quant)
+	note_check = rowSums(cbind(beat_meas%%.25 == 0 ,beat_meas%%.125 == 0 ,beat_meas%%.0625 == 0 ))
+	arrowdat = data.frame(X = arrow_p, beat_meas = beat_meas, note_col = 4 - note_check)
+
+	X = arrowdat$X
+	Y = arrowdat$beat_meas
+	plotheight = ceiling(measure_count)
+	h.ah = .125 / speedmod
+
+	arrow.img = readRDS("arrowpngs.RData")
+	par(bg="gray75")
+	plot(NULL, ylim=c(plotheight,0),xlim=c(1,5),xlab="",ylab="",main="",sub="")
+	abline(h=0:plotheight,col=alpha("gray30",.5),lwd=3)
+	abline(h=maxbeats/4,col=alpha("red3",.5),lwd=3)
+	abline(v=c(1,5),lwd=3)
+
+	##draw arrows
+	for(i in seq_len(length(X))){   
+		rasterImage(arrow.img[[4*(arrowdat$note_col[i]-1) + arrowdat$X[i]]],
+			xleft = X[i], ybottom = Y[i] + h.ah, xright = X[i] + 1, ytop = Y[i] - + h.ah)
+	}
+}
+
+
+
+
+timing_and_pattern_rs = function(PL,speedmod = 4){
+	arrow_p = PL$arrow_p
+	timing_between_steps = PL$timing_between_steps
+	##working with the dummy timings
+	##basically want to craft the 
+
+	##still want a measure_count
+	will_cumsum = 1/timing_between_steps
+	will_cumsum[timing_between_steps==0] = 0
+	measure_timings = cumsum(will_cumsum)
+	measure_count = ceiling(tail(measure_timings,1))
+	zero_locs = which(arrow_p == 0)
+
+	if(sum(zero_locs) > 0){
+		measure_timings = measure_timings[-zero_locs]
+		arrow_p = arrow_p[-zero_locs]
+	}
+	note_check = rowSums(cbind(measure_timings%%.25 == 0 ,measure_timings%%.125 == 0 ,measure_timings%%.0625 == 0 ))
+	arrowdat = data.frame(X = arrow_p, beat_meas = measure_timings, note_col = 4 - note_check)
+
+	X = arrowdat$X
+	Y = arrowdat$beat_meas
+	plotheight = ceiling(measure_count)
+	h.ah = .125 / speedmod
+
+	arrow.img = readRDS("arrowpngs.RData")
+	par(bg="gray75")
+	plot(NULL, ylim=c(plotheight,-.1),xlim=c(1,5),xlab="",ylab="",main="",sub="")
+	abline(h=0:plotheight,col=alpha("gray30",.5),lwd=3)
+	abline(v=c(1,5),lwd=3)
+
+	##draw arrows
+	for(i in seq_len(length(X))){   
+		rasterImage(arrow.img[[4*(arrowdat$note_col[i]-1) + arrowdat$X[i]]],
+			xleft = X[i], ybottom = Y[i] + h.ah, xright = X[i] + 1, ytop = Y[i] - + h.ah)
+	}
+}
+
+timing_only_rs = function(PL,speedmod = 4){
+	arrows_per_step = PL$arrows_per_step
+	timing_between_steps = PL$timing_between_steps
+	##handle if people include 0 at beinging of timing_between_steps
+	if(length(timing_between_steps)+1 == length(arrows_per_step) ){
+		if(timing_between_steps[1] != 0){
+			timing_between_steps = c(0,timing_between_steps)
+		}else{
+			stop("timing_between_steps short one value")
+		}
+	}else if(length(timing_between_steps) == length(arrows_per_step)){
+		if(timing_between_steps[1] != 0){stop("error with timing_between_steps")}
+	}else if(length(timing_between_steps) < length(arrows_per_step)){
+		stop("input is incompatable")
+	}
+
+	##still want a measure_count
+	will_cumsum = 1/timing_between_steps
+	will_cumsum[timing_between_steps==0] = 0
+	measure_timings = cumsum(will_cumsum)
+	measure_count = ceiling(tail(measure_timings,1))
+	zero_locs = which(arrows_per_step == 0)
+
+	if(sum(zero_locs) > 0){
+		measure_timings = measure_timings[-zero_locs]
+		arrows_per_step = arrows_per_step[-zero_locs]
+	}
+	note_check = rowSums(cbind(measure_timings%%.25 == 0 ,measure_timings%%.125 == 0 ,measure_timings%%.0625 == 0 ))
+
+
+
+	arrowdat = do.call(rbind,lapply(seq_len(length(arrows_per_step)),function(i){
+		data.frame(
+			X = sample(1:4,arrows_per_step[i]),
+			beat_meas = rep(measure_timings[i],arrows_per_step[i]),
+			note_col = rep(4-note_check[i],arrows_per_step[i])
+		)
+	}))
+
+	X = arrowdat$X
+	Y = arrowdat$beat_meas
+	plotheight = ceiling(measure_count)
+	h.ah = .125 / speedmod
+
+	arrow.img = readRDS("arrowpngs.RData")
+	par(bg="gray75")
+	plot(NULL, ylim=c(plotheight,-.1),xlim=c(1,5),xlab="",ylab="",main="",sub="")
+	abline(h=0:plotheight,col=alpha("gray30",.5),lwd=3)
+	abline(v=c(1,5),lwd=3)
+
+	##draw arrows
+	for(i in seq_len(length(X))){   
+		rasterImage(arrow.img[[4*(arrowdat$note_col[i]-1) + arrowdat$X[i]]],
+			xleft = X[i], ybottom = Y[i] + h.ah, xright = X[i] + 1, ytop = Y[i] - + h.ah)
+	}
+} 
+
+patplot_rs = function(PL,patterntype){
+	if(patterntype=="Pattern Only"){pattern_only_rs(PL)}
+	if(patterntype=="Timing Only"){timing_only_rs(PL)}
+	if(patterntype=="Pattern and Timing"){timing_and_pattern_rs(PL)}
+}
+
