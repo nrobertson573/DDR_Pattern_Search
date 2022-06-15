@@ -208,3 +208,11 @@ the highest Xmod which keeps chart_max_bpm below the entered value. This
 calculated Xmod is listed under the input box.
 
 Hitting the Generate Chart Visual generates the visual below.
+
+Chart visuals use the coloring of the NOTE noteskin and use green
+rectangles to represent freeze arrows. BPM is represented by the
+grayscale background with lighter shades indicating a low BPM and dark
+shades indicating a high BPM. Any BPM change occurs at thin black lines.
+Pauses in the scrolling are represented by red lines.
+
+![](readme_files/figure-gfm/chart_visual-1.png)<!-- -->

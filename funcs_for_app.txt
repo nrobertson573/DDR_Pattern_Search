@@ -66,6 +66,7 @@ filter_table = function(filterlist,songlist){
 
 
 
+
 rasterpattern = function(smdat,maxcolnum,patternout,highlightcol="deeppink",trim=TRUE,speedmod = 1,
 			main="",sub="",xlab="",ylab="",
 			colramp=c("gray90","gray60","gray40","gray20","gray10","gray0"),...){
@@ -419,7 +420,9 @@ pattern_sub_PO = function(stepdata,PL,wip,n){
 	for(i in seq_len(n-p.len+1)){
 		tempA = wip$arrow[i:(i+p.len-1)]
 		tempBM = wip$beat.meas[i:(i+p.len-1)] - wip$beat.meas[i]
-		condition = sum(tempA == arrow_p) == p.len & prod(tempBM[notnewstep] == tempBM[notnewstep-1]) == 1 & length(unique(tempBM)) == sum(PL$new_step)
+		##maxbeats+.1 is used to deal with rounding error
+		condition = (sum(tempA == arrow_p) == p.len) & (prod(tempBM[notnewstep] == tempBM[notnewstep-1]) == 1) & 
+			(length(unique(tempBM)) == sum(PL$new_step)) & (4*tempBM[p.len] <= PL$maxbeats+.1)
 		Y[i] = ifelse(condition, wip$ind[i], 0)
 		if(condition){
 			Ybeg[i] = ifelse(sum(Y[c((i-p.len+1):(i))[c((i-p.len+1):(i)) >  0]]) == Y[i], 1, 0)
@@ -481,7 +484,7 @@ pattern_sub_TO = function(stepdata,PL,wip,n){
 		p_beat_meas = p_beat_meas[-zero_locs]
 		arrows_per_step = arrows_per_step[-zero_locs]
 	}
-	p_beat_meas = do.call(c,mapply(aps = arrows_per_step, pbm = p_beat_meas,function(aps,pbm){rep(pbm,aps)}))
+	p_beat_meas = do.call(c,mapply(SIMPLIFY=FALSE, aps = arrows_per_step, pbm = p_beat_meas,function(aps,pbm){rep(pbm,aps)}))
 	p.len = sum(arrows_per_step)
 
 	for(i in seq_len(n-p.len+1)){
@@ -511,15 +514,17 @@ search_pick = function(PL){
 	return(my_search)
 }
 
-patplot_shiny = function(chart,search_object,filterlist,allcharts,readbpm = 600,smod = NULL){
+patplot_shiny = function(chart,search_object,filterlist,allcharts,smod){
 	i = which(filterlist == chart)
-	if(is.null(smod)){
-		mods = c(.25,.5,.75,1,1.25,1.5,1.75,2,2.25,2.5,2.75,3,3.25,3.5,3.75,4,4.5,5,5.5,6,6.5,7,7.5,8)
-		smod = mods[sum(search_object$table$maxbpm[i] * mods <= readbpm)]
+	if(nrow(search_object$full[[i]]) == 0){
+		rasterplot(allcharts[[search_object$table$all_ind[i]]],maxcolnum=30,
+			speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod))	
+	}else{
+		rasterpattern(allcharts[[search_object$table$all_ind[i]]],maxcolnum=30,patternout = search_object$full[[i]],
+			speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod))	
 	}
-	rasterpattern(allcharts[[search_object$table$all_ind[i]]],maxcolnum=30,patternout = search_object$full[[i]],
-		speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod))	
 }
+
 
 search_run = function(filterlist,PL,allcharts){
 	chart_loc = unname(sapply(filterlist,function(chart){which(names(allcharts) ==chart)}))
@@ -550,8 +555,7 @@ search_tab_gen = function(search_res,songlist){
 	wipdf = do.call(rbind,wiplist)
 	out = data.frame(song = wipdf$song, diff = wipdf$diff, level = wipdf$level,mix = wipdf$mix,
 		chart_min_bpm = wipdf$bpm_min, chart_max_bpm = wipdf$bpm_max, static_bpm = wipdf$static_bpm,
-		pat_count = tab_data$count, pat_minbpm = tab_data$minbpm, pat_minbpm = tab_data$maxbpm,
-		fil_index = tab_data$fil_index, all_index = tab_data$all_index)
+		pat_count = tab_data$count, pat_minbpm = tab_data$minbpm, pat_maxbpm = tab_data$maxbpm)
 	return(out)
 }
 
@@ -604,8 +608,13 @@ pattern_only_rs = function(PL,speedmod = 4){
 		arrow_quant = c(4,8,12,16,24,32,48,64)[9-quant_check]
 	}
 	
-	beat_meas = cumsum(rep((1/arrow_quant),length(new_step)) * new_step) - (1/arrow_quant)
-	note_check = rowSums(cbind(beat_meas%%.25 == 0 ,beat_meas%%.125 == 0 ,beat_meas%%.0625 == 0 ))
+	bm_num = (cumsum(new_step) - 1)
+	note_check = rowSums(cbind(
+		bm_num %% (arrow_quant/4) == 0,
+		bm_num %% (arrow_quant/8) == 0,
+		bm_num %% (arrow_quant/16) == 0
+	))
+	beat_meas = bm_num / arrow_quant
 	arrowdat = data.frame(X = arrow_p, beat_meas = beat_meas, note_col = 4 - note_check)
 
 	X = arrowdat$X
@@ -629,7 +638,7 @@ pattern_only_rs = function(PL,speedmod = 4){
 
 
 
-
+##if issue with arrow color, see how I rewrote generating beas_meas in pattern_only_rs, should apply to measure_timings here
 timing_and_pattern_rs = function(PL,speedmod = 4){
 	arrow_p = PL$arrow_p
 	timing_between_steps = PL$timing_between_steps
@@ -726,8 +735,8 @@ timing_only_rs = function(PL,speedmod = 4){
 } 
 
 patplot_rs = function(PL,patterntype){
-	if(patterntype=="Pattern Only"){pattern_only_rs(PL)}
+	if(patterntype=="Sequence Only"){pattern_only_rs(PL)}
 	if(patterntype=="Timing Only"){timing_only_rs(PL)}
-	if(patterntype=="Pattern and Timing"){timing_and_pattern_rs(PL)}
+	if(patterntype=="Sequence and Timing"){timing_and_pattern_rs(PL)}
 }
 
