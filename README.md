@@ -1,11 +1,12 @@
 Readme DDR_Pattern_Search
 ================
 N Robertson
+2022/6/29
 
 <https://nrobertson573.shinyapps.io/shinyapp/>
 
 This RShiny application is design to search through the available
-Sinlges charts on Dance Dance Revolution A20 PLUS for occurrences of a
+Sinlges charts on Dance Dance Revolution A3 for occurrences of a
 specified step pattern. Trying to learn crossovers but having a hard
 time with the charts suggested by the community? This tool can search
 for crossover patterns in charts with specified criteria (e.g. level
@@ -27,6 +28,9 @@ Possible elements to filter over include
     slowdowns)
 -   Difficulty, (Beginner, Basic, Difficult, Expert and Challenge)
 -   Mix, From 1st mix to A20 PLUS
+-   Event and Unlockable songs
+-   Gold Cabinet Exclusives (Currently A3 is Gold Cabinet exclusive in
+    the continental US)
 
 BPM filters are primarily the ranges listed in game and charts may have
 sections that do not match the listed BPM (e.g. Go For The Top).
