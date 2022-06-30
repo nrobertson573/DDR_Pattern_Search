@@ -1,16 +1,17 @@
 library(scales)
 
-filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max){
+
+filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max,event,gold){
 
 	sl_list = lapply(seq_len(nrow(songlist)),function(i){ lapply(songlist, "[", i)})
 
 	filtered_names_list = lapply(sl_list,function(rowi){
 		##make sure mix isnt null, and if not null, make sure it is not in the acceptable list of mixes
-		if(!is.null(mix) & !(rowi$mix %in% mix)){
+		if(!is.null(mix) && !(rowi$mix %in% mix)){
 			diff_tf = rep(FALSE,5)
 		}else{
 			##bpm_static is true if we care to filter for only static bpm charts, then check song for fluctuating bpm
-			if(bpm_static & rowi$static_bpm == 0){
+			if(bpm_static && rowi$static_bpm == 0){
 				diff_tf = rep(FALSE,5)  
 			}else{
 				##next is checking for min/max bpm, but if call it static, want to use that static val
@@ -21,21 +22,32 @@ filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max){
 					umin = rowi$static_bpm
 					umax = rowi$static_bpm
 				}
-				if(!is.null(bpm_min) & umin < max(0,bpm_min)){
+				if(!is.null(bpm_min) && umin < max(0,bpm_min)){
 					diff_tf = rep(FALSE,5)
 				}else{
 					##now max bpm
-					if(!is.null(bpm_max) & umax > min(bpm_max,9999)){
+					if(!is.null(bpm_max) && umax > min(bpm_max,9999)){
 						diff_tf = rep(FALSE,5)
 					}else{
-						##here should be the checking for difficulties
-						diff_tf = c(
-							ifelse(sum(grepl("beginner", diff, ignore.case=TRUE))>0,rowi$gSP,0) %in% level,
-							ifelse(sum(grepl("basic", diff, ignore.case=TRUE))>0,rowi$BSP,0) %in% level,
-							ifelse(sum(grepl("difficult", diff, ignore.case=TRUE))>0,rowi$DSP,0) %in% level,
-							ifelse(sum(grepl("expert", diff, ignore.case=TRUE))>0,rowi$ESP,0) %in% level,
-							ifelse(sum(grepl("challenge", diff, ignore.case=TRUE))>0,rowi$CSP,0) %in% level
-						)
+						##event
+						if(!event && rowi$event == 1){
+							diff_tf = rep(FALSE,5)
+						}else{
+							##gold cab
+							if(!gold && rowi$gold == 1){
+								diff_tf = rep(FALSE,5)
+							}else{
+								##here should be the checking for difficulties
+								diff_tf = c(
+									ifelse(sum(grepl("beginner", diff, ignore.case=TRUE))>0,rowi$gSP,0) %in% level,
+									ifelse(sum(grepl("basic", diff, ignore.case=TRUE))>0,rowi$BSP,0) %in% level,
+									ifelse(sum(grepl("difficult", diff, ignore.case=TRUE))>0,rowi$DSP,0) %in% level,
+									ifelse(sum(grepl("expert", diff, ignore.case=TRUE))>0,rowi$ESP,0) %in% level,
+									ifelse(sum(grepl("challenge", diff, ignore.case=TRUE))>0,rowi$CSP,0) %in% level
+								)
+							}
+
+						}
 					}
 				}
 			}
@@ -50,13 +62,15 @@ filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max){
 	filtered_names = do.call(c,filtered_names_list)
 	return(filtered_names)
 }
+
 filter_table = function(filterlist,songlist){
 	splitlist = strsplit(filterlist,"_")
 	wiplist = lapply(splitlist,function(si){	
 		rowi = which(songlist$song %in% si[1])
 		lvl = songlist[rowi,colnames(songlist) %in% si[2]]
 		out = data.frame(song = si[1], diff = si[2], level = lvl, mix = songlist$mix[rowi],
-			bpm_min = songlist$bpm_min[rowi], bpm_max = songlist$bpm_max[rowi], static_bpm = songlist$static_bpm[rowi])
+			bpm_min = songlist$bpm_min[rowi], bpm_max = songlist$bpm_max[rowi], static_bpm = songlist$static_bpm[rowi],
+			event = songlist$event[rowi], gold = songlist$gold[rowi])
 		return(out)
 	})
 	out = do.call(rbind,wiplist)
@@ -559,14 +573,28 @@ search_tab_gen = function(search_res,songlist){
 	return(out)
 }
 
+rm_HT_ws = function(user_str){
+	n = nchar(user_str)
+	while(substr(user_str,1,1) == " "){
+		user_str = substr(user_str,2,n)
+		n = n - 1
+	}
+	while(substr(user_str,n,n) == " "){
+		user_str = substr(user_str,1,n-1)
+		n = n - 1
+	}
+	return(user_str)
+}
 
 input_to_vec = function(user_str){
+	user_str = rm_HT_ws(user_str)
 	user_str = gsub("\\s+","",user_str)
 	user_str = gsub(",","",user_str)
 	as.numeric(strsplit(user_str,NULL)[[1]])
 }
 
 APstr_to_vec = function(user_str){
+	user_str = rm_HT_ws(user_str)
 	LTI = c("L","D","U","R")
 	for(i in 1:4){
 		user_str = gsub(LTI[i],i,user_str,ignore.case=TRUE)
@@ -575,6 +603,7 @@ APstr_to_vec = function(user_str){
 }
 
 Tstr_to_vec = function(user_str){
+	user_str = rm_HT_ws(user_str)
 	user_str = gsub(","," ",user_str)
 	user_str = gsub("\\s+"," ",user_str)
 	as.numeric(strsplit(user_str," ")[[1]])
