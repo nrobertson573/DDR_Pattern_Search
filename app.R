@@ -7,7 +7,8 @@ a20p = read.table("song_info.txt", header=TRUE)
 allcharts = readRDS("all_steps.RData")
 
 mixes = c("1stMIX","2ndMIX","3rdMIX","4thMIX","5thMIX","6thMIX MAX","7thMIX MAX2",
-  "8thMIX EXTREME","SuperNOVA","SuperNOVA2","X","X2","X3","2013","2014","A","A20","A20 Plus","A3","Grand Prix")
+  "8thMIX EXTREME","SuperNOVA","SuperNOVA2","X","X2","X3","2013","2014","A","A20","A20 Plus","A3",
+  "Grand Prix","Removed")
 clevels = seq(1,19,1)
 difficulties = c("Beginner","Basic","Difficult","Expert","Challenge")
 
@@ -15,7 +16,7 @@ ui <- fluidPage(
   titlePanel("Pattern Search Over Dance Dance Revoultion A3 Charts"),
   
   uiOutput("mygithub"),
-  h6("Updated: 2022/6/29", style="color:black"),
+  h6("Updated: 2022/6/30", style="color:black"),
   headerPanel(""),
   
   tabsetPanel(
@@ -37,7 +38,7 @@ ui <- fluidPage(
         ),
         column(3,
           "Select Mixes",
-          checkboxGroupInput("mix","Mix",mixes,selected=mixes[-20]),
+          checkboxGroupInput("mix","Mix",mixes,selected=mixes[-c(20,21)]),
         ),
         column(3,
           "Event/Unlockables and Gold Cabinet",
