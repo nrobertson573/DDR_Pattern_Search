@@ -133,8 +133,8 @@ rasterpattern = function(smdat,maxcolnum,patternout,highlightcol="deeppink",trim
 	bpm_X = floor(col_place)
 	bpm_Y = (col_place - bpm_X) * mpf
 	bpmXdf = cbind(5*bpm_X, 5*(bpm_X+1), 
-		c(5*(bpm_X[-1]+1),5*(ceiling(meascount/mpf)) ),
-		c(5*(bpm_X[-1]),5*(ceiling(meascount/mpf)-1) ))
+		c(5*(bpm_X[-1]+1),5*(ceiling(meascount/mpf)+1) ),
+		c(5*(bpm_X[-1]),5*(ceiling(meascount/mpf)) ))
 	bpmYdf = cbind(bpm_Y,bpm_Y, c(bpm_Y[-1],mpf+1), c(bpm_Y[-1],mpf+1))
 
 	##find coordinates of stops
@@ -302,8 +302,8 @@ rasterplot = function(smdat,maxcolnum,trim=TRUE,speedmod = 1,main="",sub="",xlab
 	bpm_X = floor(col_place)
 	bpm_Y = (col_place - bpm_X) * mpf
 	bpmXdf = cbind(5*bpm_X, 5*(bpm_X+1), 
-		c(5*(bpm_X[-1]+1),5*(ceiling(meascount/mpf)) ),
-		c(5*(bpm_X[-1]),5*(ceiling(meascount/mpf)-1) ))
+		c(5*(bpm_X[-1]+1),5*(ceiling(meascount/mpf)+1) ),
+		c(5*(bpm_X[-1]),5*(ceiling(meascount/mpf)) ))
 	bpmYdf = cbind(bpm_Y,bpm_Y, c(bpm_Y[-1],mpf+1), c(bpm_Y[-1],mpf+1))
 
 	##find coordinates of stops
