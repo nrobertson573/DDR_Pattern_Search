@@ -1,7 +1,7 @@
 Readme DDR_Pattern_Search
 ================
 N Robertson
-2022/6/29
+2022/6/30
 
 <https://nrobertson573.shinyapps.io/shinyapp/>
 
@@ -12,7 +12,7 @@ time with the charts suggested by the community? This tool can search
 for crossover patterns in charts with specified criteria (e.g. level
 9-12 charts under 160 BPM).
 
-Functionality is broken down into three steps.
+Functionality is broken down into three steps under separate tabs.
 
 -   Create a filter list of charts to search over
 -   Specify a pattern to search for
@@ -27,7 +27,7 @@ Possible elements to filter over include
 -   Static BPM, require chart keep a constant bpm (no speedups or
     slowdowns)
 -   Difficulty, (Beginner, Basic, Difficult, Expert and Challenge)
--   Mix, From 1st mix to A20 PLUS
+-   Mix, From 1st mix to A3, Grand Prix, and songs removed since DDR A
 -   Event and Unlockable songs
 -   Gold Cabinet Exclusives (Currently A3 is Gold Cabinet exclusive in
     the continental US)
