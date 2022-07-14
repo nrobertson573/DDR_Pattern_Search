@@ -16,7 +16,7 @@ ui <- fluidPage(
   titlePanel("Pattern Search Over Dance Dance Revoultion A3 Charts"),
   
   uiOutput("mygithub"),
-  h6("Updated: 2022/6/30", style="color:black"),
+  h6("Updated: 2022/7/13", style="color:black"),
   headerPanel(""),
   
   tabsetPanel(
@@ -91,7 +91,6 @@ ui <- fluidPage(
       h3("Create a pattern to search for over your chart list", style="color:black"),
       fluidRow(
         column(4,
-          "Hi Mom",
           radioButtons("patterntype","Please Select Type of Pattern", c("Sequence Only","Timing Only",
                       "Sequence and Timing"),("Sequence Only")),
         ),
@@ -122,6 +121,59 @@ ui <- fluidPage(
 ##          actionButton("patplotgo","Create Pattern Object"),
           plotOutput("patplot",height="400px",width="200px")
         )
+      ),
+
+      ##considering adding some preset searches here
+      actionButton("patdefault","Would you like to try a preset pattern?"),
+      conditionalPanel(
+        condition = "input.patdefault >= 1",
+        fluidRow(
+          column(2,
+            "8th Note Basic Crossovers",
+            verticalLayout(
+              actionButton("cross1","L D R D L"),
+              actionButton("cross2","L U R U L"),
+              actionButton("cross3","R D L D R"),
+              actionButton("cross4","R U L U R")
+            ),
+          ),
+          column(2,
+            "8th Note Lateral [Afrowalk/Scoobies] Crossovers",
+            verticalLayout(
+              actionButton("lat1","L U R L D R"),
+              actionButton("lat2","L D R L U R"),
+              actionButton("lat3","R U L R D L"),
+              actionButton("lat4","R D L R U L")
+            ),
+          ),
+          column(2,
+            "8th Note Jacks",
+            verticalLayout(
+              actionButton("jack1","L L L L L"),
+              actionButton("jack2","D D D D D"),
+              actionButton("jack3","U U U U U"),
+              actionButton("jack4","R R R R R")
+            ),
+          ),
+          column(2,
+            "4 Panel Spins",
+            verticalLayout(
+              actionButton("spin1","L D R U L"),
+              actionButton("spin2","L U R D L"),
+              actionButton("spin3","R D L U R"),
+              actionButton("spin4","R U L D R")
+            ),
+          ),
+          column(2,
+            "Step Jumps",
+            verticalLayout(
+              actionButton("sj4s","4ths Short"),
+              actionButton("sj4l","4ths Long"),
+              actionButton("sj8s","8ths Short"),
+              actionButton("sj8l","8ths Long")
+            ),
+          ),
+        ),
       ),
     ),
 
@@ -383,7 +435,7 @@ server <- function(input, output, session) {
             length(PLO$arrows_per_step) == length(PLO$timing_between_steps),
           "Arrows Per Step and Timing Between Steps must have same number of elements"
         ),
-        need(max(PLO$arrows_per_step) <= 2, "DDR charts do not allow 3 arrows at once. Please ignore Uh La La La. Also Megalovania doesn't count since I haven't updated for A3 yet and also haven't added freeze arrow functionality."),
+        need(max(PLO$arrows_per_step) <= 2, "DDR charts do not allow 3 arrows at once. Please ignore Uh La La La. Also Megalovania doesn't count since I haven't added freeze arrow functionality."),
         need(sum(PLO$arrows_per_step)>0, "Must have arrows to make a pattern"),
         need(all(PLO$timing_between_steps %in% c(0,4,6,8,12,16,24,32,48,64)),
              "Unsupported note type in Timing Between Steps")
@@ -417,6 +469,163 @@ server <- function(input, output, session) {
     patplotER()
   })
 
+  ##preset patterns
+  ##basic cross
+  observeEvent(input$cross1, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L D R D L")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+      value = "0 8 8 8 8")
+  })
+  observeEvent(input$cross2, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L U R U L")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })  
+  observeEvent(input$cross3, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R D L D R")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })  
+  observeEvent(input$cross4, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R U L U R")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })  
+  ##lateral cross
+  observeEvent(input$lat1, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L U R L D R")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8 8")
+  })
+  observeEvent(input$lat2, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L D R L U R")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8 8")
+  })  
+  observeEvent(input$lat3, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R U L R D L")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8 8")
+  })  
+  observeEvent(input$lat4, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R D L R U L")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8 8")
+  })  
+  ##5 note jack
+  observeEvent(input$jack1, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L L L L L")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })
+  observeEvent(input$jack2, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "D D D D D")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })  
+  observeEvent(input$jack3, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "U U U U U")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })  
+  observeEvent(input$jack4, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence and Timing")
+    updateTextInput(session, inputId = "pt_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R R R R R")
+    updateTextInput(session, inputId = "pt_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+                    value = "0 8 8 8 8")
+  })    
+  ##4 panel spin
+  observeEvent(input$spin1, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence Only")
+    updateTextInput(session, inputId = "po_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L D R U L")
+    updateTextInput(session, inputId = "po_ns", label = "New Step? [1:yes, 0:no] (e.g. 1 0 1 1 0 1 1 0)",
+                    value = "1 1 1 1 1")
+    updateNumericInput(session, inputId = "po_mb", label =  "Maximum Beats Pattern Must Occur Within", value = 2)
+  })
+  observeEvent(input$spin2, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence Only")
+    updateTextInput(session, inputId = "po_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "L U R D L")
+    updateTextInput(session, inputId = "po_ns", label = "New Step? [1:yes, 0:no] (e.g. 1 0 1 1 0 1 1 0)",
+                    value = "1 1 1 1 1")
+    updateNumericInput(session, inputId = "po_mb", label =  "Maximum Beats Pattern Must Occur Within", value = 2)
+  })  
+  observeEvent(input$spin3, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence Only")
+    updateTextInput(session, inputId = "po_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R D L U R")
+    updateTextInput(session, inputId = "po_ns", label = "New Step? [1:yes, 0:no] (e.g. 1 0 1 1 0 1 1 0)",
+                    value = "1 1 1 1 1")
+    updateNumericInput(session, inputId = "po_mb", label =  "Maximum Beats Pattern Must Occur Within", value = 2)
+  })  
+  observeEvent(input$spin4, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Sequence Only")
+    updateTextInput(session, inputId = "po_ap", label = "Arrow Pattern (e.g. L U R L D R)", value = "R U L D R")
+    updateTextInput(session, inputId = "po_ns", label = "New Step? [1:yes, 0:no] (e.g. 1 0 1 1 0 1 1 0)",
+                    value = "1 1 1 1 1")
+    updateNumericInput(session, inputId = "po_mb", label =  "Maximum Beats Pattern Must Occur Within", value = 2)
+  })
+  ##stepjumps
+  observeEvent(input$sj4s, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Timing Only")
+    updateTextInput(session, inputId = "to_aps", label = "Arrows Per Step [2:jump, 1:tap] (e.g. 2 1 2 1 2)",
+      value = "2 1 2 1 2")
+    updateTextInput(session, inputId = "to_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+      value = "0 4 4 4 4")
+  })
+  observeEvent(input$sj4l, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Timing Only")
+    updateTextInput(session, inputId = "to_aps", label = "Arrows Per Step [2:jump, 1:tap] (e.g. 2 1 2 1 2)",
+      value = "2 1 2 1 2 1 2 1 2")
+    updateTextInput(session, inputId = "to_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+      value = "0 4 4 4 4 4 4 4 4")
+  })
+  observeEvent(input$sj8s, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Timing Only")
+    updateTextInput(session, inputId = "to_aps", label = "Arrows Per Step [2:jump, 1:tap] (e.g. 2 1 2 1 2)",
+      value = "2 1 2 1 2")
+    updateTextInput(session, inputId = "to_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+      value = "0 8 8 8 8")
+  })
+  observeEvent(input$sj8l, {
+    updateRadioButtons(session, inputId = "patterntype", choices = c("Sequence Only","Timing Only",
+      "Sequence and Timing"),("Sequence Only"), selected = "Timing Only")
+    updateTextInput(session, inputId = "to_aps", label = "Arrows Per Step [2:jump, 1:tap] (e.g. 2 1 2 1 2)",
+      value = "2 1 2 1 2 1 2 1 2")
+    updateTextInput(session, inputId = "to_tbs", label = "Timing Between Steps (e.g. 0 8 16 16 4)",
+      value = "0 8 8 8 8 8 8 8 8")
+  })
+
+
+  ################################################################################
   ##Search Panel
   psuedoSearch = reactive({
     mytc = tryCatch(
@@ -459,7 +668,8 @@ server <- function(input, output, session) {
   })
 
   output$search_tab = renderDT({
-    datatable(search_tab_gen(search_res(),a20p), options = list(order=list(8, 'desc')))
+    datatable(search_tab_gen(search_res(),a20p), options = list(order=list(8, 'desc'))) %>%
+      formatStyle("pat_count", color = rgb(42, 36, 82, maxColorValue = 255), backgroundColor = rgb(142, 143, 148, alpha = 50, maxColorValue = 255))
   })
   
   observeEvent(input$search_start, {
