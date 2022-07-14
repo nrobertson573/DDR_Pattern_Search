@@ -863,7 +863,7 @@
 "Mythomane" "A20" 1 0 140 180 0 3 6 10 13 NA 0 0
 "Netsujou no zapadeado" "A20" 1 0 136 136 136 2 5 9 13 NA 0 0
 "Neverland" "A20" 1 0 160 160 160 4 8 12 15 NA 0 0
-"New Era" "A20" 1 0 30 240 0 8 11 15 17 NA 0 0
+"New Era" "A20" 1 0 30 240 0 8 11 15 17 18 0 0
 "New Rules" "A20" 1 0 116 116 116 2 5 7 10 NA 0 0
 "Night of Knights (Ryu Remix)" "A20" 1 0 182 182 182 4 8 13 16 NA 0 1
 "No Tears Left to Cry" "A20" 1 0 97 127 0 2 5 7 10 NA 0 0
