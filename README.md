@@ -1,16 +1,16 @@
 Readme DDR_Pattern_Search
 ================
 N Robertson
-2022/6/30
+2022/7/27
 
 <https://nrobertson573.shinyapps.io/shinyapp/>
 
-This RShiny application is design to search through the available
-Sinlges charts on Dance Dance Revolution A3 for occurrences of a
-specified step pattern. Trying to learn crossovers but having a hard
-time with the charts suggested by the community? This tool can search
-for crossover patterns in charts with specified criteria (e.g. level
-9-12 charts under 160 BPM).
+This RShiny application searches through the available Sinlges charts on
+Dance Dance Revolution A3 for occurrences of a specified step pattern.
+Trying to learn crossovers but having a hard time with the charts
+suggested by the community? This tool can search for crossover patterns
+in charts with specified criteria (e.g. level 9-12 charts under 160
+BPM).
 
 Functionality is broken down into three steps under separate tabs.
 
