@@ -631,7 +631,7 @@
 "Scarlet Moon" "2014" 1 0 180 180 180 2 5 9 12 NA 0 0
 "second spring storm" "2014" 1 0 131 131 131 2 6 9 14 NA 0 0
 "Setsuna Trip" "2014" 1 0 145 145 145 1 4 10 14 NA 0 0
-"Shakunetsu Beach Side Bunny" "2014" 1 0 153 153 153 3 7 11 15 NA 0 0
+"Shakunetsu Beach Side Bunny" "2014" 1 0 153 153 153 3 7 11 15 18 0 0
 "Shikkoku no special princess sundae" "2014" 1 0 200 200 200 4 8 11 13 NA 0 0
 "SPECIAL SUMMER CAMPAIGN!" "2014" 1 0 168 168 168 2 7 11 15 NA 0 0
 "Squeeze" "2014" 1 0 86 173 0 4 6 9 15 NA 0 0
@@ -972,7 +972,7 @@
 "Monochrome moment" "A20 Plus" 1 0 155 155 155 3 7 11 14 NA 0 0
 "MOVE! (We Keep It Movin')" "A20 Plus" 1 0 142 142 142 3 7 10 13 NA 1 0
 "MUTEKI BUFFALO" "A20 Plus" 1 0 88 176 0 4 8 11 15 NA 0 0
-"Nadame sukashi Negotiation" "A20 Plus" 1 0 150 150 150 2 5 9 11 NA 0 1
+"Nadame sukashi Negotiation" "A20 Plus" 1 0 150 150 150 2 5 9 11 16 0 1
 "Never See You Again" "A20 Plus" 1 0 80 160 0 4 9 12 16 NA 0 0
 "Next Phase" "A20 Plus" 1 0 174 174 174 4 7 11 15 NA 0 0
 "No Life Queen [DJ Command Remix]" "A20 Plus" 1 0 165 165 165 3 7 11 14 NA 0 1
@@ -1001,7 +1001,7 @@
 "Sekai no hate ni yakusoku no gaika wo -DDR Extended Megamix-" "A20 Plus" 1 0 100 400 0 5 10 14 17 NA 0 0
 "Shakunetsu Pt.2 Long Train Running" "A20 Plus" 1 0 165 165 165 3 8 13 16 NA 1 0
 "Shijou no laturia" "A20 Plus" 1 0 135 135 135 3 6 9 12 NA 0 0
-"SHINY DAYS" "A20 Plus" 1 0 110 110 110 1 4 8 10 NA 0 1
+"SHINY DAYS" "A20 Plus" 1 0 110 110 110 1 4 8 10 14 0 1
 "Shisouhan" "A20 Plus" 1 0 200 200 200 3 5 10 13 NA 0 1
 "Shout It Out" "A20 Plus" 1 0 205 205 205 4 9 12 15 NA 0 0
 "Skyclad no kansokusha" "A20 Plus" 1 0 167 167 167 3 6 9 12 NA 0 1
@@ -1043,6 +1043,7 @@
 "Deep tenDon Reflex" "A3" 1 1 180 180 180 3 7 11 15 17 0 1
 "DOUBLE TORNARD" "Grand Prix" 1 0 153 153 153 4 7 12 15 NA 0 1
 "Drive My Heart" "A3" 1 0 145 145 145 2 5 8 13 NA 0 1
+"Environ [De-SYNC] (feat. lythe)" "A3" 1 0 160 160 160 4 9 12 15 NA 1 1
 "Fleur" "A3" 1 0 180 180 180 4 9 12 16 NA 0 1
 "GERBERA" "A3" 1 0 102 205 0 4 9 14 16 NA 0 1
 "glacia" "Grand Prix" 1 0 186 186 186 4 9 14 16 NA 0 1
@@ -1054,6 +1055,8 @@
 "Kyoka suigetsurou (DDR EDITION)" "Grand Prix" 1 0 175 175 175 1 6 11 14 NA 0 1
 "Let's DANCE aROUND!!" "A3" 1 0 63 252 0 3 7 11 14 NA 0 1
 "Like A Star" "A3" 1 0 175 175 175 4 7 12 14 NA 0 1
+"Lilieze to enryuu Laevateinn" "A3" 1 0 200 200 200 4 8 13 16 NA 1 1
+"MANA" "A3" 1 0 98 195 0 3 7 11 15 NA 1 1
 "Megalara Garuda" "Grand Prix" 1 1 90 180 0 5 9 16 17 18 0 1
 "MEGALOVANIA" "A3" 1 1 120 240 0 4 9 12 16 18 0 1
 "Mess With My Emotions" "Grand Prix" 1 0 130 130 130 1 3 9 12 NA 0 1
