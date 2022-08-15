@@ -1,7 +1,7 @@
 Readme DDR_Pattern_Search
 ================
 N Robertson
-2022/7/27
+2022/8/15
 
 <https://nrobertson573.shinyapps.io/shinyapp/>
 
@@ -27,9 +27,11 @@ Possible elements to filter over include
 -   Static BPM, require chart keep a constant bpm (no speedups or
     slowdowns)
 -   Difficulty, (Beginner, Basic, Difficult, Expert and Challenge)
--   Mix, From 1st mix to A3, Grand Prix, and songs removed since DDR A
+-   Mix, From 1st mix to A3, Grand Prix (including songs from purchasing
+    the Konami soft pad), and removed songs (only includes songs removed
+    since DDR A release)
 -   Event and Unlockable songs
--   Gold Cabinet Exclusives (Currently A3 is Gold Cabinet exclusive in
+-   Gold Cabinet Exclusives (currently A3 is Gold Cabinet exclusive in
     the continental US)
 
 BPM filters are primarily the ranges listed in game and charts may have
