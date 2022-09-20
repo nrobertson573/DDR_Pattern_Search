@@ -62,10 +62,10 @@ ui <- fluidPage(
       conditionalPanel(
         condition = "input.viztoggleFP > 0",
         fluidRow(
-          column(4,
+          column(3,
            selectizeInput(inputId = "chart_to_vizFP", label = "Select a chart", multiple=FALSE, choices = NULL),
           ),
-          column(4,
+          column(3,
             radioButtons("xormFP", "How would you like to determine scrolling speed?",
               choices = c("Enter Xmod", "Specify Max Scroll Speed"), "Enter Xmod"),
             conditionalPanel(
@@ -78,7 +78,14 @@ ui <- fluidPage(
             ),
             textOutput("calcxmodFP")
           ),
-          column(4,
+          column(3,
+            radioButtons("turnmodFP", "Apply turn mod?",
+              choices = c("None","Left","Right","Mirror","Shuffle 1", "Shuffle 2", "Shuffle 3", "Shuffle 4",
+                "Shuffle 5", "Shuffle 6", "Shuffle 7", "Shuffle 8"),
+              "None"
+            )
+          ),
+          column(3,
             actionButton("chart_vizFP","Generate Chart Visual")
           )
         ),
@@ -194,7 +201,7 @@ ui <- fluidPage(
       DTOutput("search_tab"),
       
       
-      ##trying to add the chart viz to bottom of filter panel
+      ##trying to add the chart viz to bottom of search panel
       conditionalPanel(
         condition = "input.search_start > 0 & output.search_validate == ''",
         actionButton("viztoggleSP", "Visualize patterns in charts?")
@@ -203,10 +210,10 @@ ui <- fluidPage(
         condition = "input.viztoggleSP > 0",
       
         fluidRow(
-          column(4,
+          column(3,
             selectizeInput(inputId = "chart_to_viz", label = "Select a chart", multiple=FALSE, choices = NULL),
           ),
-          column(4,
+          column(3,
             radioButtons("xorm", "How would you like to determine scrolling speed?",
                           choices = c("Enter Xmod", "Specify Max Scroll Speed"), "Enter Xmod"),
             conditionalPanel(
@@ -219,7 +226,14 @@ ui <- fluidPage(
             ),
             textOutput("calcxmod")
           ),
-          column(4,
+          column(3,
+            radioButtons("turnmodSP", "Apply turn mod?",
+              choices = c("None","Left","Right","Mirror","Shuffle 1", "Shuffle 2", "Shuffle 3", "Shuffle 4",
+                "Shuffle 5", "Shuffle 6", "Shuffle 7", "Shuffle 8"),
+              "None"
+            )
+          ),
+          column(2,
             actionButton("chart_viz","Generate Chart Visual")
           )
         ),
@@ -336,7 +350,7 @@ server <- function(input, output, session) {
     output$chartplotFP = renderPlot({
       chart_smdat = allcharts[[which(names(allcharts) == input$chart_to_vizFP)]]
       rasterplot(chart_smdat,maxcolnum = 30, speedmod = rxmodFP(), main = input$chart_to_vizFP,
-                sub = paste("Speed mod = ", rxmodFP()))
+                sub = paste("Speed mod = ", rxmodFP()), turn = input$turnmodFP)
       #    }, width = "auto", height = "auto", res=144)
     }, height = function() .6 * session$clientData$output_chartplotFP_width)
   })
@@ -698,7 +712,8 @@ server <- function(input, output, session) {
   
   observeEvent(input$chart_viz, {
     output$chartplot = renderPlot({
-      patplot_shiny(input$chart_to_viz,search_res(),filterlist(), allcharts = allcharts, smod = rxmod())
+      patplot_shiny(input$chart_to_viz,search_res(),filterlist(), allcharts = allcharts, smod = rxmod(),
+        turn = input$turnmodSP)
 #    }, width = "auto", height = "auto", res=144)
     }, height = function() .6 * session$clientData$output_chartplot_width)
   })
