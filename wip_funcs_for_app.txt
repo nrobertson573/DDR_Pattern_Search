@@ -1,5 +1,22 @@
 library(scales)
 
+turn_chart = function(chart,turn){
+	if(turn=="Left"){mapping = c(2,4,1,3)}
+	if(turn=="Right"){mapping = c(3,1,4,2)}
+	if(turn=="Mirror"){mapping = c(4,3,2,1)}
+	if(turn=="Shuffle 1"){mapping = c(1,4,2,3)}
+	if(turn=="Shuffle 2"){mapping = c(3,2,4,1)}
+	if(turn=="Shuffle 3"){mapping = c(1,4,3,2)}
+	if(turn=="Shuffle 4"){mapping = c(2,3,4,1)}
+	if(turn=="Shuffle 5"){mapping = c(2,1,3,4)}
+	if(turn=="Shuffle 6"){mapping = c(2,3,1,4)}
+	if(turn=="Shuffle 7"){mapping = c(4,1,3,2)}
+	if(turn=="Shuffle 8"){mapping = c(4,3,1,2)}
+
+	turned = mapping[chart$arrow]
+	tchart = data.frame(arrow=turned,chart[,-1])[order(chart$beat.meas,turned),]
+	return(tchart)
+}
 
 filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max,event,gold){
 
@@ -82,19 +99,13 @@ filter_table = function(filterlist,songlist){
 
 
 rasterpattern = function(smdat,maxcolnum,patternout,highlightcol="deeppink",trim=TRUE,speedmod = 1,
-			main="",sub="",xlab="",ylab="",turn="None",
+			main="",sub="",xlab="",ylab="",
 			colramp=c("gray90","gray60","gray40","gray20","gray10","gray0"),...){
 
 	##find half arrow height
 	h.ah = .125 / speedmod
 
-	##allow for turn mods
-	if(turn != "None"){
-		songvdat = turn_chart(smdat$step,turn)
-	}else{
-		songvdat = smdat$step
-	}
-
+	songvdat = smdat$step
 	##if trim == TRUE, remove empty measures at beginning of song
 	if(trim==TRUE){
 		adjust = floor(songvdat$beat.meas[1])
@@ -257,14 +268,14 @@ rasterpattern = function(smdat,maxcolnum,patternout,highlightcol="deeppink",trim
 }
 
 
-rasterplot = function(smdat,maxcolnum,trim=TRUE,speedmod = 1,main="",sub="",xlab="",ylab="", turn="None",
+rasterplot = function(smdat,maxcolnum,trim=TRUE,speedmod = 1,main="",sub="",xlab="",ylab="", turn=NULL,
 			colramp=c("gray90","gray60","gray40","gray20","gray10","gray0"),...){
 
 	##find half arrow height
 	h.ah = .125 / speedmod
 
 	##allow for turn mods
-	if(turn != "None"){
+	if(!is.null(turn) & turn != "None"){
 		songvdat = turn_chart(smdat$step,turn)
 	}else{
 		songvdat = smdat$step
@@ -540,14 +551,14 @@ search_pick = function(PL){
 	return(my_search)
 }
 
-patplot_shiny = function(chart,search_object,filterlist,allcharts,smod,turn="None"){
+patplot_shiny = function(chart,search_object,filterlist,allcharts,smod){
 	i = which(filterlist == chart)
 	if(nrow(search_object$full[[i]]) == 0){
 		rasterplot(allcharts[[search_object$table$all_ind[i]]],maxcolnum=30,
-			speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod),turn=turn)	
+			speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod))	
 	}else{
 		rasterpattern(allcharts[[search_object$table$all_ind[i]]],maxcolnum=30,patternout = search_object$full[[i]],
-			speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod),turn=turn)	
+			speedmod = smod, main = search_object$table$chart[i], sub = paste("Speed Mod = ",smod))	
 	}
 }
 
@@ -781,20 +792,3 @@ patplot_rs = function(PL,patterntype){
 	if(patterntype=="Sequence and Timing"){timing_and_pattern_rs(PL)}
 }
 
-turn_chart = function(chart,turn){
-	if(turn=="Left"){mapping = c(2,4,1,3)}
-	if(turn=="Right"){mapping = c(3,1,4,2)}
-	if(turn=="Mirror"){mapping = c(4,3,2,1)}
-	if(turn=="Shuffle 1"){mapping = c(1,4,2,3)}
-	if(turn=="Shuffle 2"){mapping = c(3,2,4,1)}
-	if(turn=="Shuffle 3"){mapping = c(1,4,3,2)}
-	if(turn=="Shuffle 4"){mapping = c(2,3,4,1)}
-	if(turn=="Shuffle 5"){mapping = c(2,1,3,4)}
-	if(turn=="Shuffle 6"){mapping = c(2,3,1,4)}
-	if(turn=="Shuffle 7"){mapping = c(4,1,3,2)}
-	if(turn=="Shuffle 8"){mapping = c(4,3,1,2)}
-
-	turned = mapping[chart$arrow]
-	tchart = data.frame(arrow=turned,chart[,-1])[order(chart$beat.meas,turned),]
-	return(tchart)
-}
