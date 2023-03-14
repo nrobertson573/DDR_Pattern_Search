@@ -16,7 +16,7 @@ ui <- fluidPage(
   titlePanel("Pattern Search Over Dance Dance Revoultion A3 Charts"),
   
   uiOutput("mygithub"),
-  h6("Updated: 2022/8/15", style="color:black"),
+  h6("Updated: 2023/15/2", style="color:black"),
   headerPanel(""),
   
   tabsetPanel(
@@ -97,11 +97,11 @@ ui <- fluidPage(
     tabPanel("Pattern",
       h3("Create a pattern to search for over your chart list", style="color:black"),
       fluidRow(
-        column(4,
+        column(3,
           radioButtons("patterntype","Please Select Type of Pattern", c("Sequence Only","Timing Only",
                       "Sequence and Timing"),("Sequence Only")),
         ),
-        column(4,
+        column(3,
           "Input Step Information",
           conditionalPanel(
             condition = "input.patterntype == 'Sequence Only'",
@@ -120,14 +120,18 @@ ui <- fluidPage(
             textInput('pt_tbs', "Timing Between Steps (e.g. 0 8 16 16 4)", "0 16 16 8 8 16 16"),
           ),
         ),
-        column(4,
+        column(2,
           "Pattern Visualization",
           textOutput("print_psuedoPL"),
           textOutput("PL_validate"),
 ##with new checks in place I don't really need the button anymore          
 ##          actionButton("patplotgo","Create Pattern Object"),
-          plotOutput("patplot",height="400px",width="200px")
-        )
+          plotOutput("patplot",height="400px",width="200px"),
+        ),
+        column(2,
+#               "Turn Visualization",
+#               plotOutput("patplot_TURN",height="400px",width="200px"),
+        ),
       ),
 
       ##considering adding some preset searches here
@@ -371,6 +375,8 @@ server <- function(input, output, session) {
     innerout
   })
   
+
+  
   ##indicator of whether PL passed. trycatch lets me return a yes/no instead of error
   psuedoPL = reactive({
     mytc = tryCatch(
@@ -384,7 +390,7 @@ server <- function(input, output, session) {
             length(new_step) > 0, 
             length(arrow_p) == length(new_step),
             maxbeats > 0,
-            all(arrow_p %in% c(1,2,3,4))
+            all(arrow_p %in% c(1,2,3,4,0))
           )
         }
         if(input$patterntype == "Timing Only"){
@@ -407,7 +413,7 @@ server <- function(input, output, session) {
             length(timing_between_steps) > 0,
             length(arrow_p) == length(timing_between_steps),
             all(timing_between_steps %in% c(0,4,6,8,12,16,24,32,48,64)),
-            all(arrow_p %in% c(1,2,3,4))
+            all(arrow_p %in% c(1,2,3,4,0))
           )
         }
         if(PLTF == TRUE){"YES"}else{"NO"}
@@ -436,8 +442,8 @@ server <- function(input, output, session) {
           "Arrow Sequence and New Step? must have same number of elements"
         ),
         need(PLO$maxbeats > 0, "Maximum Beats must be positive"),
-        need(all(PLO$arrow_p %in% c(1,2,3,4)), 
-             "Arrow Sequence requires elements of (L,D,U,R,l,d,u,r,1,2,3,4) separated by space or comma as inputs"
+        need(all(PLO$arrow_p %in% c(1,2,3,4,0)), 
+             "Arrow Sequence requires elements of (L,D,U,R,l,d,u,r,1,2,3,4,0) separated by space or comma as inputs"
         )
       )
     }
@@ -465,8 +471,8 @@ server <- function(input, output, session) {
         ),
         need(all(PLO$timing_between_steps %in% c(0,4,6,8,12,16,24,32,48,64)),
              "Unsupported note type in Timing Between Steps"),
-        need(all(PLO$arrow_p %in% c(1,2,3,4)), 
-             "Arrow Sequence requires elements of (L,D,U,R,l,d,u,r,1,2,3,4) separated by space or comma as inputs"
+        need(all(PLO$arrow_p %in% c(1,2,3,4,0)), 
+             "Arrow Sequence requires elements of (L,D,U,R,l,d,u,r,1,2,3,4,0) separated by space or comma as inputs"
         )
       )
     }
@@ -483,6 +489,20 @@ server <- function(input, output, session) {
     patplotER()
   })
 
+  ##adding a second plot in that has the pattern mirrored  
+  ##can I make this work with a turn mod?
+  PL_turn = reactive({
+    turn_PL(PL(),"Mirror")
+  })
+  patplotER_turn = eventReactive((psuedoPL() == "YES"), {
+    patplot_rs(PL_turn(),input$patterntype)
+  }, ignoreNULL = FALSE)
+
+  output$patplot_TURN = renderPlot({
+    validate(need(psuedoPL() == "YES", ""))
+    patplotER_turn()
+  })
+  
   ##preset patterns
   ##basic cross
   observeEvent(input$cross1, {
