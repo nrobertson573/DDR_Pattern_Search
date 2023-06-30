@@ -445,7 +445,7 @@
 "PARANOiA (kskst mix)" "X3" 1 0 190 190 190 4 9 13 17 NA 0 0
 "PARANOiA Revolution" "X3" 1 1 180 360 0 6 10 14 18 19 0 0
 "Private Eye" "X3" 1 0 160 160 160 2 4 8 12 NA 0 0
-"Programmed Universe" "X3" 1 0 37 147 0 2 5 9 12 NA 0 0
+"Programmed Universe" "X3" 1 1 37 147 0 2 5 9 12 16 0 0
 "PUT YOUR FAITH IN ME (DA's Twinkly Disco Remix)" "X3" 1 0 115 116 115 1 5 8 13 NA 0 0
 "REBORN MAGIC" "X3" 1 0 140 140 140 2 4 7 10 NA 0 0
 "Rensen Ryouran" "X3" 1 1 142 142 142 3 6 8 11 15 0 0
@@ -463,7 +463,7 @@
 "snow prism" "X3" 1 1 196 197 196 3 6 9 12 16 0 0
 "Something Special" "X3" 1 0 95 95 95 2 4 7 11 NA 0 0
 "SUMIDAGAWA KARENKA" "X3" 1 1 180 180 180 2 5 10 12 16 0 0
-"Take A Step Forward" "X3" 1 0 145 145 145 2 7 9 11 NA 0 0
+"Take A Step Forward" "X3" 1 1 145 145 145 2 7 9 11 15 0 0
 "Tenjou no Hoshi -Reimeiki-" "X3" 1 0 85 170 0 2 5 8 12 NA 0 0
 "The Heavens Above" "X3" 1 0 140 140 140 3 7 9 11 NA 0 0
 "TIME" "X3" 1 0 115 115 115 1 5 7 9 NA 0 0
@@ -475,7 +475,7 @@
 "TRIP MACHINE (xac nanoglide mix)" "X3" 1 0 170 171 170 4 8 12 16 NA 0 0
 "TRIP MACHINE EVOLUTION" "X3" 1 1 95 380 0 4 9 12 16 18 0 0
 "TWINKLE HEART" "X3" 1 1 185 186 185 1 4 7 11 10 0 0
-"UNBELIEVABLE (Sparky remix)" "X3" 1 0 88 175 0 4 7 11 15 NA 0 0
+"UNBELIEVABLE (Sparky remix)" "X3" 1 1 88 175 0 4 7 11 15 18 0 0
 "Until the End" "X3" 1 0 172 172 172 3 4 9 12 NA 0 0
 "Wicked Plastik" "X3" 1 0 145 145 145 3 4 8 13 NA 0 0
 "Wings of an Angel (Fly With Me)" "X3" 1 0 175 175 175 2 4 8 12 NA 0 0
@@ -578,7 +578,7 @@
 "Endorphin" "2014" 1 0 160 160 160 4 8 12 15 NA 0 0
 "Engraved Mark" "2014" 1 0 188 188 188 3 8 12 15 NA 0 0
 "esreveR" "2014" 1 0 155 155 155 2 5 9 13 NA 0 0
-"Follow Tomorrow" "2014" 1 0 140 140 140 2 5 8 11 NA 0 0
+"Follow Tomorrow" "2014" 1 1 140 140 140 2 5 8 11 14 0 0
 "FUJIMORI -Matsuri- FESTIVAL" "2014" 1 0 158 158 158 3 5 9 12 NA 0 0
 "FUNKY SUMMER BEACH" "2014" 1 0 88 175 0 3 6 10 14 NA 0 0
 "Gekiatsu majiyaba cheer girl" "2014" 1 0 170 170 170 3 6 9 13 NA 0 0
@@ -637,7 +637,7 @@
 "Squeeze" "2014" 1 0 86 173 0 4 6 9 15 NA 0 0
 "Starlight Fantasia" "2014" 1 0 148 148 148 3 7 11 14 NA 0 0
 "Starlight Fantasia (Endorphins Mix)" "2014" 1 0 77 155 0 3 8 12 15 NA 0 0
-"starmine" "2014" 1 0 182 182 182 3 7 11 15 NA 0 0
+"starmine" "2014" 1 1 182 182 182 3 7 11 15 17 0 0
 "Stella Sinistra" "2014" 1 0 110 180 0 4 8 12 15 NA 0 0
 "Struggle" "2014" 1 0 180 180 180 4 6 10 13 NA 0 0
 "SUMMER DIARY -DDR mix-" "2014" 1 0 160 160 160 3 7 10 14 NA 0 0
@@ -748,7 +748,7 @@
 "Night of knights" "A" 1 1 180 180 180 1 7 11 15 16 0 0
 "Nou shou sakuretsu girl" "Removed" 1 1 155 157 155 3 6 10 12 14 0 0
 "Oboro" "A" 1 1 149 149 149 3 6 8 11 13 0 0
-"Oboro (dj TAKA Remix)" "A" 1 0 149 149 149 3 5 8 12 NA 0 0
+"Oboro (dj TAKA Remix)" "A" 1 1 149 149 149 3 5 8 12 16 0 0
 "Onegai darling" "A" 1 0 180 180 180 1 3 8 11 NA 0 0
 "OurMemories" "A" 1 1 140 140 140 3 6 9 12 11 0 0
 "out of focus" "A" 1 1 84 167 0 3 6 12 15 16 0 0
@@ -825,7 +825,7 @@
 "Clarity" "A20" 1 0 128 128 128 2 4 7 9 NA 0 0
 "Crazy Shuffle" "A20" 1 0 128 128 128 2 5 10 13 NA 0 0
 "CROSS" "A20" 1 0 150 150 150 1 5 10 13 NA 0 0
-"CyberConnect" "A20" 1 0 150 150 150 2 7 11 15 NA 0 0
+"CyberConnect" "A20" 1 1 150 150 150 2 7 11 15 17 0 0
 "Dead Heat" "A20" 1 0 177 177 177 4 6 10 14 NA 0 0
 "DIGITAL LUV" "A20" 1 0 154 154 154 2 5 9 12 NA 0 0
 "District of the Shadows" "A20" 1 0 150 150 150 3 6 12 16 NA 0 0
@@ -838,8 +838,8 @@
 "Firestorm" "A20" 1 1 177 177 177 5 8 13 16 16 0 0
 "Get On Da Floor" "A20" 1 0 140 140 140 2 5 8 11 NA 0 0
 "Give Me" "A20" 1 1 174 174 174 3 7 12 15 16 0 0
-"Glitch Angel" "A20" 1 0 165 165 165 5 8 13 17 NA 0 0
-"Golden Arrow" "A20" 1 0 170 170 170 4 8 12 16 NA 0 0
+"Glitch Angel" "A20" 1 1 165 165 165 5 8 13 17 18 0 0
+"Golden Arrow" "A20" 1 1 170 170 170 4 8 12 16 17 0 0
 "Haunted maid lunch" "A20" 1 1 188 188 188 4 7 11 15 17 0 0
 "HAVE YOU NEVER BEEN MELLOW (20th Anniversary Mix)" "A20" 1 0 130 130 130 2 4 7 11 NA 0 1
 "Helios" "A20" 1 0 182 182 182 4 8 12 16 NA 0 0
@@ -917,7 +917,7 @@
 "B4U (The Acolyte mix)" "A20 Plus" 1 0 155 155 155 2 4 9 13 NA 0 0
 "Bang Pad(Werk Mix)" "A20 Plus" 1 0 160 160 160 3 6 9 13 NA 0 0
 "Better Than Me" "A20 Plus" 1 0 162 162 162 4 8 12 15 NA 0 1
-"BITTER CHOCOLATE STRIKER" "A20 Plus" 1 1 165 165 165 3 6 10 14 18 0 0
+"BITTER CHOCOLATE STRIKER" "A20 Plus" 1 1 165 165 165 3 6 10 14 17 0 0
 "BLAKE" "A20 Plus" 1 0 200 200 200 3 7 11 14 NA 0 0
 "BRIDAL FESTIVAL !!!" "A20 Plus" 1 0 138 138 138 2 5 10 13 NA 0 0
 "City Never Sleeps" "A20 Plus" 1 0 178 178 178 4 7 12 15 NA 0 0
@@ -928,7 +928,7 @@
 "DDR TAGMIX -LAST DanceR-" "A20 Plus" 1 0 50 800 0 6 11 14 17 NA 0 1
 "DEADLOCK -Out Of Reach-" "A20 Plus" 1 0 205 205 205 5 9 13 17 NA 0 0
 "DeStRuCtIvE FoRcE" "A20 Plus" 1 0 88 177 0 2 6 9 13 NA 0 0
-"DIGITALIZER" "A20 Plus" 1 0 180 180 180 4 8 12 17 NA 0 0
+"DIGITALIZER" "A20 Plus" 1 1 180 180 180 4 8 12 17 18 0 0
 "Draw the Savage" "A20 Plus" 1 0 134 134 134 2 6 10 14 NA 0 0
 "Evans" "A20 Plus" 1 0 185 370 0 5 10 14 17 NA 0 0
 "Feidie" "A20 Plus" 1 0 150 150 150 2 6 8 10 NA 0 1
@@ -1014,7 +1014,7 @@
 "take me higher (A20 Plus)" "A20 Plus" 1 0 140 140 140 3 5 10 13 NA 0 0
 "Taking It To The Sky (PLUS step)" "A20 Plus" 1 0 135 135 135 2 6 9 13 NA 0 0
 "Telecaster B-boy" "A20 Plus" 1 0 182 182 182 2 5 9 12 NA 0 1
-"THIS IS MY LAST RESORT" "A20 Plus" 1 0 110 220 0 5 9 12 15 NA 1 1
+"THIS IS MY LAST RESORT" "A20 Plus" 1 0 110 220 0 5 9 12 15 NA 0 1
 "Together Going My Way" "A20 Plus" 1 0 155 155 155 2 5 9 13 NA 0 1
 "Tokyo shinwa" "A20 Plus" 1 0 98 197 0 5 9 13 17 NA 0 0
 "Triple Cross" "A20 Plus" 1 0 196 196 196 7 9 13 17 NA 0 0
@@ -1033,8 +1033,10 @@
 "Yumebuki" "A20 Plus" 1 0 200 200 200 4 8 12 15 NA 1 0
 "Yuni's Nocturnal Days" "A20 Plus" 1 0 153 153 153 3 6 10 14 NA 0 1
 "Zassou tamashii namen na yo!" "A20 Plus" 1 0 145 145 145 2 5 8 11 NA 0 1
+"Ability" "A3" 1 0 154 154 154 2 5 11 16 NA 1 1
 "Acid,Tribal & Dance (DDR EDITION)" "A3" 1 1 63 286 0 3 5 11 14 17 1 1
-"ALBIDA" "Grand Prix" 1 0 185 185 185 3 9 13 16 NA 0 1
+"Adrenaline" "A3" 1 0 70 140 0 2 5 10 15 NA 1 1
+"ALBIDA" "A3" 1 0 185 185 185 3 9 13 16 NA 0 1
 "Anthurium" "A3" 1 0 142 142 142 4 6 10 13 NA 0 1
 "Are U Ready" "Pad Purchase" 1 0 155 155 155 3 7 11 13 NA 1 1
 "Awakening Wings" "A3" 1 0 190 190 190 2 5 10 11 NA 0 1
@@ -1044,9 +1046,13 @@
 "BREDLI" "A3" 1 0 128 128 128 2 6 12 16 NA 1 1
 "Black Emperor" "A3" 1 1 30 195 0 5 9 14 17 18 0 1
 "BONE BORN" "A3" 1 0 135 135 135 1 5 10 13 NA 1 1
+"BREAKING THE FUTURE" "Grand Prix" 1 0 45 720 0 5 10 14 17 NA 0 1
+"Broken" "Grand Prix" 1 0 148 148 148 2 5 9 13 NA 0 1
 "CANDY (UFO mix)" "Grand Prix" 1 0 180 180 180 2 6 10 14 NA 0 1
+"chaplet" "A3" 1 1 100 200 0 3 8 12 17 NA 1 1
 "Chucchu Machu Picchu" "A3" 1 0 130 130 130 3 7 11 14 NA 1 1
-"Closer to my Heart (jun remix)" "Grand Prix" 1 0 145 145 145 2 7 11 14 NA 0 1
+"Closer to my Heart (jun remix)" "A3" 1 0 145 145 145 2 7 11 14 NA 0 1
+"Colorful minutes" "Grand Prix" 1 0 152 152 152 1 4 7 11 NA 0 1
 "Come Back to Me (Feel It)" "A3" 1 0 165 165 165 3 7 10 14 NA 1 1
 "Concertino in Blue" "Pad Purchase" 1 0 103 155 0 3 5 12 16 NA 1 1
 "concon" "Pad Purchase" 1 0 190 190 190 3 7 12 14 NA 1 1
@@ -1055,32 +1061,37 @@
 "Dance Phenomena" "A3" 1 0 71 284 0 3 5 10 12 NA 0 1
 "Debug Dance" "A3" 1 0 151 151 151 3 8 11 15 NA 1 1
 "Deep tenDon Reflex" "A3" 1 1 180 180 180 3 7 11 15 17 0 1
-"DOUBLE TORNARD" "Grand Prix" 1 0 153 153 153 4 7 12 15 NA 0 1
+"DOUBLE TORNARD" "A3" 1 0 153 153 153 4 7 12 15 NA 0 1
 "Drive My Heart" "A3" 1 0 145 145 145 2 5 8 13 NA 0 1
 "DUAL STRIKER" "A3" 1 0 185 185 185 7 9 13 17 NA 1 1
 "Easy Peasy" "A3" 1 0 138 138 138 1 4 10 14 NA 1 1
 "Environ [De-SYNC] (feat. lythe)" "A3" 1 0 160 160 160 4 9 12 15 NA 1 1
 "Eon Break" "A3" 1 1 178 356 0 4 8 13 16 18 1 1
 "Fleur" "A3" 1 0 180 180 180 4 9 12 16 NA 0 1
+"Flip Flap" "Grand Prix" 1 0 175 175 175 3 6 8 14 NA 0 1
 "Get it" "A3" 1 0 174 174 174 3 7 12 16 NA 1 1
 "GERBERA" "A3" 1 0 102 205 0 4 9 14 16 NA 0 1
 "Get Your Wish" "Pad Purchase" 1 0 20 321 0 3 6 9 14 NA 1 1
-"glacia" "Grand Prix" 1 0 186 186 186 4 9 14 16 NA 0 1
-"Glitter Flatter Scatter" "Grand Prix" 1 0 98 197 0 6 9 14 17 NA 0 1
+"glacia" "A3" 1 0 186 186 186 4 9 14 16 NA 0 1
+"GLITTER" "Grand Prix" 1 0 184 184 184 4 8 12 16 NA 0 1
+"Glitter Flatter Scatter" "A3" 1 0 98 197 0 6 9 14 17 NA 0 1
 "Go Down" "A3" 1 0 126 126 126 1 4 10 14 NA 1 1
 "Go To The Oasis" "A3" 1 0 182 182 182 3 6 12 15 NA 1 1
 "Good Sound United" "A3" 1 0 100 200 0 5 9 13 16 NA 1 1
 "GRADIUS REMIX (UUDDLRLRBA Ver.)" "A3" 1 0 128 128 128 2 6 8 12 NA 0 1
 "Heavens and the Earth" "Grand Prix" 1 0 70 70 70 1 5 7 11 NA 0 1
-"I WANT YOUR LOVE (Darwin remix)" "Grand Prix" 1 0 170 170 170 2 4 9 13 NA 0 1
+"Hold Tight" "Grand Prix" 1 1 130 130 130 1 3 8 12 NA 0 1
+"I WANT YOUR LOVE (Darwin remix)" "A3" 1 0 170 170 170 2 4 9 13 NA 0 1
 "Ichizu" "A3" 1 0 160 160 160 2 6 12 15 NA 0 1
 "insist" "A3" 1 0 136 136 136 2 7 12 15 NA 1 1
+"Jungle Dance" "A3" 1 0 155 155 155 3 7 12 16 NA 1 1
+"JUST BELIEVE" "Grand Prix" 1 1 160 160 160 2 7 10 14 NA 0 1
 "Kanbu de tomatte sugu tokeru ~ kyouki no Udongein" "A3" 1 0 100 400 0 3 8 11 14 17 0 1
 "Kilonova" "A3" 1 0 150 150 150 4 9 13 17 NA 1 1
 "KING" "A3" 1 0 166 166 166 1 7 13 16 NA 0 1
 "Kiyarora eisei no kiseki" "A3" 1 0 150 150 150 4 7 12 16 NA 1 1
 "Koi no hyoketsu otenba yukemuri Cirno onsen" "Grand Prix" 1 0 57 188 0 2 7 12 15 NA 0 1
-"Kyoka suigetsurou (DDR EDITION)" "Grand Prix" 1 0 175 175 175 1 6 11 14 NA 0 1
+"Kyoka suigetsurou (DDR EDITION)" "A3" 1 0 175 175 175 1 6 11 14 NA 0 1
 "Last Summer" "Pad Purchase" 1 0 132 132 132 2 5 10 12 NA 1 1
 "Let Me Know" "A3" 1 0 75 150 0 4 7 11 15 NA 1 1
 "Let Me Show You" "A3" 1 0 170 170 170 3 7 11 15 NA 1 1
@@ -1090,29 +1101,35 @@
 "little steps" "Grand Prix" 1 0 155 155 155 3 6 11 15 NA 0 1
 "Look at the Sky" "A3" 1 0 115 115 115 1 3 6 10 NA 0 1
 "Lose Your Sense" "A3" 1 0 44 350 0 6 9 13 17 NA 1 1
+"LOVE SHINE (Body Grooverz 2006 mix)" "Grand Prix" 1 1 177 177 177 3 7 12 16 NA 0 1
 "MA-TSU-RI" "A3" 1 0 160 160 160 3 7 10 13 NA 1 1
 "MANA" "A3" 1 0 98 195 0 3 7 11 15 NA 1 1
-"Megalara Garuda" "Grand Prix" 1 1 90 180 0 5 9 16 17 18 0 1
+"Megalara Garuda" "A3" 1 1 90 180 0 5 9 16 17 18 0 1
 "MEGALOVANIA" "A3" 1 1 120 240 0 4 9 12 16 18 0 1
-"Mess With My Emotions" "Grand Prix" 1 0 130 130 130 1 3 9 12 NA 0 1
+"Mentanpindoradora" "A3" 1 0 92 740 0 2 7 11 16 NA 1 1
+"Mess With My Emotions" "A3" 1 0 130 130 130 1 3 9 12 NA 0 1
 "Mixed nuts" "A3" 1 0 150 150 150 1 5 8 15 NA 0 1
 "Murasakibana" "A3" 1 0 134 201 0 3 7 12 16 NA 1 1
 "Musician" "A3" 1 0 120 120 120 1 3 8 12 NA 0 1
 "Myu, myu, Mullru" "A3" 1 0 150 150 150 3 7 11 13 NA 1 1
-"Nanahoshi" "Grand Prix" 1 0 166 166 166 2 6 11 15 NA 0 1
+"Nanahoshi" "A3" 1 0 166 166 166 2 6 11 15 NA 0 1
 "On the Night of a Still Wind" "Grand Prix" 1 0 155 155 155 3 6 11 14 NA 0 1
 "ON-DO" "A3" 1 0 210 210 210 3 8 12 14 NA 1 1
+"Open Your Eyes" "Grand Prix" 1 0 82 82 82 2 5 7 9 NA 0 1
 "PARADISE" "Grand Prix" 1 0 125 125 125 1 6 9 12 NA 0 1
 "perditus paradisus" "Pad Purchase" 1 0 172 172 172 4 8 14 17 NA 1 1
 "PERSIAN LAND" "A3" 1 0 90 180 0 4 7 12 15 NA 1 1
 "Phlox" "A3" 1 0 185 185 185 4 7 11 15 NA 1 1
+"Playing With Fire" "Grand Prix" 1 0 160 160 160 2 7 10 14 NA 0 1
 "Prettiful!" "A3" 1 0 129 129 129 2 5 10 15 NA 1 1
 "Pump Pump Pump" "A3" 1 0 156 156 156 2 6 11 15 NA 0 1
 "Qwerty" "A3" 1 0 160 160 160 2 6 10 14 NA 0 1
+"Racing with Time (NAOKI's 999 remix)" "Grand Prix" 1 0 157 157 157 2 7 11 15 NA 0 1
 "Renaikansoku -2021 manatsu no ending ver.-" "A3" 1 0 188 188 188 3 8 12 14 NA 1 1
 "Respec fujin" "Grand Prix" 1 0 135 135 135 2 5 10 15 NA 0 1
-"Ryoushi no umi no Lindwurm" "Grand Prix" 1 1 280 280 280 5 10 14 17 18 0 1
+"Ryoushi no umi no Lindwurm" "A3" 1 1 280 280 280 5 10 14 17 18 0 1
 "Saisoku saikou shutter girl" "Grand Prix" 1 1 160 160 160 4 7 12 16 18 0 1
+"SAY A PRAYER" "Grand Prix" 1 0 97 97 97 2 4 6 8 NA 0 1
 "SAYONARA disco light" "A3" 1 0 159 159 159 3 6 9 13 NA 0 1
 "Sayonara heaven" "Pad Purchase" 1 0 111 111 111 1 3 9 13 NA 1 1
 "Scarlet keisatsu no ghetto patrol 24 ji" "Grand Prix" 1 1 160 160 160 3 7 11 15 18 0 1
@@ -1121,21 +1138,29 @@
 "SHIN HEBI HIME" "A3" 1 0 115 230 0 5 10 14 17 NA 1 1
 "Snow Garland Fairy" "A3" 1 0 200 200 200 3 8 13 17 NA 1 1
 "Something Comforting" "A3" 1 0 144 144 144 2 5 8 13 NA 0 1
+"SOUVENIR" "A3" 1 0 158 158 158 2 4 7 12 NA 0 1
+"spring pony" "A3" 1 1 150 150 150 2 6 12 15 NA 1 1
 "STAY (Joey Riot remix)" "Grand Prix" 1 0 150 150 150 2 6 9 12 NA 0 1
-"STAY GOLD" "A3" 1 0 21 330 0 5 9 12 16 NA 1 1
+"STAY GOLD" "A3" 1 0 21 330 0 5 9 12 16 NA 0 1
 "stellar rain" "A3" 1 0 148 148 148 1 5 8 13 NA 0 1
 "Such A Feeling" "Grand Prix" 1 0 120 120 120 3 6 11 14 NA 0 1
 "Surface" "A3" 1 0 150 150 150 1 4 9 12 NA 0 1
+"Surrender (PureFocus remix)" "Grand Prix" 1 0 130 130 130 2 7 10 15 NA 0 1
+"SURVIVAL AT THE END OF THE UNIVERSE" "A3" 1 0 150 200 0 5 9 14 16 NA 1 1
 "Take Me" "Grand Prix" 1 0 100 100 100 1 5 7 11 NA 0 1
 "TAKE ME HIGHER (A3)" "A3" 1 0 140 175 0 4 8 13 16 NA 1 1
-"Teleportation" "A3" 1 0 170 170 170 4 8 12 15 NA 1 1
+"Teleportation" "A3" 1 0 170 170 170 4 8 12 15 NA 0 1
 "THE ANCIENT KING IS BACK" "A3" 1 0 160 160 160 3 7 11 14 NA 1 1
-"Too Late Snow" "Grand Prix" 1 0 138 138 138 2 5 10 13 NA 0 1
-"TRUE LOVE (Clubstar's True Club Mix)" "Grand Prix" 1 0 135 135 135 1 5 9 13 NA 0 1
+"the beat" "Grand Prix" 1 1 140 140 140 4 8 11 14 NA 0 1
+"Too Late Snow" "A3" 1 0 138 138 138 2 5 10 13 NA 0 1
+"Towards The Horizon" "Grand Prix" 1 0 154 154 154 3 7 11 15 NA 0 1
+"TRUE LOVE (Clubstar's True Club Mix)" "A3" 1 0 135 135 135 1 5 9 13 NA 0 1
 "Ue ue shita shita hidari migi hidari migi BA" "A3" 1 0 124 124 124 4 6 11 12 NA 0 1
 "Unity" "Pad Purchase" 1 0 120 120 120 2 5 8 12 NA 1 1
 "Unreality" "A3" 1 0 174 174 174 2 6 11 14 NA 1 1
 "Usatei" "A3" 1 0 190 190 190 3 7 11 14 17 0 1
+"Vajra" "Grand Prix" 1 1 86 173 0 3 7 12 16 18 0 1
+"Valanga" "Grand Prix" 1 1 186 186 186 4 7 11 15 17 0 1
 "VALLIS-NERIA" "Pad Purchase" 1 0 185 185 185 5 9 13 16 NA 1 1
 "VOLAQUAS" "A3" 1 0 106 212 0 5 11 15 18 NA 1 1
 "Wakusei lollipop" "A3" 1 0 180 180 180 2 5 11 15 NA 1 1
@@ -1143,8 +1168,9 @@
 "We Will Live Together" "Grand Prix" 1 0 175 175 175 2 5 10 14 NA 0 1
 "Wolf's Rain" "A3" 1 0 154 154 154 4 7 11 14 NA 0 1
 "Worst Plan" "A3" 1 0 150 150 150 4 7 12 15 NA 0 1
-"Wowie Zowie!" "Grand Prix" 1 0 128 128 128 2 6 10 14 NA 0 1
+"Wowie Zowie!" "A3" 1 0 128 128 128 2 6 10 14 NA 0 1
 "Wuv U" "Pad Purchase" 1 0 86 346 0 3 7 10 14 NA 1 1
 "Yasaimashi ninniku abura oome" "Pad Purchase" 1 0 180 180 180 2 6 12 15 NA 1 1
 "Yoidore shirazu" "A3" 1 0 115 115 115 1 3 9 13 NA 0 1
 "You You You" "A3" 1 0 146 146 146 3 6 10 13 NA 1 1
+"Youhishi no ue no ginga" "A3" 1 0 196 196 196 3 6 10 14 NA 1 1
