@@ -480,11 +480,12 @@ pattern_sub_PT = function(stepdata,PL,wip,n){
 	}
 	p.len = length(arrow_p)
 
+	##abs(tempBM - p_beat_meas) < .02 checks for same rhythm to the 64th note
 	for(i in seq_len(n-p.len+1)){
 		tempA = wip$arrow[i:(i+p.len-1)]
 		tempBM = wip$beat.meas[i:(i+p.len-1)] - wip$beat.meas[i]
-		Y[i] = ifelse(sum(tempA == arrow_p & tempBM == p_beat_meas) == p.len, wip$ind[i], 0)
-		if(sum(tempA == arrow_p & tempBM == p_beat_meas) == p.len){
+		Y[i] = ifelse(sum(tempA == arrow_p & abs(tempBM - p_beat_meas) < .02) == p.len, wip$ind[i], 0)
+		if(sum(tempA == arrow_p & abs(tempBM - p_beat_meas) < .02) == p.len){
 			Ybeg[i] = ifelse(sum(Y[c((i-p.len+1):(i))[c((i-p.len+1):(i)) >  0]]) == Y[i], 1, 0)
 			##bpm thing still needs work and havent put in the Yend
 			Ybpm[i] = stepdata$bpm$bpm[sum(wip$beat.meas[i] * 4 > stepdata$bpm$beat)]
@@ -513,10 +514,11 @@ pattern_sub_TO = function(stepdata,PL,wip,n){
 	p_beat_meas = do.call(c,mapply(SIMPLIFY=FALSE, aps = arrows_per_step, pbm = p_beat_meas,function(aps,pbm){rep(pbm,aps)}))
 	p.len = sum(arrows_per_step)
 
+	##abs(tempBM - p_beat_meas) < .02 checks for same rhythm to the 64th note
 	for(i in seq_len(n-p.len+1)){
 		tempBM = wip$beat.meas[i:(i+p.len-1)] - wip$beat.meas[i]
-		Y[i] = ifelse(sum(tempBM == p_beat_meas) == p.len, wip$ind[i], 0)
-		if(sum(tempBM == p_beat_meas) == p.len){
+		Y[i] = ifelse(sum(abs(tempBM - p_beat_meas) < .02) == p.len, wip$ind[i], 0)
+		if(sum(abs(tempBM - p_beat_meas) < .02) == p.len){
 			Ybeg[i] = ifelse(sum(Y[c((i-p.len+1):(i))[c((i-p.len+1):(i)) >  0]]) == Y[i], 1, 0)
 			##bpm thing still needs work and havent put in the Yend
 			Ybpm[i] = stepdata$bpm$bpm[sum(wip$beat.meas[i] * 4 > stepdata$bpm$beat)]
@@ -797,4 +799,28 @@ turn_chart = function(chart,turn){
 	turned = mapping[chart$arrow]
 	tchart = data.frame(arrow=turned,chart[,-1])[order(chart$beat.meas,turned),]
 	return(tchart)
+}
+
+turn_PL = function(PL,turn){
+	if(is.null(PL$arrow_p)){
+		out = PL
+	}else{
+		if(turn=="Left"){mapping = c(2,4,1,3)}
+		if(turn=="Right"){mapping = c(3,1,4,2)}
+		if(turn=="Mirror"){mapping = c(4,3,2,1)}
+		if(turn=="Shuffle 1"){mapping = c(1,4,2,3)}
+		if(turn=="Shuffle 2"){mapping = c(3,2,4,1)}
+		if(turn=="Shuffle 3"){mapping = c(1,4,3,2)}
+		if(turn=="Shuffle 4"){mapping = c(2,3,4,1)}
+		if(turn=="Shuffle 5"){mapping = c(2,1,3,4)}
+		if(turn=="Shuffle 6"){mapping = c(2,3,1,4)}
+		if(turn=="Shuffle 7"){mapping = c(4,1,3,2)}
+		if(turn=="Shuffle 8"){mapping = c(4,3,1,2)}
+
+		turned = mapping[PL$arrow_p]
+		out = list(arrow_p = turned, arrows_per_step = PL$arrows_per_step,
+			timing_between_steps = PL$timing_between_steps, 
+			new_step = PL$new_step, maxbeats = PL$maxbeats)
+	}
+	return(out)
 }

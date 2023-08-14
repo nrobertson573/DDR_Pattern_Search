@@ -16,7 +16,7 @@ ui <- fluidPage(
   titlePanel("Pattern Search Over Dance Dance Revoultion A3 Charts"),
   
   uiOutput("mygithub"),
-  h6("Updated: 2023/15/2", style="color:black"),
+  h6("Updated: 2023/7/19", style="color:black"),
   headerPanel(""),
   
   tabsetPanel(
