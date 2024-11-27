@@ -1,7 +1,7 @@
 library(scales)
 
 
-filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max,event,gold){
+filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max,unlockable,limited,gp){
 
 	sl_list = lapply(seq_len(nrow(songlist)),function(i){ lapply(songlist, "[", i)})
 
@@ -29,22 +29,27 @@ filter.chartlist = function(songlist,diff,level,mix,bpm_static,bpm_min,bpm_max,e
 					if(!is.null(bpm_max) && umax > min(bpm_max,9999)){
 						diff_tf = rep(FALSE,5)
 					}else{
-						##event
-						if(!event && rowi$event == 1){
+						##unlockable
+						if(!unlockable && rowi$unlockable == 1){
 							diff_tf = rep(FALSE,5)
 						}else{
-							##gold cab
-							if(!gold && rowi$gold == 1){
+							##limited
+							if(!limited && rowi$limited == 1){
 								diff_tf = rep(FALSE,5)
 							}else{
-								##here should be the checking for difficulties
-								diff_tf = c(
-									ifelse(sum(grepl("beginner", diff, ignore.case=TRUE))>0,rowi$gSP,0) %in% level,
-									ifelse(sum(grepl("basic", diff, ignore.case=TRUE))>0,rowi$BSP,0) %in% level,
-									ifelse(sum(grepl("difficult", diff, ignore.case=TRUE))>0,rowi$DSP,0) %in% level,
-									ifelse(sum(grepl("expert", diff, ignore.case=TRUE))>0,rowi$ESP,0) %in% level,
-									ifelse(sum(grepl("challenge", diff, ignore.case=TRUE))>0,rowi$CSP,0) %in% level
-								)
+								##gp
+								if(!gp && rowi$gp == 1){
+									diff_tf = rep(FALSE,5)
+								}else{	
+									##here should be the checking for difficulties
+									diff_tf = c(
+										ifelse(sum(grepl("beginner", diff, ignore.case=TRUE))>0,rowi$gSP,0) %in% level,
+										ifelse(sum(grepl("basic", diff, ignore.case=TRUE))>0,rowi$BSP,0) %in% level,
+										ifelse(sum(grepl("difficult", diff, ignore.case=TRUE))>0,rowi$DSP,0) %in% level,
+										ifelse(sum(grepl("expert", diff, ignore.case=TRUE))>0,rowi$ESP,0) %in% level,
+										ifelse(sum(grepl("challenge", diff, ignore.case=TRUE))>0,rowi$CSP,0) %in% level
+									)
+								}
 							}
 
 						}
@@ -67,16 +72,18 @@ filter_table = function(filterlist,songlist){
 	splitlist = strsplit(filterlist,"_")
 	wiplist = lapply(splitlist,function(si){	
 		rowi = which(songlist$song %in% si[1])
+		##adjust to first or last occurance depending on if csp or not
+		rowi = ifelse(si[2] == "CSP", tail(rowi,1), head(rowi,1))
+
 		lvl = songlist[rowi,colnames(songlist) %in% si[2]]
 		out = data.frame(song = si[1], diff = si[2], level = lvl, mix = songlist$mix[rowi],
 			bpm_min = songlist$bpm_min[rowi], bpm_max = songlist$bpm_max[rowi], static_bpm = songlist$static_bpm[rowi],
-			event = songlist$event[rowi], gold = songlist$gold[rowi])
+			unlockable = songlist$unlockable[rowi], limited = songlist$limited[rowi], gp = songlist$gp[rowi])
 		return(out)
 	})
 	out = do.call(rbind,wiplist)
 	return(out)
 }
-
 
 
 
@@ -575,6 +582,9 @@ search_tab_gen = function(search_res,songlist){
 	splitlist = strsplit(tab_data$chart,"_")
 	wiplist = lapply(splitlist,function(si){	
 		rowi = which(songlist$song %in% si[1])
+		##adjust to first or last occurance depending on if csp or not
+		rowi = ifelse(si[2] == "CSP", tail(rowi,1), head(rowi,1))
+
 		lvl = songlist[rowi,colnames(songlist) %in% si[2]]
 		out = data.frame(song = si[1], diff = si[2], level = lvl, mix = songlist$mix[rowi],
 			bpm_min = songlist$bpm_min[rowi], bpm_max = songlist$bpm_max[rowi], static_bpm = songlist$static_bpm[rowi])

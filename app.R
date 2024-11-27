@@ -7,16 +7,16 @@ a20p = read.table("song_info.txt", header=TRUE)
 allcharts = readRDS("all_steps.RData")
 
 mixes = c("1stMIX","2ndMIX","3rdMIX","4thMIX","5thMIX","6thMIX MAX","7thMIX MAX2",
-  "8thMIX EXTREME","SuperNOVA","SuperNOVA2","X","X2","X3","2013","2014","A","A20","A20 Plus","A3",
-  "Grand Prix","Removed")
+  "8thMIX EXTREME","SuperNOVA","SuperNOVA2","X","X2","X3","2013","2014","A","A20","A20 Plus","A3","World",
+  "Removed")
 clevels = seq(1,19,1)
 difficulties = c("Beginner","Basic","Difficult","Expert","Challenge")
 
 ui <- fluidPage(
-  titlePanel("Pattern Search Over Dance Dance Revoultion A3 Charts"),
+  titlePanel("Pattern Search Over Dance Dance Revoultion World Charts"),
   
   uiOutput("mygithub"),
-  h6("Updated: 2024/5/11", style="color:black"),
+  h6("Updated: 2024/11/27", style="color:black"),
   headerPanel(""),
   
   tabsetPanel(
@@ -38,12 +38,13 @@ ui <- fluidPage(
         ),
         column(3,
           "Select Mixes",
-          checkboxGroupInput("mix","Mix",mixes,selected=mixes[-c(20,21,22)]),
+          checkboxGroupInput("mix","Mix",mixes,selected=mixes[-c(21)]),
         ),
         column(3,
-          "Event/Unlockables and Gold Cabinet",
-          checkboxInput("event", 'Include event and unlockable songs?', TRUE),
-          checkboxInput("gold", 'Include Gold exclusives?', TRUE),
+          "Unlockables, Limited and Grand Prix Charts",
+          checkboxInput("unlockable", 'Include unlockable charts?', TRUE),
+          checkboxInput("limited", 'Include limited charts?', FALSE),
+          checkboxInput("gp", 'Include Grand Prix Charts?', FALSE),
           ),
       ),
       textOutput("print_psuedoFL"),
@@ -262,7 +263,7 @@ server <- function(input, output, session) {
   filterlist = reactive( {
     filter.chartlist(songlist=a20p,diff=input$cdiff,level=c(input$clevelmin:input$clevelmax),
       mix=input$mix,bpm_static=input$staticbpm,bpm_min=input$bpmmin,bpm_max=input$bpmmax,
-      event=input$event,gold=input$gold)
+      unlockable=input$unlockable,limited=input$limited,gp=input$gp)
   })
 
   ##indicator of whether filterlist passed. trycatch lets me return a yes/no instead of error
