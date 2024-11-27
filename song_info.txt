@@ -1,1243 +1,1597 @@
-"song" "mix" "expert" "chal" "bpm_min" "bpm_max" "static_bpm" "gSP" "BSP" "DSP" "ESP" "CSP" "event" "gold"
-"MAKE IT BETTER" "1stMIX" 1 0 119 119 119 3 7 9 11 NA 0 0
-"PARANOiA" "1stMIX" 1 0 180 180 180 4 8 9 11 NA 0 0
-"TRIP MACHINE" "1stMIX" 1 0 160 160 160 3 8 9 10 NA 0 0
-"AM-3P" "2ndMIX" 1 0 130 130 130 3 7 8 11 NA 0 0
-"BRILLIANT 2U" "2ndMIX" 1 1 150 150 150 3 6 6 10 10 0 0
-"BRILLIANT 2U(Orchestra Groove)" "2ndMIX" 1 1 150 150 150 4 6 8 9 12 0 0
-"e-motion" "2ndMIX" 1 0 140 145 0 2 5 6 8 NA 0 0
-"GENOM SCREAMS" "2ndMIX" 1 0 150 150 150 3 6 8 11 NA 0 0
-"KEEP ON MOVIN'" "2ndMIX" 1 0 132 132 132 4 5 7 9 NA 0 0
-"MAKE IT BETTER (So-REAL Mix)" "2ndMIX" 1 1 118 118 118 2 7 8 10 12 0 0
-"PARANOiA KCET ~clean mix~" "2ndMIX" 1 1 179 180 180 4 8 9 11 15 0 0
-"PARANOiA MAX~DIRTY MIX~" "2ndMIX" 1 0 190 190 190 5 9 10 12 NA 0 0
-"PUT YOUR FAITH IN ME" "2ndMIX" 1 0 120 120 120 3 5 6 9 NA 0 0
-"PUT YOUR FAITH IN ME (Jazzy Groove)" "2ndMIX" 1 1 120 120 120 2 6 7 9 11 0 0
-"SP-TRIP MACHINE~JUNGLE MIX~" "2ndMIX" 1 0 160 160 160 4 8 9 10 NA 0 0
-"AFRONOVA" "3rdMIX" 1 0 200 200 200 5 7 9 13 NA 0 0
-"AFTER THE GAME OF LOVE" "3rdMIX" 1 0 105 105 105 1 2 6 8 NA 0 0
-"CUTIE CHASER" "3rdMIX" 1 0 126 126 126 3 5 7 10 NA 0 0
-"DEAD END" "3rdMIX" 1 0 190 190 190 4 7 10 12 NA 0 0
-"DROP THE BOMB" "3rdMIX" 1 0 150 150 150 3 5 7 10 NA 0 0
-"DYNAMITE RAVE" "3rdMIX" 1 1 150 150 150 3 6 10 12 12 0 0
-"GRADIUSIC CYBER ~AMD G5 MIX~" "3rdMIX" 1 0 160 160 160 3 8 10 13 NA 0 0
-"La Senorita" "3rdMIX" 1 0 182 182 182 4 6 8 10 NA 0 0
-"La Senorita Virtual" "3rdMIX" 1 0 182 182 182 4 8 10 12 NA 0 0
-"LOVE THIS FEELIN'" "3rdMIX" 1 0 95 190 0 4 9 10 11 NA 0 0
-"PARANOiA Rebirth" "3rdMIX" 1 0 190 190 190 4 8 10 13 NA 0 0
-"Silent Hill" "3rdMIX" 1 0 125 125 125 3 4 9 10 NA 0 0
-"think ya better D" "3rdMIX" 1 0 136 136 136 3 5 6 9 NA 0 0
-"TRIP MACHINE~luv mix~" "3rdMIX" 1 0 160 160 160 3 9 10 12 NA 0 0
-".59" "4thMIX" 1 0 110 135 0 3 5 8 11 NA 0 0
-"B4U" "4thMIX" 1 0 155 155 155 3 5 7 10 NA 0 0
-"BABY BABY GIMME YOUR LOVE" "4thMIX" 1 0 96 96 96 1 2 4 7 NA 0 0
-"BURNIN' THE FLOOR" "4thMIX" 1 0 155 155 155 3 5 8 10 NA 0 0
-"CAN'T STOP FALLIN' IN LOVE" "4thMIX" 1 0 155 155 155 3 5 6 11 NA 0 0
-"CELEBRATE NITE" "4thMIX" 1 0 144 144 144 3 6 8 11 NA 0 0
-"Don't Stop!~AMD 2nd MIX~" "4thMIX" 1 0 130 130 130 3 5 6 10 NA 0 0
-"DROP OUT" "4thMIX" 1 0 260 260 260 4 8 10 13 NA 0 0
-"era (nostalmix)" "4thMIX" 1 0 90 180 0 4 5 8 11 NA 0 0
-"HIGHER" "4thMIX" 1 0 132 132 132 3 4 7 9 NA 0 0
-"Holic" "4thMIX" 1 0 155 155 155 4 7 9 11 NA 0 0
-"HYSTERIA" "4thMIX" 1 0 190 190 190 5 6 8 11 NA 0 0
-"LEADING CYBER" "4thMIX" 1 0 150 150 150 3 8 9 13 NA 0 0
-"LOVE AGAIN TONIGHT~For Melissa MIX~" "4thMIX" 1 0 150 150 150 4 5 8 11 NA 0 0
-"MY SUMMER LOVE" "4thMIX" 1 0 100 100 100 3 4 9 12 NA 0 0
-"ORION.78(AMeuro-MIX)" "4thMIX" 1 0 105 105 105 3 4 7 12 NA 0 0
-"PARANOIA EVOLUTION" "4thMIX" 1 0 200 200 200 5 9 10 12 NA 0 0
-"SEXY PLANET" "4thMIX" 1 0 180 181 180 3 7 8 11 NA 0 0
-"SUPER STAR" "4thMIX" 1 0 128 128 128 3 7 8 12 NA 0 0
-"TRIP MACHINE CLIMAX" "4thMIX" 1 0 180 180 180 5 7 9 12 NA 0 0
-"WILD RUSH" "4thMIX" 1 0 79 182 0 5 6 7 10 NA 0 0
-"ABSOLUTE" "5thMIX" 1 0 38 144 0 3 4 8 11 NA 0 0
-"Abyss" "5thMIX" 1 0 142 142 142 3 4 7 10 NA 0 0
-"AFRONOVA PRIMEVAL" "5thMIX" 1 0 200 200 200 4 7 9 12 NA 0 0
-"BROKEN MY HEART" "5thMIX" 1 0 160 161 160 3 5 7 12 NA 0 0
-"CAN'T STOP FALLIN' IN LOVE ~SPEED MIX~" "5thMIX" 1 0 170 171 170 4 6 9 12 NA 0 0
-"DXY!" "5thMIX" 1 0 148 148 148 5 6 9 12 NA 0 0
-"ECSTASY" "5thMIX" 1 0 150 150 0 4 5 8 10 NA 0 0
-"Electro Tuned ( the SubS Mix )" "5thMIX" 1 0 125 125 0 4 6 9 12 NA 0 0
-"Healing Vision" "5thMIX" 1 0 49 196 0 4 5 7 11 NA 0 0
-"INSERTiON" "5thMIX" 1 0 111 225 0 4 6 9 13 NA 0 0
-"PARANOiA ETERNAL" "5thMIX" 1 0 200 200 200 4 8 10 13 NA 0 0
-"SANA MOLLETE NE ENTE" "5thMIX" 1 0 90 90 90 3 4 9 12 NA 0 0
-"STILL IN MY HEART" "5thMIX" 1 0 150 150 150 3 6 8 10 NA 0 0
-"CANDY STAR" "6thMIX MAX" 1 0 192 193 192 4 6 7 11 NA 0 0
-"exotic ethnic" "6thMIX MAX" 1 0 190 190 190 4 5 8 13 NA 0 0
-"Healing Vision~Angelic mix~" "6thMIX MAX" 1 0 49 196 0 5 7 11 13 NA 0 0
-"Let the beat hit em!(CLASSIC R&B STYLE)" "6thMIX MAX" 1 0 102 102 102 3 6 7 10 NA 0 0
-"MAX 300" "6thMIX MAX" 1 0 64 303 300 5 9 12 15 NA 0 0
-"ORION.78~civilization mix~" "6thMIX MAX" 1 0 200 201 200 4 9 12 13 NA 0 0
-"AFRONOVA(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 0 1 200 200 200 NA NA NA NA 10 0 0
-"AM-3P (AM EAST mix)" "7thMIX MAX2" 0 1 140 140 140 NA NA NA NA 10 0 0
-"B4U(B4 ZA BEAT MIX)" "7thMIX MAX2" 0 1 170 171 170 NA NA NA NA 10 0 0
-"BREAK DOWN!" "7thMIX MAX2" 1 0 190 190 190 3 5 8 12 NA 0 0
-"BRILLIANT 2U(K.O.G G3 MIX)" "7thMIX MAX2" 0 1 170 171 170 NA NA NA NA 10 0 0
-"BURNIN' THE FLOOR (BLUE FIRE mix)" "7thMIX MAX2" 0 1 155 155 155 NA NA NA NA 10 0 0
-"BURNING HEAT! (3 Option MIX)" "7thMIX MAX2" 1 0 166 167 166 3 4 8 13 NA 0 0
-"CANDY HEART" "7thMIX MAX2" 1 0 180 180 180 4 5 7 10 NA 0 0
-"CELEBRATE NITE(EURO TRANCE STYLE)" "7thMIX MAX2" 0 1 144 144 144 NA NA NA NA 11 0 0
-"D2R" "7thMIX MAX2" 1 0 160 160 160 3 4 7 11 NA 0 0
-"DESTINY" "7thMIX MAX2" 1 0 155 155 155 3 3 7 10 NA 0 0
-"DIVE TO THE NIGHT" "7thMIX MAX2" 1 0 155 155 155 3 4 8 11 NA 0 0
-"DROP OUT(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 0 1 130 130 130 NA NA NA NA 12 0 0
-"ECSTASY (midnight blue mix)" "7thMIX MAX2" 0 1 145 145 0 NA NA NA NA 11 0 0
-"HIGHER (next morning mix)" "7thMIX MAX2" 0 1 132 132 132 NA NA NA NA 11 0 0
-"HYSTERIA 2001" "7thMIX MAX2" 0 1 190 190 190 NA NA NA NA 10 0 0
-"i feel" "7thMIX MAX2" 1 0 141 141 141 3 4 8 12 NA 0 0
-"KAKUMEI" "7thMIX MAX2" 1 1 83 148 0 3 5 9 12 11 0 0
-"MAXX UNLIMITED" "7thMIX MAX2" 1 0 140 320 0 5 10 13 16 NA 0 0
-"MY SUMMER LOVE(TOMMY'S SMILE MIX)" "7thMIX MAX2" 0 1 100 100 100 NA NA NA NA 12 0 0
-"rain of sorrow" "7thMIX MAX2" 1 0 140 140 140 3 3 9 12 NA 0 0
-"Secret Rendez-vous" "7thMIX MAX2" 1 0 98 98 98 3 4 7 12 NA 0 0
-"SEXY PLANET(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 0 1 180 180 180 NA NA NA NA 10 0 0
-"Silent Hill (3rd christmas mix)" "7thMIX MAX2" 0 1 125 125 125 NA NA NA NA 10 0 0
-"STILL IN MY HEART (MOMO MIX)" "7thMIX MAX2" 0 1 85 171 0 NA NA NA NA 11 0 0
-"SUPER STAR(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 0 1 128 128 128 NA NA NA NA 10 0 0
-"Sweet Sweet Love Magic" "7thMIX MAX2" 1 0 180 180 180 4 5 9 13 NA 0 0
-"TSUGARU" "7thMIX MAX2" 1 0 95 165 0 3 5 9 12 NA 0 0
-"TSUGARU(APPLE MIX)" "7thMIX MAX2" 0 1 81 165 0 NA NA NA NA 11 0 0
-"WILD RUSH(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 0 1 125 125 125 NA NA NA NA 9 0 0
-"1998" "8thMIX EXTREME" 1 0 150 150 150 4 4 6 10 NA 0 0
-"321STARS" "8thMIX EXTREME" 1 0 192 193 192 4 5 9 11 NA 0 0
-"A" "8thMIX EXTREME" 1 1 93 191 0 4 5 8 11 12 0 0
-"Across the nightmare" "8thMIX EXTREME" 1 1 300 300 300 7 8 10 12 13 0 0
-"air" "8thMIX EXTREME" 1 0 130 130 130 3 5 7 10 NA 0 0
-"AM-3P -303 BASS MIX-" "8thMIX EXTREME" 1 0 130 130 130 4 4 9 10 NA 0 0
-"bag" "8thMIX EXTREME" 1 1 65 65 65 2 7 11 13 13 0 0
-"BE LOVIN" "8thMIX EXTREME" 1 0 185 186 185 4 5 9 12 NA 0 0
-"BLUE IMPULSE ~for EXTREME~" "8thMIX EXTREME" 1 0 145 145 145 2 4 6 9 NA 0 0
-"CALICO CAT ROCK" "8thMIX EXTREME" 1 0 152 250 0 4 5 8 12 NA 0 0
-"Colors ~for EXTREME~" "8thMIX EXTREME" 1 1 150 150 150 3 5 8 9 13 0 0
-"CUTIE CHASER(MORNING MIX)" "8thMIX EXTREME" 1 0 126 126 126 3 3 4 9 NA 0 0
-"DAIKENKAI" "8thMIX EXTREME" 1 1 143 172 0 4 4 8 12 13 0 0
-"Dance Dance Revolution" "8thMIX EXTREME" 1 1 150 150 150 5 6 8 12 12 0 0
-"Destiny lovers" "8thMIX EXTREME" 1 0 170 171 170 3 4 7 13 NA 0 0
-"DROP THE BOMB(SyS.F. Mix)" "8thMIX EXTREME" 1 0 150 150 150 3 5 7 10 NA 0 0
-"Frozen Ray(for EXTREME)" "8thMIX EXTREME" 1 0 156 157 156 4 5 9 12 NA 0 0
-"Gamelan de Couple" "8thMIX EXTREME" 1 0 150 150 150 3 4 7 12 NA 0 0
-"GRADUATION" "8thMIX EXTREME" 1 0 125 125 125 2 3 7 9 NA 0 0
-"Happy Wedding" "8thMIX EXTREME" 1 0 126 126 126 3 4 6 10 NA 0 0
-"Heaven is a '57 metallic gray ~gimmix~" "8thMIX EXTREME" 1 0 63 190 0 4 5 7 12 NA 0 0
-"HYPER EUROBEAT" "8thMIX EXTREME" 1 0 152 153 152 3 4 6 10 NA 0 0
-"I'm gonna get you!" "8thMIX EXTREME" 1 0 160 161 160 3 4 7 9 NA 0 0
-"jane jana" "8thMIX EXTREME" 1 0 125 125 125 3 4 7 10 NA 0 0
-"JET WORLD" "8thMIX EXTREME" 1 0 138 138 138 3 4 7 11 NA 0 0
-"KISS KISS KISS" "8thMIX EXTREME" 1 0 150 151 150 4 5 6 12 NA 0 0
-"Kiss me all night long" "8thMIX EXTREME" 1 0 155 155 155 3 3 6 10 NA 0 0
-"L'amour et la liberte(DDR Ver.)" "8thMIX EXTREME" 1 0 145 145 145 3 6 9 12 NA 0 0
-"LA BAMBA (extreme)" "8thMIX EXTREME" 1 0 179 179 179 3 4 8 11 NA 0 0
-"LOVE LOVE SHINE" "8thMIX EXTREME" 1 0 177 177 177 3 5 6 9 NA 0 0
-"LOVE LOVE SUGAR" "8thMIX EXTREME" 1 0 155 155 155 3 4 6 8 NA 0 0
-"Miracle Moon ~L.E.D.LIGHT STYLE MIX~" "8thMIX EXTREME" 1 0 138 138 138 3 4 6 9 NA 0 0
-"PARANOIA survivor" "8thMIX EXTREME" 1 0 135 270 0 4 9 11 15 NA 0 0
-"PARANOIA survivor MAX" "8thMIX EXTREME" 1 1 73 290 0 5 9 11 15 16 0 0
-"Pink Rose" "8thMIX EXTREME" 1 0 146 146 146 3 4 6 10 NA 0 0
-"SAKURA" "8thMIX EXTREME" 1 1 21 320 0 5 7 11 13 11 0 0
-"SO IN LOVE" "8thMIX EXTREME" 1 0 112 112 112 3 4 7 9 NA 0 0
-"STAY (Organic house Version)" "8thMIX EXTREME" 1 0 125 125 125 3 4 7 9 NA 0 0
-"stoic (EXTREME version)" "8thMIX EXTREME" 1 0 155 155 155 3 5 9 13 NA 0 0
-"sync (EXTREME version)" "8thMIX EXTREME" 1 1 167 167 167 3 5 8 9 12 0 0
-"TEARS" "8thMIX EXTREME" 1 0 143 143 143 3 6 8 12 NA 0 0
-"The Least 100sec" "8thMIX EXTREME" 1 0 200 265 0 5 7 11 12 NA 0 0
-"The legend of MAX" "8thMIX EXTREME" 1 0 83 333 0 7 8 13 15 NA 0 0
-"TRIP MACHINE survivor" "8thMIX EXTREME" 1 0 170 170 170 4 5 11 13 NA 0 0
-"Twin Bee -Generation X-" "8thMIX EXTREME" 1 0 169 169 169 3 5 8 11 NA 0 0
-"V ~for EXTREME~" "8thMIX EXTREME" 1 1 150 150 150 3 5 8 12 13 0 0
-"VANITY ANGEL" "8thMIX EXTREME" 1 0 140 140 140 3 4 9 12 NA 0 0
-"xenon" "8thMIX EXTREME" 1 0 158 159 158 3 5 10 13 NA 0 0
-"A Stupid Barber" "SuperNOVA" 1 0 132 132 132 3 4 8 9 NA 0 0
-"AA" "SuperNOVA" 1 0 154 154 154 3 5 9 13 NA 0 0
-"Bad Routine" "SuperNOVA" 1 0 129 130 130 3 5 7 9 NA 0 0
-"Baile Le Samba" "SuperNOVA" 1 0 92 92 92 1 3 10 11 NA 0 0
-"BALLAD FOR YOU" "SuperNOVA" 1 0 65 68 65 2 5 7 8 NA 0 0
-"Brazilian Anthem" "SuperNOVA" 1 0 130 130 130 3 5 8 12 NA 0 0
-"cachaca" "SuperNOVA" 1 0 128 128 128 1 3 7 12 NA 0 0
-"CAN'T STOP FALLIN' IN LOVE -super euro version-" "SuperNOVA" 1 0 155 155 155 3 4 7 8 NA 0 0
-"Can Be Real" "SuperNOVA" 1 0 132 132 132 3 4 6 10 NA 0 0
-"CENTAUR" "SuperNOVA" 1 0 140 140 140 4 6 9 12 NA 0 0
-"CHAOS" "SuperNOVA" 1 1 170 170 170 6 8 12 14 16 0 0
-"CHIKARA" "SuperNOVA" 1 0 185 186 185 4 5 8 10 NA 0 0
-"CURUS" "SuperNOVA" 1 0 184 188 0 2 3 7 10 NA 0 0
-"DanDanDO(The true MAN's Road)" "SuperNOVA" 1 0 156 160 0 3 4 7 12 NA 0 0
-"DoLL" "SuperNOVA" 1 1 170 171 170 4 5 8 12 13 0 0
-"Dragon Blade" "SuperNOVA" 1 0 240 240 240 5 9 10 11 NA 0 0
-"Fascination ~eternal love mix~" "SuperNOVA" 1 1 100 400 0 9 11 13 16 18 0 0
-"Fascination MAXX" "SuperNOVA" 1 1 100 400 0 6 11 13 17 18 0 0
-"Flow" "SuperNOVA" 1 0 140 140 140 4 5 9 12 NA 0 0
-"Flow (True Style)" "SuperNOVA" 1 1 140 280 0 4 6 9 12 13 0 0
-"Fly away" "SuperNOVA" 1 0 125 125 125 3 4 7 11 NA 0 0
-"Forever Sunshine" "SuperNOVA" 1 0 127 128 127 3 4 7 8 NA 0 0
-"Freedom" "SuperNOVA" 1 0 148 148 148 3 5 7 11 NA 0 0
-"Funk Boogie" "SuperNOVA" 1 0 127 128 127 4 5 4 8 NA 0 0
-"Gekkou chou" "SuperNOVA" 1 0 218 218 218 4 4 7 10 NA 0 0
-"GORGEOUS 2012" "SuperNOVA" 1 0 135 136 135 4 3 8 10 NA 0 0
-"Hana Ranman -Flowers-" "SuperNOVA" 1 0 160 160 160 3 5 7 11 NA 0 0
-"HAPPY ANGEL" "SuperNOVA" 1 1 179 180 180 4 4 8 12 16 0 0
-"Healing-D-Vision" "SuperNOVA" 1 1 180 360 0 6 9 12 14 18 0 0
-"Himawari" "SuperNOVA" 1 0 185 186 185 3 4 7 11 NA 0 0
-"I Need You" "SuperNOVA" 1 0 114 114 114 3 4 6 8 NA 0 0
-"iFUTURELIST(DDR VERSION)" "SuperNOVA" 1 1 150 151 150 3 5 7 12 13 0 0
-"INNOCENCE OF SILENCE" "SuperNOVA" 1 0 71 142 0 3 5 10 12 NA 0 0
-"INSIDE YOUR HEART" "SuperNOVA" 1 0 107 107 107 3 4 6 9 NA 0 0
-"Jam & Marmalade" "SuperNOVA" 1 0 145 145 145 3 4 8 11 NA 0 0
-"KAGEROW (Dragonfly)" "SuperNOVA" 1 0 164 164 164 3 4 7 9 NA 0 0
-"KEEP ON MOVIN' ~DMX MIX~" "SuperNOVA" 1 0 132 132 132 3 5 7 11 NA 0 0
-"Konoko no nanatsu no oiwaini" "SuperNOVA" 1 0 161 161 161 3 7 10 14 NA 0 0
-"La Bamba (supernova)" "SuperNOVA" 1 0 156 156 156 3 5 8 11 NA 0 0
-"LOGICAL DASH" "SuperNOVA" 1 0 144 144 144 3 4 7 11 NA 0 0
-"LOVE IS ORANGE" "SuperNOVA" 1 1 180 180 180 3 5 7 9 11 0 0
-"Make A Difference" "SuperNOVA" 1 0 130 132 130 3 5 7 12 NA 0 0
-"MARIA(I believe...)" "SuperNOVA" 1 0 158 159 158 3 5 8 11 NA 0 0
-"MAX 300 (Super-Max-Me Mix)" "SuperNOVA" 1 1 140 320 0 6 10 13 15 16 0 0
-"MAXIMIZER" "SuperNOVA" 1 0 190 190 190 5 6 9 12 NA 0 0
-"MIDNIGHT SPECIAL" "SuperNOVA" 1 0 182 182 182 3 7 9 10 NA 0 0
-"Mind Parasite" "SuperNOVA" 1 0 145 146 145 3 5 9 13 NA 0 0
-"Monkey Punk" "SuperNOVA" 1 0 180 180 180 4 5 8 10 NA 0 0
-"MOON" "SuperNOVA" 1 0 156 157 156 3 3 7 10 NA 0 0
-"Mugen" "SuperNOVA" 1 0 171 171 171 4 4 8 11 NA 0 0
-"murmur twins" "SuperNOVA" 1 0 174 175 174 3 4 8 11 NA 0 0
-"My Only Shining Star" "SuperNOVA" 1 0 155 155 155 3 4 7 9 NA 0 0
-"NIJIIRO" "SuperNOVA" 1 1 160 161 160 3 4 8 11 13 0 0
-"No.13" "SuperNOVA" 1 0 172 172 172 4 5 9 13 NA 0 0
-"PARANOiA-Respect-" "SuperNOVA" 1 0 300 300 300 5 11 12 16 NA 0 0
-"PASSION OF LOVE" "SuperNOVA" 1 0 78 155 0 4 5 7 10 NA 0 0
-"Polovtsian Dances And Chorus" "SuperNOVA" 1 0 146 146 146 3 4 9 11 NA 0 0
-"PUT YOUR FAITH IN ME ~SATURDAY NIGHT MIX~" "SuperNOVA" 1 0 120 121 120 3 5 8 9 NA 0 0
-"Quick Master" "SuperNOVA" 1 0 147 147 147 4 5 8 11 NA 0 0
-"Quickening" "SuperNOVA" 1 0 150 150 150 3 6 7 11 NA 0 0
-"rainbow flyer" "SuperNOVA" 1 0 148 148 148 3 4 6 11 NA 0 0
-"rainbow rainbow" "SuperNOVA" 1 0 177 177 177 4 4 7 10 NA 0 0
-"RED ZONE" "SuperNOVA" 1 0 165 165 165 4 6 8 12 NA 0 0
-"Saturday Night Love" "SuperNOVA" 1 0 128 128 128 3 4 6 8 NA 0 0
-"Scorching Moon" "SuperNOVA" 1 0 125 126 125 3 4 7 11 NA 0 0
-"SEDUCTION" "SuperNOVA" 1 0 95 190 0 4 6 9 12 NA 0 0
-"SEDUCTION(Vocal Remix)" "SuperNOVA" 1 0 190 190 190 3 6 9 12 NA 0 0
-"Ska Ska No.3" "SuperNOVA" 1 0 138 138 138 3 3 7 12 NA 0 0
-"Star Gate Heaven" "SuperNOVA" 1 0 145 145 145 3 3 7 10 NA 0 0
-"STARS (2nd NAOKI's style)" "SuperNOVA" 1 0 139 140 139 3 6 8 9 NA 0 0
-"THE SHINING POLARIS" "SuperNOVA" 1 0 146 147 147 4 4 6 9 NA 0 0
-"TIERRA BUENA" "SuperNOVA" 1 0 115 115 115 3 4 8 10 NA 0 0
-"Tino's White Horse" "SuperNOVA" 1 0 110 148 0 4 5 8 11 NA 0 0
-"TOMORROW" "SuperNOVA" 1 0 140 141 140 3 4 8 10 NA 0 0
-"Tomorrow Perfume" "SuperNOVA" 1 0 144 144 144 3 4 8 10 NA 0 0
-"TRUE LOVE" "SuperNOVA" 1 0 188 188 188 4 4 8 10 NA 0 0
-"Try 2 Luv. U" "SuperNOVA" 1 0 115 115 115 3 4 6 8 NA 0 0
-"un deux trois" "SuperNOVA" 1 0 70 140 0 3 4 8 10 NA 0 0
-"Under the Sky" "SuperNOVA" 1 0 170 171 170 2 2 5 11 NA 0 0
-"Xepher" "SuperNOVA" 1 1 170 171 170 4 7 10 13 15 0 0
-"You gotta move it (feat. Julie Rugaard)" "SuperNOVA" 1 0 134 134 134 4 5 8 10 NA 0 0
-"A thing called LOVE" "SuperNOVA2" 1 0 160 160 160 3 4 7 10 NA 0 0
-"AM-3P (CHAOS Special)" "SuperNOVA2" 0 1 130 130 130 NA NA NA NA 14 0 0
-"Arrabbiata" "SuperNOVA2" 1 0 225 225 225 5 11 13 15 NA 0 0
-"B4U (VOLTAGE Special)" "SuperNOVA2" 0 1 155 155 155 NA NA NA NA 14 0 0
-"Blind Justice ~Torn souls Hurt Faiths~" "SuperNOVA2" 1 0 137 165 0 3 5 8 12 NA 0 0
-"Bloody Tears (IIDX EDITION)" "SuperNOVA2" 1 0 170 171 170 4 5 6 11 NA 0 0
-"BRILLIANT 2U (STREAM Special)" "SuperNOVA2" 0 1 150 150 150 NA NA NA NA 13 0 0
-"CaptivAte~CHIKAI~" "SuperNOVA2" 1 0 160 160 160 4 5 8 13 NA 0 0
-"D2R (FREEZE Special)" "SuperNOVA2" 0 1 160 160 160 NA NA NA NA 12 0 0
-"DEAD END (GROOVE RADAR Special)" "SuperNOVA2" 0 1 95 380 0 NA NA NA NA 18 0 0
-"dream of love" "SuperNOVA2" 1 0 114 114 114 3 3 6 8 NA 0 0
-"DYNAMITE RAVE (AIR Special)" "SuperNOVA2" 0 1 150 150 150 NA NA NA NA 8 0 0
-"Electrified" "SuperNOVA2" 1 0 140 140 140 3 4 6 10 NA 0 0
-"Every Day, Every Night (NM STYLE)" "SuperNOVA2" 1 0 90 90 90 3 4 6 10 NA 0 0
-"Feelings Won't Fade(Extend Trance Mix)" "SuperNOVA2" 1 0 144 144 144 4 5 8 12 NA 0 0
-"FIRE" "SuperNOVA2" 1 0 184 185 184 4 5 8 11 NA 0 0
-"Flow (Jammin' Ragga Mix)" "SuperNOVA2" 1 0 70 140 0 4 5 8 13 NA 0 0
-"Fly away -mix del matador-" "SuperNOVA2" 1 0 130 130 130 3 5 9 13 NA 0 0
-"Freeway Shuffle" "SuperNOVA2" 1 1 145 145 145 3 4 8 10 12 0 0
-"GIRIGILI Burning 24H!" "SuperNOVA2" 1 0 148 150 148 4 5 7 12 NA 0 0
-"L'amour et la liberte(Darwin & DJ Silver remix)" "SuperNOVA2" 1 0 70 140 0 3 4 7 11 NA 0 0
-"MARS WAR 3" "SuperNOVA2" 1 0 200 200 200 3 4 8 11 NA 0 0
-"MOONSTER" "SuperNOVA2" 1 0 140 140 140 4 5 7 12 NA 0 0
-"Music In The Rhythm" "SuperNOVA2" 1 0 155 155 155 4 7 8 11 NA 0 0
-"NGO" "SuperNOVA2" 1 1 68 274 0 6 10 12 15 18 0 0
-"PARANOiA ~HADES~" "SuperNOVA2" 1 1 75 300 0 7 11 15 16 18 0 0
-"Pluto" "SuperNOVA2" 1 1 50 220 0 6 9 12 14 16 0 0
-"Pluto Relinquish" "SuperNOVA2" 1 1 100 800 0 5 12 14 17 18 0 0
-"Poseidon" "SuperNOVA2" 1 0 75 300 0 3 5 9 11 NA 0 0
-"Raspberry Heart (English version)" "SuperNOVA2" 1 1 160 160 160 3 5 6 9 11 0 0
-"Saturn" "SuperNOVA2" 1 0 78 155 0 3 7 9 13 NA 0 0
-"Shades of Grey" "SuperNOVA2" 1 0 170 171 170 3 5 8 10 NA 0 0
-"Silver Platform - I wanna get your heart -" "SuperNOVA2" 1 0 140 140 140 4 5 7 11 NA 0 0
-"SOUL CRASH" "SuperNOVA2" 1 0 142 142 142 3 6 9 13 NA 0 0
-"Star Gate Heaven (FUTURE LOVE Mix)" "SuperNOVA2" 1 0 147 148 147 4 5 9 12 NA 0 0
-"STARS (Re-tuned by HAL) - DDR EDITION -" "SuperNOVA2" 1 0 145 145 145 3 5 10 9 NA 0 0
-"stealth" "SuperNOVA2" 1 0 160 161 160 3 5 8 11 NA 0 0
-"SUNKiSS DROP~Alison Side~" "SuperNOVA2" 1 1 185 186 185 3 5 8 12 12 0 0
-"switch" "SuperNOVA2" 1 0 152 153 152 3 4 7 10 NA 0 0
-"Trim" "SuperNOVA2" 1 0 85 340 0 5 6 10 16 NA 0 0
-"TRIP MACHINE PhoeniX" "SuperNOVA2" 1 1 80 160 0 3 8 12 15 15 0 0
-"Trust -DanceDanceRevolution mix-" "SuperNOVA2" 1 0 164 164 164 3 5 8 10 NA 0 0
-"Unreal" "SuperNOVA2" 1 0 90 180 0 4 8 12 15 NA 0 0
-"Uranus" "SuperNOVA2" 1 1 81 162 0 3 6 9 11 13 0 0
-"Vem brincar" "SuperNOVA2" 1 0 135 135 135 2 5 7 11 NA 0 0
-"Venus" "SuperNOVA2" 1 1 195 196 195 3 4 7 11 13 0 0
-"volcano" "SuperNOVA2" 1 0 240 240 240 4 5 8 13 NA 0 0
-"Votum stellarum -forest #25 DDR RMX-" "SuperNOVA2" 1 0 140 140 140 1 4 9 12 NA 0 0
-"Why not" "SuperNOVA2" 1 0 175 176 175 4 6 9 11 NA 0 0
-"30 Lives (Up-Up-Down-Dance Mix)" "X" 1 0 144 144 144 2 4 7 8 NA 0 0
-"A Geisha's Dream" "X" 1 0 140 140 140 2 6 9 11 NA 0 0
-"AFRONOVA(X-Special)" "X" 0 1 200 200 200 NA NA NA NA 13 0 0
-"Beautiful Inside (Cube Hard Mix)" "X" 1 0 110 110 110 3 5 7 10 NA 0 0
-"Blue Rain" "X" 1 1 144 144 144 2 5 6 11 14 0 0
-"CANDY(X-Special)" "X" 0 1 192 193 192 NA NA NA NA 12 0 0
-"Chance and Dice" "X" 1 0 150 150 150 3 5 7 9 NA 0 0
-"Dance Celebration" "X" 1 1 130 130 130 2 5 8 11 12 0 0
-"Dance Celebration (System 7 Remix)" "X" 1 0 132 132 132 3 6 9 13 NA 0 0
-"Dance Dance Revolution(X-Special)" "X" 0 1 150 150 150 NA NA NA NA 13 0 0
-"Dance Floor" "X" 1 0 120 120 120 2 5 6 9 NA 0 0
-"dazzle" "X" 1 0 98 98 98 2 4 8 10 NA 0 0
-"Dream Machine" "X" 1 0 140 140 140 3 6 8 11 NA 0 0
-"Flight of the Phoenix" "X" 1 1 145 145 145 2 5 7 9 7 0 0
-"Flourish" "X" 1 0 152 153 152 3 5 8 10 NA 0 0
-"Healing Vision(X-Special)" "X" 0 1 49 196 0 NA NA NA NA 14 0 0
-"Horatio" "X" 1 1 165 165 165 2 4 9 15 15 0 0
-"Inspiration" "X" 1 0 147 148 147 3 5 7 8 NA 0 0
-"INTO YOUR HEART (Ruffage remix)" "X" 1 0 135 135 135 3 5 8 11 NA 0 0
-"KAKUMEI(X-Special)" "X" 0 1 83 148 0 NA NA NA NA 14 0 0
-"Lift You Up" "X" 1 0 123 123 123 3 4 6 10 NA 0 0
-"LOVING YOU (Epidemik remix)" "X" 1 0 165 165 165 3 6 8 11 NA 0 0
-"Malacca" "X" 1 1 140 140 140 3 4 7 10 13 0 0
-"MAX 300(X-Special)" "X" 0 1 64 300 0 NA NA NA NA 17 0 0
-"MAXX UNLIMITED(X-Special)" "X" 0 1 140 320 0 NA NA NA NA 18 0 0
-"on the bounce" "X" 1 1 150 150 150 3 7 11 14 16 0 0
-"On The Break" "X" 1 0 85 170 0 3 8 10 13 NA 0 0
-"PARANOiA ETERNAL(X-Special)" "X" 0 1 200 200 200 NA NA NA NA 13 0 0
-"PARANOiA EVOLUTION(X-Special)" "X" 0 1 200 200 200 NA NA NA NA 14 0 0
-"PARANOiA MAX~DIRTY MIX~(X-Special)" "X" 0 1 190 190 190 NA NA NA NA 13 0 0
-"PARANOiA Rebirth(X-Special)" "X" 0 1 190 190 190 NA NA NA NA 14 0 0
-"PARANOiA(X-Special)" "X" 0 1 180 180 180 NA NA NA NA 13 0 0
-"Party Lights" "X" 1 0 130 130 130 2 4 6 11 NA 0 0
-"Playa (Original Mix)" "X" 1 0 125 125 125 3 4 7 11 NA 0 0
-"puzzle" "X" 1 0 135 135 135 3 4 6 8 NA 0 0
-"Rin To Shite Saku Hana No Gotoku" "X" 1 0 163 164 163 3 6 8 10 NA 0 0
-"SABER WING" "X" 1 1 74 222 0 5 8 10 13 13 0 0
-"SABER WING (AKIRA ISHIHARA Headshot mix)" "X" 1 1 79 316 0 6 10 12 15 17 0 0
-"SAGA" "X" 1 0 200 244 0 4 7 10 13 NA 0 0
-"Slip Out" "X" 1 0 95 95 95 1 3 7 9 NA 0 0
-"Slip Out (bounce in beat mix)" "X" 1 0 106 106 106 2 4 6 10 NA 0 0
-"SP-TRIP MACHINE~JUNGLE MIX~(X-Special)" "X" 0 1 160 160 160 NA NA NA NA 11 0 0
-"SUPER SAMURAI" "X" 1 0 169 171 170 4 8 12 15 NA 0 0
-"Taj He Spitz" "X" 1 0 107 108 107 2 4 7 10 NA 0 0
-"Taj He Spitz (Tommie Sunshine's Brooklyn Fire Re-Touch)" "X" 1 0 120 120 120 3 5 8 12 NA 0 0
-"Take A Chance" "X" 1 0 88 88 88 2 3 6 9 NA 0 0
-"The flower in your smile" "X" 1 0 186 187 186 3 6 7 10 NA 0 0
-"The legend of MAX(X-Special)" "X" 0 1 83 333 0 NA NA NA NA 17 0 0
-"Ticket To Bombay" "X" 1 0 145 145 145 3 5 7 10 NA 0 0
-"Till the lonely's gone" "X" 1 0 130 130 130 3 4 8 9 NA 0 0
-"TimeHollow" "X" 1 0 94 94 94 2 4 7 9 NA 0 0
-"Tracers (4Beat Remix)" "X" 1 0 140 140 140 3 5 7 10 NA 0 0
-"Trigger" "X" 1 1 100 400 0 3 9 12 16 18 0 0
-"TRIP MACHINE CLIMAX(X-Special)" "X" 0 1 180 180 180 NA NA NA NA 14 0 0
-"TRIP MACHINE(X-Special)" "X" 0 1 160 160 160 NA NA NA NA 11 0 0
-"Ubertreffen" "X" 1 0 174 175 174 3 6 8 13 NA 0 0
-"Waiting 4 u" "X" 1 1 175 176 175 4 6 8 11 11 0 0
-"will" "X" 1 0 145 145 145 1 4 7 11 NA 0 0
-"ZERO" "X" 1 0 90 180 0 3 5 8 11 NA 0 0
-"888" "X2" 1 1 111 444 0 3 6 13 14 18 0 0
-"A Brighter Day" "X2" 1 1 155 155 155 2 5 7 9 12 0 0
-"aftershock!!" "X2" 1 0 157 157 157 3 5 9 13 NA 0 0
-"All My Love" "X2" 1 0 158 159 158 2 5 8 10 NA 0 0
-"Anti-Matter" "X2" 1 1 100 400 0 6 11 14 17 18 0 0
-"BALLAD THE FEATHERS" "X2" 1 1 132 132 132 1 4 7 10 8 0 0
-"CG Project" "X2" 1 0 200 200 200 3 5 9 12 NA 0 0
-"Crazy Control" "X2" 1 1 105 105 105 1 4 6 9 12 0 0
-"Dazzlin' Darlin" "X2" 1 0 149 149 149 2 6 9 11 NA 0 0
-"Dazzlin' Darlin -Akiba Koubou mix-" "X2" 1 0 160 160 160 3 5 8 11 NA 0 0
-"Decade" "X2" 1 0 148 148 148 2 5 8 11 NA 0 0
-"deltaMAX" "X2" 1 1 100 573 0 3 5 13 17 17 0 0
-"dirty digital" "X2" 1 1 140 140 140 1 4 7 11 13 0 0
-"DROP" "X2" 1 0 152 153 152 1 4 7 11 NA 0 0
-"Dummy" "X2" 1 0 175 176 175 2 4 7 10 NA 0 0
-"FIRE FIRE" "X2" 1 0 150 150 150 3 5 8 14 NA 0 0
-"Freeze" "X2" 1 1 140 140 140 2 5 8 12 13 0 0
-"going up" "X2" 1 1 212 213 212 3 7 10 12 11 0 0
-"GOLD RUSH" "X2" 1 0 162 162 162 2 5 8 12 NA 0 0
-"Gotta Dance" "X2" 1 0 145 145 145 2 3 6 10 NA 0 0
-"Heatstroke" "X2" 1 1 140 140 140 2 6 8 10 8 0 0
-"I'm so Happy" "X2" 1 1 181 182 181 3 6 8 12 16 0 0
-"in love wit you" "X2" 1 0 148 148 148 1 3 6 9 NA 0 0
-"KIMONO PRINCESS" "X2" 1 0 95 190 0 5 8 12 15 NA 0 0
-"KISS KISS KISS Akiba Koubou MIX" "X2" 1 0 160 160 160 2 5 8 12 NA 0 0
-"La libertad" "X2" 1 1 170 171 170 3 5 9 12 14 0 0
-"La receta" "X2" 1 1 130 130 130 3 4 7 11 13 0 0
-"Leaving" "X2" 1 1 145 145 145 2 5 8 11 13 0 0
-"Love Again" "X2" 1 0 57 70 0 2 4 6 8 NA 0 0
-"MAX LOVE" "X2" 1 1 180 180 180 3 6 8 11 13 0 0
-"Mei" "X2" 1 1 66 200 0 3 7 11 16 18 0 0
-"Melody Life" "X2" 1 1 172 172 172 2 5 7 10 11 0 0
-"New Decade" "X2" 1 1 100 400 0 4 11 14 17 18 0 0
-"oarfish" "X2" 1 0 140 140 140 1 2 8 11 NA 0 0
-"only my railgun" "Removed" 1 1 143 143 143 1 4 6 9 7 0 0
-"Pierce The Sky" "X2" 1 1 85 170 0 3 8 11 14 16 0 0
-"Pluto The First" "X2" 1 1 50 440 0 8 10 14 17 18 0 0
-"Poseidon (kors k mix)" "X2" 1 0 76 152 0 2 5 9 14 NA 0 0
-"POSSESSION" "X2" 1 1 185 370 0 7 10 14 17 18 0 0
-"real-high-SPEED" "X2" 1 0 131 131 131 2 4 6 8 NA 0 0
-"resonance" "X2" 1 0 165 165 165 2 4 8 11 NA 0 0
-"roppongi EVOLVED ver. A" "X2" 1 0 170 170 170 6 8 11 15 NA 0 0
-"roppongi EVOLVED ver. B" "X2" 1 0 85 170 0 6 8 11 15 NA 0 0
-"roppongi EVOLVED ver. C" "X2" 1 0 42 170 0 6 8 11 15 NA 0 0
-"roppongi EVOLVED ver. D" "X2" 1 0 85 680 0 6 8 11 15 NA 0 0
-"Sacred Oath" "X2" 1 1 170 171 170 2 4 7 11 12 0 0
-"sakura storm" "X2" 1 1 184 185 184 2 4 7 10 13 0 0
-"Sakura Sunrise" "X2" 1 1 181 181 181 3 7 10 14 16 0 0
-"Second Heaven" "X2" 1 1 149 149 149 2 5 9 11 14 0 0
-"She is my wife" "X2" 1 0 85 170 0 3 5 7 12 NA 0 0
-"Shine" "X2" 1 1 125 125 125 2 4 6 9 12 0 0
-"shining" "X2" 1 0 185 186 185 2 5 8 11 NA 0 0
-"Shiny World" "X2" 1 1 25 100 0 2 8 11 14 16 0 0
-"Sky Is The Limit" "X2" 1 0 150 150 150 2 5 9 12 NA 0 0
-"smooooch" "X2" 1 1 177 177 177 2 4 7 12 10 0 0
-"someday" "X2" 1 0 154 155 154 2 5 7 9 NA 0 0
-"Taking It To The Sky" "X2" 1 0 130 130 130 1 3 5 8 NA 0 0
-"Theory of Eternity" "X2" 1 1 160 160 160 3 6 9 12 10 0 0
-"THIS NIGHT" "X2" 1 0 160 161 160 2 5 8 11 NA 0 0
-"Valkyrie dimension" "X2" 1 1 47 744 0 9 13 15 18 19 0 0
-"VANESSA" "X2" 1 0 185 186 185 4 7 11 16 NA 0 0
-"WH1TE RO5E" "X2" 1 0 85 170 0 3 5 9 13 NA 0 0
-"What Will Come of Me" "X2" 1 0 140 140 140 2 4 6 13 NA 0 0
-"YELLOW CANDY" "X2" 1 0 94 188 0 2 6 9 14 NA 0 0
-"You are a Star" "X2" 1 1 155 155 155 2 4 8 12 13 0 0
-"Your Angel" "X2" 1 0 175 176 175 2 4 7 10 NA 0 0
-"ZETA ~The World of Prime Numbers and the Transcendental Being~" "X2" 1 1 90 180 0 3 6 11 15 17 0 0
-"Alstroemeria (walk with you remix)" "X3" 1 1 148 148 148 3 6 8 11 13 0 0
-"Amalgamation" "X3" 1 1 166 167 166 3 7 10 13 15 0 0
-"Beautiful Receipt" "X3" 1 0 196 197 196 4 8 10 13 NA 0 0
-"BRILLIANT 2U (AKBK MIX)" "X3" 1 0 162 162 162 3 7 11 15 NA 0 0
-"Chronos" "X3" 1 1 128 128 128 1 4 8 12 15 0 0
-"COME BACK TO MY HEART" "X3" 1 1 142 142 142 2 5 8 12 6 0 0
-"Cosmic Hurricane" "X3" 1 1 188 188 188 3 6 9 13 15 0 0
-"CRAZY LOVE" "X3" 1 1 87 177 0 3 6 12 15 18 0 0
-"Diamond Dust" "X3" 1 1 148 148 148 1 5 7 10 13 0 0
-"dreaming can make a wish come true" "X3" 1 0 143 143 143 2 4 7 11 NA 0 0
-"ever snow" "X3" 1 0 145 145 145 2 4 8 12 NA 0 0
-"Fever" "X3" 1 0 134 134 134 1 4 7 9 NA 0 0
-"Find You Again" "X3" 1 0 150 150 150 3 5 9 12 NA 0 0
-"FLOWER" "X3" 1 1 173 173 173 3 7 10 13 15 0 0
-"Get Back Up!" "X3" 1 0 155 155 155 2 7 9 12 NA 0 0
-"Go For The Top" "X3" 1 1 74 180 0 6 8 12 15 18 0 0
-"Haunted Rhapsody" "X3" 1 0 155 155 155 2 5 7 13 NA 0 0
-"HEART BEAT FORMULA" "X3" 1 0 230 231 230 4 7 10 13 NA 0 0
-"HEARTBREAK (Sound Selektaz remix)" "X3" 1 0 148 148 148 1 4 6 10 NA 0 0
-"I-O" "X3" 1 0 151 151 151 2 4 7 11 NA 0 0
-"In The Air" "X3" 1 0 140 140 140 4 6 9 11 NA 0 0
-"IN THE ZONE" "X3" 1 0 124 124 124 1 4 7 9 NA 0 0
-"KEEP ON MOVIN' (Y&Co. DJ BOSS remix)" "X3" 1 0 128 128 128 2 6 9 14 NA 0 0
-"Kouen" "X3" 1 1 175 176 175 3 6 9 12 15 0 0
-"Let's Get Away" "X3" 1 0 150 150 150 2 4 7 9 NA 0 0
-"London EVOLVED Ver.A" "X3" 1 1 43 340 0 5 8 11 14 17 0 0
-"London EVOLVED Ver.B" "X3" 1 1 170 420 0 5 8 11 14 17 0 0
-"London EVOLVED Ver.C" "X3" 1 1 170 340 0 5 8 11 14 17 0 0
-"LOVE IS THE POWER -Reborn-" "X3" 1 0 125 125 125 1 6 7 10 NA 0 0
-"MAGIC PARADE" "X3" 1 0 127 127 127 1 4 7 10 NA 0 0
-"Mermaid girl" "X3" 1 1 140 140 140 1 4 7 11 12 0 0
-"message" "X3" 1 0 152 153 152 1 5 7 11 NA 0 0
-"NEPHILIM DELTA" "X3" 1 0 220 221 220 4 8 12 14 NA 0 0
-"New Beginning" "X3" 1 1 148 148 148 3 5 9 11 12 0 0
-"New York EVOLVED (Type A)" "X3" 1 0 95 380 0 4 9 13 16 NA 0 0
-"New York EVOLVED (Type B)" "X3" 1 0 48 190 0 4 9 13 16 NA 0 0
-"New York EVOLVED (Type C)" "X3" 1 0 48 190 0 4 9 13 16 NA 0 0
-"osaka EVOLVED -MAIDO, OHKINI!- (TYPE1)" "X3" 1 0 50 300 0 9 11 13 15 NA 0 0
-"osaka EVOLVED -MAIDO, OHKINI!- (TYPE2)" "X3" 1 0 50 300 0 9 11 13 15 NA 0 0
-"osaka EVOLVED -MAIDO, OHKINI!- (TYPE3)" "X3" 1 0 50 300 0 9 11 13 15 NA 0 0
-"PARANOiA (kskst mix)" "X3" 1 0 190 190 190 4 9 13 17 NA 0 0
-"PARANOiA Revolution" "X3" 1 1 180 360 0 6 10 14 18 19 0 0
-"Private Eye" "X3" 1 0 160 160 160 2 4 8 12 NA 0 0
-"Programmed Universe" "X3" 1 1 37 147 0 2 5 9 12 16 0 0
-"PUT YOUR FAITH IN ME (DA's Twinkly Disco Remix)" "X3" 1 0 115 116 115 1 5 8 13 NA 0 0
-"REBORN MAGIC" "X3" 1 0 140 140 140 2 4 7 10 NA 0 0
-"Rensen Ryouran" "X3" 1 1 142 142 142 3 6 8 11 15 0 0
-"Rescue Me" "X3" 1 0 145 145 145 2 4 8 12 NA 0 0
-"Resurrection" "X3" 1 0 140 140 140 2 5 7 10 NA 0 0
-"REVOLUTIONARY ADDICT" "X3" 1 1 174 174 174 3 7 10 13 16 0 0
-"Rhythms Inside" "X3" 1 0 131 131 131 1 3 7 9 NA 0 0
-"Ryouran Hit Chart" "X3" 1 0 192 193 192 2 5 8 13 NA 0 0
-"Seasons" "X3" 1 0 168 168 168 2 5 8 12 NA 0 0
-"Seule" "X3" 1 0 125 125 125 2 6 10 12 NA 0 0
-"Share The Love" "X3" 1 0 158 159 158 2 4 8 12 NA 0 0
-"Shizuku" "X3" 1 0 210 211 210 2 5 9 12 NA 0 0
-"SigSig" "X3" 1 1 179 179 179 3 6 9 12 10 0 0
-"SILVER DREAM" "X3" 1 0 96 193 0 4 8 11 15 NA 0 0
-"snow prism" "X3" 1 1 196 197 196 3 6 9 12 16 0 0
-"Something Special" "X3" 1 0 95 95 95 2 4 7 11 NA 0 0
-"SUMIDAGAWA KARENKA" "X3" 1 1 180 180 180 2 5 10 12 16 0 0
-"Take A Step Forward" "X3" 1 1 145 145 145 2 7 9 11 15 0 0
-"Tenjou no Hoshi -Reimeiki-" "X3" 1 0 85 170 0 2 5 8 12 NA 0 0
-"The Heavens Above" "X3" 1 0 140 140 140 3 7 9 11 NA 0 0
-"TIME" "X3" 1 0 115 115 115 1 5 7 9 NA 0 0
-"Tohoku EVOLVED" "X3" 1 1 42 1021 0 6 10 14 17 18 0 0
-"tokyoEVOLVED (TYPE1)" "X3" 1 0 70 280 0 6 9 13 16 NA 0 0
-"tokyoEVOLVED (TYPE2)" "X3" 1 0 70 280 0 6 9 13 16 NA 0 0
-"tokyoEVOLVED (TYPE3)" "X3" 1 0 70 280 0 6 9 13 16 NA 0 0
-"Tribe" "X3" 1 1 139 139 139 2 5 7 10 13 0 0
-"TRIP MACHINE (xac nanoglide mix)" "X3" 1 0 170 171 170 4 8 12 16 NA 0 0
-"TRIP MACHINE EVOLUTION" "X3" 1 1 95 380 0 4 9 12 16 18 0 0
-"TWINKLE HEART" "X3" 1 1 185 186 185 1 4 7 11 10 0 0
-"UNBELIEVABLE (Sparky remix)" "X3" 1 1 88 175 0 4 7 11 15 18 0 0
-"Until the End" "X3" 1 0 172 172 172 3 4 9 12 NA 0 0
-"Wicked Plastik" "X3" 1 0 145 145 145 3 4 8 13 NA 0 0
-"Wings of an Angel (Fly With Me)" "X3" 1 0 175 175 175 2 4 8 12 NA 0 0
-"ACROSS WORLD" "2013" 1 1 185 186 185 2 4 8 12 14 0 0
-"Ah La La La" "2013" 1 0 130 130 130 1 5 7 12 NA 0 0
-"Air Heroes" "2013" 1 1 175 176 175 3 9 11 15 18 0 0
-"Another Phase" "2013" 1 1 160 160 160 4 7 11 15 16 0 0
-"Back In Your Arms" "2013" 1 0 132 132 132 2 5 8 10 NA 0 0
-"Beautiful Dream" "2013" 1 1 182 183 182 3 7 9 12 15 0 0
-"Blew My Mind" "2013" 1 1 95 380 0 4 9 12 16 18 0 0
-"Bombay Bomb" "2013" 1 0 145 145 145 2 6 10 12 NA 0 0
-"Chikuwa parfait da yo CKP" "2013" 1 1 205 205 205 4 7 9 12 14 0 0
-"Children of the Beat" "2013" 1 1 160 160 160 3 7 9 11 12 0 0
-"Chinese Snowy Dance" "2013" 1 0 175 176 175 4 7 12 16 NA 0 0
-"Colorful Pastel" "2013" 1 0 186 186 186 2 6 9 12 NA 0 0
-"Condor" "2013" 1 1 142 142 142 2 6 9 13 15 0 0
-"Confession" "2013" 1 1 150 150 150 2 4 7 12 14 0 0
-"Desert Journey" "2013" 1 1 140 140 140 3 5 8 12 15 0 0
-"Diamond Night" "2013" 1 1 135 135 135 3 5 8 12 14 0 0
-"Elemental Creation" "2013" 1 1 106 424 0 8 11 14 17 18 0 0
-"Empathetic" "2013" 1 0 180 180 180 4 7 11 14 NA 0 0
-"escape" "2013" 1 1 140 140 140 3 5 8 10 13 0 0
-"Everything I Need" "2013" 1 0 50 100 0 1 4 6 9 NA 0 0
-"Find The Way" "2013" 1 0 165 165 165 3 7 10 12 NA 0 0
-"GAIA" "2013" 1 0 90 180 0 3 10 13 16 NA 0 0
-"heron" "2013" 1 1 182 183 182 3 6 9 12 13 0 0
-"Hoping To Be Good" "2013" 1 0 120 120 120 2 5 7 12 NA 0 0
-"JOKER" "2013" 1 1 160 160 160 2 4 8 11 14 0 0
-"Kiken na kajitsu" "2013" 1 0 174 175 174 2 6 9 13 NA 0 0
-"Lucky Lucky" "2013" 1 0 165 165 165 2 7 10 13 NA 0 0
-"Magnetic" "2013" 1 1 40 160 0 3 7 11 15 17 0 0
-"Meumeupettantan!!" "2013" 1 1 184 185 185 3 6 9 12 16 0 0
-"Monkey Business" "2013" 1 1 80 160 0 3 6 9 13 16 0 0
-"Nagisa no koakuma lovely~radio" "2013" 1 1 190 190 190 2 6 11 16 9 0 0
-"New Generation" "2013" 1 1 190 190 190 4 7 10 14 17 0 0
-"New Gravity" "2013" 1 1 154 155 154 3 6 9 12 14 0 0
-"nightbird lost wing" "2013" 1 0 190 190 190 3 7 10 14 NA 0 0
-"Nijiiro no hana" "2013" 1 0 170 171 170 3 5 8 11 NA 0 0
-"Okome no oishii takikata, soshite okome wo taberu koto ni yoru sono kouka" "2013" 1 0 190 190 190 4 8 12 16 NA 0 0
-"PRANA" "2013" 1 1 188 188 188 4 8 11 14 16 0 0
-"printemps" "2013" 1 0 168 168 168 3 6 10 13 NA 0 0
-"Qipchaq" "2013" 1 0 150 150 150 3 5 8 12 NA 0 0
-"REVOLUTION" "2013" 1 1 202 202 202 3 7 11 14 17 0 0
-"Right on time (Ryu Remix)" "2013" 1 1 149 149 149 2 6 9 14 13 0 0
-"Rin to shite saku hana no gotoku ~HinaBitter edition~" "2013" 1 0 163 163 163 3 5 8 11 NA 0 0
-"Seiten Bon Voyage" "2013" 1 0 230 231 230 4 7 9 12 NA 0 0
-"sola" "2013" 1 0 135 135 135 2 5 9 12 NA 0 0
-"Somehow You Found Me" "2013" 1 1 180 180 180 3 6 10 13 16 0 0
-"Sousei Note" "2013" 1 0 200 200 200 2 8 10 13 NA 0 0
-"south" "2013" 1 1 140 140 140 2 5 8 10 10 0 0
-"Spanish Snowy Dance" "2013" 1 1 180 180 180 3 7 11 15 17 0 0
-"Starry HEAVEN" "2013" 1 1 190 190 190 2 5 8 10 13 0 0
-"Straight Oath" "2013" 1 1 182 182 182 3 8 11 13 15 0 0
-"STULTI" "2013" 1 0 90 182 0 4 9 12 15 NA 0 0
-"Sucka Luva" "2013" 1 0 118 118 118 1 4 7 11 NA 0 0
-"Summer Fairytale" "2013" 1 1 141 141 141 2 5 7 9 14 0 0
-"Sweet Rain" "2013" 1 0 155 155 155 3 6 9 12 NA 0 0
-"Synergy For Angels" "2013" 1 0 160 160 160 3 7 10 14 NA 0 0
-"Tell me what to do" "2013" 1 1 145 145 145 2 5 9 12 14 0 0
-"The Island Song" "2013" 1 1 85 85 85 1 3 7 9 13 0 0
-"THE REASON" "2013" 1 1 85 98 0 1 4 7 12 15 0 0
-"The Wind of Gold" "2013" 1 0 170 171 170 3 6 10 14 NA 0 0
-"Top The Charts" "2013" 1 1 160 160 160 3 5 8 12 14 0 0
-"Triple Journey -TAG EDITION-" "2013" 1 1 96 192 192 4 8 12 16 18 0 0
-"Who Floats" "2013" 1 0 180 180 180 3 6 9 12 NA 0 0
-"WILD SIDE" "2013" 1 1 165 165 165 3 6 9 11 13 0 0
-"Windy Fairy" "2013" 1 0 180 180 180 2 7 11 15 NA 0 0
-"Wow Wow VENUS" "2013" 1 1 157 157 157 2 4 8 11 16 0 0
-"You" "2013" 1 0 72 72 72 1 3 6 10 NA 0 0
-"Zutto Mitsu Meteite (Ryu Remix)" "2013" 1 1 160 160 160 1 7 9 12 15 0 0
-"8000000" "2014" 1 0 100 200 0 4 7 10 14 NA 0 0
-"Adularia" "2014" 1 0 180 180 180 3 6 10 14 NA 0 0
-"AETHER" "2014" 1 0 192 384 0 6 9 14 17 NA 0 0
-"Asa-iro no kami hikouki" "2014" 1 0 132 132 132 2 5 9 13 NA 0 0
-"Awa odori -Awaodori- yappari odori wa yame rarenai" "2014" 1 0 120 260 0 5 9 12 14 NA 0 0
-"AWAKE" "2014" 1 1 180 180 180 3 5 10 13 16 0 0
-"Ayakashi kakushi" "2014" 1 0 85 85 85 4 7 11 14 NA 0 0
-"Bakunana Testroyer" "2014" 1 0 200 200 200 4 7 11 13 NA 0 0
-"Bamboo Sword Girl" "2014" 1 1 208 208 208 2 7 11 15 18 0 0
-"BeBeatStream" "2014" 1 0 184 184 184 4 6 10 13 NA 0 0
-"chaos eater" "2014" 1 0 105 210 0 6 8 12 16 NA 0 0
-"Chewin' Bunny" "2014" 1 1 180 180 180 3 6 8 10 13 0 0
-"Chihou sousei chikuwactics" "2014" 1 0 170 170 170 2 6 10 13 NA 0 0
-"Chocolate Smile" "2014" 1 0 196 196 196 3 6 9 12 NA 0 0
-"Cleopatrysm" "2014" 1 0 190 190 190 4 7 11 15 NA 0 0
-"Crimson Gate" "2014" 1 0 198 198 198 3 7 10 13 NA 0 0
-"Daily Lunch Special" "2014" 1 0 205 205 205 3 7 10 14 NA 0 0
-"Dance Partay" "2014" 1 1 135 135 135 2 5 7 11 13 0 0
-"Deadball de homerun" "2014" 1 0 145 145 145 3 6 9 13 NA 0 0
-"Destination" "2014" 1 0 85 170 0 4 9 12 15 NA 0 0
-"Din Don Dan" "2014" 1 1 140 140 140 2 5 7 10 12 0 0
-"Dispersion Star" "2014" 1 0 180 180 180 3 5 9 13 NA 0 0
-"Do The Evolution" "2014" 1 0 148 148 148 1 4 7 10 NA 0 0
-"Dokidoki ryuusei trap girl!!" "2014" 1 0 140 140 140 3 6 9 14 NA 0 0
-"Dopamine" "2014" 1 0 100 400 0 7 10 13 17 NA 0 0
-"Dreamin'" "2014" 1 1 128 128 128 2 4 6 9 12 0 0
-"EGOISM 440" "2014" 1 1 55 880 0 9 10 13 18 19 0 0
-"Electronic or Treat!" "2014" 1 0 142 190 0 3 7 12 15 NA 0 0
-"Elysium" "2014" 1 1 145 145 145 1 5 8 11 13 0 0
-"Endorphin" "2014" 1 0 160 160 160 4 8 12 15 NA 0 0
-"Engraved Mark" "2014" 1 0 188 188 188 3 8 12 15 NA 0 0
-"esreveR" "2014" 1 0 155 155 155 2 5 9 13 NA 0 0
-"Follow Tomorrow" "2014" 1 1 140 140 140 2 5 8 11 14 0 0
-"FUJIMORI -Matsuri- FESTIVAL" "2014" 1 0 158 158 158 3 5 9 12 NA 0 0
-"FUNKY SUMMER BEACH" "2014" 1 1 88 175 0 3 6 10 14 17 0 0
-"Gekiatsu majiyaba cheer girl" "2014" 1 0 170 170 170 3 6 9 13 NA 0 0
-"Gensoukei sekai shuufuku shoujo" "2014" 1 0 193 193 193 3 6 9 12 NA 0 0
-"Go Go Girls&Boys!" "2014" 1 0 158 158 158 3 5 8 11 NA 0 0
-"Habibe(Antuh muhleke)" "2014" 1 0 144 144 144 3 5 10 13 NA 0 0
-"Hanamaru pippi wa yoiko dake" "2014" 1 0 172 172 172 4 7 10 12 NA 0 0
-"HAPPY LUCKY YEAPPY" "2014" 1 1 190 380 0 6 10 13 16 17 0 0
-"HEART BEAT FORMULA (Vinyl Mix)" "2014" 1 0 115 115 115 4 8 11 13 NA 0 0
-"Home neko sensation" "2014" 1 0 200 200 200 4 6 10 13 NA 0 0
-"Hoshikuzu no kiroku" "2014" 1 0 182 182 182 3 6 9 11 NA 0 0
-"HYENA" "2014" 1 0 89 178 0 3 6 10 14 NA 0 0
-"Idola" "2014" 1 1 201 201 201 3 8 12 16 17 0 0
-"IMANOGUILTS" "2014" 1 1 184 184 184 4 8 11 14 15 0 0
-"In The Breeze" "2014" 1 0 142 142 142 3 5 9 11 NA 0 0
-"IX" "2014" 1 1 99 396 0 5 11 14 17 18 0 0
-"JOMANDA" "2014" 1 1 90 270 0 4 8 12 15 17 0 0
-"KHAMEN BREAK" "2014" 1 0 90 180 0 3 7 11 16 NA 0 0
-"Koi hadou Moro Hadou OK Houteishiki!!" "2014" 1 0 128 256 0 4 7 11 14 NA 0 0
-"LoveLove DokiDoki" "2014" 1 0 160 160 160 2 6 10 12 NA 0 0
-"Luckgakist" "2014" 1 1 199 199 199 4 7 10 13 16 0 0
-"M.A.Y.U" "2014" 1 0 128 128 128 2 6 8 13 NA 0 0
-"Maware! Setsugetsuka" "Removed" 1 1 160 160 160 2 5 8 11 13 0 0
-"MAX.(period)" "2014" 1 1 150 600 0 5 12 14 16 18 0 0
-"Metsubou tenshi nikokyuppin" "2014" 1 0 200 200 200 4 6 9 12 NA 0 0
-"Mind Game" "2014" 1 0 180 180 180 3 7 10 14 NA 0 0
-"Mirai prism" "2014" 1 0 140 140 140 2 4 7 10 NA 0 0
-"MITOrete! Ibarakisshuda~rin" "2014" 1 0 173 173 173 2 6 9 13 NA 0 0
-"Nageki no ki" "2014" 1 1 160 160 160 4 8 12 16 18 0 0
-"neko neko" "2014" 1 1 123 123 123 2 5 9 11 14 0 0
-"Nostalgia Is Lost" "2014" 1 0 172 172 172 3 7 11 15 NA 0 0
-"One Sided Love" "2014" 1 1 140 140 140 2 5 8 10 12 0 0
-"Onna kotoba no shoushitsu" "2014" 1 0 136 136 136 3 6 9 13 NA 0 0
-"Osenju meditation" "2014" 1 0 150 190 0 4 8 12 15 NA 0 0
-"Otome no shinkocchou" "2014" 1 0 180 180 180 3 6 9 12 NA 0 0
-"Otome ryouran mai sakihokore" "2014" 1 0 210 210 210 4 7 10 13 NA 0 0
-"Over The Period" "2014" 1 1 22 840 0 8 12 15 18 19 0 0
-"Pa pi pu Yeah!" "2014" 1 0 160 160 160 3 5 10 13 NA 0 0
-"Party Lights (Tommie Sunshine's Brooklyn Fire Remix)" "2014" 1 0 130 130 130 2 5 8 11 NA 0 0
-"Plan 8" "2014" 1 1 212 212 212 4 8 11 14 18 0 0
-"POSSESSION(EDP Live Mix)" "2014" 1 0 185 185 185 3 9 12 16 NA 0 0
-"PRANA+REVOLUTIONARY ADDICT (U1 DJ Mix)" "2014" 1 0 190 190 190 5 9 13 17 NA 0 0
-"PUNISHER" "2014" 1 0 180 180 180 3 6 11 14 NA 0 0
-"Remain" "2014" 1 0 75 300 0 5 9 12 15 NA 0 0
-"Romancing Layer" "2014" 1 0 150 150 150 2 6 11 14 NA 0 0
-"SABER WING (satellite silhouette remix)" "2014" 1 1 138 138 138 2 4 9 12 15 0 0
-"Sakura Mirage" "2014" 1 0 187 187 187 4 7 11 14 NA 0 0
-"Samurai Shogun vs. Master Ninja" "2014" 1 0 260 260 260 3 7 12 14 NA 0 0
-"Sand Blow" "2014" 1 0 83 165 0 3 7 12 15 NA 0 0
-"Scarlet Moon" "2014" 1 0 180 180 180 2 5 9 12 NA 0 0
-"second spring storm" "2014" 1 0 131 131 131 2 6 9 14 NA 0 0
-"Setsuna Trip" "2014" 1 0 145 145 145 1 4 10 14 NA 0 0
-"Shakunetsu Beach Side Bunny" "2014" 1 0 153 153 153 3 7 11 15 18 0 0
-"Shikkoku no special princess sundae" "2014" 1 0 200 200 200 4 8 11 13 NA 0 0
-"SPECIAL SUMMER CAMPAIGN!" "2014" 1 0 168 168 168 2 7 11 15 NA 0 0
-"Squeeze" "2014" 1 0 86 173 0 4 6 9 15 NA 0 0
-"Starlight Fantasia" "2014" 1 0 148 148 148 3 7 11 14 NA 0 0
-"Starlight Fantasia (Endorphins Mix)" "2014" 1 0 77 155 0 3 8 12 15 NA 0 0
-"starmine" "2014" 1 1 182 182 182 3 7 11 15 17 0 0
-"Stella Sinistra" "2014" 1 0 110 180 0 4 8 12 15 NA 0 0
-"Struggle" "2014" 1 0 180 180 180 4 6 10 13 NA 0 0
-"SUMMER DIARY -DDR mix-" "2014" 1 0 160 160 160 3 7 10 14 NA 0 0
-"Summer fantasy (Darwin remix)" "2014" 1 1 178 178 178 2 7 10 13 11 0 0
-"SUPER HERO" "2014" 1 0 180 180 180 4 6 9 12 NA 0 0
-"Tenkuu no hana" "2014" 1 0 90 180 0 4 7 12 15 NA 0 0
-"Thank You Merry Christmas" "2014" 1 1 220 220 220 3 5 9 12 16 0 0
-"The Lonely Streets" "2014" 1 1 115 115 115 2 4 7 11 12 0 0
-"Todoroke! Koi no beanball!!" "2014" 1 0 180 180 180 3 7 11 16 NA 0 0
-"Totsugeki! Glass no kneeso hime!" "2014" 1 0 185 185 185 4 7 11 14 NA 0 0
-"Truare!" "2014" 1 0 183 183 183 3 8 11 16 NA 0 0
-"True Blue" "2014" 1 0 164 164 164 3 7 11 16 NA 0 0
-"TSUBASA" "2014" 1 0 151 151 151 2 6 10 13 NA 0 0
-"VEGA" "2014" 1 0 191 191 191 3 7 11 14 NA 0 0
-"Wadatsumi" "2014" 1 1 159 159 159 3 8 12 16 18 0 0
-"Yakyuu no asobikata soshite sono rekishi ~ketteiban~" "2014" 1 0 141 141 141 3 6 9 14 NA 0 0
-"Yamato nadenade Kaguya-hime" "2014" 1 1 160 160 160 2 6 8 11 14 0 0
-"39" "Removed" 1 0 175 175 175 4 6 8 12 NA 0 0
-"ACE FOR ACES" "A" 1 1 100 400 0 4 7 13 15 18 0 0
-"Ai kotoba" "Removed" 1 0 137 137 137 3 5 7 11 NA 0 0
-"ALGORITHM" "A" 1 1 130 130 130 5 7 11 13 15 0 0
-"Alien Alien" "A" 1 0 152 152 152 2 5 9 12 NA 0 0
-"ALL MY HEART -kono koi ni, watashi no subete wo kakeru-" "A" 1 0 160 160 160 3 5 9 13 NA 0 0
-"Ama no jyaku" "A" 1 0 197 205 0 3 6 10 13 NA 0 0
-"Angelic Jelly" "A" 1 0 100 200 0 4 6 11 13 NA 0 0
-"ANNIVERSARY" "A" 1 0 180 180 180 4 7 12 16 NA 0 0
-"Arifureta sekai seifuku" "Removed" 1 0 150 150 150 3 7 10 14 NA 0 0
-"Astrogazer" "A" 1 1 154 154 154 3 7 12 15 18 0 0
-"Bad Apple!! feat. nomico" "A" 1 0 138 138 138 3 5 8 12 NA 0 0
-"bass 2 bass" "A" 1 0 140 140 140 2 5 9 12 NA 0 0
-"Bassdrop freaks" "A" 1 0 179 179 179 3 7 10 13 NA 0 0
-"Be a Hero!" "A" 1 0 190 190 190 7 9 13 17 NA 0 0
-"Believe" "Removed" 1 0 128 128 128 2 4 9 11 NA 0 0
-"Boss Rush" "A" 1 0 95 190 0 4 10 14 16 NA 0 0
-"Break Free" "Removed" 1 0 130 130 130 3 6 9 11 NA 0 0
-"Buraikku jikorizer" "A" 1 1 150 150 150 1 4 8 13 15 0 0
-"Catch Our Fire!" "A" 1 0 190 192 190 5 10 13 17 NA 0 0
-"CHAOS Terror-Tech Mix" "A" 1 1 165 165 165 5 8 12 15 17 0 0
-"CHOCOLATE PHILOSOPHY" "A" 1 1 110 110 110 2 4 8 9 12 0 0
-"Chronos (walk with you remix)" "A" 1 0 74 148 0 3 7 10 14 NA 0 0
-"Cirno's Perfect Math Class" "A" 1 1 175 176 175 3 6 10 13 15 0 0
-"Cirno's Perfect Math Class (EDM REMIX)" "A" 1 0 130 175 0 1 4 10 13 NA 0 0
-"Come to Life" "A" 1 1 90 180 0 4 8 12 16 18 0 0
-"Cosy Catastrophe" "A" 1 1 90 360 0 6 9 13 16 18 0 0
-"Cytokinesis" "A" 1 0 111 282 0 4 8 10 14 NA 0 0
-"Dadadadadadadadadada" "A" 1 1 156 156 156 2 5 11 13 16 0 0
-"DANCE ALL NIGHT (DDR EDITION)" "A" 1 0 144 144 144 1 5 8 10 NA 0 0
-"Dancer in the flare" "A" 1 0 132 132 132 3 6 10 13 NA 0 0
-"DDR MEGAMIX" "A" 1 1 65 332 0 6 8 13 15 16 0 0
-"Determination" "A" 1 0 230 230 230 2 5 8 14 NA 0 0
-"DREAMING-ING!!" "A" 1 0 180 180 180 3 6 10 12 NA 0 0
-"EDM jumpers" "A" 1 0 72 145 0 3 5 8 12 NA 0 0
-"Electric Dance System Music" "A" 1 0 140 140 140 2 5 10 14 NA 0 0
-"Emera" "A" 1 1 161 161 161 3 6 11 15 17 0 0
-"ENDYMION" "A" 1 1 110 880 0 9 13 15 18 19 0 0
-"Eternal Summer" "A" 1 0 145 145 145 2 6 9 13 NA 0 0
-"Exciting!! Mo-cha-cha" "A" 1 0 187 187 187 4 8 11 13 NA 0 0
-"Far east nightbird" "A" 1 0 180 180 180 4 6 10 12 NA 0 0
-"Far east nightbird kors k Remix -DDR edit ver-" "A" 1 0 175 175 175 3 7 11 13 NA 0 0
-"First Time" "A" 1 1 70 560 0 4 7 11 15 18 0 0
-"Fly far bounce" "A" 1 0 98 173 0 3 6 10 13 NA 0 0
-"Fuurin hanabi" "A" 1 0 150 150 150 2 5 8 10 NA 0 0
-"Grand Chariot" "A" 1 0 191 191 191 3 7 11 13 NA 0 0
-"Grip & Break down !!" "A" 1 1 160 160 160 3 6 9 12 16 0 0
-"Ha-lle-lu-jah" "A" 1 0 150 150 150 1 5 9 12 NA 0 0
-"HANDS UP IN THE AIR" "A" 1 0 128 128 128 1 5 9 13 NA 0 0
-"Happy" "Removed" 1 0 160 160 160 3 5 9 12 NA 0 0
-"Happy koi lovely time!!" "A" 1 0 139 139 139 2 5 8 11 NA 0 0
-"Happy synthesizer" "A" 1 0 127 127 127 2 5 9 13 NA 0 0
-"Haru ichiban" "A" 1 0 180 180 180 4 6 7 11 NA 0 0
-"Hatsune Miku no shoushitsu" "A" 1 1 240 240 240 3 8 10 13 15 0 0
-"Hello, planet" "Removed" 1 0 150 150 150 3 7 9 13 NA 0 0
-"Help me, ERINNNNNN!!" "A" 1 0 183 183 183 4 5 9 12 NA 0 0
-"High School Love" "A" 1 0 180 180 180 3 6 10 13 NA 0 0
-"Hillbilly Shoes" "Removed" 1 0 112 121 116 3 5 8 13 NA 0 0
-"Himawari sunset" "A" 1 0 135 135 135 3 5 10 13 NA 0 0
-"Hopeful" "A" 1 1 146 146 146 2 5 10 13 15 0 0
-"Houkago stride" "Removed" 1 0 225 227 225 3 5 10 15 NA 0 0
-"I Want You To Know" "Removed" 1 0 127 136 130 1 3 8 11 NA 0 0
-"Illegal Function Call" "A" 1 0 130 260 0 4 10 13 16 NA 0 0
-"IN BETWEEN" "A" 1 0 160 160 160 4 7 12 15 NA 0 0
-"invisible rain" "A" 1 0 58 97 0 2 4 7 11 NA 0 0
-"Iro wa nio e do chirinuru wo" "A" 1 0 138 138 138 3 5 8 11 NA 0 0
-"Ishtar" "A" 1 1 156 156 156 3 5 11 14 16 0 0
-"Jewelry days" "A" 1 0 179 179 179 3 6 9 12 NA 0 0
-"Juuniseiza no seiiki" "A" 1 0 164 164 164 3 6 10 13 NA 0 0
-"Koi no puzzle magic" "A" 1 0 140 140 140 3 6 9 11 NA 0 0
-"Koishigure" "A" 1 0 185 185 185 3 7 9 12 NA 0 0
-"Koisuru uchuu sensou!!" "A" 1 1 200 200 200 4 7 12 14 17 0 0
-"Kono aozora no shita de" "A" 1 0 165 165 165 3 6 9 11 NA 0 0
-"Kunshi ayauku mo chikou yore" "A" 1 0 162 162 162 3 6 10 12 NA 0 0
-"Kuranogawa ondo" "A" 1 0 113 113 113 2 5 7 11 NA 0 0
-"Kurokami midareshi shura to narite ~Rin edition~" "A" 1 0 150 150 150 3 6 10 14 NA 0 0
-"Kyun kyun bakkyun LOVE" "A" 1 0 165 165 165 3 5 8 11 NA 0 0
-"Life is beautiful" "A" 1 0 155 155 155 5 8 12 16 NA 0 0
-"Lost one no goukoku" "A" 1 1 162 162 162 3 6 10 12 15 0 0
-"Love Shine wonderful mix" "A" 1 1 177 177 177 3 5 8 11 14 0 0
-"Love You More" "A" 1 0 175 175 175 3 9 12 16 NA 0 0
-"Luminous days" "A" 1 0 145 145 145 2 5 8 12 NA 0 0
-"Mahou no tamago ~Cocona ELECTRO POP edition~" "A" 1 0 141 142 141 3 4 8 11 NA 0 0
-"MAKE A JAM!" "A" 1 0 124 124 124 2 5 7 9 NA 0 0
-"Marisa wa taihen na mono wo nusunde ikimashita" "A" 1 0 170 170 170 3 6 9 12 NA 0 0
-"MAX 360" "A" 1 1 180 720 0 9 12 15 18 19 0 0
-"More One Night" "Removed" 1 1 123 123 123 3 5 8 10 12 0 0
-"Mousou zei" "Removed" 1 0 134 134 134 2 5 9 11 NA 0 0
-"Neutrino" "A" 1 1 75 300 0 6 9 12 16 18 0 0
-"New Century" "A" 1 1 98 195 0 4 9 14 17 18 0 0
-"Night of knights" "A" 1 1 180 180 180 1 7 11 15 16 0 0
-"Nou shou sakuretsu girl" "Removed" 1 1 155 157 155 3 6 10 12 14 0 0
-"Oboro" "A" 1 1 149 149 149 3 6 8 11 13 0 0
-"Oboro (dj TAKA Remix)" "A" 1 1 149 149 149 3 5 8 12 16 0 0
-"Onegai darling" "A" 1 0 180 180 180 1 3 8 11 NA 0 0
-"OurMemories" "A" 1 1 140 140 140 3 6 9 12 11 0 0
-"out of focus" "A" 1 1 84 167 0 3 6 12 15 16 0 0
-"Plain Asia -PHQ remix-" "A" 1 0 182 182 182 5 7 10 13 NA 0 0
-"Poochie" "A" 1 0 110 220 0 5 8 12 16 NA 0 0
-"POSSESSION (20th Anniversary Mix)" "A" 1 1 190 380 0 8 11 14 16 18 0 0
-"Prey" "A" 1 1 210 210 210 5 11 15 18 18 0 0
-"Puberty Dysthymia" "A" 1 0 67 210 0 4 8 13 17 NA 0 0
-"Pursuer" "A" 1 0 75 300 0 3 7 14 17 NA 0 0
-"Reach The Sky, Without you" "A" 1 0 48 190 0 7 10 14 17 NA 0 0
-"Rejoin" "A" 1 0 135 135 135 2 6 10 13 NA 0 0
-"Renaikansoku" "A" 1 1 188 188 188 3 7 10 12 15 0 0
-"Rinnetensei" "Removed" 1 1 196 196 196 3 7 11 13 16 0 0
-"RISING FIRE HAWK" "A" 1 1 157 157 157 3 6 11 15 17 0 0
-"Rokuchounen to ichiya monogatari" "Removed" 1 1 186 186 186 4 5 9 12 16 0 0
-"Role-playing game" "A" 1 0 162 162 162 2 5 10 14 NA 0 0
-"Ronron e rairairai!" "A" 1 0 156 156 156 3 6 10 12 NA 0 0
-"Roshin yuukai" "A" 1 0 165 165 165 2 6 10 12 NA 0 0
-"S!ck" "A" 1 0 88 177 0 5 8 12 16 NA 0 0
-"Sakura Reflection" "A" 1 0 181 181 181 4 8 10 15 NA 0 0
-"Sayonara trip ~Natsuhi EDM edition~" "A" 1 0 135 135 135 3 4 9 12 NA 0 0
-"Schrodinger no neko" "A" 1 1 187 187 187 6 9 12 15 18 0 0
-"Seiza ga koishita shunkan wo" "A" 1 0 186 186 186 2 7 9 12 NA 0 0
-"Sennen no kotowari" "A" 1 0 153 153 153 3 6 9 12 NA 0 0
-"Sephirot" "A" 1 0 154 154 154 3 6 10 12 NA 0 0
-"Shakariki relation" "A" 1 0 167 167 167 3 6 9 11 NA 0 0
-"Shiawase ni nareru kakushi command ga arurashii" "A" 1 0 142 142 142 2 6 10 13 NA 0 0
-"SHION" "A" 1 0 177 179 177 4 7 10 13 NA 0 0
-"Show me your moves" "A" 1 1 155 155 155 3 5 8 11 14 0 0
-"Shunpuu blowing wind" "A" 1 0 80 160 0 2 6 10 15 NA 0 0
-"Shut Up and Dance" "Removed" 1 0 128 128 128 2 5 8 11 NA 0 0
-"siberite" "A" 1 0 128 128 128 2 5 10 13 NA 0 0
-"SLoWMoTIoN" "Removed" 1 0 160 160 160 3 5 9 12 NA 0 0
-"Smiling Passion" "A" 1 0 187 187 187 2 7 10 12 NA 0 0
-"Sora e no katamichi kippu" "A" 1 0 88 175 0 3 7 10 13 NA 0 0
-"Special One" "A" 1 0 128 128 128 2 5 8 11 NA 0 0
-"Star Trail" "A" 1 0 74 148 0 2 5 9 13 NA 0 0
-"Start a New Day" "A" 1 1 168 168 168 3 6 11 15 16 0 0
-"STERLING SILVER" "A" 1 0 174 175 174 4 6 10 13 NA 0 0
-"STERLING SILVER (U1 overground mix)" "A" 1 0 185 185 185 4 7 11 14 NA 0 0
-"Strawberry Chu Chu" "A" 1 0 137 138 137 2 7 11 13 NA 0 0
-"StrayedCatz" "A" 1 0 114 152 0 4 7 11 13 NA 0 0
-"SUN2 SUMMER STEP!" "A" 1 0 170 170 170 1 3 8 11 NA 0 0
-"SUPER SUMMER SALE" "A" 1 0 155 155 155 2 8 12 15 NA 0 0
-"Tatakae! Dadandarn V" "A" 1 0 174 176 174 3 6 9 13 NA 0 0
-"TECH-NOID" "A" 1 0 146 146 146 2 5 9 12 NA 0 0
-"The Night Away (MK Remix)" "A" 1 0 160 160 160 3 5 9 12 NA 0 0
-"Time Of Our Lives" "Removed" 1 0 124 124 124 2 5 9 11 NA 0 0
-"Towards The TOWER" "A" 1 0 132 132 132 2 5 9 12 NA 0 0
-"Triple Counter" "A" 1 0 216 216 216 7 11 14 17 NA 0 0
-"Twin memories W" "A" 1 0 160 160 160 2 6 9 11 NA 0 0
-"Vanquish The Ghost" "A" 1 0 78 310 0 3 8 12 16 NA 0 0
-"Wake Me Up" "Removed" 1 0 123 129 124 3 5 9 12 NA 0 0
-"Yeah! Yeah!" "A" 1 0 150 150 150 2 6 9 12 NA 0 0
-"Yi-er fanclub" "A" 1 0 145 145 145 1 4 8 12 NA 0 0
-"Youkoso Japari Park e" "Removed" 1 1 170 170 170 3 6 10 14 12 0 0
-"ZEPHYRANTHES" "A" 1 0 180 180 180 3 7 11 15 NA 0 0
-"50th Memorial Songs -Beginning Story-" "A20" 1 0 135 135 135 2 5 10 14 NA 0 0
-"50th Memorial Songs -Flagship medley-" "A20" 1 0 135 175 0 3 7 9 12 NA 0 0
-"50th Memorial Songs -futari no toki ~under the cherry blossoms~-" "A20" 1 0 160 160 160 3 7 9 12 NA 0 0
-"50th Memorial Songs -The BEMANI History-" "A20" 1 0 136 136 136 2 5 9 13 NA 0 0
-"Ace out" "A20" 1 1 135 145 0 3 5 9 14 14 0 0
-"Afterimage d'automne" "A20" 1 0 232 232 232 4 8 11 14 NA 0 0
-"Alone" "A20" 1 0 142 142 142 2 5 9 12 NA 0 0
-"ALPACORE" "A20" 1 1 175 175 175 4 9 12 16 17 0 0
-"Avenger" "A20" 1 1 100 400 0 4 10 14 17 18 0 0
-"Baby step" "A20" 1 0 200 200 200 4 7 9 12 NA 0 0
-"Bi" "A20" 1 1 169 169 169 5 9 12 17 18 0 0
-"BLACK JACKAL" "A20" 1 0 150 150 150 3 7 11 15 NA 0 0
-"BLSTR" "A20" 1 0 160 160 160 3 9 12 16 NA 0 0
-"Bounce Trippy" "A20" 1 0 185 185 185 4 8 11 14 NA 0 0
-"BUTTERFLY (20th Anniversary Mix)" "Removed" 1 1 140 140 140 3 6 9 12 16 0 0
-"CARTOON HEROES (20th Anniversary Mix)" "Removed" 1 1 170 170 170 4 9 14 16 18 0 0
-"Clarity" "A20" 1 0 128 128 128 2 4 7 9 NA 0 0
-"Crazy Shuffle" "A20" 1 0 128 128 128 2 5 10 13 NA 0 0
-"CROSS" "A20" 1 0 150 150 150 1 5 10 13 NA 0 0
-"CyberConnect" "A20" 1 1 150 150 150 2 7 11 15 17 0 0
-"Dead Heat" "A20" 1 0 177 177 177 4 6 10 14 NA 0 0
-"DIGITAL LUV" "A20" 1 0 154 154 154 2 5 9 12 NA 0 0
-"District of the Shadows" "A20" 1 0 150 150 150 3 6 12 16 NA 0 0
-"Dokidoki Valentine" "A20" 1 0 169 169 169 3 6 9 12 NA 0 0
-"Dokusenyoku" "Removed" 1 0 117 117 117 2 5 8 11 NA 0 0
-"DOWNER & UPPER" "A20" 1 1 140 140 140 3 6 9 13 10 0 0
-"Drop The Bounce" "A20" 1 0 75 150 0 3 7 10 15 NA 0 0
-"ENDLESS" "A20" 1 0 150 150 150 2 6 9 13 NA 0 0
-"F4SH10N" "A20" 1 0 140 140 140 2 6 10 14 NA 0 0
-"Firestorm" "A20" 1 1 177 177 177 5 8 13 16 16 0 0
-"Get On Da Floor" "A20" 1 0 140 140 140 2 5 8 11 NA 0 0
-"Give Me" "A20" 1 1 174 174 174 3 7 12 15 16 0 0
-"Glitch Angel" "A20" 1 1 165 165 165 5 8 13 17 18 0 0
-"Golden Arrow" "A20" 1 1 170 170 170 4 8 12 16 17 0 0
-"Haunted maid lunch" "A20" 1 1 188 188 188 4 7 11 15 17 0 0
-"HAVE YOU NEVER BEEN MELLOW (20th Anniversary Mix)" "Removed" 1 1 130 130 130 2 4 7 11 17 0 0
-"Helios" "A20" 1 0 182 182 182 4 8 12 16 NA 0 0
-"Hikari eureka" "A20" 1 0 140 140 140 2 5 8 11 NA 0 0
-"Hoshikuzu no yo hate" "A20" 1 0 174 174 174 4 8 12 15 NA 0 0
-"Hunny Bunny" "A20" 1 0 160 160 160 2 6 10 15 NA 0 0
-"I'm an Albatraoz" "A20" 1 0 128 128 128 1 4 7 11 NA 0 0
-"I Love You" "A20" 1 0 170 170 170 4 8 13 16 NA 0 0
-"IRON HEART" "A20" 1 0 155 155 155 2 7 10 14 NA 0 0
-"Kakumei passionate" "A20" 1 0 194 194 194 3 6 10 13 NA 0 0
-"Kusare gedou to chocolate" "Removed" 1 1 260 260 260 3 8 13 15 17 0 0
-"Lachryma (Re-Queen'M)" "A20" 1 1 236 236 236 5 9 14 18 19 0 0
-"LEVEL UP" "A20" 1 0 180 180 180 4 7 10 13 NA 0 0
-"Liar dance" "Removed" 1 0 200 200 200 4 6 9 13 NA 0 0
-"LONG TRAIN RUNNIN' (20th Anniversary Mix)" "Removed" 1 1 130 130 130 3 6 9 12 15 0 0
-"Love kira splash" "A20" 1 0 152 152 152 2 6 10 14 NA 0 0
-"Midnight WAR" "A20" 1 0 156 156 156 3 7 11 14 NA 0 0
-"Mikansei no jouki kudou otome (DDR Edition)" "A20" 1 0 85 170 0 5 9 13 17 NA 0 0
-"Mirai (da) FUTURE" "A20" 1 0 172 172 172 2 7 10 15 NA 0 0
-"Mousou kanshou daishou renmei" "Removed" 1 0 110 110 110 2 4 8 12 NA 0 0
-"Mythomane" "A20" 1 0 140 180 0 3 6 10 13 NA 0 0
-"Netsujou no zapadeado" "A20" 1 0 136 136 136 2 5 9 13 NA 0 0
-"Neverland" "A20" 1 0 160 160 160 4 8 12 15 NA 0 0
-"New Era" "A20" 1 1 30 240 0 8 11 15 17 18 0 0
-"New Rules" "A20" 1 0 116 116 116 2 5 7 10 NA 0 0
-"Night of Knights (Ryu Remix)" "A20" 1 0 182 182 182 4 8 13 16 NA 0 0
-"No Tears Left to Cry" "Removed" 1 0 97 127 0 2 5 7 10 NA 0 0
-"Oh my! lovely! sweety! darling!" "A20" 1 0 170 170 170 3 7 12 15 NA 0 0
-"ORCA" "A20" 1 0 39 310 0 7 9 14 17 NA 0 0
-"Our Soul" "A20" 1 1 150 150 150 3 6 8 11 15 0 0
-"OVERSOUL" "A20" 1 1 155 156 155 3 6 12 15 17 0 0
-"Party Rock Anthem" "A20" 1 0 130 130 130 2 5 8 11 NA 0 0
-"Play Hard" "A20" 1 0 130 130 130 2 5 9 12 NA 0 0
-"Procyon" "A20" 1 0 160 160 160 2 6 11 15 NA 0 0
-"Rampage Hero" "A20" 1 1 175 175 175 4 9 12 16 17 0 0
-"Ranker killer girl" "A20" 1 0 200 200 200 4 8 13 17 NA 0 0
-"Re-GENERATION" "A20" 1 0 176 176 176 3 6 11 15 NA 0 0
-"Reiwa" "Removed" 1 1 142 142 142 3 4 7 10 18 0 0
-"Right Time Right Way" "A20" 1 0 174 174 174 4 7 11 14 NA 0 0
-"Saishou sanbai kanzensuu" "A20" 1 0 55 440 0 5 11 14 17 NA 0 0
-"Saishuu kichiku imouto Flandre-S" "A20" 1 0 200 202 200 4 9 13 16 NA 0 0
-"Seta Para Cima" "A20" 1 0 140 140 140 3 5 11 13 NA 0 0
-"Silly Love" "A20" 1 0 124 154 0 4 7 11 14 NA 0 0
-"Six String Proof" "A20" 1 0 130 130 130 2 7 12 14 NA 0 0
-"SKY HIGH (20th Anniversary Mix)" "Removed" 1 1 145 145 145 2 5 9 12 17 0 0
-"Skywalking" "A20" 1 0 90 180 0 4 7 11 15 NA 0 0
-"Small Steps" "A20" 1 0 106 106 106 1 4 7 10 NA 0 0
-"SODA GALAXY" "A20" 1 0 178 178 178 3 6 9 12 NA 0 0
-"Something Just Like This (Alesso Remix)" "A20" 1 0 120 120 120 2 4 8 10 NA 0 0
-"Splash Gold" "A20" 1 0 75 300 0 6 10 13 16 NA 0 0
-"Starlight in the Snow" "A20" 1 1 150 150 150 4 7 11 14 16 0 0
-"Starry Sky" "A20" 1 0 150 150 150 2 6 9 12 NA 0 0
-"Stay 4 Ever" "A20" 1 0 140 140 140 2 5 9 11 NA 0 0
-"Sukina koto dakede ii desu" "Removed" 1 0 140 140 140 3 5 9 13 NA 0 0
-"SWEET HOME PARTY" "A20" 1 0 70 180 0 5 8 12 16 NA 0 0
-"Sweets wa tomaranai" "A20" 1 0 204 204 204 2 4 9 13 NA 0 0
-"The History of the Future" "A20" 1 0 100 200 0 5 9 14 17 NA 0 0
-"The Light" "Removed" 1 0 160 160 160 2 5 9 13 NA 0 0
-"The World Ends Now" "A20" 1 1 200 200 200 4 9 12 16 18 0 0
-"This Beat Is" "A20" 1 0 128 128 128 1 4 7 11 NA 0 0
-"Tiger rampage" "Removed" 1 1 150 150 150 2 5 9 13 17 0 0
-"Toy Box Factory" "A20" 1 0 148 148 148 3 7 11 15 NA 0 0
-"toy boxer" "A20" 1 0 190 190 190 4 9 12 16 NA 0 0
-"Trill auf G" "A20" 1 0 188 188 188 4 8 12 16 NA 0 0
-"Une mage blanche" "A20" 1 0 193 193 193 4 7 10 13 NA 0 0
-"voltississimo" "A20" 1 0 112 225 0 5 9 13 17 NA 0 0
-"Waiting" "A20" 1 0 180 180 180 3 6 10 13 NA 0 0
-"1998 (Sparky 2006)" "A20 Plus" 1 0 150 150 150 2 6 11 14 NA 0 0
-"actualization of self (weaponized)" "A20 Plus" 1 0 175 175 175 4 9 13 16 NA 0 0
-"Aftermath" "A20 Plus" 1 0 200 200 200 5 9 12 16 NA 0 0
-"AI" "A20 Plus" 1 0 190 190 190 5 9 12 16 NA 0 0
-"Alice side castling" "A20 Plus" 1 0 115 115 115 2 5 8 10 NA 0 0
-"ANTI ANTHEM" "A20 Plus" 1 0 128 700 0 5 9 13 15 NA 0 0
-"Ao ga kieru toki" "A20 Plus" 1 0 162 162 162 3 6 9 12 NA 0 0
-"B4U (The Acolyte mix)" "A20 Plus" 1 0 155 155 155 2 4 9 13 NA 0 0
-"Bang Pad(Werk Mix)" "A20 Plus" 1 0 160 160 160 3 6 9 13 NA 0 0
-"Better Than Me" "A20 Plus" 1 0 162 162 162 4 8 12 15 NA 0 0
-"BITTER CHOCOLATE STRIKER" "A20 Plus" 1 1 165 165 165 3 6 10 14 17 0 0
-"BLAKE" "A20 Plus" 1 0 200 200 200 3 7 11 14 NA 0 0
-"BRIDAL FESTIVAL !!!" "A20 Plus" 1 0 138 138 138 2 5 10 13 NA 0 0
-"City Never Sleeps" "A20 Plus" 1 0 178 178 178 4 7 12 15 NA 0 0
-"Come Back To Me" "A20 Plus" 1 0 172 172 172 3 7 11 14 NA 0 0
-"CONNECT-" "A20 Plus" 1 0 150 150 150 2 5 10 13 NA 0 0
-"Crazy Hot" "A20 Plus" 1 0 162 162 162 3 6 10 13 NA 0 0
-"DANCERUSH STARDOM ANTHEM" "A20 Plus" 1 0 130 130 130 2 5 8 11 NA 0 0
-"DDR TAGMIX -LAST DanceR-" "A20 Plus" 1 0 50 800 0 6 11 14 17 NA 0 0
-"DEADLOCK -Out Of Reach-" "A20 Plus" 1 0 205 205 205 5 9 13 17 NA 0 0
-"DeStRuCtIvE FoRcE" "A20 Plus" 1 0 88 177 0 2 6 9 13 NA 0 0
-"DIGITALIZER" "A20 Plus" 1 1 180 180 180 4 8 12 17 18 0 0
-"Draw the Savage" "A20 Plus" 1 1 134 134 134 2 6 10 14 16 0 0
-"Evans" "A20 Plus" 1 0 185 370 0 5 10 14 17 NA 0 0
-"Feidie" "A20 Plus" 1 0 150 150 150 2 6 8 10 NA 0 0
-"GHOST KINGDOM" "A20 Plus" 1 0 118 118 118 2 6 10 14 NA 0 0
-"Globe Glitter" "A20 Plus" 1 0 190 190 190 4 8 11 15 NA 1 0
-"Going Hypersonic" "A20 Plus" 1 1 156 156 156 4 7 12 15 17 0 0
-"Good Looking" "A20 Plus" 1 1 170 170 170 3 9 12 15 17 0 0
-"GUILTY DIAMONDS" "A20 Plus" 1 0 84 168 0 3 6 10 14 NA 0 0
-"Hana wa oritashi kozue wa takashi" "A20 Plus" 1 0 215 215 215 2 5 9 12 NA 0 0
-"Hangyaku no disparate" "A20 Plus" 1 0 194 194 194 3 6 10 13 NA 0 0
-"HARD BRAIN" "A20 Plus" 1 0 155 155 155 3 6 10 15 NA 0 0
-"Haru wo tsugeru" "A20 Plus" 1 0 120 120 120 2 4 8 10 NA 0 0
-"Hella Deep" "A20 Plus" 1 0 72 576 0 3 7 10 14 NA 0 0
-"High & Low" "A20 Plus" 1 0 210 210 210 4 8 12 16 NA 0 0
-"Hoshi no tsukurikata" "A20 Plus" 1 0 180 180 180 3 6 10 14 NA 0 0
-"Hyper Bomb" "A20 Plus" 1 0 160 160 160 3 7 11 15 NA 0 0
-"HYPERDRIVE" "A20 Plus" 1 0 150 150 150 3 6 9 12 NA 0 0
-"HyperTwist" "A20 Plus" 1 1 190 190 190 5 8 12 15 18 0 0
-"I'm Flying Away" "A20 Plus" 1 0 180 180 180 2 5 8 12 NA 0 0
-"I believe what you said" "A20 Plus" 1 0 138 138 138 2 4 8 12 NA 0 0
-"I Want To Do This Keep" "A20 Plus" 1 0 150 150 150 3 7 12 15 NA 0 0
-"If" "A20 Plus" 1 0 170 170 170 4 8 12 15 NA 0 0
-"In the past" "A20 Plus" 1 0 81 162 0 4 7 12 16 NA 0 0
-"Inner Spirit -GIGA HiTECH MIX-" "A20 Plus" 1 0 150 150 150 3 7 11 15 NA 0 0
-"Innocent bible" "A20 Plus" 1 0 105 105 105 1 4 7 10 NA 0 0
-"Itetsu no pride" "A20 Plus" 1 0 200 200 200 4 7 10 13 NA 1 0
-"jet coaster girl" "A20 Plus" 1 0 177 177 177 3 6 11 13 NA 0 0
-"Jetcoaster Windy" "A20 Plus" 1 0 268 268 268 3 7 12 15 NA 0 0
-"Jucunda Memoria" "A20 Plus" 1 0 48 290 0 5 10 14 17 NA 0 0
-"Kanata no Reflesia" "A20 Plus" 1 0 180 180 180 3 6 10 15 NA 0 0
-"Khorosho! Onigiri circus dan" "A20 Plus" 1 0 185 185 185 3 7 11 14 NA 0 0
-"Koi" "Removed" 1 0 158 158 158 1 3 8 11 NA 0 0
-"Koko kara yoroshiku daisakusen 143" "A20 Plus" 1 0 184 184 184 3 6 9 11 NA 0 0
-"Kyouhan heaven's code" "A20 Plus" 1 0 219 219 219 2 4 10 13 NA 0 0
-"Kyousui ichika" "A20 Plus" 1 0 160 160 160 3 7 11 15 NA 0 0
-"Last Card" "A20 Plus" 1 0 85 170 0 4 8 12 15 NA 0 0
-"Last Twilight" "A20 Plus" 1 0 198 198 198 4 8 12 16 NA 0 0
-"Lightspeed" "A20 Plus" 1 1 200 200 200 4 8 12 16 18 0 0
-"LIKE A VAMPIRE" "A20 Plus" 1 0 276 276 276 3 7 10 13 NA 1 0
-"Midnight Amaretto" "A20 Plus" 1 0 135 135 135 3 6 10 14 NA 0 0
-"Monochrome moment" "A20 Plus" 1 0 155 155 155 3 7 11 14 NA 0 0
-"MOVE! (We Keep It Movin')" "A20 Plus" 1 0 142 142 142 3 7 10 13 NA 1 0
-"MUTEKI BUFFALO" "A20 Plus" 1 1 88 176 0 4 8 11 15 17 0 0
-"Nadame sukashi Negotiation" "Removed" 1 0 150 150 150 2 5 9 11 16 0 0
-"Never See You Again" "A20 Plus" 1 0 80 160 0 4 9 12 16 NA 0 0
-"Next Phase" "A20 Plus" 1 0 174 174 174 4 7 11 15 NA 0 0
-"No Life Queen [DJ Command Remix]" "A20 Plus" 1 0 165 165 165 3 7 11 14 NA 0 0
-"No plan days" "A20 Plus" 1 0 210 210 210 3 9 12 16 NA 0 0
-"Norepinephrine" "A20 Plus" 1 0 124 124 124 2 6 11 14 NA 0 0
-"ONYX" "A20 Plus" 1 0 200 200 200 4 8 11 14 NA 0 0
-"Otogibanashi ni makugire wo" "A20 Plus" 1 0 131 203 0 4 7 10 13 NA 0 0
-"Our Love" "A20 Plus" 1 0 190 190 190 4 8 12 15 NA 0 0
-"PANIC HOLIC" "A20 Plus" 1 0 110 220 0 4 9 12 16 NA 0 0
-"paparazzi" "A20 Plus" 1 0 280 280 280 5 8 12 15 NA 0 0
-"Papipopepipupepa" "A20 Plus" 1 0 187 187 187 3 6 11 15 NA 0 0
-"PARTY ALL NIGHT(DJ KEN-BOW MIX)" "A20 Plus" 1 0 135 135 135 3 6 9 13 NA 0 0
-"Poppin' Soda" "A20 Plus" 1 0 200 200 200 4 9 12 15 NA 0 0
-"Rave Accelerator" "A20 Plus" 1 0 170 170 170 4 8 12 16 NA 0 0
-"Realize" "Removed" 1 0 206 206 206 3 6 11 14 NA 0 0
-"Red Cape Theorem" "A20 Plus" 1 0 95 95 95 3 6 11 14 NA 0 0
-"Riot of Color" "A20 Plus" 1 0 75 150 0 4 8 12 16 NA 0 0
-"Roki (Megumi Ogata)" "A20 Plus" 1 0 150 150 150 2 5 9 12 NA 0 0
-"ROOM" "A20 Plus" 1 0 145 145 145 2 5 8 11 NA 0 0
-"Run The Show" "A20 Plus" 1 1 150 150 150 4 7 11 15 16 0 0
-"S'il vous president" "A20 Plus" 1 0 176 176 176 1 4 8 12 14 0 0
-"Saika" "A20 Plus" 1 0 110 110 110 2 5 8 11 NA 0 0
-"Sakasama Cinderella parade" "A20 Plus" 1 0 135 135 135 2 7 10 13 NA 0 0
-"SCHWARZSCHILD FIELD" "A20 Plus" 1 0 150 150 150 5 10 13 16 NA 0 0
-"Seize The Day" "A20 Plus" 1 0 122 122 122 1 4 7 10 NA 0 0
-"Sekai no hate ni yakusoku no gaika wo -DDR Extended Megamix-" "A20 Plus" 1 0 100 400 0 5 10 14 17 NA 0 0
-"Shakunetsu Pt.2 Long Train Running" "A20 Plus" 1 0 165 165 165 3 8 13 16 NA 0 0
-"Shijou no laturia" "A20 Plus" 1 0 135 135 135 3 6 9 12 NA 0 0
-"SHINY DAYS" "Removed" 1 0 110 110 110 1 4 8 10 14 0 0
-"Shisouhan" "Removed" 1 0 200 200 200 3 5 10 13 NA 0 0
-"Shout It Out" "A20 Plus" 1 0 205 205 205 4 9 12 15 NA 0 0
-"Skyclad no kansokusha" "Removed" 1 0 167 167 167 3 6 9 12 NA 0 0
-"Sparkle Smilin'" "A20 Plus" 1 0 180 180 180 3 7 11 14 NA 0 0
-"STEP MACHINE" "A20 Plus" 1 0 160 160 160 3 7 11 14 NA 0 0
-"Step This Way" "A20 Plus" 1 0 176 176 176 4 9 12 16 NA 0 0
-"Super sentou Babanburn" "A20 Plus" 1 0 94 187 0 4 7 11 14 NA 1 0
-"Sweet Clock" "A20 Plus" 1 0 178 179 178 3 6 8 12 NA 0 0
-"Sword of Vengeance" "A20 Plus" 1 0 208 208 208 5 9 13 16 NA 0 0
-"take me higher (A20 Plus)" "A20 Plus" 1 0 140 140 140 3 5 10 13 NA 0 0
-"Taking It To The Sky (PLUS step)" "A20 Plus" 1 0 135 135 135 2 6 9 13 NA 0 0
-"Telecaster B-boy" "A20 Plus" 1 0 182 182 182 2 5 9 12 NA 0 0
-"THIS IS MY LAST RESORT" "A20 Plus" 1 0 110 220 0 5 9 12 15 NA 0 0
-"Together Going My Way" "A20 Plus" 1 0 155 155 155 2 5 9 13 NA 0 0
-"Tokyo shinwa" "A20 Plus" 1 0 98 197 0 5 9 13 17 NA 0 0
-"Triple Cross" "A20 Plus" 1 0 196 196 196 7 9 13 17 NA 0 0
-"Tsuioku no aria" "A20 Plus" 1 0 130 130 130 2 4 7 11 NA 0 0
-"Twinkle Wonderland" "A20 Plus" 1 0 188 188 188 3 7 10 13 NA 0 0
-"TYPHON" "A20 Plus" 1 0 112 450 0 5 10 14 17 NA 0 0
-"Uh-Oh" "A20 Plus" 1 0 175 175 175 3 7 11 14 NA 0 0
-"Umeyukiyo" "A20 Plus" 1 0 167 167 167 3 7 11 14 NA 0 0
-"Usotsuki yokochou wa amemoyou" "A20 Plus" 1 0 110 110 110 2 5 8 11 NA 0 0
-"Vertigo" "A20 Plus" 1 0 150 174 0 3 7 12 15 NA 0 0
-"Watashi wo disco ni tsuretette TOKYO" "A20 Plus" 1 0 142 142 142 3 9 11 14 NA 0 0
-"We're so Happy" "A20 Plus" 1 0 185 185 185 5 9 13 16 NA 0 0
-"We Can Win The Fight" "A20 Plus" 1 0 119 119 119 2 5 8 11 NA 0 0
-"X-ray binary" "A20 Plus" 1 0 150 150 150 2 5 10 13 NA 0 0
-"YU-MOU-MU-HI" "A20 Plus" 1 0 201 201 201 4 8 11 14 NA 0 0
-"Yumebuki" "A20 Plus" 1 0 200 200 200 4 8 12 15 NA 1 0
-"Yuni's Nocturnal Days" "A20 Plus" 1 1 153 153 153 3 6 10 14 18 0 0
-"Zassou tamashii namen na yo!" "Removed" 1 0 145 145 145 2 5 8 11 NA 0 0
-"[ ]DENTITY" "A3" 1 0 100 200 0 4 8 14 17 NA 1 0
-"3y3s" "A3" 1 0 191 191 191 4 9 14 17 NA 1 1
-"9th Outburst" "A3" 1 0 82 326 0 3 7 11 15 NA 1 0
-"Ability" "A3" 1 0 154 154 154 2 5 11 16 NA 1 1
-"Abrupt Madness" "Grand Prix" 1 0 185 185 185 3 8 13 17 NA 0 0
-"Acid,Tribal & Dance (DDR EDITION)" "A3" 1 1 63 286 0 3 5 11 14 17 1 0
-"Adrenaline" "A3" 1 0 70 140 0 2 5 10 15 NA 1 0
-"ALBIDA" "A3" 1 0 185 185 185 3 9 13 16 NA 0 0
-"Ambivalent Vermilia" "A3" 1 0 185 185 185 5 10 15 18 NA 1 1
-"Anthurium" "A3" 1 0 142 142 142 4 6 10 13 NA 0 0
-"Are U Ready" "A3" 1 0 155 155 155 3 7 11 13 NA 1 0
-"Aria" "Grand Prix" 1 0 90 180 0 4 9 13 17 NA 0 0
-"Awakening Wings" "A3" 1 0 190 190 190 2 5 10 11 NA 0 0
-"Ayumi Magical Showtime" "A3" 1 0 187 187 187 2 5 9 13 NA 0 0
-"Battle Against a True Hero" "A3" 1 1 75 150 0 2 7 12 15 18 0 0
-"Be With You (Still Miss you)" "A3" 1 0 116 116 116 1 5 8 12 NA 0 0
-"Beluga" "A3" 1 0 132 132 132 1 4 7 11 NA 0 0
-"BREDLI" "A3" 1 0 128 128 128 2 6 12 16 NA 1 0
-"Black Emperor" "A3" 1 1 30 195 0 5 9 14 17 18 0 0
-"BLUE FOG, SILVER BULLET" "A3" 1 0 92 185 0 5 8 12 15 NA 1 0
-"BONE BORN" "A3" 1 0 135 135 135 1 5 10 13 NA 1 0
-"BREAKING THE FUTURE" "A3" 1 1 45 720 0 5 10 14 17 19 0 0
-"Broken" "A3" 1 0 148 148 148 2 5 9 13 NA 0 0
-"C-C-C-N-N-N" "A3" 1 0 162 180 0 2 5 10 15 NA 1 1
-"CANDY (UFO mix)" "A3" 1 0 180 180 180 2 6 10 14 NA 0 0
-"chaplet" "A3" 1 0 100 200 0 3 8 12 17 NA 1 0
-"Chikuwa parfait da yo CKP (Yvya Remix)" "Grand Prix" 1 1 205 205 205 4 7 10 12 16 0 0
-"Chromatic Burst" "Grand Prix" 1 0 170 170 170 1 7 12 17 NA 0 0
-"Chucchu Machu Picchu" "A3" 1 0 130 130 130 3 7 11 14 NA 1 0
-"Closer to my Heart (jun remix)" "A3" 1 0 145 145 145 2 7 11 14 NA 0 0
-"Colorful minutes" "Grand Prix" 1 0 152 152 152 1 4 7 11 NA 0 0
-"Come Back to Me (Feel It)" "A3" 1 0 165 165 165 3 7 10 14 NA 1 0
-"Come To m1dy" "A3" 1 1 112 450 0 6 11 15 16 17 1 0
-"Comet skater" "A3" 1 0 150 150 150 3 4 10 15 NA 1 1
-"Complete Game Victory" "Grand Prix" 1 0 200 200 200 2 8 12 17 NA 0 0
-"Concertino in Blue" "A3" 1 0 103 155 0 3 5 12 16 NA 1 0
-"concon" "A3" 1 0 190 190 190 3 7 12 14 NA 1 0
-"Confeito concerto" "Grand Prix" 1 0 142 142 142 2 6 10 14 NA 0 0
-"Continue to the real world" "A3" 1 0 93 186 0 3 7 12 16 NA 1 1
-"Crystarium" "A3" 1 0 130 130 130 2 6 11 15 NA 1 0
-"Curry Up" "A3" 1 0 165 165 165 2 6 10 13 NA 0 0
-"Dance Phenomena" "A3" 1 0 71 284 0 3 5 10 12 NA 0 0
-"Dance With The Dead" "A3" 1 0 150 150 150 3 8 12 15 NA 1 0
-"DDR System Songs+Replicant Mix" "A3" 1 0 159 159 159 1 5 10 13 NA 1 0
-"Death by Glamour" "A3" 1 1 148 148 148 3 7 11 14 17 0 0
-"Debug Dance" "A3" 1 0 151 151 151 3 8 11 15 NA 1 0
-"Deep tenDon Reflex" "A3" 1 1 180 180 180 3 7 11 15 17 0 0
-"DIABLOSIS Naga" "A3" 1 0 200 200 200 3 11 15 17 NA 1 1
-"DOUBLE TORNARD" "A3" 1 0 153 153 153 4 7 12 15 NA 0 0
-"Drive Away" "Grand Prix" 1 0 100 200 0 2 7 12 17 NA 0 0
-"Drive My Heart" "A3" 1 0 145 145 145 2 5 8 13 NA 0 0
-"DUAL STRIKER" "A3" 1 0 185 185 185 7 9 13 17 NA 1 0
-"Easy Peasy" "A3" 1 0 138 138 138 1 4 10 14 NA 1 0
-"Electronic Sports Complex" "A3" 1 0 110 220 0 6 10 14 17 NA 1 0
-"EMOTiON TRiPPER" "A3" 1 0 170 170 170 1 5 10 14 NA 1 0
-"Environ [De-SYNC] (feat. lythe)" "A3" 1 0 160 160 160 4 9 12 15 NA 0 0
-"Eon Break" "A3" 1 1 178 356 0 4 8 13 16 18 1 0
-"Euphoric Fragmentation" "A3" 1 0 90 180 0 4 8 12 16 NA 1 1
-"Finale" "A3" 1 1 48 190 0 2 5 8 13 15 0 0
-"Finally Dive" "Grand Prix" 1 0 146 146 146 3 6 12 16 NA 0 0
-"Fleur" "A3" 1 0 180 180 180 4 9 12 16 NA 0 0
-"Flip Flap" "A3" 1 0 175 175 175 3 6 8 14 NA 0 0
-"Get it" "A3" 1 0 174 174 174 3 7 12 16 NA 1 0
-"GERBERA" "A3" 1 0 102 205 0 4 9 14 16 NA 0 0
-"Get Your Wish" "A3" 1 0 20 321 0 3 6 9 14 NA 1 0
-"glacia" "A3" 1 0 186 186 186 4 9 14 16 NA 0 0
-"GLITTER" "A3" 1 0 184 184 184 4 8 12 16 NA 0 0
-"Glitter Flatter Scatter" "A3" 1 0 98 197 0 6 9 14 17 NA 0 0
-"GLOW THE CROWN" "Grand Prix" 1 0 174 174 174 3 8 14 17 NA 0 0
-"Go Down" "A3" 1 0 126 126 126 1 4 10 14 NA 1 0
-"Go To The Oasis" "A3" 1 0 182 182 182 3 6 12 15 NA 0 0
-"Good Sound United" "A3" 1 0 100 200 0 5 9 13 16 NA 1 0
-"GRADIUS REMIX (UUDDLRLRBA Ver.)" "A3" 1 0 128 128 128 2 6 8 12 NA 0 0
-"GROOVE 04" "A3" 1 0 155 155 155 4 8 11 16 NA 1 0
-"HANIPAGANDA" "Grand Prix" 1 0 90 181 0 3 7 12 16 NA 0 0
-"Hashire melonpan" "Grand Prix" 1 0 170 170 170 2 5 10 14 NA 0 0
-"Heavens and the Earth" "A3" 1 0 70 70 70 1 5 7 11 NA 0 0
-"Hold Tight" "A3" 1 0 130 130 130 1 3 8 12 NA 0 0
-"Hou" "A3" 1 1 57 912 0 7 11 16 18 19 1 0
-"I-W-U (I Want U)" "A3" 1 0 150 150 150 3 7 12 17 NA 1 0
-"I WANT YOUR LOVE (Darwin remix)" "A3" 1 0 170 170 170 2 4 9 13 NA 0 0
-"Ichizu" "A3" 1 0 160 160 160 2 6 12 15 NA 0 0
-"Indigo Nocturne" "A3" 1 0 150 150 150 2 6 12 15 NA 1 0
-"INFINITE WORLD" "Grand Prix" 1 0 167 167 167 3 5 11 14 NA 0 0
-"insist" "A3" 1 0 136 136 136 2 7 12 15 NA 1 0
-"Jungle Dance" "A3" 1 0 155 155 155 3 7 12 16 NA 1 1
-"JUST BELIEVE" "A3" 1 0 160 160 160 2 7 10 14 NA 0 0
-"Kanbu de tomatte sugu tokeru ~ kyouki no Udongein" "A3" 1 0 100 400 0 3 8 11 14 17 0 0
-"Kill The Night" "Grand Prix" 1 1 165 165 165 2 6 11 14 16 0 0
-"Kilonova" "A3" 1 0 150 150 150 4 9 13 17 NA 1 0
-"KING" "A3" 1 0 166 166 166 1 7 13 16 NA 0 0
-"Kiyarora eisei no kiseki" "A3" 1 0 150 150 150 4 7 12 16 NA 1 0
-"Koi no hyoketsu otenba yukemuri Cirno onsen" "A3" 1 0 57 188 0 2 7 12 15 NA 0 0
-"Kyoka suigetsurou (DDR EDITION)" "A3" 1 0 175 175 175 1 6 11 14 NA 0 0
-"Last Summer" "A3" 1 0 132 132 132 2 5 10 12 NA 1 0
-"Let Me Know" "A3" 1 0 75 150 0 4 7 11 15 NA 0 0
-"Let Me Show You" "A3" 1 0 170 170 170 3 7 11 15 NA 0 0
-"Let's DANCE aROUND!!" "A3" 1 0 63 252 0 3 7 11 14 17 0 0
-"Like A Star" "A3" 1 0 175 175 175 4 7 12 14 NA 0 0
-"Lilieze to enryuu Laevateinn" "A3" 1 0 200 200 200 4 8 13 16 NA 1 0
-"little steps" "A3" 1 0 155 155 155 3 6 11 15 NA 0 0
-"Look at the Sky" "A3" 1 0 115 115 115 1 3 6 10 NA 0 0
-"Lose Your Sense" "A3" 1 0 44 350 0 6 9 13 17 NA 0 0
-"LOVE EAST" "Grand Prix" 1 0 168 168 168 3 6 11 15 NA 0 0
-"LOVE SHINE (Body Grooverz 2006 mix)" "A3" 1 0 177 177 177 3 7 12 16 NA 0 0
-"MA-TSU-RI" "A3" 1 0 160 160 160 3 7 10 13 NA 1 0
-"MANA" "A3" 1 0 98 195 0 3 7 11 15 NA 1 0
-"mathematical good-bye" "A3" 1 0 182 182 182 3 10 14 17 NA 1 0
-"Megalara Garuda" "A3" 1 1 90 180 0 5 9 16 17 18 0 0
-"MEGALOVANIA" "A3" 1 1 120 240 0 4 9 12 16 18 0 0
-"memory DATAMOSHER" "A3" 1 0 115 460 0 6 9 13 16 NA 1 0
-"Mentanpindoradora" "A3" 1 0 92 740 0 2 7 11 16 NA 1 0
-"Mess With My Emotions" "A3" 1 0 130 130 130 1 3 9 12 NA 0 0
-"Metamorphic" "A3" 1 0 200 200 200 6 11 14 16 NA 1 0
-"Meumeupettantan!! (ZAQUVA Remix)" "Grand Prix" 1 1 200 200 200 4 7 10 13 17 0 0
-"Mixed nuts" "A3" 1 0 150 150 150 1 5 8 15 NA 0 0
-"Murasakibana" "A3" 1 0 134 201 0 3 7 12 16 NA 1 0
-"Musician" "A3" 1 0 120 120 120 1 3 8 12 NA 0 0
-"My Drama" "A3" 1 0 220 220 220 7 10 13 15 NA 1 1
-"Myu, myu, Mullru" "A3" 1 0 150 150 150 3 7 11 13 NA 1 0
-"Nanahoshi" "A3" 1 0 166 166 166 2 6 11 15 NA 0 0
-"Nanairo light" "Grand Prix" 1 0 135 135 135 3 5 11 14 NA 0 0
-"melody H4CKER" "A3" 1 0 155 155 155 2 6 12 15 NA 1 0
-"New Millennium" "A3" 1 1 60 300 0 6 12 15 17 18 1 0
-"Next FUTURE" "A3" 1 0 192 192 192 2 6 10 15 NA 1 0
-"Not Alone" "A3" 1 0 155 155 155 3 7 13 16 NA 1 1
-"On the Night of a Still Wind" "A3" 1 0 155 155 155 3 6 11 14 NA 0 0
-"ON-DO" "A3" 1 0 210 210 210 3 8 12 14 NA 1 0
-"Open Your Eyes" "Grand Prix" 1 0 82 82 82 2 5 7 9 NA 0 0
-"PARADISE" "A3" 1 0 125 125 125 1 6 9 12 NA 0 0
-"perditus paradisus" "A3" 1 0 172 172 172 4 8 14 17 NA 1 0
-"Perfect eater" "A3" 1 0 175 175 175 3 6 12 17 NA 1 0
-"PERSIAN LAND" "A3" 1 0 90 180 0 4 7 12 15 NA 1 0
-"Phlox" "A3" 1 0 185 185 185 4 7 11 15 NA 1 0
-"Playing With Fire" "A3" 1 0 160 160 160 2 7 10 14 NA 0 0
-"Polaris no uta" "A3" 1 1 170 170 170 1 5 9 13 16 0 0
-"Poppin' candy fever!" "A3" 1 0 190 190 190 2 4 10 14 NA 0 0
-"Positive dance time" "A3" 1 0 210 210 210 2 4 8 12 NA 0 0
-"Prettiful!" "A3" 1 0 129 129 129 2 5 10 15 NA 1 0
-"Pump Pump Pump" "A3" 1 0 156 156 156 2 6 11 15 NA 0 0
-"Pure Rude" "A3" 1 0 175 175 175 3 7 13 15 NA 1 0
-"Qwerty" "A3" 1 0 160 160 160 2 6 10 14 NA 0 0
-"Racing with Time (NAOKI's 999 remix)" "Grand Prix" 1 0 157 157 157 2 7 11 15 NA 0 0
-"Rave in the Shell" "A3" 1 0 75 300 0 3 7 12 16 NA 1 1
-"Renaikansoku -2021 manatsu no ending ver.-" "A3" 1 0 188 188 188 3 8 12 14 NA 1 0
-"Respec fujin" "A3" 1 0 135 135 135 2 5 10 15 NA 0 0
-"Rinne no karasu" "A3" 1 0 198 198 198 3 8 12 14 NA 1 0
-"Rise As One" "Grand Prix" 1 0 90 180 0 2 7 12 17 NA 0 0
-"ROCK THE PARTY" "A3" 1 0 128 128 128 3 5 13 16 NA 1 0
-"Ryoushi no umi no Lindwurm" "A3" 1 1 280 280 280 5 10 14 17 18 0 0
-"Saisoku saikou shutter girl" "A3" 1 1 160 160 160 4 7 12 16 18 0 0
-"SAY A PRAYER" "Grand Prix" 1 0 97 97 97 2 4 6 8 NA 0 0
-"SAYONARA disco light" "A3" 1 0 159 159 159 3 6 9 13 NA 0 0
-"Sayonara heaven" "A3" 1 0 111 111 111 1 3 9 13 NA 1 0
-"Scarlet keisatsu no ghetto patrol 24 ji" "A3" 1 1 160 160 160 3 7 11 15 18 0 0
-"Sector" "A3" 1 0 80 160 0 5 8 12 16 NA 0 0
-"Senkyakubanrai moumantai!" "Grand Prix" 1 0 168 168 168 3 6 12 16 NA 0 0
-"Settin' the Scene" "A3" 1 0 110 110 110 1 4 9 12 NA 1 0
-"SHIN HEBI HIME" "A3" 1 0 115 230 0 5 10 14 17 NA 1 0
-"Shuwa spa daisakusen" "Grand Prix" 1 0 140 140 140 1 5 10 14 NA 0 0
-"SISYPHUS" "A3" 1 1 45 360 0 5 10 14 17 18 1 0
-"SMASH" "Grand Prix" 1 0 80 320 0 2 7 12 17 NA 0 0
-"Snow Garland Fairy" "A3" 1 0 200 200 200 3 8 13 17 NA 1 0
-"Something Comforting" "A3" 1 0 144 144 144 2 5 8 13 NA 0 0
-"SOUVENIR" "A3" 1 0 158 158 158 2 4 7 12 NA 0 0
-"Sparkle Dreams" "A3" 1 0 180 180 180 3 8 13 17 NA 1 0
-"spring pony" "A3" 1 0 150 150 150 2 6 12 15 NA 1 0
-"STAY (Joey Riot remix)" "A3" 1 0 150 150 150 2 6 9 12 NA 0 0
-"STAY GOLD" "A3" 1 0 21 330 0 5 9 12 16 NA 0 0
-"stellar rain" "A3" 1 0 148 148 148 1 5 8 13 NA 0 0
-"Such A Feeling" "A3" 1 0 120 120 120 3 6 11 14 NA 0 0
-"Surface" "A3" 1 0 150 150 150 1 4 9 12 NA 0 0
-"Surrender (PureFocus remix)" "Grand Prix" 1 0 130 130 130 2 7 10 15 NA 0 0
-"SURVIVAL AT THE END OF THE UNIVERSE" "A3" 1 0 150 200 0 5 9 14 16 NA 1 1
-"suspicions" "A3" 1 0 76 153 0 5 9 14 18 NA 1 1
-"Take Me" "A3" 1 0 100 100 100 1 5 7 11 NA 0 0
-"TAKE ME HIGHER (A3)" "A3" 1 0 140 175 0 4 8 13 16 NA 0 0
-"Teleportation" "A3" 1 0 170 170 170 4 8 12 15 NA 0 0
-"THE ANCIENT KING IS BACK" "A3" 1 0 160 160 160 3 7 11 14 NA 0 0
-"the beat" "A3" 1 0 140 140 140 4 8 11 14 NA 0 0
-"Throw Out" "A3" 1 0 96 192 0 2 6 10 15 NA 0 0
-"Tokai seifuku Girls" "Grand Prix" 1 0 140 140 140 2 4 10 13 NA 0 0
-"Tokonyatsu tropical" "A3" 1 0 132 132 132 3 7 12 15 NA 1 0
-"Too Late Snow" "A3" 1 0 138 138 138 2 5 10 13 NA 0 0
-"Towards The Horizon" "A3" 1 0 154 154 154 3 7 11 15 NA 0 0
-"Trance dance anarcky" "Grand Prix" 1 1 195 195 195 3 9 12 16 18 0 0
-"TRUE LOVE (Clubstar's True Club Mix)" "A3" 1 0 135 135 135 1 5 9 13 NA 0 0
-"Ue ue shita shita hidari migi hidari migi BA" "A3" 1 0 124 124 124 4 6 11 12 NA 0 0
-"Unity" "A3" 1 0 120 120 120 2 5 8 12 NA 1 0
-"Unreality" "A3" 1 0 174 174 174 2 6 11 14 NA 1 0
-"Urban Life" "A3" 1 0 133 133 133 2 5 11 15 NA 1 0
-"Usatei" "A3" 1 0 190 190 190 3 7 11 14 17 0 0
-"Vajra" "A3" 1 1 86 173 0 3 7 12 16 18 0 0
-"Valanga" "A3" 1 1 186 186 186 4 7 11 15 17 0 0
-"VALLIS-NERIA" "A3" 1 0 185 185 185 5 9 13 16 NA 1 0
-"VOLAQUAS" "A3" 1 1 106 212 0 5 11 15 18 19 1 0
-"Wakusei lollipop" "A3" 1 0 180 180 180 2 5 11 15 NA 1 0
-"WARNING WARNING WARNING" "A3" 1 1 172 172 172 3 6 10 13 17 0 0
-"We Will Live Together" "A3" 1 0 175 175 175 2 5 10 14 NA 0 0
-"White Stream" "A3" 1 0 222 222 222 4 8 13 16 NA 1 0
-"Wolf's Rain" "A3" 1 0 154 154 154 4 7 11 14 NA 0 0
-"Worst Plan" "A3" 1 0 150 150 150 4 7 12 15 NA 0 0
-"Wowie Zowie!" "A3" 1 0 128 128 128 2 6 10 14 NA 0 0
-"Wuv U" "A3" 1 0 86 346 0 3 7 10 14 NA 1 0
-"Yasaimashi ninniku abura oome" "A3" 1 0 180 180 180 2 6 12 15 NA 1 0
-"Yoidore shirazu" "A3" 1 0 115 115 115 1 3 9 13 NA 0 0
-"You You You" "A3" 1 0 146 146 146 3 6 10 13 NA 1 0
-"Youhishi no ue no ginga" "A3" 1 0 196 196 196 3 6 10 14 NA 1 0
+"song" "mix" "chal" "bpm_min" "bpm_max" "static_bpm" "gSP" "BSP" "DSP" "ESP" "CSP" "gp" "limited" "unlockable"
+"MAKE IT BETTER" "1stMIX" 0 119 119 119 3 7 9 11 NA 0 0 0
+"PARANOiA" "1stMIX" 0 180 180 180 4 8 9 11 NA 0 0 0
+"TRIP MACHINE" "1stMIX" 0 160 160 160 3 8 9 10 NA 0 0 0
+"AM-3P" "2ndMIX" 0 130 130 130 3 7 8 11 NA 0 0 0
+"BRILLIANT 2U" "2ndMIX" 0 150 150 150 3 6 6 10 NA 0 0 0
+"BRILLIANT 2U" "2ndMIX" 1 150 150 150 NA NA NA NA 10 0 0 0
+"BRILLIANT 2U(Orchestra Groove)" "2ndMIX" 0 150 150 150 4 6 8 9 NA 0 0 0
+"BRILLIANT 2U(Orchestra Groove)" "2ndMIX" 1 150 150 150 NA NA NA NA 12 0 0 0
+"e-motion" "2ndMIX" 0 140 145 0 2 5 6 8 NA 0 0 0
+"GENOM SCREAMS" "2ndMIX" 0 150 150 150 3 7 8 11 NA 0 0 0
+"KEEP ON MOVIN'" "2ndMIX" 0 132 132 132 4 5 7 9 NA 0 0 0
+"MAKE IT BETTER (So-REAL Mix)" "2ndMIX" 0 118 118 118 2 7 8 10 NA 0 0 0
+"MAKE IT BETTER (So-REAL Mix)" "2ndMIX" 1 118 118 118 NA NA NA NA 12 0 0 0
+"PARANOiA KCET ~clean mix~" "2ndMIX" 0 179 180 180 4 8 9 11 NA 0 0 0
+"PARANOiA KCET ~clean mix~" "2ndMIX" 1 179 180 180 NA NA NA NA 15 0 0 0
+"PARANOiA MAX~DIRTY MIX~" "2ndMIX" 0 190 190 190 5 9 10 12 NA 0 0 0
+"PUT YOUR FAITH IN ME" "2ndMIX" 0 120 120 120 3 5 6 9 NA 0 0 0
+"PUT YOUR FAITH IN ME (Jazzy Groove)" "2ndMIX" 0 120 120 120 2 6 7 9 NA 0 0 0
+"PUT YOUR FAITH IN ME (Jazzy Groove)" "2ndMIX" 1 120 120 120 NA NA NA NA 11 0 0 0
+"SP-TRIP MACHINE~JUNGLE MIX~" "2ndMIX" 0 160 160 160 4 8 9 10 NA 0 0 0
+"AFRONOVA" "3rdMIX" 0 200 200 200 5 7 9 13 NA 0 0 0
+"AFTER THE GAME OF LOVE" "3rdMIX" 0 105 105 105 2 3 6 8 NA 0 0 0
+"CUTIE CHASER" "3rdMIX" 0 126 126 126 3 5 7 10 NA 0 0 0
+"DEAD END" "3rdMIX" 0 190 190 190 4 7 10 12 NA 0 0 0
+"DROP THE BOMB" "3rdMIX" 0 150 150 150 3 5 7 10 NA 0 0 0
+"DYNAMITE RAVE" "3rdMIX" 0 150 150 150 3 7 10 12 NA 0 0 0
+"DYNAMITE RAVE" "3rdMIX" 1 150 150 150 NA NA NA NA 12 0 0 0
+"GRADIUSIC CYBER ~AMD G5 MIX~" "3rdMIX" 0 160 160 160 3 8 10 13 NA 0 0 0
+"La Senorita" "3rdMIX" 0 182 182 182 4 6 8 10 NA 0 0 0
+"La Senorita Virtual" "3rdMIX" 0 182 182 182 4 8 10 12 NA 0 0 0
+"LOVE THIS FEELIN'" "3rdMIX" 0 95 190 0 4 9 10 11 NA 0 0 0
+"PARANOiA Rebirth" "3rdMIX" 0 190 190 190 4 8 10 13 NA 0 0 0
+"Silent Hill" "3rdMIX" 0 125 125 125 3 4 9 10 NA 0 0 0
+"think ya better D" "3rdMIX" 0 136 136 136 3 5 6 9 NA 0 0 0
+"TRIP MACHINE~luv mix~" "3rdMIX" 0 160 160 160 3 9 10 12 NA 0 0 0
+".59" "4thMIX" 0 110 135 0 3 5 8 11 NA 0 0 0
+"B4U" "4thMIX" 0 155 155 155 3 5 7 10 NA 0 0 0
+"BABY BABY GIMME YOUR LOVE" "4thMIX" 0 96 96 96 2 2 4 7 NA 0 0 0
+"BURNIN' THE FLOOR" "4thMIX" 0 155 155 155 3 5 8 10 NA 0 0 0
+"CAN'T STOP FALLIN' IN LOVE" "4thMIX" 0 155 155 155 3 5 7 11 NA 0 0 0
+"CELEBRATE NITE" "4thMIX" 0 144 144 144 3 6 8 11 NA 0 0 0
+"Don't Stop!~AMD 2nd MIX~" "4thMIX" 0 130 130 130 3 5 6 10 NA 0 0 0
+"DROP OUT" "4thMIX" 0 260 260 260 4 8 10 13 NA 0 0 0
+"era (nostalmix)" "4thMIX" 0 90 180 0 4 5 8 11 NA 0 0 0
+"HIGHER" "4thMIX" 0 132 132 132 3 4 7 9 NA 0 0 0
+"Holic" "4thMIX" 0 155 155 155 4 7 9 11 NA 0 0 0
+"HYSTERIA" "4thMIX" 0 190 190 190 5 7 8 11 NA 0 0 0
+"LEADING CYBER" "4thMIX" 0 150 150 150 3 8 9 13 NA 0 0 0
+"LOVE AGAIN TONIGHT~For Melissa MIX~" "4thMIX" 0 150 150 150 4 5 8 11 NA 0 0 0
+"MY SUMMER LOVE" "4thMIX" 0 100 100 100 3 4 9 12 NA 0 0 0
+"ORION.78(AMeuro-MIX)" "4thMIX" 0 105 105 105 3 4 7 12 NA 0 0 0
+"PARANOIA EVOLUTION" "4thMIX" 0 200 200 200 5 9 10 12 NA 0 0 0
+"SEXY PLANET" "4thMIX" 0 180 181 180 3 7 8 11 NA 0 0 0
+"SUPER STAR" "4thMIX" 0 128 128 128 3 7 8 12 NA 0 0 0
+"TRIP MACHINE CLIMAX" "4thMIX" 0 180 180 180 5 7 9 12 NA 0 0 0
+"WILD RUSH" "4thMIX" 0 79 182 0 5 6 7 10 NA 0 0 0
+"ABSOLUTE" "5thMIX" 0 38 144 0 3 4 8 11 NA 0 0 0
+"Abyss" "5thMIX" 0 142 142 142 3 5 7 10 NA 0 0 0
+"AFRONOVA PRIMEVAL" "5thMIX" 0 200 200 200 4 7 9 12 NA 0 0 0
+"BROKEN MY HEART" "5thMIX" 0 160 161 160 3 5 7 12 NA 0 0 0
+"CAN'T STOP FALLIN' IN LOVE ~SPEED MIX~" "5thMIX" 0 170 171 170 4 6 9 12 NA 0 0 0
+"DXY!" "5thMIX" 0 148 148 148 5 6 9 12 NA 0 0 0
+"ECSTASY" "5thMIX" 0 150 150 0 4 5 8 10 NA 0 0 0
+"Electro Tuned ( the SubS Mix )" "5thMIX" 0 125 125 0 4 6 9 12 NA 0 0 0
+"Healing Vision" "5thMIX" 0 49 196 0 4 5 7 11 NA 0 0 0
+"INSERTiON" "5thMIX" 0 111 225 0 4 6 9 13 NA 0 0 0
+"PARANOiA ETERNAL" "5thMIX" 0 200 200 200 4 8 10 13 NA 0 0 0
+"SANA MOLLETE NE ENTE" "5thMIX" 0 90 90 90 3 4 9 12 NA 0 0 0
+"STILL IN MY HEART" "5thMIX" 0 150 150 150 3 6 8 10 NA 0 0 0
+"CANDY STAR" "6thMIX MAX" 0 192 193 192 4 6 7 11 NA 0 0 0
+"exotic ethnic" "6thMIX MAX" 0 190 190 190 4 5 8 13 NA 0 0 0
+"Healing Vision~Angelic mix~" "6thMIX MAX" 0 49 196 0 5 7 11 13 NA 0 0 0
+"Let the beat hit em!(CLASSIC R&B STYLE)" "6thMIX MAX" 0 102 102 102 3 6 7 10 NA 0 0 0
+"MAX 300" "6thMIX MAX" 0 64 303 300 5 9 12 15 NA 0 0 0
+"ORION.78~civilization mix~" "6thMIX MAX" 0 200 201 200 4 9 12 13 NA 0 0 0
+"AFRONOVA(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 1 200 200 200 NA NA NA NA 10 0 0 0
+"AM-3P (AM EAST mix)" "7thMIX MAX2" 1 140 140 140 NA NA NA NA 10 0 0 0
+"B4U(B4 ZA BEAT MIX)" "7thMIX MAX2" 1 170 171 170 NA NA NA NA 10 0 0 0
+"BREAK DOWN!" "7thMIX MAX2" 0 190 190 190 3 5 8 12 NA 0 0 0
+"BRILLIANT 2U(K.O.G G3 MIX)" "7thMIX MAX2" 1 170 171 170 NA NA NA NA 10 0 0 0
+"BURNIN' THE FLOOR (BLUE FIRE mix)" "7thMIX MAX2" 1 155 155 155 NA NA NA NA 10 0 0 0
+"BURNING HEAT! (3 Option MIX)" "7thMIX MAX2" 0 166 167 166 3 4 8 13 NA 0 0 0
+"CANDY HEART" "7thMIX MAX2" 0 180 180 180 4 5 7 10 NA 0 0 0
+"CELEBRATE NITE(EURO TRANCE STYLE)" "7thMIX MAX2" 1 144 144 144 NA NA NA NA 11 0 0 0
+"D2R" "7thMIX MAX2" 0 160 160 160 3 4 7 11 NA 0 0 0
+"DESTINY" "7thMIX MAX2" 0 155 155 155 3 3 7 10 NA 0 0 0
+"DIVE TO THE NIGHT" "7thMIX MAX2" 0 155 155 155 3 4 8 11 NA 0 0 0
+"DROP OUT(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 1 130 130 130 NA NA NA NA 12 0 0 0
+"ECSTASY (midnight blue mix)" "7thMIX MAX2" 1 145 145 0 NA NA NA NA 11 0 0 0
+"HIGHER (next morning mix)" "7thMIX MAX2" 1 132 132 132 NA NA NA NA 11 0 0 0
+"HYSTERIA 2001" "7thMIX MAX2" 1 190 190 190 NA NA NA NA 10 0 0 0
+"i feel" "7thMIX MAX2" 0 141 141 141 3 4 8 12 NA 0 0 0
+"KAKUMEI" "7thMIX MAX2" 0 83 148 0 3 5 9 12 NA 0 0 0
+"KAKUMEI" "7thMIX MAX2" 1 83 148 0 NA NA NA NA 11 0 0 0
+"MAXX UNLIMITED" "7thMIX MAX2" 0 140 320 0 5 10 13 16 NA 0 0 0
+"MY SUMMER LOVE(TOMMY'S SMILE MIX)" "7thMIX MAX2" 1 100 100 100 NA NA NA NA 12 0 0 0
+"rain of sorrow" "7thMIX MAX2" 0 140 140 140 3 3 9 12 NA 0 0 0
+"Secret Rendez-vous" "7thMIX MAX2" 0 98 98 98 3 4 7 12 NA 0 0 0
+"SEXY PLANET(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 1 180 180 180 NA NA NA NA 10 0 0 0
+"Silent Hill (3rd christmas mix)" "7thMIX MAX2" 1 125 125 125 NA NA NA NA 10 0 0 0
+"STILL IN MY HEART (MOMO MIX)" "7thMIX MAX2" 1 85 171 0 NA NA NA NA 11 0 0 0
+"SUPER STAR(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 1 128 128 128 NA NA NA NA 10 0 0 0
+"Sweet Sweet Love Magic" "7thMIX MAX2" 0 180 180 180 4 5 9 13 NA 0 0 0
+"TSUGARU" "7thMIX MAX2" 0 95 165 0 3 5 9 12 NA 0 0 0
+"TSUGARU(APPLE MIX)" "7thMIX MAX2" 1 81 165 0 NA NA NA NA 11 0 0 0
+"WILD RUSH(FROM NONSTOP MEGAMIX)" "7thMIX MAX2" 1 125 125 125 NA NA NA NA 9 0 0 0
+"1998" "8thMIX EXTREME" 0 150 150 150 4 4 6 10 NA 0 0 0
+"321STARS" "8thMIX EXTREME" 0 192 193 192 4 5 9 11 NA 0 0 0
+"A" "8thMIX EXTREME" 0 93 191 0 4 5 8 11 NA 0 0 0
+"A" "8thMIX EXTREME" 1 93 191 0 NA NA NA NA 12 0 0 0
+"Across the nightmare" "8thMIX EXTREME" 0 300 300 300 7 8 10 12 NA 0 0 0
+"Across the nightmare" "8thMIX EXTREME" 1 300 300 300 NA NA NA NA 13 0 0 0
+"air" "8thMIX EXTREME" 0 130 130 130 3 5 7 10 NA 0 0 0
+"AM-3P -303 BASS MIX-" "8thMIX EXTREME" 0 130 130 130 4 4 9 10 NA 0 0 0
+"bag" "8thMIX EXTREME" 0 65 65 65 2 7 11 13 NA 0 0 0
+"bag" "8thMIX EXTREME" 1 65 65 65 NA NA NA NA 13 0 0 0
+"BE LOVIN" "8thMIX EXTREME" 0 185 186 185 4 5 9 12 NA 0 0 0
+"BLUE IMPULSE ~for EXTREME~" "8thMIX EXTREME" 0 145 145 145 2 4 7 9 NA 0 0 0
+"CALICO CAT ROCK" "8thMIX EXTREME" 0 152 250 0 4 5 8 12 NA 0 0 0
+"Colors ~for EXTREME~" "8thMIX EXTREME" 0 150 150 150 3 5 8 9 NA 0 0 0
+"Colors ~for EXTREME~" "8thMIX EXTREME" 1 150 150 150 NA NA NA NA 13 0 0 0
+"CUTIE CHASER(MORNING MIX)" "8thMIX EXTREME" 0 126 126 126 3 3 4 9 NA 0 0 0
+"DAIKENKAI" "8thMIX EXTREME" 0 143 172 0 4 4 8 12 NA 0 0 0
+"DAIKENKAI" "8thMIX EXTREME" 1 143 172 0 NA NA NA NA 13 0 0 0
+"Dance Dance Revolution" "8thMIX EXTREME" 0 150 150 150 5 6 8 12 NA 0 0 0
+"Dance Dance Revolution" "8thMIX EXTREME" 1 150 150 150 NA NA NA NA 12 0 0 0
+"Destiny lovers" "8thMIX EXTREME" 0 170 171 170 3 4 7 13 NA 0 0 0
+"DROP THE BOMB(SyS.F. Mix)" "8thMIX EXTREME" 0 150 150 150 3 5 7 10 NA 0 0 0
+"Frozen Ray(for EXTREME)" "8thMIX EXTREME" 0 156 157 156 4 5 9 12 NA 0 0 0
+"Gamelan de Couple" "8thMIX EXTREME" 0 150 150 150 3 4 7 12 NA 0 0 0
+"GRADUATION" "8thMIX EXTREME" 0 125 125 125 2 3 7 9 NA 0 0 0
+"Happy Wedding" "8thMIX EXTREME" 0 126 126 126 3 4 6 10 NA 0 0 0
+"Heaven is a '57 metallic gray ~gimmix~" "8thMIX EXTREME" 0 63 190 0 4 5 7 12 NA 0 0 0
+"HYPER EUROBEAT" "8thMIX EXTREME" 0 152 153 152 3 4 7 10 NA 0 0 0
+"I'm gonna get you!" "8thMIX EXTREME" 0 160 161 160 3 4 7 9 NA 0 0 0
+"jane jana" "8thMIX EXTREME" 0 125 125 125 3 4 7 10 NA 0 0 0
+"JET WORLD" "8thMIX EXTREME" 0 138 138 138 3 4 7 11 NA 0 0 0
+"KISS KISS KISS" "8thMIX EXTREME" 0 150 151 150 4 5 7 12 NA 0 0 0
+"Kiss me all night long" "8thMIX EXTREME" 0 155 155 155 3 3 6 10 NA 0 0 0
+"L'amour et la liberte(DDR Ver.)" "8thMIX EXTREME" 0 145 145 145 3 6 9 12 NA 0 0 0
+"LA BAMBA (extreme)" "8thMIX EXTREME" 0 179 179 179 3 4 8 11 NA 0 0 0
+"LOVE LOVE SHINE" "8thMIX EXTREME" 0 177 177 177 3 6 7 9 NA 0 0 0
+"LOVE LOVE SUGAR" "8thMIX EXTREME" 0 155 155 155 3 4 7 8 NA 0 0 0
+"Miracle Moon ~L.E.D.LIGHT STYLE MIX~" "8thMIX EXTREME" 0 138 138 138 3 4 6 9 NA 0 0 0
+"PARANOIA survivor" "8thMIX EXTREME" 0 135 270 0 4 9 11 15 NA 0 0 0
+"PARANOIA survivor MAX" "8thMIX EXTREME" 0 73 290 0 5 9 11 15 NA 0 0 0
+"PARANOIA survivor MAX" "8thMIX EXTREME" 1 73 290 0 NA NA NA NA 16 0 0 0
+"Pink Rose" "8thMIX EXTREME" 0 146 146 146 3 4 7 10 NA 0 0 0
+"SAKURA" "8thMIX EXTREME" 0 21 320 0 5 7 11 13 NA 0 0 0
+"SAKURA" "8thMIX EXTREME" 1 21 320 0 NA NA NA NA 11 0 0 0
+"SO IN LOVE" "8thMIX EXTREME" 0 112 112 112 3 4 7 9 NA 0 0 0
+"STAY (Organic house Version)" "8thMIX EXTREME" 0 125 125 125 3 4 7 9 NA 0 0 0
+"stoic (EXTREME version)" "8thMIX EXTREME" 0 155 155 155 3 5 9 13 NA 0 0 0
+"sync (EXTREME version)" "8thMIX EXTREME" 0 167 167 167 3 5 8 9 NA 0 0 0
+"sync (EXTREME version)" "8thMIX EXTREME" 1 167 167 167 NA NA NA NA 12 0 0 0
+"TEARS" "8thMIX EXTREME" 0 143 143 143 3 6 8 12 NA 0 0 0
+"The Least 100sec" "8thMIX EXTREME" 0 200 265 0 5 7 11 12 NA 0 0 0
+"The legend of MAX" "8thMIX EXTREME" 0 83 333 0 7 8 13 15 NA 0 0 0
+"TRIP MACHINE survivor" "8thMIX EXTREME" 0 170 170 170 4 5 11 13 NA 0 0 0
+"Twin Bee -Generation X-" "8thMIX EXTREME" 0 169 169 169 3 5 8 11 NA 0 0 0
+"V ~for EXTREME~" "8thMIX EXTREME" 0 150 150 150 3 5 8 12 NA 0 0 0
+"V ~for EXTREME~" "8thMIX EXTREME" 1 150 150 150 NA NA NA NA 13 0 0 0
+"VANITY ANGEL" "8thMIX EXTREME" 0 140 140 140 3 4 9 12 NA 0 0 0
+"xenon" "8thMIX EXTREME" 0 158 159 158 3 5 10 13 NA 0 0 0
+"A Stupid Barber" "SuperNOVA" 0 132 132 132 3 4 8 9 NA 0 0 0
+"AA" "SuperNOVA" 0 154 154 154 3 5 9 13 NA 0 0 0
+"Bad Routine" "SuperNOVA" 0 129 130 130 3 5 7 9 NA 0 0 0
+"Baile Le Samba" "SuperNOVA" 0 92 92 92 2 3 9 11 NA 0 0 0
+"BALLAD FOR YOU" "SuperNOVA" 0 65 68 65 2 5 7 8 NA 0 0 0
+"Brazilian Anthem" "SuperNOVA" 0 130 130 130 3 5 8 12 NA 0 0 0
+"cachaca" "SuperNOVA" 0 128 128 128 2 3 7 12 NA 0 0 0
+"CAN'T STOP FALLIN' IN LOVE -super euro version-" "SuperNOVA" 0 155 155 155 3 4 7 8 NA 0 0 0
+"Can Be Real" "SuperNOVA" 0 132 132 132 3 4 6 10 NA 0 0 0
+"CENTAUR" "SuperNOVA" 0 140 140 140 4 6 9 12 NA 0 0 0
+"CHAOS" "SuperNOVA" 0 170 170 170 6 8 12 14 NA 0 0 0
+"CHAOS" "SuperNOVA" 1 170 170 170 NA NA NA NA 16 0 0 0
+"CHIKARA" "SuperNOVA" 0 185 186 185 4 5 8 10 NA 0 0 0
+"CURUS" "SuperNOVA" 0 184 188 0 2 3 7 10 NA 0 0 0
+"DanDanDO(The true MAN's Road)" "SuperNOVA" 0 156 160 0 3 4 7 12 NA 0 0 0
+"DoLL" "SuperNOVA" 0 170 171 170 4 5 8 12 NA 0 0 0
+"DoLL" "SuperNOVA" 1 170 171 170 NA NA NA NA 13 0 0 0
+"Dragon Blade" "SuperNOVA" 0 240 240 240 5 9 10 11 NA 0 0 0
+"Fascination ~eternal love mix~" "SuperNOVA" 0 100 400 0 9 11 13 16 NA 0 0 0
+"Fascination ~eternal love mix~" "SuperNOVA" 1 100 400 0 NA NA NA NA 18 0 0 0
+"Fascination MAXX" "SuperNOVA" 0 100 400 0 6 11 13 17 NA 0 0 0
+"Fascination MAXX" "SuperNOVA" 1 100 400 0 NA NA NA NA 18 0 0 0
+"Flow" "SuperNOVA" 0 140 140 140 4 5 9 12 NA 0 0 0
+"Flow (True Style)" "SuperNOVA" 0 140 280 0 4 6 9 12 NA 0 0 0
+"Flow (True Style)" "SuperNOVA" 1 140 280 0 NA NA NA NA 13 0 0 0
+"Fly away" "SuperNOVA" 0 125 125 125 3 4 7 11 NA 0 0 0
+"Forever Sunshine" "SuperNOVA" 0 127 128 127 3 4 7 8 NA 0 0 0
+"Freedom" "SuperNOVA" 0 148 148 148 3 5 7 11 NA 0 0 0
+"Funk Boogie" "SuperNOVA" 0 127 128 127 4 5 4 8 NA 0 0 0
+"Gekkou chou" "SuperNOVA" 0 218 218 218 5 5 9 11 NA 0 0 0
+"GORGEOUS 2012" "SuperNOVA" 0 135 136 135 4 3 8 10 NA 0 0 0
+"Hana Ranman -Flowers-" "SuperNOVA" 0 160 160 160 3 6 8 11 NA 0 0 0
+"HAPPY ANGEL" "SuperNOVA" 0 179 180 180 4 4 8 12 NA 0 0 0
+"HAPPY ANGEL" "SuperNOVA" 1 179 180 180 NA NA NA NA 16 0 0 0
+"Healing-D-Vision" "SuperNOVA" 0 180 360 0 6 9 12 14 NA 0 0 0
+"Healing-D-Vision" "SuperNOVA" 1 180 360 0 NA NA NA NA 18 0 0 0
+"Himawari" "SuperNOVA" 0 185 186 185 3 4 7 11 NA 0 0 0
+"I Need You" "SuperNOVA" 0 114 114 114 3 4 6 8 NA 0 0 0
+"iFUTURELIST(DDR VERSION)" "SuperNOVA" 0 150 151 150 3 5 7 12 NA 0 0 0
+"iFUTURELIST(DDR VERSION)" "SuperNOVA" 1 150 151 150 NA NA NA NA 13 0 0 0
+"INNOCENCE OF SILENCE" "SuperNOVA" 0 71 142 0 3 5 10 12 NA 0 0 0
+"INSIDE YOUR HEART" "SuperNOVA" 0 107 107 107 3 4 6 9 NA 0 0 0
+"Jam & Marmalade" "SuperNOVA" 0 145 145 145 3 4 8 11 NA 0 0 0
+"KAGEROW (Dragonfly)" "SuperNOVA" 0 164 164 164 3 4 7 9 NA 0 0 0
+"KEEP ON MOVIN' ~DMX MIX~" "SuperNOVA" 0 132 132 132 3 5 7 11 NA 0 0 0
+"Konoko no nanatsu no oiwaini" "SuperNOVA" 0 161 161 161 3 7 10 14 NA 0 0 0
+"La Bamba (supernova)" "SuperNOVA" 0 156 156 156 3 5 8 11 NA 0 0 0
+"LOGICAL DASH" "SuperNOVA" 0 144 144 144 3 4 7 11 NA 0 0 0
+"LOVE IS ORANGE" "SuperNOVA" 0 180 180 180 3 5 7 9 NA 0 0 0
+"LOVE IS ORANGE" "SuperNOVA" 1 180 180 180 NA NA NA NA 11 0 0 0
+"Make A Difference" "SuperNOVA" 0 130 132 130 3 5 7 12 NA 0 0 0
+"MARIA(I believe...)" "SuperNOVA" 0 158 159 158 3 5 8 11 NA 0 0 0
+"MAX 300 (Super-Max-Me Mix)" "SuperNOVA" 0 140 320 0 7 10 13 15 NA 0 0 0
+"MAX 300 (Super-Max-Me Mix)" "SuperNOVA" 1 140 320 0 NA NA NA NA 16 0 0 0
+"MAXIMIZER" "SuperNOVA" 0 190 190 190 5 6 9 12 NA 0 0 0
+"MIDNIGHT SPECIAL" "SuperNOVA" 0 182 182 182 3 7 9 10 NA 0 0 0
+"Mind Parasite" "SuperNOVA" 0 145 146 145 3 5 9 13 NA 0 0 0
+"Monkey Punk" "SuperNOVA" 0 180 180 180 4 5 8 10 NA 0 0 0
+"MOON" "SuperNOVA" 0 156 157 156 3 3 7 10 NA 0 0 0
+"Mugen" "SuperNOVA" 0 171 171 171 4 4 8 11 NA 0 0 0
+"murmur twins" "SuperNOVA" 0 174 175 174 3 4 8 11 NA 0 0 0
+"My Only Shining Star" "SuperNOVA" 0 155 155 155 3 4 7 9 NA 0 0 0
+"NIJIIRO" "SuperNOVA" 0 160 161 160 3 4 8 11 NA 0 0 0
+"NIJIIRO" "SuperNOVA" 1 160 161 160 NA NA NA NA 13 0 0 0
+"No.13" "SuperNOVA" 0 172 172 172 4 5 9 13 NA 0 0 0
+"PARANOiA-Respect-" "SuperNOVA" 0 300 300 300 5 11 12 16 NA 0 0 0
+"PASSION OF LOVE" "SuperNOVA" 0 78 155 0 4 5 7 10 NA 0 0 0
+"Polovtsian Dances And Chorus" "SuperNOVA" 0 146 146 146 3 4 9 11 NA 0 0 0
+"PUT YOUR FAITH IN ME ~SATURDAY NIGHT MIX~" "SuperNOVA" 0 120 121 120 3 5 8 9 NA 0 0 0
+"Quick Master" "SuperNOVA" 0 147 147 147 4 5 8 11 NA 0 0 0
+"Quickening" "SuperNOVA" 0 150 150 150 3 6 7 11 NA 0 0 0
+"rainbow flyer" "SuperNOVA" 0 148 148 148 3 4 6 11 NA 0 0 0
+"rainbow rainbow" "SuperNOVA" 0 177 177 177 4 4 7 10 NA 0 0 0
+"RED ZONE" "SuperNOVA" 0 165 165 165 4 6 8 12 NA 0 0 0
+"Saturday Night Love" "SuperNOVA" 0 128 128 128 3 4 6 8 NA 0 0 0
+"Scorching Moon" "SuperNOVA" 0 125 126 125 3 4 7 11 NA 0 0 0
+"SEDUCTION" "SuperNOVA" 0 95 190 0 4 6 9 12 NA 0 0 0
+"SEDUCTION(Vocal Remix)" "SuperNOVA" 0 190 190 190 3 6 9 12 NA 0 0 0
+"Ska Ska No.3" "SuperNOVA" 0 138 138 138 3 3 7 12 NA 0 0 0
+"Star Gate Heaven" "SuperNOVA" 0 145 145 145 3 3 7 10 NA 0 0 0
+"STARS (2nd NAOKI's style)" "SuperNOVA" 0 139 140 139 3 6 8 9 NA 0 0 0
+"THE SHINING POLARIS" "SuperNOVA" 0 146 147 147 4 4 6 9 NA 0 0 0
+"TIERRA BUENA" "SuperNOVA" 0 115 115 115 3 4 8 10 NA 0 0 0
+"Tino's White Horse" "SuperNOVA" 0 110 148 0 4 5 8 11 NA 0 0 0
+"TOMORROW" "SuperNOVA" 0 140 141 140 3 4 8 10 NA 0 0 0
+"Tomorrow Perfume" "SuperNOVA" 0 144 144 144 3 4 8 10 NA 0 0 0
+"TRUE LOVE" "SuperNOVA" 0 188 188 188 4 4 8 10 NA 0 0 0
+"Try 2 Luv. U" "SuperNOVA" 0 115 115 115 3 4 6 8 NA 0 0 0
+"un deux trois" "SuperNOVA" 0 70 140 0 3 4 8 10 NA 0 0 0
+"Under the Sky" "SuperNOVA" 0 170 171 170 2 2 5 11 NA 0 0 0
+"Xepher" "SuperNOVA" 0 170 171 170 4 7 10 13 NA 0 0 0
+"Xepher" "SuperNOVA" 1 170 171 170 NA NA NA NA 15 0 0 0
+"You gotta move it (feat. Julie Rugaard)" "SuperNOVA" 0 134 134 134 4 5 8 10 NA 0 0 0
+"A thing called LOVE" "SuperNOVA2" 0 160 160 160 3 4 7 10 NA 0 0 0
+"AM-3P (CHAOS Special)" "SuperNOVA2" 1 130 130 130 NA NA NA NA 14 0 0 0
+"Arrabbiata" "SuperNOVA2" 0 225 225 225 5 11 13 15 NA 0 0 0
+"B4U (VOLTAGE Special)" "SuperNOVA2" 1 155 155 155 NA NA NA NA 14 0 0 0
+"Blind Justice ~Torn souls Hurt Faiths~" "SuperNOVA2" 0 137 165 0 3 5 8 12 NA 0 0 0
+"Bloody Tears (IIDX EDITION)" "SuperNOVA2" 0 170 171 170 4 5 6 11 NA 0 0 0
+"BRILLIANT 2U (STREAM Special)" "SuperNOVA2" 1 150 150 150 NA NA NA NA 13 0 0 0
+"CaptivAte~CHIKAI~" "SuperNOVA2" 0 160 160 160 4 5 8 13 NA 0 0 0
+"D2R (FREEZE Special)" "SuperNOVA2" 1 160 160 160 NA NA NA NA 12 0 0 0
+"DEAD END (GROOVE RADAR Special)" "SuperNOVA2" 1 95 380 0 NA NA NA NA 18 0 0 0
+"dream of love" "SuperNOVA2" 0 114 114 114 3 3 6 8 NA 0 0 0
+"DYNAMITE RAVE (AIR Special)" "SuperNOVA2" 1 150 150 150 NA NA NA NA 8 0 0 0
+"Electrified" "SuperNOVA2" 0 140 140 140 3 4 6 10 NA 0 0 0
+"Every Day, Every Night (NM STYLE)" "SuperNOVA2" 0 90 90 90 3 4 6 10 NA 0 0 0
+"Feelings Won't Fade(Extend Trance Mix)" "SuperNOVA2" 0 144 144 144 4 5 8 12 NA 0 0 0
+"FIRE" "SuperNOVA2" 0 184 185 184 4 5 8 11 NA 0 0 0
+"Flow (Jammin' Ragga Mix)" "SuperNOVA2" 0 70 140 0 4 5 8 13 NA 0 0 0
+"Fly away -mix del matador-" "SuperNOVA2" 0 130 130 130 3 5 9 13 NA 0 0 0
+"Freeway Shuffle" "SuperNOVA2" 0 145 145 145 3 4 8 10 NA 0 0 0
+"Freeway Shuffle" "SuperNOVA2" 1 145 145 145 NA NA NA NA 12 0 0 0
+"GIRIGILI Burning 24H!" "SuperNOVA2" 0 148 150 148 4 5 7 12 NA 0 0 0
+"L'amour et la liberte(Darwin & DJ Silver remix)" "SuperNOVA2" 0 70 140 0 3 4 7 11 NA 0 0 0
+"MARS WAR 3" "SuperNOVA2" 0 200 200 200 3 4 8 11 NA 0 0 0
+"MOONSTER" "SuperNOVA2" 0 140 140 140 4 5 7 12 NA 0 0 0
+"Music In The Rhythm" "SuperNOVA2" 0 155 155 155 4 7 8 11 NA 0 0 0
+"NGO" "SuperNOVA2" 0 68 274 0 6 10 12 15 NA 0 0 0
+"NGO" "SuperNOVA2" 1 68 274 0 NA NA NA NA 18 0 0 0
+"PARANOiA ~HADES~" "SuperNOVA2" 0 75 300 0 7 11 15 16 NA 0 0 0
+"PARANOiA ~HADES~" "SuperNOVA2" 1 75 300 0 NA NA NA NA 18 0 0 0
+"Pluto" "SuperNOVA2" 0 50 220 0 6 9 12 14 NA 0 0 0
+"Pluto" "SuperNOVA2" 1 50 220 0 NA NA NA NA 16 0 0 0
+"Pluto Relinquish" "SuperNOVA2" 0 100 800 0 5 12 14 17 NA 0 0 0
+"Pluto Relinquish" "SuperNOVA2" 1 100 800 0 NA NA NA NA 18 0 0 0
+"Poseidon" "SuperNOVA2" 0 75 300 0 3 5 9 11 NA 0 0 0
+"Raspberry Heart (English version)" "SuperNOVA2" 0 160 160 160 3 5 7 9 NA 0 0 0
+"Raspberry Heart (English version)" "SuperNOVA2" 1 160 160 160 NA NA NA NA 11 0 0 0
+"Saturn" "SuperNOVA2" 0 78 155 0 3 7 9 13 NA 0 0 0
+"Shades of Grey" "SuperNOVA2" 0 170 171 170 3 5 8 10 NA 0 0 0
+"Silver Platform - I wanna get your heart -" "SuperNOVA2" 0 140 140 140 4 5 7 11 NA 0 0 0
+"SOUL CRASH" "SuperNOVA2" 0 142 142 142 3 7 9 13 NA 0 0 0
+"Star Gate Heaven (FUTURE LOVE Mix)" "SuperNOVA2" 0 147 148 147 4 5 9 12 NA 0 0 0
+"STARS (Re-tuned by HAL) - DDR EDITION -" "SuperNOVA2" 0 145 145 145 3 5 10 9 NA 0 0 0
+"stealth" "SuperNOVA2" 0 160 161 160 3 5 8 11 NA 0 0 0
+"SUNKiSS DROP~Alison Side~" "SuperNOVA2" 0 185 186 185 3 5 8 12 NA 0 0 0
+"SUNKiSS DROP~Alison Side~" "SuperNOVA2" 1 185 186 185 NA NA NA NA 12 0 0 0
+"switch" "SuperNOVA2" 0 152 153 152 3 4 7 10 NA 0 0 0
+"Trim" "SuperNOVA2" 0 85 340 0 5 6 10 16 NA 0 0 0
+"TRIP MACHINE PhoeniX" "SuperNOVA2" 0 80 160 0 3 8 12 15 NA 0 0 0
+"TRIP MACHINE PhoeniX" "SuperNOVA2" 1 80 160 0 NA NA NA NA 15 0 0 0
+"Trust -DanceDanceRevolution mix-" "SuperNOVA2" 0 164 164 164 3 5 8 10 NA 0 0 0
+"Unreal" "SuperNOVA2" 0 90 180 0 4 8 12 15 NA 0 0 0
+"Uranus" "SuperNOVA2" 0 81 162 0 3 6 9 11 NA 0 0 0
+"Uranus" "SuperNOVA2" 1 81 162 0 NA NA NA NA 13 0 0 0
+"Vem brincar" "SuperNOVA2" 0 135 135 135 2 5 7 11 NA 0 0 0
+"Venus" "SuperNOVA2" 0 195 196 195 3 4 7 11 NA 0 0 0
+"Venus" "SuperNOVA2" 1 195 196 195 NA NA NA NA 13 0 0 0
+"volcano" "SuperNOVA2" 0 240 240 240 4 5 8 13 NA 0 0 0
+"Votum stellarum -forest #25 DDR RMX-" "SuperNOVA2" 0 140 140 140 2 5 9 12 NA 0 0 0
+"Why not" "SuperNOVA2" 0 175 176 175 4 6 9 11 NA 0 0 0
+"30 Lives (Up-Up-Down-Dance Mix)" "X" 0 144 144 144 2 4 7 8 NA 0 0 0
+"A Geisha's Dream" "X" 0 140 140 140 2 6 9 11 NA 0 0 0
+"AFRONOVA(X-Special)" "X" 1 200 200 200 NA NA NA NA 13 0 0 0
+"Beautiful Inside (Cube Hard Mix)" "X" 0 110 110 110 3 5 7 10 NA 0 0 0
+"Blue Rain" "X" 0 144 144 144 2 5 6 11 NA 0 0 0
+"Blue Rain" "X" 1 144 144 144 NA NA NA NA 14 0 0 0
+"CANDY(X-Special)" "X" 1 192 193 192 NA NA NA NA 12 0 0 0
+"Chance and Dice" "X" 0 150 150 150 3 5 7 9 NA 0 0 0
+"Dance Celebration" "X" 0 130 130 130 2 5 8 11 NA 0 0 0
+"Dance Celebration" "X" 1 130 130 130 NA NA NA NA 12 0 0 0
+"Dance Celebration (System 7 Remix)" "X" 0 132 132 132 3 6 9 13 NA 0 0 0
+"Dance Dance Revolution(X-Special)" "X" 1 150 150 150 NA NA NA NA 13 0 0 0
+"Dance Floor" "X" 0 120 120 120 2 5 6 9 NA 0 0 0
+"dazzle" "X" 0 98 98 98 2 4 8 10 NA 0 0 0
+"Dream Machine" "X" 0 140 140 140 3 6 8 11 NA 0 0 0
+"Flight of the Phoenix" "X" 0 145 145 145 2 5 7 9 NA 0 0 0
+"Flight of the Phoenix" "X" 1 145 145 145 NA NA NA NA 7 0 0 0
+"Flourish" "X" 0 152 153 152 3 5 8 10 NA 0 0 0
+"Healing Vision(X-Special)" "X" 1 49 196 0 NA NA NA NA 14 0 0 0
+"Horatio" "X" 0 165 165 165 2 4 9 15 NA 0 0 0
+"Horatio" "X" 1 165 165 165 NA NA NA NA 15 0 0 0
+"Inspiration" "X" 0 147 148 147 3 5 7 8 NA 0 0 0
+"INTO YOUR HEART (Ruffage remix)" "X" 0 135 135 135 3 5 8 11 NA 0 0 0
+"KAKUMEI(X-Special)" "X" 1 83 148 0 NA NA NA NA 14 0 0 0
+"Lift You Up" "X" 0 123 123 123 3 4 6 10 NA 0 0 0
+"LOVING YOU (Epidemik remix)" "X" 0 165 165 165 3 6 8 11 NA 0 0 0
+"Malacca" "X" 0 140 140 140 3 4 7 10 NA 0 0 0
+"Malacca" "X" 1 140 140 140 NA NA NA NA 13 0 0 0
+"MAX 300(X-Special)" "X" 1 64 300 0 NA NA NA NA 17 0 0 0
+"MAXX UNLIMITED(X-Special)" "X" 1 140 320 0 NA NA NA NA 18 0 0 0
+"on the bounce" "X" 0 150 150 150 3 7 11 14 NA 0 0 0
+"on the bounce" "X" 1 150 150 150 NA NA NA NA 16 0 0 0
+"On The Break" "X" 0 85 170 0 3 8 10 13 NA 0 0 0
+"PARANOiA ETERNAL(X-Special)" "X" 1 200 200 200 NA NA NA NA 13 0 0 0
+"PARANOiA EVOLUTION(X-Special)" "X" 1 200 200 200 NA NA NA NA 14 0 0 0
+"PARANOiA MAX~DIRTY MIX~(X-Special)" "X" 1 190 190 190 NA NA NA NA 13 0 0 0
+"PARANOiA Rebirth(X-Special)" "X" 1 190 190 190 NA NA NA NA 14 0 0 0
+"PARANOiA(X-Special)" "X" 1 180 180 180 NA NA NA NA 13 0 0 0
+"Party Lights" "X" 0 130 130 130 2 4 6 11 NA 0 0 0
+"Playa (Original Mix)" "X" 0 125 125 125 3 4 7 11 NA 0 0 0
+"puzzle" "X" 0 135 135 135 3 4 6 8 NA 0 0 0
+"Rin To Shite Saku Hana No Gotoku" "X" 0 163 164 163 3 6 8 10 NA 0 0 0
+"SABER WING" "X" 0 74 222 0 5 8 10 13 NA 0 0 0
+"SABER WING" "X" 1 74 222 0 NA NA NA NA 13 0 0 0
+"SABER WING (AKIRA ISHIHARA Headshot mix)" "X" 0 79 316 0 6 10 12 15 NA 0 0 0
+"SABER WING (AKIRA ISHIHARA Headshot mix)" "X" 1 79 316 0 NA NA NA NA 17 0 0 0
+"SAGA" "X" 0 200 244 0 4 7 10 13 NA 0 0 0
+"Slip Out" "X" 0 95 95 95 2 3 7 9 NA 0 0 0
+"Slip Out (bounce in beat mix)" "X" 0 106 106 106 2 4 6 10 NA 0 0 0
+"SP-TRIP MACHINE~JUNGLE MIX~(X-Special)" "X" 1 160 160 160 NA NA NA NA 11 0 0 0
+"SUPER SAMURAI" "X" 0 169 171 170 4 8 12 15 NA 0 0 0
+"Taj He Spitz" "X" 0 107 108 107 2 4 7 10 NA 0 0 0
+"Taj He Spitz (Tommie Sunshine's Brooklyn Fire Re-Touch)" "X" 0 120 120 120 3 5 8 12 NA 0 0 0
+"Take A Chance" "X" 0 88 88 88 2 3 6 9 NA 0 0 0
+"The flower in your smile" "X" 0 186 187 186 3 6 7 10 NA 0 0 0
+"The legend of MAX(X-Special)" "X" 1 83 333 0 NA NA NA NA 17 0 0 0
+"Ticket To Bombay" "X" 0 145 145 145 3 5 7 10 NA 0 0 0
+"Till the lonely's gone" "X" 0 130 130 130 3 4 8 9 NA 0 0 0
+"TimeHollow" "X" 0 94 94 94 2 4 7 9 NA 0 0 0
+"Tracers (4Beat Remix)" "X" 0 140 140 140 3 5 7 10 NA 0 0 0
+"Trigger" "X" 0 100 400 0 3 9 12 16 NA 0 0 0
+"Trigger" "X" 1 100 400 0 NA NA NA NA 18 0 0 0
+"TRIP MACHINE CLIMAX(X-Special)" "X" 1 180 180 180 NA NA NA NA 14 0 0 0
+"TRIP MACHINE(X-Special)" "X" 1 160 160 160 NA NA NA NA 11 0 0 0
+"Ubertreffen" "X" 0 174 175 174 3 6 8 13 NA 0 0 0
+"Waiting 4 u" "X" 0 175 176 175 4 6 8 11 NA 0 0 0
+"Waiting 4 u" "X" 1 175 176 175 NA NA NA NA 11 0 0 0
+"will" "X" 0 145 145 145 2 4 7 11 NA 0 0 0
+"ZERO" "X" 0 90 180 0 3 5 8 11 NA 0 0 0
+"888" "X2" 0 111 444 0 3 6 13 14 NA 0 0 0
+"888" "X2" 1 111 444 0 NA NA NA NA 18 0 0 0
+"A Brighter Day" "X2" 0 155 155 155 2 5 7 9 NA 0 0 0
+"A Brighter Day" "X2" 1 155 155 155 NA NA NA NA 12 0 0 0
+"aftershock!!" "X2" 0 157 157 157 3 5 9 13 NA 0 0 0
+"All My Love" "X2" 0 158 159 158 2 5 8 10 NA 0 0 0
+"Anti-Matter" "X2" 0 100 400 0 6 11 14 17 NA 0 0 0
+"Anti-Matter" "X2" 1 100 400 0 NA NA NA NA 18 0 0 0
+"BALLAD THE FEATHERS" "X2" 0 132 132 132 2 4 7 10 NA 0 0 0
+"BALLAD THE FEATHERS" "X2" 1 132 132 132 NA NA NA NA 8 0 0 0
+"CG Project" "X2" 0 200 200 200 3 5 9 12 NA 0 0 0
+"Crazy Control" "X2" 0 105 105 105 2 4 6 9 NA 0 0 0
+"Crazy Control" "X2" 1 105 105 105 NA NA NA NA 12 0 0 0
+"Dazzlin' Darlin" "X2" 0 149 149 149 2 6 9 11 NA 0 0 0
+"Dazzlin' Darlin -Akiba Koubou mix-" "X2" 0 160 160 160 3 5 8 11 NA 0 0 0
+"Decade" "X2" 0 148 148 148 2 5 8 11 NA 0 0 0
+"deltaMAX" "X2" 0 100 573 0 3 5 13 17 NA 0 0 0
+"deltaMAX" "X2" 1 100 573 0 NA NA NA NA 17 0 0 0
+"dirty digital" "X2" 0 140 140 140 2 5 8 11 NA 0 0 0
+"dirty digital" "X2" 1 140 140 140 NA NA NA NA 13 0 0 0
+"DROP" "X2" 0 152 153 152 2 5 8 11 NA 0 0 0
+"Dummy" "X2" 0 175 176 175 2 4 7 10 NA 0 0 0
+"FIRE FIRE" "X2" 0 150 150 150 3 5 8 14 NA 0 0 0
+"Freeze" "X2" 0 140 140 140 2 5 8 12 NA 0 0 0
+"Freeze" "X2" 1 140 140 140 NA NA NA NA 13 0 0 0
+"going up" "X2" 0 212 213 212 3 7 10 12 NA 0 0 0
+"going up" "X2" 1 212 213 212 NA NA NA NA 11 0 0 0
+"GOLD RUSH" "X2" 0 162 162 162 2 5 8 12 NA 0 0 0
+"Gotta Dance" "X2" 0 145 145 145 2 3 6 10 NA 0 0 0
+"Heatstroke" "X2" 0 140 140 140 2 6 8 10 NA 0 0 0
+"Heatstroke" "X2" 1 140 140 140 NA NA NA NA 8 0 0 0
+"I'm so Happy" "X2" 0 181 182 181 4 6 9 12 NA 0 0 0
+"I'm so Happy" "X2" 1 181 182 181 NA NA NA NA 16 0 0 0
+"in love wit you" "X2" 0 148 148 148 2 4 7 9 NA 0 0 0
+"KIMONO PRINCESS" "X2" 0 95 190 0 5 8 12 15 NA 0 0 0
+"KISS KISS KISS Akiba Koubou MIX" "X2" 0 160 160 160 2 5 8 12 NA 0 0 0
+"La libertad" "X2" 0 170 171 170 3 5 9 12 NA 0 0 0
+"La libertad" "X2" 1 170 171 170 NA NA NA NA 14 0 0 0
+"La receta" "X2" 0 130 130 130 3 4 7 11 NA 0 0 0
+"La receta" "X2" 1 130 130 130 NA NA NA NA 13 0 0 0
+"Leaving" "X2" 0 145 145 145 2 5 8 11 NA 0 0 0
+"Leaving" "X2" 1 145 145 145 NA NA NA NA 13 0 0 0
+"Love Again" "X2" 0 57 70 0 2 4 6 8 NA 0 0 0
+"MAX LOVE" "X2" 0 180 180 180 3 6 8 11 NA 0 0 0
+"MAX LOVE" "X2" 1 180 180 180 NA NA NA NA 13 0 0 0
+"Mei" "X2" 0 66 200 0 3 7 11 16 NA 0 0 0
+"Mei" "X2" 1 66 200 0 NA NA NA NA 18 0 0 0
+"Melody Life" "X2" 0 172 172 172 2 5 7 10 NA 0 0 0
+"Melody Life" "X2" 1 172 172 172 NA NA NA NA 11 0 0 0
+"New Decade" "X2" 0 100 400 0 4 11 14 17 NA 0 0 0
+"New Decade" "X2" 1 100 400 0 NA NA NA NA 18 0 0 0
+"oarfish" "X2" 0 140 140 140 2 2 8 11 NA 0 0 0
+"Pierce The Sky" "X2" 0 85 170 0 3 8 11 14 NA 0 0 0
+"Pierce The Sky" "X2" 1 85 170 0 NA NA NA NA 16 0 0 0
+"Pluto The First" "X2" 0 50 440 0 8 10 14 17 NA 0 0 0
+"Pluto The First" "X2" 1 50 440 0 NA NA NA NA 18 0 0 0
+"Poseidon (kors k mix)" "X2" 0 76 152 0 2 5 9 14 NA 0 0 0
+"POSSESSION" "X2" 0 185 370 0 7 10 14 17 NA 0 0 0
+"POSSESSION" "X2" 1 185 370 0 NA NA NA NA 18 0 0 0
+"real-high-SPEED" "X2" 0 131 131 131 2 4 6 8 NA 0 0 0
+"resonance" "X2" 0 165 165 165 2 4 8 11 NA 0 0 0
+"roppongi EVOLVED ver. A" "X2" 0 170 170 170 6 8 11 15 NA 0 0 0
+"roppongi EVOLVED ver. B" "X2" 0 85 170 0 6 8 11 15 NA 0 0 0
+"roppongi EVOLVED ver. C" "X2" 0 42 170 0 6 8 11 15 NA 0 0 0
+"roppongi EVOLVED ver. D" "X2" 0 85 680 0 6 8 11 15 NA 0 0 0
+"Sacred Oath" "X2" 0 170 171 170 2 4 7 11 NA 0 0 0
+"Sacred Oath" "X2" 1 170 171 170 NA NA NA NA 12 0 0 0
+"sakura storm" "X2" 0 184 185 184 2 4 7 10 NA 0 0 0
+"sakura storm" "X2" 1 184 185 184 NA NA NA NA 13 0 0 0
+"Sakura Sunrise" "X2" 0 181 181 181 3 8 10 14 NA 0 0 0
+"Sakura Sunrise" "X2" 1 181 181 181 NA NA NA NA 16 0 0 0
+"Second Heaven" "X2" 0 149 149 149 2 5 9 11 NA 0 0 0
+"Second Heaven" "X2" 1 149 149 149 NA NA NA NA 14 0 0 0
+"She is my wife" "X2" 0 85 170 0 3 5 7 12 NA 0 0 0
+"Shine" "X2" 0 125 125 125 2 4 6 9 NA 0 0 0
+"Shine" "X2" 1 125 125 125 NA NA NA NA 12 0 0 0
+"shining" "X2" 0 185 186 185 2 5 8 11 NA 0 0 0
+"Shiny World" "X2" 0 25 100 0 2 8 11 14 NA 0 0 0
+"Shiny World" "X2" 1 25 100 0 NA NA NA NA 16 0 0 0
+"Sky Is The Limit" "X2" 0 150 150 150 2 5 9 12 NA 0 0 0
+"smooooch" "X2" 0 177 177 177 2 4 7 12 NA 0 0 0
+"smooooch" "X2" 1 177 177 177 NA NA NA NA 10 0 0 0
+"someday" "X2" 0 154 155 154 2 5 7 9 NA 0 0 0
+"Taking It To The Sky" "X2" 0 130 130 130 2 4 6 9 NA 0 0 0
+"Theory of Eternity" "X2" 0 160 160 160 3 6 9 12 NA 0 0 0
+"Theory of Eternity" "X2" 1 160 160 160 NA NA NA NA 10 0 0 0
+"THIS NIGHT" "X2" 0 160 161 160 2 5 8 11 NA 0 0 0
+"Valkyrie dimension" "X2" 0 47 744 0 9 13 15 18 NA 0 0 0
+"Valkyrie dimension" "X2" 1 47 744 0 NA NA NA NA 19 0 0 0
+"VANESSA" "X2" 0 185 186 185 4 7 11 16 NA 0 0 0
+"WH1TE RO5E" "X2" 0 85 170 0 3 5 9 13 NA 0 0 0
+"What Will Come of Me" "X2" 0 140 140 140 2 4 6 13 NA 0 0 0
+"YELLOW CANDY" "X2" 0 94 188 0 2 6 9 14 NA 0 0 0
+"You are a Star" "X2" 0 155 155 155 2 4 8 12 NA 0 0 0
+"You are a Star" "X2" 1 155 155 155 NA NA NA NA 13 0 0 0
+"Your Angel" "X2" 0 175 176 175 2 4 7 10 NA 0 0 0
+"ZETA ~The World of Prime Numbers and the Transcendental Being~" "X2" 0 90 180 0 3 6 11 15 NA 0 0 0
+"ZETA ~The World of Prime Numbers and the Transcendental Being~" "X2" 1 90 180 0 NA NA NA NA 18 0 0 0
+"Alstroemeria (walk with you remix)" "X3" 0 148 148 148 3 6 8 11 NA 0 0 0
+"Alstroemeria (walk with you remix)" "X3" 1 148 148 148 NA NA NA NA 13 0 0 0
+"Amalgamation" "X3" 0 166 167 166 3 7 10 13 NA 0 0 0
+"Amalgamation" "X3" 1 166 167 166 NA NA NA NA 15 0 0 0
+"Beautiful Receipt" "X3" 0 196 197 196 4 8 10 13 NA 0 0 0
+"BRILLIANT 2U (AKBK MIX)" "X3" 0 162 162 162 3 7 11 15 NA 0 0 0
+"Chronos" "X3" 0 128 128 128 2 4 8 12 NA 0 0 0
+"Chronos" "X3" 1 128 128 128 NA NA NA NA 15 0 0 0
+"COME BACK TO MY HEART" "X3" 0 142 142 142 2 5 8 12 NA 0 0 0
+"COME BACK TO MY HEART" "X3" 1 142 142 142 NA NA NA NA 6 0 0 0
+"Cosmic Hurricane" "X3" 0 188 188 188 3 6 9 13 NA 0 0 0
+"Cosmic Hurricane" "X3" 1 188 188 188 NA NA NA NA 15 0 0 0
+"CRAZY LOVE" "X3" 0 87 177 0 3 6 12 15 NA 0 0 0
+"CRAZY LOVE" "X3" 1 87 177 0 NA NA NA NA 18 0 0 0
+"Diamond Dust" "X3" 0 148 148 148 2 5 7 10 NA 0 0 0
+"Diamond Dust" "X3" 1 148 148 148 NA NA NA NA 13 0 0 0
+"dreaming can make a wish come true" "X3" 0 143 143 143 2 4 7 11 NA 0 0 0
+"ever snow" "X3" 0 145 145 145 2 4 8 12 NA 0 0 0
+"Fever" "X3" 0 134 134 134 2 4 7 9 NA 0 0 0
+"Find You Again" "X3" 0 150 150 150 3 5 9 12 NA 0 0 0
+"FLOWER" "X3" 0 173 173 173 3 7 10 13 NA 0 0 0
+"FLOWER" "X3" 1 173 173 173 NA NA NA NA 15 0 0 0
+"Get Back Up!" "X3" 0 155 155 155 2 7 9 12 NA 0 0 0
+"Go For The Top" "X3" 0 74 180 0 6 8 12 15 NA 0 0 0
+"Go For The Top" "X3" 1 74 180 0 NA NA NA NA 18 0 0 0
+"Haunted Rhapsody" "X3" 0 155 155 155 2 5 7 13 NA 0 0 0
+"HEART BEAT FORMULA" "X3" 0 230 231 230 4 7 10 13 NA 0 0 0
+"HEARTBREAK (Sound Selektaz remix)" "X3" 0 148 148 148 2 4 7 10 NA 0 0 0
+"I-O" "X3" 0 151 151 151 2 4 7 11 NA 0 0 0
+"In The Air" "X3" 0 140 140 140 4 6 9 11 NA 0 0 0
+"IN THE ZONE" "X3" 0 124 124 124 2 4 7 9 NA 0 0 0
+"KEEP ON MOVIN' (Y&Co. DJ BOSS remix)" "X3" 0 128 128 128 2 6 9 14 NA 0 0 0
+"Kouen" "X3" 0 175 176 175 3 6 9 12 NA 0 0 0
+"Kouen" "X3" 1 175 176 175 NA NA NA NA 15 0 0 0
+"Let's Get Away" "X3" 0 150 150 150 2 4 7 9 NA 0 0 0
+"London EVOLVED Ver.A" "X3" 0 43 340 0 5 8 11 14 NA 0 0 0
+"London EVOLVED Ver.A" "X3" 1 43 340 0 NA NA NA NA 17 0 0 0
+"London EVOLVED Ver.B" "X3" 0 170 420 0 5 8 11 14 NA 0 0 0
+"London EVOLVED Ver.B" "X3" 1 170 420 0 NA NA NA NA 17 0 0 0
+"London EVOLVED Ver.C" "X3" 0 170 340 0 5 8 11 14 NA 0 0 0
+"London EVOLVED Ver.C" "X3" 1 170 340 0 NA NA NA NA 17 0 0 0
+"LOVE IS THE POWER -Reborn-" "X3" 0 125 125 125 3 6 7 10 NA 0 0 0
+"MAGIC PARADE" "X3" 0 127 127 127 2 4 8 10 NA 0 0 0
+"Mermaid girl" "X3" 0 140 140 140 3 4 7 11 NA 0 0 0
+"Mermaid girl" "X3" 1 140 140 140 NA NA NA NA 12 0 0 0
+"message" "X3" 0 152 153 152 2 5 7 11 NA 0 0 0
+"NEPHILIM DELTA" "X3" 0 220 221 220 4 8 12 14 NA 0 0 0
+"New Beginning" "X3" 0 148 148 148 3 5 9 11 NA 0 0 0
+"New Beginning" "X3" 1 148 148 148 NA NA NA NA 12 0 0 0
+"New York EVOLVED (Type A)" "X3" 0 95 380 0 4 9 13 16 NA 0 0 0
+"New York EVOLVED (Type B)" "X3" 0 48 190 0 4 9 13 16 NA 0 0 0
+"New York EVOLVED (Type C)" "X3" 0 48 190 0 4 9 13 16 NA 0 0 0
+"osaka EVOLVED -MAIDO, OHKINI!- (TYPE1)" "X3" 0 50 300 0 9 11 13 15 NA 0 0 0
+"osaka EVOLVED -MAIDO, OHKINI!- (TYPE2)" "X3" 0 50 300 0 9 11 13 15 NA 0 0 0
+"osaka EVOLVED -MAIDO, OHKINI!- (TYPE3)" "X3" 0 50 300 0 9 11 13 15 NA 0 0 0
+"PARANOiA (kskst mix)" "X3" 0 190 190 190 4 9 13 17 NA 0 0 0
+"PARANOiA Revolution" "X3" 0 180 360 0 6 10 14 18 NA 0 0 0
+"PARANOiA Revolution" "X3" 1 180 360 0 NA NA NA NA 19 0 0 0
+"Private Eye" "X3" 0 160 160 160 2 4 8 12 NA 0 0 0
+"Programmed Universe" "X3" 0 37 147 0 2 5 9 12 NA 0 0 0
+"Programmed Universe" "X3" 1 37 147 0 NA NA NA NA 16 0 0 0
+"PUT YOUR FAITH IN ME (DA's Twinkly Disco Remix)" "X3" 0 115 116 115 2 5 8 13 NA 0 0 0
+"REBORN MAGIC" "X3" 0 140 140 140 2 4 7 10 NA 0 0 0
+"Rensen Ryouran" "X3" 0 142 142 142 3 6 8 11 NA 0 0 0
+"Rensen Ryouran" "X3" 1 142 142 142 NA NA NA NA 15 0 0 0
+"Rescue Me" "X3" 0 145 145 145 2 4 8 12 NA 0 0 0
+"Resurrection" "X3" 0 140 140 140 2 5 7 10 NA 0 0 0
+"REVOLUTIONARY ADDICT" "X3" 0 174 174 174 3 7 10 13 NA 0 0 0
+"REVOLUTIONARY ADDICT" "X3" 1 174 174 174 NA NA NA NA 16 0 0 0
+"Rhythms Inside" "X3" 0 131 131 131 2 3 8 9 NA 0 0 0
+"Ryouran Hit Chart" "X3" 0 192 193 192 2 5 8 13 NA 0 0 0
+"Seasons" "X3" 0 168 168 168 2 5 8 12 NA 0 0 0
+"Seule" "X3" 0 125 125 125 2 6 10 12 NA 0 0 0
+"Share The Love" "X3" 0 158 159 158 2 4 8 12 NA 0 0 0
+"Shizuku" "X3" 0 210 211 210 2 5 9 12 NA 0 0 0
+"SigSig" "X3" 0 179 179 179 3 6 9 12 NA 0 0 0
+"SigSig" "X3" 1 179 179 179 NA NA NA NA 10 0 0 0
+"SILVER DREAM" "X3" 0 96 193 0 4 8 11 15 NA 0 0 0
+"snow prism" "X3" 0 196 197 196 3 6 9 12 NA 0 0 0
+"snow prism" "X3" 1 196 197 196 NA NA NA NA 16 0 0 0
+"Something Special" "X3" 0 95 95 95 2 4 7 11 NA 0 0 0
+"SUMIDAGAWA KARENKA" "X3" 0 180 180 180 3 5 10 12 NA 0 0 0
+"SUMIDAGAWA KARENKA" "X3" 1 180 180 180 NA NA NA NA 16 0 0 0
+"Take A Step Forward" "X3" 0 145 145 145 2 7 9 11 NA 0 0 0
+"Take A Step Forward" "X3" 1 145 145 145 NA NA NA NA 15 0 0 0
+"Tenjou no Hoshi -Reimeiki-" "X3" 0 85 170 0 2 5 8 12 NA 0 0 0
+"The Heavens Above" "X3" 0 140 140 140 3 7 9 11 NA 0 0 0
+"TIME" "X3" 0 115 115 115 2 5 7 9 NA 0 0 0
+"Tohoku EVOLVED" "X3" 0 42 1021 0 6 10 14 17 NA 0 0 0
+"Tohoku EVOLVED" "X3" 1 42 1021 0 NA NA NA NA 18 0 0 0
+"tokyoEVOLVED (TYPE1)" "X3" 0 70 280 0 6 9 13 16 NA 0 0 0
+"tokyoEVOLVED (TYPE2)" "X3" 0 70 280 0 6 9 13 16 NA 0 0 0
+"tokyoEVOLVED (TYPE3)" "X3" 0 70 280 0 6 9 13 16 NA 0 0 0
+"Tribe" "X3" 0 139 139 139 2 5 7 10 NA 0 0 0
+"Tribe" "X3" 1 139 139 139 NA NA NA NA 13 0 0 0
+"TRIP MACHINE (xac nanoglide mix)" "X3" 0 170 171 170 4 8 12 16 NA 0 0 0
+"TRIP MACHINE EVOLUTION" "X3" 0 95 380 0 4 9 12 16 NA 0 0 0
+"TRIP MACHINE EVOLUTION" "X3" 1 95 380 0 NA NA NA NA 18 0 0 0
+"TWINKLE HEART" "X3" 0 185 186 185 2 4 7 11 NA 0 0 0
+"TWINKLE HEART" "X3" 1 185 186 185 NA NA NA NA 10 0 0 0
+"UNBELIEVABLE (Sparky remix)" "X3" 0 88 175 0 4 7 11 15 NA 0 0 0
+"UNBELIEVABLE (Sparky remix)" "X3" 1 88 175 0 NA NA NA NA 18 0 0 0
+"Until the End" "X3" 0 172 172 172 3 4 9 12 NA 0 0 0
+"Wicked Plastik" "X3" 0 145 145 145 3 4 8 13 NA 0 0 0
+"Wings of an Angel (Fly With Me)" "X3" 0 175 175 175 2 4 8 12 NA 0 0 0
+"ACROSS WORLD" "2013" 0 185 186 185 2 4 8 12 NA 0 0 0
+"ACROSS WORLD" "2013" 1 185 186 185 NA NA NA NA 14 0 0 0
+"Ah La La La" "2013" 0 130 130 130 2 5 7 12 NA 0 0 0
+"Air Heroes" "2013" 0 175 176 175 3 9 11 15 NA 0 0 0
+"Air Heroes" "2013" 1 175 176 175 NA NA NA NA 18 0 0 0
+"Another Phase" "2013" 0 160 160 160 4 7 11 15 NA 0 0 0
+"Another Phase" "2013" 1 160 160 160 NA NA NA NA 16 0 0 0
+"Back In Your Arms" "2013" 0 132 132 132 2 5 8 10 NA 0 0 0
+"Beautiful Dream" "2013" 0 182 183 182 3 7 9 12 NA 0 0 0
+"Beautiful Dream" "2013" 1 182 183 182 NA NA NA NA 15 0 0 0
+"Blew My Mind" "2013" 0 95 380 0 4 9 12 16 NA 0 0 0
+"Blew My Mind" "2013" 1 95 380 0 NA NA NA NA 18 0 0 0
+"Bombay Bomb" "2013" 0 145 145 145 2 6 10 12 NA 0 0 0
+"Chikuwa parfait da yo CKP" "2013" 0 205 205 205 4 7 9 12 NA 0 0 0
+"Chikuwa parfait da yo CKP" "2013" 1 205 205 205 NA NA NA NA 14 0 0 0
+"Children of the Beat" "2013" 0 160 160 160 3 7 9 11 NA 0 0 0
+"Children of the Beat" "2013" 1 160 160 160 NA NA NA NA 12 0 0 0
+"Chinese Snowy Dance" "2013" 0 175 176 175 4 7 12 16 NA 0 0 0
+"Colorful Pastel" "2013" 0 186 186 186 2 6 9 13 NA 0 0 0
+"Condor" "2013" 0 142 142 142 2 6 9 13 NA 0 0 0
+"Condor" "2013" 1 142 142 142 NA NA NA NA 15 0 0 0
+"Confession" "2013" 0 150 150 150 2 4 7 12 NA 0 0 0
+"Confession" "2013" 1 150 150 150 NA NA NA NA 14 0 0 0
+"Desert Journey" "2013" 0 140 140 140 3 5 8 12 NA 0 0 0
+"Desert Journey" "2013" 1 140 140 140 NA NA NA NA 15 0 0 0
+"Diamond Night" "2013" 0 135 135 135 3 5 8 12 NA 0 0 0
+"Diamond Night" "2013" 1 135 135 135 NA NA NA NA 14 0 0 0
+"Elemental Creation" "2013" 0 106 424 0 8 11 14 17 NA 0 0 0
+"Elemental Creation" "2013" 1 106 424 0 NA NA NA NA 18 0 0 0
+"Empathetic" "2013" 0 180 180 180 4 7 11 14 NA 0 0 0
+"escape" "2013" 0 140 140 140 3 5 8 10 NA 0 0 0
+"escape" "2013" 1 140 140 140 NA NA NA NA 13 0 0 0
+"Everything I Need" "2013" 0 50 100 0 2 4 6 9 NA 0 0 0
+"Find The Way" "2013" 0 165 165 165 3 7 10 12 NA 0 0 0
+"GAIA" "2013" 0 90 180 0 3 10 13 16 NA 0 0 0
+"heron" "2013" 0 182 183 182 3 6 9 12 NA 0 0 0
+"heron" "2013" 1 182 183 182 NA NA NA NA 13 0 0 0
+"Hoping To Be Good" "2013" 0 120 120 120 2 5 7 12 NA 0 0 0
+"JOKER" "2013" 0 160 160 160 2 4 8 11 NA 0 0 0
+"JOKER" "2013" 1 160 160 160 NA NA NA NA 14 0 0 0
+"Kiken na kajitsu" "2013" 0 174 175 174 2 6 9 13 NA 0 0 0
+"Lucky Lucky" "2013" 0 165 165 165 2 7 10 13 NA 0 0 0
+"Magnetic" "2013" 0 40 160 0 3 7 11 15 NA 0 0 0
+"Magnetic" "2013" 1 40 160 0 NA NA NA NA 17 0 0 0
+"Meumeupettantan!!" "2013" 0 184 185 185 3 6 9 12 NA 0 0 0
+"Meumeupettantan!!" "2013" 1 184 185 185 NA NA NA NA 16 0 0 0
+"Monkey Business" "2013" 0 80 160 0 3 7 9 13 NA 0 0 0
+"Monkey Business" "2013" 1 80 160 0 NA NA NA NA 16 0 0 0
+"Nagisa no koakuma lovely~radio" "2013" 0 190 190 190 3 7 11 16 NA 0 0 0
+"Nagisa no koakuma lovely~radio" "2013" 1 190 190 190 NA NA NA NA 9 0 0 0
+"New Generation" "2013" 0 190 190 190 4 7 10 14 NA 0 0 0
+"New Generation" "2013" 1 190 190 190 NA NA NA NA 17 0 0 0
+"New Gravity" "2013" 0 154 155 154 3 6 9 12 NA 0 0 0
+"New Gravity" "2013" 1 154 155 154 NA NA NA NA 14 0 0 0
+"nightbird lost wing" "2013" 0 190 190 190 3 7 10 14 NA 0 0 0
+"Nijiiro no hana" "2013" 0 170 171 170 3 5 8 11 NA 0 0 0
+"Okome no oishii takikata, soshite okome wo taberu koto ni yoru sono kouka" "2013" 0 190 190 190 4 8 12 16 NA 0 0 0
+"PRANA" "2013" 0 188 188 188 4 8 11 14 NA 0 0 0
+"PRANA" "2013" 1 188 188 188 NA NA NA NA 16 0 0 0
+"printemps" "2013" 0 168 168 168 3 6 10 13 NA 0 0 0
+"Qipchaq" "2013" 0 150 150 150 3 5 8 12 NA 0 0 0
+"REVOLUTION" "2013" 0 202 202 202 3 7 11 14 NA 0 0 0
+"REVOLUTION" "2013" 1 202 202 202 NA NA NA NA 17 0 0 0
+"Right on time (Ryu Remix)" "2013" 0 149 149 149 2 7 9 14 NA 0 0 0
+"Right on time (Ryu Remix)" "2013" 1 149 149 149 NA NA NA NA 13 0 0 0
+"Rin to shite saku hana no gotoku ~HinaBitter edition~" "2013" 0 163 163 163 3 5 8 11 NA 0 0 0
+"Seiten Bon Voyage" "2013" 0 230 231 230 4 7 9 12 NA 0 0 0
+"sola" "2013" 0 135 135 135 2 5 9 12 NA 0 0 0
+"Somehow You Found Me" "2013" 0 180 180 180 3 6 10 13 NA 0 0 0
+"Somehow You Found Me" "2013" 1 180 180 180 NA NA NA NA 16 0 0 0
+"Sousei Note" "2013" 0 200 200 200 2 8 10 13 NA 0 0 0
+"south" "2013" 0 140 140 140 2 5 8 10 NA 0 0 0
+"south" "2013" 1 140 140 140 NA NA NA NA 10 0 0 0
+"Spanish Snowy Dance" "2013" 0 180 180 180 3 7 11 15 NA 0 0 0
+"Spanish Snowy Dance" "2013" 1 180 180 180 NA NA NA NA 17 0 0 0
+"Starry HEAVEN" "2013" 0 190 190 190 2 5 8 10 NA 0 0 0
+"Starry HEAVEN" "2013" 1 190 190 190 NA NA NA NA 13 0 0 0
+"Straight Oath" "2013" 0 182 182 182 3 8 11 13 NA 0 0 0
+"Straight Oath" "2013" 1 182 182 182 NA NA NA NA 15 0 0 0
+"STULTI" "2013" 0 90 182 0 4 9 12 15 NA 0 0 0
+"Sucka Luva" "2013" 0 118 118 118 2 5 8 11 NA 0 0 0
+"Summer Fairytale" "2013" 0 141 141 141 2 5 7 9 NA 0 0 0
+"Summer Fairytale" "2013" 1 141 141 141 NA NA NA NA 14 0 0 0
+"Sweet Rain" "2013" 0 155 155 155 3 6 9 12 NA 0 0 0
+"Synergy For Angels" "2013" 0 160 160 160 3 7 10 14 NA 0 0 0
+"Tell me what to do" "2013" 0 145 145 145 2 5 9 12 NA 0 0 0
+"Tell me what to do" "2013" 1 145 145 145 NA NA NA NA 14 0 0 0
+"The Island Song" "2013" 0 85 85 85 2 3 7 9 NA 0 0 0
+"The Island Song" "2013" 1 85 85 85 NA NA NA NA 13 0 0 0
+"THE REASON" "2013" 0 85 98 0 3 4 7 12 NA 0 0 0
+"THE REASON" "2013" 1 85 98 0 NA NA NA NA 15 0 0 0
+"The Wind of Gold" "2013" 0 170 171 170 3 7 10 14 NA 0 0 0
+"Top The Charts" "2013" 0 160 160 160 3 5 8 12 NA 0 0 0
+"Top The Charts" "2013" 1 160 160 160 NA NA NA NA 14 0 0 0
+"Triple Journey -TAG EDITION-" "2013" 0 96 192 192 4 8 12 16 NA 0 0 0
+"Triple Journey -TAG EDITION-" "2013" 1 96 192 192 NA NA NA NA 18 0 0 0
+"Who Floats" "2013" 0 180 180 180 3 6 9 12 NA 0 0 0
+"WILD SIDE" "2013" 0 165 165 165 3 7 9 11 NA 0 0 0
+"WILD SIDE" "2013" 1 165 165 165 NA NA NA NA 13 0 0 0
+"Windy Fairy" "2013" 0 180 180 180 2 7 11 15 NA 0 0 0
+"Wow Wow VENUS" "2013" 0 157 157 157 2 4 8 11 NA 0 0 0
+"Wow Wow VENUS" "2013" 1 157 157 157 NA NA NA NA 16 0 0 0
+"You" "2013" 0 72 72 72 2 4 6 10 NA 0 0 0
+"Zutto Mitsu Meteite (Ryu Remix)" "2013" 0 160 160 160 2 7 9 12 NA 0 0 0
+"Zutto Mitsu Meteite (Ryu Remix)" "2013" 1 160 160 160 NA NA NA NA 15 0 0 0
+"8000000" "2014" 0 100 200 0 4 7 10 14 NA 0 0 0
+"Adularia" "2014" 0 180 180 180 3 6 10 14 NA 0 0 0
+"AETHER" "2014" 0 192 384 0 6 9 14 17 NA 0 0 0
+"Asa-iro no kami hikouki" "2014" 0 132 132 132 2 5 9 13 NA 0 0 0
+"Awa odori -Awaodori- yappari odori wa yame rarenai" "2014" 0 120 260 0 5 9 12 14 NA 0 0 0
+"AWAKE" "2014" 0 180 180 180 3 5 10 13 NA 0 0 0
+"AWAKE" "2014" 1 180 180 180 NA NA NA NA 16 0 0 0
+"Ayakashi kakushi" "2014" 0 85 85 85 4 7 11 14 NA 0 0 0
+"Bakunana Testroyer" "2014" 0 200 200 200 4 7 11 13 NA 0 0 0
+"Bamboo Sword Girl" "2014" 0 208 208 208 2 7 11 15 NA 0 0 0
+"Bamboo Sword Girl" "2014" 1 208 208 208 NA NA NA NA 18 0 0 0
+"BeBeatStream" "2014" 0 184 184 184 4 6 10 13 NA 0 0 0
+"chaos eater" "2014" 0 105 210 0 6 8 12 16 NA 0 0 0
+"Chewin' Bunny" "2014" 0 180 180 180 3 6 8 10 NA 0 0 0
+"Chewin' Bunny" "2014" 1 180 180 180 NA NA NA NA 13 0 0 0
+"Chihou sousei chikuwactics" "2014" 0 170 170 170 2 6 10 13 NA 0 0 0
+"Chocolate Smile" "2014" 0 196 196 196 3 6 9 12 NA 0 0 0
+"Cleopatrysm" "2014" 0 190 190 190 4 7 11 15 NA 0 0 0
+"Crimson Gate" "2014" 0 198 198 198 3 7 10 13 NA 0 0 0
+"Daily Lunch Special" "2014" 0 205 205 205 3 7 10 14 NA 0 0 0
+"Dance Partay" "2014" 0 135 135 135 2 5 7 11 NA 0 0 0
+"Dance Partay" "2014" 1 135 135 135 NA NA NA NA 13 0 0 0
+"Deadball de homerun" "2014" 0 145 145 145 3 6 9 13 NA 0 0 0
+"Destination" "2014" 0 85 170 0 4 9 12 15 NA 0 0 0
+"Din Don Dan" "2014" 0 140 140 140 2 5 7 10 NA 0 0 0
+"Din Don Dan" "2014" 1 140 140 140 NA NA NA NA 12 0 0 0
+"Dispersion Star" "2014" 0 180 180 180 3 5 9 13 NA 0 0 0
+"Do The Evolution" "2014" 0 148 148 148 2 4 8 10 NA 0 0 0
+"Dokidoki ryuusei trap girl!!" "2014" 0 140 140 140 3 6 9 14 NA 0 0 0
+"Dopamine" "2014" 0 100 400 0 7 10 13 17 NA 0 0 0
+"Dreamin'" "2014" 0 128 128 128 2 4 6 9 NA 0 0 0
+"Dreamin'" "2014" 1 128 128 128 NA NA NA NA 12 0 0 0
+"EGOISM 440" "2014" 0 55 880 0 9 10 13 18 NA 0 0 0
+"EGOISM 440" "2014" 1 55 880 0 NA NA NA NA 19 0 0 0
+"Electronic or Treat!" "2014" 0 142 190 0 3 7 12 15 NA 0 0 0
+"Elysium" "2014" 0 145 145 145 2 5 8 11 NA 0 0 0
+"Elysium" "2014" 1 145 145 145 NA NA NA NA 13 0 0 0
+"Endorphin" "2014" 0 160 160 160 4 8 12 15 NA 0 0 0
+"Engraved Mark" "2014" 0 188 188 188 3 8 12 15 NA 0 0 0
+"esreveR" "2014" 0 155 155 155 2 5 9 13 NA 0 0 0
+"Follow Tomorrow" "2014" 0 140 140 140 2 5 8 11 NA 0 0 0
+"Follow Tomorrow" "2014" 1 140 140 140 NA NA NA NA 14 0 0 0
+"FUJIMORI -Matsuri- FESTIVAL" "2014" 0 158 158 158 3 5 9 12 NA 0 0 0
+"FUNKY SUMMER BEACH" "2014" 0 88 175 0 3 6 10 14 NA 0 0 0
+"FUNKY SUMMER BEACH" "2014" 1 88 175 0 NA NA NA NA 17 1 0 0
+"Gekiatsu majiyaba cheer girl" "2014" 0 170 170 170 3 6 9 13 NA 0 0 0
+"Gensoukei sekai shuufuku shoujo" "2014" 0 193 193 193 3 6 9 12 NA 0 0 0
+"Go Go Girls&Boys!" "2014" 0 158 158 158 3 5 8 11 NA 0 0 0
+"Habibe(Antuh muhleke)" "2014" 0 144 144 144 3 5 10 13 NA 0 0 0
+"Hanamaru pippi wa yoiko dake" "2014" 0 172 172 172 4 7 10 12 NA 0 0 0
+"HAPPY LUCKY YEAPPY" "2014" 0 190 380 0 6 10 13 16 NA 0 0 0
+"HAPPY LUCKY YEAPPY" "2014" 1 190 380 0 NA NA NA NA 18 1 0 0
+"HEART BEAT FORMULA (Vinyl Mix)" "2014" 0 115 115 115 4 8 11 13 NA 0 0 0
+"Home neko sensation" "2014" 0 200 200 200 4 6 10 13 NA 0 0 0
+"Hoshikuzu no kiroku" "2014" 0 182 182 182 3 6 9 11 NA 0 0 0
+"HYENA" "2014" 0 89 178 0 3 6 10 14 NA 0 0 0
+"Idola" "2014" 0 201 201 201 3 8 12 16 NA 0 0 0
+"Idola" "2014" 1 201 201 201 NA NA NA NA 17 0 0 0
+"IMANOGUILTS" "2014" 0 184 184 184 4 8 11 14 NA 0 0 0
+"IMANOGUILTS" "2014" 1 184 184 184 NA NA NA NA 15 0 0 0
+"In The Breeze" "2014" 0 142 142 142 3 5 9 11 NA 0 0 0
+"IX" "2014" 0 99 396 0 5 11 14 17 NA 0 0 0
+"IX" "2014" 1 99 396 0 NA NA NA NA 18 0 0 0
+"JOMANDA" "2014" 0 90 270 0 4 8 12 15 NA 0 0 0
+"JOMANDA" "2014" 1 90 270 0 NA NA NA NA 17 0 0 0
+"KHAMEN BREAK" "2014" 0 90 180 0 3 7 11 16 NA 0 0 0
+"Koi hadou Moro Hadou OK Houteishiki!!" "2014" 0 128 256 0 4 7 11 14 NA 0 0 0
+"LoveLove DokiDoki" "2014" 0 160 160 160 2 6 10 12 NA 0 0 0
+"Luckgakist" "2014" 0 199 199 199 4 7 10 13 NA 0 0 0
+"Luckgakist" "2014" 1 199 199 199 NA NA NA NA 16 0 0 0
+"M.A.Y.U" "2014" 0 128 128 128 2 6 8 13 NA 0 0 0
+"MAX.(period)" "2014" 0 150 600 0 5 12 14 16 NA 0 0 0
+"MAX.(period)" "2014" 1 150 600 0 NA NA NA NA 18 0 0 0
+"Metsubou tenshi nikokyuppin" "2014" 0 200 200 200 4 6 9 12 NA 0 0 0
+"Mind Game" "2014" 0 180 180 180 3 7 10 14 NA 0 0 0
+"Mirai prism" "2014" 0 140 140 140 2 4 7 10 NA 0 0 0
+"MITOrete! Ibarakisshuda~rin" "2014" 0 173 173 173 2 6 9 13 NA 0 0 0
+"Nageki no ki" "2014" 0 160 160 160 4 8 12 16 NA 0 0 0
+"Nageki no ki" "2014" 1 160 160 160 NA NA NA NA 18 0 0 0
+"neko neko" "2014" 0 123 123 123 2 5 9 11 NA 0 0 0
+"neko neko" "2014" 1 123 123 123 NA NA NA NA 14 0 0 0
+"Nostalgia Is Lost" "2014" 0 172 172 172 3 7 11 15 NA 0 0 0
+"One Sided Love" "2014" 0 140 140 140 2 5 8 10 NA 0 0 0
+"One Sided Love" "2014" 1 140 140 140 NA NA NA NA 12 0 0 0
+"Onna kotoba no shoushitsu" "2014" 0 136 136 136 3 6 9 13 NA 0 0 0
+"Osenju meditation" "2014" 0 150 190 0 4 8 12 15 NA 0 0 0
+"Otome no shinkocchou" "2014" 0 180 180 180 3 6 9 12 NA 0 0 0
+"Otome ryouran mai sakihokore" "2014" 0 210 210 210 4 7 10 13 NA 0 0 0
+"Over The Period" "2014" 0 22 840 0 8 12 16 18 NA 0 0 0
+"Over The Period" "2014" 1 22 840 0 NA NA NA NA 19 0 0 0
+"Pa pi pu Yeah!" "2014" 0 160 160 160 3 5 10 13 NA 0 0 0
+"Party Lights (Tommie Sunshine's Brooklyn Fire Remix)" "2014" 0 130 130 130 2 5 8 11 NA 0 0 0
+"Plan 8" "2014" 0 212 212 212 4 8 11 14 NA 0 0 0
+"Plan 8" "2014" 1 212 212 212 NA NA NA NA 18 1 0 0
+"POSSESSION(EDP Live Mix)" "2014" 0 185 185 185 3 9 12 16 NA 0 0 0
+"PRANA+REVOLUTIONARY ADDICT (U1 DJ Mix)" "2014" 0 190 190 190 5 9 13 17 NA 0 0 0
+"PUNISHER" "2014" 0 180 180 180 3 6 11 14 NA 0 0 0
+"Remain" "2014" 0 75 300 0 5 9 12 15 NA 0 0 0
+"Romancing Layer" "2014" 0 150 150 150 2 6 11 14 NA 0 0 0
+"SABER WING (satellite silhouette remix)" "2014" 0 138 138 138 2 4 9 12 NA 0 0 0
+"SABER WING (satellite silhouette remix)" "2014" 1 138 138 138 NA NA NA NA 15 0 0 0
+"Sakura Mirage" "2014" 0 187 187 187 4 7 11 14 NA 0 0 0
+"Samurai Shogun vs. Master Ninja" "2014" 0 260 260 260 3 7 12 15 NA 0 0 0
+"Sand Blow" "2014" 0 83 165 0 3 7 12 15 NA 0 0 0
+"Scarlet Moon" "2014" 0 180 180 180 2 5 9 12 NA 0 0 0
+"second spring storm" "2014" 0 131 131 131 2 6 9 14 NA 0 0 0
+"Setsuna Trip" "2014" 0 145 145 145 3 4 10 14 NA 0 0 0
+"Shakunetsu Beach Side Bunny" "2014" 0 153 153 153 4 8 11 15 NA 0 0 0
+"Shikkoku no special princess sundae" "2014" 0 200 200 200 4 8 11 13 NA 0 0 0
+"SPECIAL SUMMER CAMPAIGN!" "2014" 0 168 168 168 2 7 11 15 NA 0 0 0
+"Squeeze" "2014" 0 86 173 0 4 6 9 15 NA 0 0 0
+"Starlight Fantasia" "2014" 0 148 148 148 3 7 11 14 NA 0 0 0
+"Starlight Fantasia (Endorphins Mix)" "2014" 0 77 155 0 3 8 12 15 NA 0 0 0
+"starmine" "2014" 0 182 182 182 3 7 11 15 NA 0 0 0
+"starmine" "2014" 1 182 182 182 NA NA NA NA 17 0 0 0
+"Stella Sinistra" "2014" 0 110 180 0 4 8 12 15 NA 0 0 0
+"Struggle" "2014" 0 180 180 180 4 6 10 13 NA 0 0 0
+"SUMMER DIARY -DDR mix-" "2014" 0 160 160 160 3 7 10 14 NA 0 0 0
+"Summer fantasy (Darwin remix)" "2014" 0 178 178 178 2 7 10 13 NA 0 0 0
+"Summer fantasy (Darwin remix)" "2014" 1 178 178 178 NA NA NA NA 11 0 0 0
+"SUPER HERO" "2014" 0 180 180 180 4 6 9 12 NA 0 0 0
+"Tenkuu no hana" "2014" 0 90 180 0 4 6 11 15 NA 0 0 0
+"Thank You Merry Christmas" "2014" 0 220 220 220 3 5 9 12 NA 0 0 0
+"Thank You Merry Christmas" "2014" 1 220 220 220 NA NA NA NA 16 1 0 0
+"The Lonely Streets" "2014" 0 115 115 115 2 4 7 11 NA 0 0 0
+"The Lonely Streets" "2014" 1 115 115 115 NA NA NA NA 12 0 0 0
+"Todoroke! Koi no beanball!!" "2014" 0 180 180 180 3 7 11 16 NA 0 0 0
+"Totsugeki! Glass no kneeso hime!" "2014" 0 185 185 185 4 7 11 14 NA 0 0 0
+"Truare!" "2014" 0 183 183 183 3 8 11 16 NA 0 0 0
+"True Blue" "2014" 0 164 164 164 3 7 11 16 NA 0 0 0
+"TSUBASA" "2014" 0 151 151 151 2 6 10 13 NA 0 0 0
+"VEGA" "2014" 0 191 191 191 3 7 11 14 NA 0 0 0
+"Wadatsumi" "2014" 0 159 159 159 3 8 12 16 NA 0 0 0
+"Wadatsumi" "2014" 1 159 159 159 NA NA NA NA 18 1 0 0
+"Yakyuu no asobikata soshite sono rekishi ~ketteiban~" "2014" 0 141 141 141 3 6 9 14 NA 0 0 0
+"Yamato nadenade Kaguya-hime" "2014" 0 160 160 160 2 6 8 11 NA 0 0 0
+"Yamato nadenade Kaguya-hime" "2014" 1 160 160 160 NA NA NA NA 14 0 0 0
+"ACE FOR ACES" "A" 0 100 400 0 4 7 13 15 NA 0 0 0
+"ACE FOR ACES" "A" 1 100 400 0 NA NA NA NA 18 0 0 0
+"ALGORITHM" "A" 0 130 130 130 5 7 11 13 NA 0 0 0
+"ALGORITHM" "A" 1 130 130 130 NA NA NA NA 15 0 0 0
+"Alien Alien" "A" 0 152 152 152 3 5 9 12 NA 0 0 0
+"ALL MY HEART -kono koi ni, watashi no subete wo kakeru-" "A" 0 160 160 160 3 5 9 13 NA 0 0 0
+"Ama no jyaku" "A" 0 197 205 0 4 6 10 13 NA 0 0 0
+"Angelic Jelly" "A" 0 100 200 0 4 6 11 13 NA 0 0 0
+"ANNIVERSARY" "A" 0 180 180 180 4 7 12 16 NA 0 0 0
+"Astrogazer" "A" 0 154 154 154 3 7 12 15 NA 0 0 0
+"Astrogazer" "A" 1 154 154 154 NA NA NA NA 18 0 0 0
+"Bad Apple!! feat. nomico" "A" 0 138 138 138 3 5 8 12 NA 0 0 0
+"bass 2 bass" "A" 0 140 140 140 2 5 9 12 NA 0 0 0
+"Bassdrop freaks" "A" 0 179 179 179 3 7 10 13 NA 0 0 0
+"Be a Hero!" "A" 0 190 190 190 7 9 13 17 NA 0 0 0
+"Boss Rush" "A" 0 95 190 0 4 10 14 16 NA 0 0 0
+"Buraikku jikorizer" "A" 0 150 150 150 2 4 8 13 NA 0 0 0
+"Buraikku jikorizer" "A" 1 150 150 150 NA NA NA NA 15 0 0 0
+"Catch Our Fire!" "A" 0 190 192 190 5 10 13 17 NA 0 0 0
+"CHAOS Terror-Tech Mix" "A" 0 165 165 165 5 8 12 15 NA 0 0 0
+"CHAOS Terror-Tech Mix" "A" 1 165 165 165 NA NA NA NA 17 0 0 0
+"CHOCOLATE PHILOSOPHY" "A" 0 110 110 110 2 4 8 9 NA 0 0 0
+"CHOCOLATE PHILOSOPHY" "A" 1 110 110 110 NA NA NA NA 12 0 0 0
+"Chronos (walk with you remix)" "A" 0 74 148 0 3 7 10 14 NA 0 0 0
+"Cirno's Perfect Math Class" "A" 0 175 176 175 3 6 10 13 NA 0 0 0
+"Cirno's Perfect Math Class" "A" 1 175 176 175 NA NA NA NA 15 0 0 0
+"Cirno's Perfect Math Class (EDM REMIX)" "A" 0 130 175 0 2 4 10 13 NA 0 0 0
+"Come to Life" "A" 0 90 180 0 4 8 12 16 NA 0 0 0
+"Come to Life" "A" 1 90 180 0 NA NA NA NA 18 0 0 0
+"Cosy Catastrophe" "A" 0 90 360 0 6 9 13 16 NA 0 0 0
+"Cosy Catastrophe" "A" 1 90 360 0 NA NA NA NA 18 0 0 0
+"Cytokinesis" "A" 0 111 282 0 4 8 10 14 NA 0 0 0
+"Dadadadadadadadadada" "A" 0 156 156 156 2 5 11 13 NA 0 0 0
+"Dadadadadadadadadada" "A" 1 156 156 156 NA NA NA NA 16 0 0 0
+"DANCE ALL NIGHT (DDR EDITION)" "A" 0 144 144 144 2 5 8 10 NA 0 0 0
+"Dancer in the flare" "A" 0 132 132 132 3 6 10 13 NA 0 0 0
+"DDR MEGAMIX" "A" 0 65 332 0 6 8 13 15 NA 0 0 0
+"DDR MEGAMIX" "A" 1 65 332 0 NA NA NA NA 16 0 0 0
+"Determination" "A" 0 230 230 230 2 5 8 14 NA 0 0 0
+"DREAMING-ING!!" "A" 0 180 180 180 3 6 10 12 NA 0 0 0
+"EDM jumpers" "A" 0 72 145 0 3 5 8 12 NA 0 0 0
+"Electric Dance System Music" "A" 0 140 140 140 2 5 10 14 NA 0 0 0
+"Emera" "A" 0 161 161 161 3 6 11 15 NA 0 0 0
+"Emera" "A" 1 161 161 161 NA NA NA NA 17 0 0 0
+"ENDYMION" "A" 0 110 880 0 9 13 16 18 NA 0 0 0
+"ENDYMION" "A" 1 110 880 0 NA NA NA NA 19 0 0 0
+"Eternal Summer" "A" 0 145 145 145 2 6 9 13 NA 0 0 0
+"Exciting!! Mo-cha-cha" "A" 0 187 187 187 4 8 11 13 NA 0 0 0
+"Far east nightbird" "A" 0 180 180 180 4 6 10 12 NA 0 0 0
+"Far east nightbird kors k Remix -DDR edit ver-" "A" 0 175 175 175 3 7 11 13 NA 0 0 0
+"First Time" "A" 0 70 560 0 4 7 11 15 NA 0 0 0
+"First Time" "A" 1 70 560 0 NA NA NA NA 18 0 0 0
+"Fly far bounce" "A" 0 98 173 0 3 6 10 13 NA 0 0 0
+"Fuurin hanabi" "A" 0 150 150 150 2 5 8 10 NA 0 0 0
+"Grand Chariot" "A" 0 191 191 191 3 7 11 13 NA 0 0 0
+"Grip & Break down !!" "A" 0 160 160 160 3 6 9 12 NA 0 0 0
+"Grip & Break down !!" "A" 1 160 160 160 NA NA NA NA 16 1 0 0
+"Ha-lle-lu-jah" "A" 0 150 150 150 2 5 9 12 NA 0 0 0
+"HANDS UP IN THE AIR" "A" 0 128 128 128 2 5 9 13 NA 0 0 0
+"Happy koi lovely time!!" "A" 0 139 139 139 2 5 8 11 NA 0 0 0
+"Happy synthesizer" "A" 0 127 127 127 2 5 9 13 NA 0 0 0
+"Haru ichiban" "A" 0 180 180 180 4 6 7 11 NA 0 0 0
+"Hatsune Miku no shoushitsu" "A" 0 240 240 240 3 8 10 13 NA 0 0 0
+"Hatsune Miku no shoushitsu" "A" 1 240 240 240 NA NA NA NA 15 0 0 0
+"Help me, ERINNNNNN!!" "A" 0 183 183 183 4 5 9 12 NA 0 0 0
+"High School Love" "A" 0 180 180 180 3 6 10 13 NA 0 0 0
+"Himawari sunset" "A" 0 135 135 135 4 5 10 13 NA 0 0 0
+"Hopeful" "A" 0 146 146 146 2 5 10 13 NA 0 0 0
+"Hopeful" "A" 1 146 146 146 NA NA NA NA 15 1 0 0
+"Illegal Function Call" "A" 0 130 260 0 4 10 13 16 NA 0 0 0
+"IN BETWEEN" "A" 0 160 160 160 4 7 12 15 NA 0 0 0
+"invisible rain" "A" 0 58 97 0 2 4 7 11 NA 0 0 0
+"Iro wa nio e do chirinuru wo" "A" 0 138 138 138 3 5 8 11 NA 0 0 0
+"Ishtar" "A" 0 156 156 156 3 5 11 14 NA 0 0 0
+"Ishtar" "A" 1 156 156 156 NA NA NA NA 16 0 0 0
+"Jewelry days" "A" 0 179 179 179 3 6 9 12 NA 0 0 0
+"Juuniseiza no seiiki" "A" 0 164 164 164 3 6 10 13 NA 0 0 0
+"Koi no puzzle magic" "A" 0 140 140 140 3 6 9 11 NA 0 0 0
+"Koishigure" "A" 0 185 185 185 3 7 9 12 NA 0 0 0
+"Koisuru uchuu sensou!!" "A" 0 200 200 200 4 7 12 14 NA 0 0 0
+"Koisuru uchuu sensou!!" "A" 1 200 200 200 NA NA NA NA 17 0 0 0
+"Kono aozora no shita de" "A" 0 165 165 165 3 6 9 11 NA 0 0 0
+"Kunshi ayauku mo chikou yore" "A" 0 162 162 162 3 6 10 12 NA 0 0 0
+"Kuranogawa ondo" "A" 0 113 113 113 2 5 7 11 NA 0 0 0
+"Kurokami midareshi shura to narite ~Rin edition~" "A" 0 150 150 150 3 6 10 14 NA 0 0 0
+"Kyun kyun bakkyun LOVE" "A" 0 165 165 165 3 5 8 11 NA 0 0 0
+"Life is beautiful" "A" 0 155 155 155 5 8 12 16 NA 0 0 0
+"Lost one no goukoku" "A" 0 162 162 162 3 6 10 12 NA 0 0 0
+"Lost one no goukoku" "A" 1 162 162 162 NA NA NA NA 15 0 0 0
+"Love Shine wonderful mix" "A" 0 177 177 177 3 5 8 11 NA 0 0 0
+"Love Shine wonderful mix" "A" 1 177 177 177 NA NA NA NA 14 0 0 0
+"Love You More" "A" 0 175 175 175 3 9 12 16 NA 0 0 0
+"Luminous days" "A" 0 145 145 145 2 5 8 12 NA 0 0 0
+"Mahou no tamago ~Cocona ELECTRO POP edition~" "A" 0 141 142 141 3 4 8 11 NA 0 0 0
+"MAKE A JAM!" "A" 0 124 124 124 2 5 7 9 NA 0 0 0
+"Marisa wa taihen na mono wo nusunde ikimashita" "A" 0 170 170 170 4 6 9 12 NA 0 0 0
+"MAX 360" "A" 0 180 720 0 9 12 16 18 NA 0 0 0
+"MAX 360" "A" 1 180 720 0 NA NA NA NA 19 0 0 0
+"Neutrino" "A" 0 75 300 0 6 9 12 16 NA 0 0 0
+"Neutrino" "A" 1 75 300 0 NA NA NA NA 18 0 0 0
+"New Century" "A" 0 98 195 0 4 9 14 17 NA 0 0 0
+"New Century" "A" 1 98 195 0 NA NA NA NA 18 0 0 0
+"Night of knights" "A" 0 180 180 180 3 7 11 15 NA 0 0 0
+"Night of knights" "A" 1 180 180 180 NA NA NA NA 16 0 0 0
+"Oboro" "A" 0 149 149 149 3 6 8 11 NA 0 0 0
+"Oboro" "A" 1 149 149 149 NA NA NA NA 13 0 0 0
+"Oboro (dj TAKA Remix)" "A" 0 149 149 149 3 5 8 12 NA 0 0 0
+"Oboro (dj TAKA Remix)" "A" 1 149 149 149 NA NA NA NA 16 0 0 0
+"Onegai darling" "A" 0 180 180 180 2 3 8 11 NA 0 0 0
+"OurMemories" "A" 0 140 140 140 3 6 9 12 NA 0 0 0
+"OurMemories" "A" 1 140 140 140 NA NA NA NA 11 0 0 0
+"out of focus" "A" 0 84 167 0 3 6 12 15 NA 0 0 0
+"out of focus" "A" 1 84 167 0 NA NA NA NA 16 0 0 0
+"Plain Asia -PHQ remix-" "A" 0 182 182 182 5 7 10 13 NA 0 0 0
+"Plain Asia -PHQ remix-" "A" 1 182 182 182 NA NA NA NA 17 1 0 0
+"Poochie" "A" 0 110 220 0 5 8 12 16 NA 0 0 0
+"POSSESSION (20th Anniversary Mix)" "A" 0 190 380 0 8 11 14 16 NA 0 0 0
+"POSSESSION (20th Anniversary Mix)" "A" 1 190 380 0 NA NA NA NA 18 0 0 0
+"Prey" "A" 0 210 210 210 5 11 15 18 NA 0 0 0
+"Prey" "A" 1 210 210 210 NA NA NA NA 18 0 0 0
+"Puberty Dysthymia" "A" 0 67 210 0 4 8 13 17 NA 0 0 0
+"Pursuer" "A" 0 75 300 0 3 7 14 17 NA 0 0 0
+"Reach The Sky, Without you" "A" 0 48 190 0 7 10 14 17 NA 0 0 0
+"Rejoin" "A" 0 135 135 135 2 6 10 13 NA 0 0 0
+"Renaikansoku" "A" 0 188 188 188 3 7 10 12 NA 0 0 0
+"Renaikansoku" "A" 1 188 188 188 NA NA NA NA 15 1 0 0
+"RISING FIRE HAWK" "A" 0 157 157 157 3 6 11 15 NA 0 0 0
+"RISING FIRE HAWK" "A" 1 157 157 157 NA NA NA NA 17 0 0 0
+"Role-playing game" "A" 0 162 162 162 3 5 10 14 NA 0 0 0
+"Ronron e rairairai!" "A" 0 156 156 156 3 6 10 12 NA 0 0 0
+"Roshin yuukai" "A" 0 165 165 165 2 6 10 12 NA 0 0 0
+"S!ck" "A" 0 88 177 0 5 8 12 16 NA 0 0 0
+"Sakura Reflection" "A" 0 181 181 181 4 8 10 15 NA 0 0 0
+"Sayonara trip ~Natsuhi EDM edition~" "A" 0 135 135 135 3 4 9 12 NA 0 0 0
+"Schrodinger no neko" "A" 0 187 187 187 6 9 12 15 NA 0 0 0
+"Schrodinger no neko" "A" 1 187 187 187 NA NA NA NA 18 0 0 0
+"Seiza ga koishita shunkan wo" "A" 0 186 186 186 2 7 9 12 NA 0 0 0
+"Sennen no kotowari" "A" 0 153 153 153 3 6 9 12 NA 0 0 0
+"Sephirot" "A" 0 154 154 154 3 6 10 12 NA 0 0 0
+"Shakariki relation" "A" 0 167 167 167 3 6 9 11 NA 0 0 0
+"Shiawase ni nareru kakushi command ga arurashii" "A" 0 142 142 142 3 6 10 13 NA 0 0 0
+"SHION" "A" 0 177 179 177 4 7 10 13 NA 0 0 0
+"Show me your moves" "A" 0 155 155 155 3 6 8 11 NA 0 0 0
+"Show me your moves" "A" 1 155 155 155 NA NA NA NA 14 0 0 0
+"Shunpuu blowing wind" "A" 0 80 160 0 2 6 10 15 NA 0 0 0
+"siberite" "A" 0 128 128 128 2 5 10 13 NA 0 0 0
+"Smiling Passion" "A" 0 187 187 187 2 7 10 12 NA 0 0 0
+"Sora e no katamichi kippu" "A" 0 88 175 0 3 7 10 13 NA 0 0 0
+"Special One" "A" 0 128 128 128 2 5 8 11 NA 0 0 0
+"Star Trail" "A" 0 74 148 0 2 5 9 13 NA 0 0 0
+"Start a New Day" "A" 0 168 168 168 3 6 11 15 NA 0 0 0
+"Start a New Day" "A" 1 168 168 168 NA NA NA NA 16 0 0 0
+"STERLING SILVER" "A" 0 174 175 174 4 6 10 13 NA 0 0 0
+"STERLING SILVER (U1 overground mix)" "A" 0 185 185 185 4 7 11 14 NA 0 0 0
+"Strawberry Chu Chu" "A" 0 137 138 137 2 7 11 13 NA 0 0 0
+"StrayedCatz" "A" 0 114 152 0 4 7 11 13 NA 0 0 0
+"SUN2 SUMMER STEP!" "A" 0 170 170 170 2 3 8 11 NA 0 0 0
+"SUPER SUMMER SALE" "A" 0 155 155 155 2 8 12 15 NA 0 0 0
+"Tatakae! Dadandarn V" "A" 0 174 176 174 3 6 9 13 NA 0 0 0
+"TECH-NOID" "A" 0 146 146 146 2 5 9 12 NA 0 0 0
+"The Night Away (MK Remix)" "A" 0 160 160 160 3 5 9 12 NA 0 0 0
+"Towards The TOWER" "A" 0 132 132 132 2 5 9 12 NA 0 0 0
+"Triple Counter" "A" 0 216 216 216 7 11 14 17 NA 0 0 0
+"Twin memories W" "A" 0 160 160 160 2 6 9 11 NA 0 0 0
+"Vanquish The Ghost" "A" 0 78 310 0 3 8 12 16 NA 0 0 0
+"Yeah! Yeah!" "A" 0 150 150 150 2 6 9 12 NA 0 0 0
+"Yi-er fanclub" "A" 0 145 145 145 2 4 8 12 NA 0 0 0
+"ZEPHYRANTHES" "A" 0 180 180 180 3 7 11 15 NA 0 0 0
+"50th Memorial Songs -Beginning Story-" "A20" 0 135 135 135 2 5 10 14 NA 0 0 0
+"50th Memorial Songs -Flagship medley-" "A20" 0 135 175 0 3 7 9 12 NA 0 0 0
+"50th Memorial Songs -futari no toki ~under the cherry blossoms~-" "A20" 0 160 160 160 3 7 9 12 NA 0 0 0
+"50th Memorial Songs -The BEMANI History-" "A20" 0 136 136 136 2 5 9 13 NA 0 0 0
+"Ace out" "A20" 0 135 145 0 3 5 9 14 NA 0 0 0
+"Ace out" "A20" 1 135 145 0 NA NA NA NA 14 0 0 0
+"Afterimage d'automne" "A20" 0 232 232 232 4 8 11 14 NA 0 0 0
+"Alone" "A20" 0 142 142 142 2 5 9 12 NA 0 0 0
+"ALPACORE" "A20" 0 175 175 175 4 9 12 16 NA 0 0 0
+"ALPACORE" "A20" 1 175 175 175 NA NA NA NA 17 0 0 0
+"Avenger" "A20" 0 100 400 0 4 10 14 17 NA 0 0 0
+"Avenger" "A20" 1 100 400 0 NA NA NA NA 18 0 0 0
+"Baby step" "A20" 0 200 200 200 4 7 9 12 NA 0 0 0
+"Bi" "A20" 0 169 169 169 5 9 12 17 NA 0 0 0
+"Bi" "A20" 1 169 169 169 NA NA NA NA 18 0 0 0
+"BLACK JACKAL" "A20" 0 150 150 150 3 7 11 15 NA 0 0 0
+"BLSTR" "A20" 0 160 160 160 3 9 12 16 NA 0 0 0
+"Bounce Trippy" "A20" 0 185 185 185 4 8 11 14 NA 0 0 0
+"Clarity" "A20" 0 128 128 128 2 4 7 9 NA 0 0 0
+"Crazy Shuffle" "A20" 0 128 128 128 2 5 10 13 NA 0 0 0
+"CROSS" "A20" 0 150 150 150 2 5 10 13 NA 0 0 0
+"CyberConnect" "A20" 0 150 150 150 2 7 11 15 NA 0 0 0
+"CyberConnect" "A20" 1 150 150 150 NA NA NA NA 17 0 0 0
+"Dead Heat" "A20" 0 177 177 177 4 6 10 14 NA 0 0 0
+"DIGITAL LUV" "A20" 0 154 154 154 2 5 9 12 NA 0 0 0
+"District of the Shadows" "A20" 0 150 150 150 3 6 12 16 NA 0 0 0
+"Dokidoki Valentine" "A20" 0 169 169 169 3 6 9 12 NA 0 0 0
+"DOWNER & UPPER" "A20" 0 140 140 140 3 6 9 13 NA 0 0 0
+"DOWNER & UPPER" "A20" 1 140 140 140 NA NA NA NA 10 0 0 0
+"Drop The Bounce" "A20" 0 75 150 0 3 7 10 15 NA 0 0 0
+"Drop The Bounce" "A20" 1 75 150 0 NA NA NA NA 16 1 0 0
+"ENDLESS" "A20" 0 150 150 150 2 6 9 13 NA 0 0 0
+"F4SH10N" "A20" 0 140 140 140 2 6 10 14 NA 0 0 0
+"F4SH10N" "A20" 1 140 140 140 NA NA NA NA 16 1 0 0
+"Firestorm" "A20" 0 177 177 177 5 8 13 16 NA 0 0 0
+"Firestorm" "A20" 1 177 177 177 NA NA NA NA 16 0 0 0
+"Get On Da Floor" "A20" 0 140 140 140 2 5 8 11 NA 0 0 0
+"Give Me" "A20" 0 174 174 174 3 7 12 15 NA 0 0 0
+"Give Me" "A20" 1 174 174 174 NA NA NA NA 16 0 0 0
+"Glitch Angel" "A20" 0 165 165 165 5 8 13 17 NA 0 0 0
+"Glitch Angel" "A20" 1 165 165 165 NA NA NA NA 18 0 0 0
+"Golden Arrow" "A20" 0 170 170 170 4 8 12 16 NA 0 0 0
+"Golden Arrow" "A20" 1 170 170 170 NA NA NA NA 17 0 0 0
+"Haunted maid lunch" "A20" 0 188 188 188 4 7 11 15 NA 0 0 0
+"Haunted maid lunch" "A20" 1 188 188 188 NA NA NA NA 17 0 0 0
+"Helios" "A20" 0 182 182 182 4 8 12 16 NA 0 0 0
+"Hikari eureka" "A20" 0 140 140 140 2 5 8 11 NA 0 0 0
+"Hoshikuzu no yo hate" "A20" 0 174 174 174 4 8 12 15 NA 0 0 0
+"Hunny Bunny" "A20" 0 160 160 160 2 6 10 15 NA 0 0 0
+"I'm an Albatraoz" "A20" 0 128 128 128 2 3 7 11 NA 0 0 0
+"I Love You" "A20" 0 170 170 170 4 8 13 16 NA 0 0 0
+"IRON HEART" "A20" 0 155 155 155 2 7 10 14 NA 0 0 0
+"Kakumei passionate" "A20" 0 194 194 194 3 6 10 13 NA 0 0 0
+"Lachryma (Re-Queen'M)" "A20" 0 236 236 236 5 9 14 18 NA 0 0 0
+"Lachryma (Re-Queen'M)" "A20" 1 236 236 236 NA NA NA NA 19 0 0 0
+"LEVEL UP" "A20" 0 180 180 180 4 7 10 13 NA 0 0 0
+"Love kira splash" "A20" 0 152 152 152 2 6 10 14 NA 0 0 0
+"Midnight WAR" "A20" 0 156 156 156 3 7 11 14 NA 0 0 0
+"Midnight WAR" "A20" 1 156 156 156 NA NA NA NA 17 1 0 0
+"Mikansei no jouki kudou otome (DDR Edition)" "A20" 0 85 170 0 5 9 13 17 NA 0 0 0
+"Mirai (da) FUTURE" "A20" 0 172 172 172 2 7 10 15 NA 0 0 0
+"Mythomane" "A20" 0 140 180 0 3 6 10 13 NA 0 0 0
+"Netsujou no zapadeado" "A20" 0 136 136 136 2 5 9 13 NA 0 0 0
+"Neverland" "A20" 0 160 160 160 4 8 12 15 NA 0 0 0
+"New Era" "A20" 0 30 240 0 8 11 15 17 NA 0 0 0
+"New Era" "A20" 1 30 240 0 NA NA NA NA 18 0 0 0
+"New Rules" "A20" 0 116 116 116 2 5 7 10 NA 0 0 0
+"Night of Knights (Ryu Remix)" "A20" 0 182 182 182 5 8 13 16 NA 0 0 0
+"No Tears Left to Cry" "A20" 0 97 127 0 2 5 7 10 NA 0 0 0
+"Oh my! lovely! sweety! darling!" "A20" 0 170 170 170 3 7 12 15 NA 0 0 0
+"ORCA" "A20" 0 39 310 0 7 9 14 17 NA 0 0 0
+"Our Soul" "A20" 0 150 150 150 3 6 8 11 NA 0 0 0
+"Our Soul" "A20" 1 150 150 150 NA NA NA NA 15 0 0 0
+"OVERSOUL" "A20" 0 155 156 155 3 6 12 15 NA 0 0 0
+"OVERSOUL" "A20" 1 155 156 155 NA NA NA NA 17 0 0 0
+"Party Rock Anthem" "A20" 0 130 130 130 2 5 8 11 NA 0 0 0
+"Play Hard" "A20" 0 130 130 130 3 5 9 12 NA 0 0 0
+"Procyon" "A20" 0 160 160 160 2 6 11 15 NA 0 0 0
+"Rampage Hero" "A20" 0 175 175 175 4 9 12 16 NA 0 0 0
+"Rampage Hero" "A20" 1 175 175 175 NA NA NA NA 17 0 0 0
+"Ranker killer girl" "A20" 0 200 200 200 4 8 13 17 NA 0 0 0
+"Re-GENERATION" "A20" 0 176 176 176 3 6 11 15 NA 0 0 0
+"Right Time Right Way" "A20" 0 174 174 174 4 7 11 14 NA 0 0 0
+"Right Time Right Way" "A20" 1 174 174 174 NA NA NA NA 16 1 0 0
+"Saishou sanbai kanzensuu" "A20" 0 55 440 0 5 11 14 17 NA 0 0 0
+"Saishuu kichiku imouto Flandre-S" "A20" 0 200 202 200 4 9 13 16 NA 0 0 0
+"Seta Para Cima" "A20" 0 140 140 140 3 5 11 13 NA 0 0 0
+"Silly Love" "A20" 0 124 154 0 4 7 11 14 NA 0 0 0
+"Six String Proof" "A20" 0 130 130 130 2 7 12 14 NA 0 0 0
+"Skywalking" "A20" 0 90 180 0 4 7 11 15 NA 0 0 0
+"Small Steps" "A20" 0 106 106 106 1 4 7 10 NA 0 0 0
+"SODA GALAXY" "A20" 0 178 178 178 3 6 9 12 NA 0 0 0
+"Something Just Like This (Alesso Remix)" "A20" 0 120 120 120 2 4 8 10 NA 0 0 0
+"Splash Gold" "A20" 0 75 300 0 6 10 13 16 NA 0 0 0
+"Starlight in the Snow" "A20" 0 150 150 150 4 7 11 14 NA 0 0 0
+"Starlight in the Snow" "A20" 1 150 150 150 NA NA NA NA 16 0 0 0
+"Starry Sky" "A20" 0 150 150 150 2 6 9 12 NA 0 0 0
+"Stay 4 Ever" "A20" 0 140 140 140 2 5 9 11 NA 0 0 0
+"SWEET HOME PARTY" "A20" 0 70 180 0 5 8 12 16 NA 0 0 0
+"Sweets wa tomaranai" "A20" 0 204 204 204 2 4 9 13 NA 0 0 0
+"The History of the Future" "A20" 0 100 200 0 5 9 14 17 NA 0 0 0
+"The World Ends Now" "A20" 0 200 200 200 4 9 12 16 NA 0 0 0
+"The World Ends Now" "A20" 1 200 200 200 NA NA NA NA 18 0 0 0
+"This Beat Is" "A20" 0 128 128 128 2 5 8 11 NA 0 0 0
+"Toy Box Factory" "A20" 0 148 148 148 3 7 11 15 NA 0 0 0
+"toy boxer" "A20" 0 190 190 190 4 9 12 16 NA 0 0 0
+"Trill auf G" "A20" 0 188 188 188 4 8 12 16 NA 0 0 0
+"Une mage blanche" "A20" 0 193 193 193 4 7 10 13 NA 0 0 0
+"voltississimo" "A20" 0 112 225 0 5 9 13 17 NA 0 0 0
+"Waiting" "A20" 0 180 180 180 3 6 10 13 NA 0 0 0
+"1998 (Sparky 2006)" "A20 Plus" 0 150 150 150 2 6 11 14 NA 0 0 0
+"actualization of self (weaponized)" "A20 Plus" 0 175 175 175 4 9 13 16 NA 0 0 0
+"Aftermath" "A20 Plus" 0 200 200 200 5 9 12 16 NA 0 0 0
+"AI" "A20 Plus" 0 190 190 190 5 9 12 16 NA 0 0 0
+"Alice side castling" "A20 Plus" 0 115 115 115 2 5 8 10 NA 0 0 0
+"ANTI ANTHEM" "A20 Plus" 0 128 700 0 5 9 13 15 NA 0 0 0
+"Ao ga kieru toki" "A20 Plus" 0 162 162 162 3 6 9 12 NA 0 0 0
+"B4U (The Acolyte mix)" "A20 Plus" 0 155 155 155 2 4 9 13 NA 0 0 0
+"Bang Pad(Werk Mix)" "A20 Plus" 0 160 160 160 3 6 9 13 NA 0 0 0
+"Better Than Me" "A20 Plus" 0 162 162 162 4 8 12 15 NA 0 0 0
+"BITTER CHOCOLATE STRIKER" "A20 Plus" 0 165 165 165 3 6 10 14 NA 0 0 0
+"BITTER CHOCOLATE STRIKER" "A20 Plus" 1 165 165 165 NA NA NA NA 18 0 0 0
+"BLAKE" "A20 Plus" 0 200 200 200 3 7 11 14 NA 0 0 0
+"BRIDAL FESTIVAL !!!" "A20 Plus" 0 138 138 138 2 5 10 13 NA 0 0 0
+"City Never Sleeps" "A20 Plus" 0 178 178 178 4 7 12 15 NA 0 0 0
+"Come Back To Me" "A20 Plus" 0 172 172 172 3 7 11 14 NA 0 0 0
+"CONNECT-" "A20 Plus" 0 150 150 150 2 5 10 13 NA 0 0 0
+"Crazy Hot" "A20 Plus" 0 162 162 162 3 6 10 13 NA 0 0 0
+"DANCERUSH STARDOM ANTHEM" "A20 Plus" 0 130 130 130 2 5 8 11 NA 0 0 0
+"DDR TAGMIX -LAST DanceR-" "A20 Plus" 0 50 800 0 6 11 14 17 NA 0 0 0
+"DEADLOCK -Out Of Reach-" "A20 Plus" 0 205 205 205 5 9 13 17 NA 0 0 0
+"DeStRuCtIvE FoRcE" "A20 Plus" 0 88 177 0 2 6 9 13 NA 0 0 0
+"DIGITALIZER" "A20 Plus" 0 180 180 180 4 8 12 17 NA 0 0 0
+"DIGITALIZER" "A20 Plus" 1 180 180 180 NA NA NA NA 18 0 0 0
+"Draw the Savage" "A20 Plus" 0 134 134 134 2 6 10 14 NA 0 0 0
+"Draw the Savage" "A20 Plus" 1 134 134 134 NA NA NA NA 15 0 0 0
+"Evans" "A20 Plus" 0 185 370 0 5 10 14 17 NA 0 0 0
+"Feidie" "A20 Plus" 0 150 150 150 2 6 8 10 NA 0 0 0
+"GHOST KINGDOM" "A20 Plus" 0 118 118 118 2 6 10 14 NA 0 0 0
+"Globe Glitter" "A20 Plus" 0 190 190 190 4 8 11 15 NA 0 0 0
+"Going Hypersonic" "A20 Plus" 0 156 156 156 4 7 12 15 NA 0 0 0
+"Going Hypersonic" "A20 Plus" 1 156 156 156 NA NA NA NA 17 0 0 0
+"Good Looking" "A20 Plus" 0 170 170 170 3 9 12 15 NA 0 0 0
+"Good Looking" "A20 Plus" 1 170 170 170 NA NA NA NA 17 0 0 0
+"GUILTY DIAMONDS" "A20 Plus" 0 84 168 0 3 7 10 14 NA 0 0 0
+"Hana wa oritashi kozue wa takashi" "A20 Plus" 0 215 215 215 2 5 9 12 NA 0 0 0
+"Hangyaku no disparate" "A20 Plus" 0 194 194 194 3 6 10 13 NA 0 0 0
+"HARD BRAIN" "A20 Plus" 0 155 155 155 3 7 10 15 NA 0 0 0
+"Haru wo tsugeru" "A20 Plus" 0 120 120 120 3 5 8 11 NA 0 0 0
+"Hella Deep" "A20 Plus" 0 72 576 0 3 7 10 14 NA 0 0 0
+"High & Low" "A20 Plus" 0 210 210 210 4 8 12 16 NA 0 0 0
+"Hoshi no tsukurikata" "A20 Plus" 0 180 180 180 3 6 10 14 NA 0 0 0
+"Hyper Bomb" "A20 Plus" 0 160 160 160 3 7 11 15 NA 0 0 0
+"HYPERDRIVE" "A20 Plus" 0 150 150 150 3 6 9 12 NA 0 0 0
+"HyperTwist" "A20 Plus" 0 190 190 190 5 8 12 15 NA 0 0 0
+"HyperTwist" "A20 Plus" 1 190 190 190 NA NA NA NA 18 0 0 0
+"I'm Flying Away" "A20 Plus" 0 180 180 180 2 5 8 12 NA 0 0 0
+"I believe what you said" "A20 Plus" 0 138 138 138 2 4 8 12 NA 0 0 0
+"I Want To Do This Keep" "A20 Plus" 0 150 150 150 3 7 12 15 NA 0 0 0
+"If" "A20 Plus" 0 170 170 170 4 8 12 15 NA 0 0 0
+"If" "A20 Plus" 1 170 170 170 NA NA NA NA 17 1 0 0
+"In the past" "A20 Plus" 0 81 162 0 4 7 12 16 NA 0 0 0
+"Inner Spirit -GIGA HiTECH MIX-" "A20 Plus" 0 150 150 150 3 7 11 15 NA 0 0 0
+"Innocent bible" "A20 Plus" 0 105 105 105 2 4 7 10 NA 0 0 0
+"Itetsu no pride" "A20 Plus" 0 200 200 200 4 7 10 13 NA 0 0 0
+"jet coaster girl" "A20 Plus" 0 177 177 177 3 6 11 13 NA 0 0 0
+"Jetcoaster Windy" "A20 Plus" 0 268 268 268 3 7 12 15 NA 0 0 0
+"Jucunda Memoria" "A20 Plus" 0 48 290 0 5 10 14 17 NA 0 0 0
+"Kanata no Reflesia" "A20 Plus" 0 180 180 180 3 6 10 15 NA 0 0 0
+"Khorosho! Onigiri circus dan" "A20 Plus" 0 185 185 185 3 7 11 14 NA 0 0 0
+"Koko kara yoroshiku daisakusen 143" "A20 Plus" 0 184 184 184 3 6 9 11 NA 0 0 0
+"Kyouhan heaven's code" "A20 Plus" 0 219 219 219 2 4 10 13 NA 0 0 0
+"Kyousui ichika" "A20 Plus" 0 160 160 160 3 7 11 15 NA 0 0 0
+"Last Card" "A20 Plus" 0 85 170 0 4 8 12 15 NA 0 0 0
+"Last Twilight" "A20 Plus" 0 198 198 198 4 8 12 16 NA 0 0 0
+"Lightspeed" "A20 Plus" 0 200 200 200 4 8 12 16 NA 0 0 0
+"Lightspeed" "A20 Plus" 1 200 200 200 NA NA NA NA 18 0 0 0
+"LIKE A VAMPIRE" "A20 Plus" 0 276 276 276 3 7 10 13 NA 0 0 0
+"Midnight Amaretto" "A20 Plus" 0 135 135 135 3 6 10 14 NA 0 0 0
+"Monochrome moment" "A20 Plus" 0 155 155 155 3 7 11 14 NA 0 0 0
+"MOVE! (We Keep It Movin')" "A20 Plus" 0 142 142 142 3 7 10 13 NA 0 0 0
+"MUTEKI BUFFALO" "A20 Plus" 0 88 176 0 4 8 11 15 NA 0 0 0
+"MUTEKI BUFFALO" "A20 Plus" 1 88 176 0 NA NA NA NA 17 0 0 0
+"Never See You Again" "A20 Plus" 0 80 160 0 4 9 12 16 NA 0 0 0
+"Next Phase" "A20 Plus" 0 174 174 174 4 7 11 15 NA 0 0 0
+"No Life Queen [DJ Command Remix]" "A20 Plus" 0 165 165 165 3 7 11 14 NA 0 0 0
+"No plan days" "A20 Plus" 0 210 210 210 3 9 12 16 NA 0 0 0
+"Norepinephrine" "A20 Plus" 0 124 124 124 2 6 11 14 NA 0 0 0
+"ONYX" "A20 Plus" 0 200 200 200 4 8 11 14 NA 0 0 0
+"Otogibanashi ni makugire wo" "A20 Plus" 0 131 203 0 4 7 10 13 NA 0 0 0
+"Our Love" "A20 Plus" 0 190 190 190 4 8 12 15 NA 0 0 0
+"PANIC HOLIC" "A20 Plus" 0 110 220 0 4 9 12 16 NA 0 0 0
+"paparazzi" "A20 Plus" 0 280 280 280 5 8 12 15 NA 0 0 0
+"Papipopepipupepa" "A20 Plus" 0 187 187 187 3 6 11 15 NA 0 0 0
+"PARTY ALL NIGHT(DJ KEN-BOW MIX)" "A20 Plus" 0 135 135 135 3 6 9 13 NA 0 0 0
+"Poppin' Soda" "A20 Plus" 0 200 200 200 4 9 12 16 NA 0 0 0
+"Rave Accelerator" "A20 Plus" 0 170 170 170 4 8 12 16 NA 0 0 0
+"Red Cape Theorem" "A20 Plus" 0 95 95 95 3 6 11 14 NA 0 0 0
+"Riot of Color" "A20 Plus" 0 75 150 0 4 8 12 16 NA 0 0 0
+"Roki (Megumi Ogata)" "A20 Plus" 0 150 150 150 2 5 9 12 NA 0 0 0
+"ROOM" "A20 Plus" 0 145 145 145 2 5 8 11 NA 0 0 0
+"Run The Show" "A20 Plus" 0 150 150 150 4 7 11 15 NA 0 0 0
+"Run The Show" "A20 Plus" 1 150 150 150 NA NA NA NA 16 0 0 0
+"S'il vous president" "A20 Plus" 0 176 176 176 2 4 8 12 NA 0 0 0
+"Saika" "A20 Plus" 0 110 110 110 2 5 8 11 NA 0 0 0
+"Sakasama Cinderella parade" "A20 Plus" 0 135 135 135 2 7 10 13 NA 0 0 0
+"SCHWARZSCHILD FIELD" "A20 Plus" 0 150 150 150 5 10 13 16 NA 0 0 0
+"Seize The Day" "A20 Plus" 0 122 122 122 1 4 7 10 NA 0 0 0
+"Sekai no hate ni yakusoku no gaika wo -DDR Extended Megamix-" "A20 Plus" 0 100 400 0 5 10 14 17 NA 0 0 0
+"Shakunetsu Pt.2 Long Train Running" "A20 Plus" 0 165 165 165 3 8 13 16 NA 0 0 0
+"Shakunetsu Pt.2 Long Train Running" "A20 Plus" 1 165 165 165 NA NA NA NA 18 1 0 0
+"Shijou no laturia" "A20 Plus" 0 135 135 135 3 6 9 12 NA 0 0 0
+"Shout It Out" "A20 Plus" 0 205 205 205 4 9 12 15 NA 0 0 0
+"Sparkle Smilin'" "A20 Plus" 0 180 180 180 3 7 11 14 NA 0 0 0
+"STEP MACHINE" "A20 Plus" 0 160 160 160 3 7 11 14 NA 0 0 0
+"Step This Way" "A20 Plus" 0 176 176 176 4 9 12 16 NA 0 0 0
+"Super sentou Babanburn" "A20 Plus" 0 94 187 0 4 7 11 14 NA 0 0 0
+"Super sentou Babanburn" "A20 Plus" 1 94 187 0 NA NA NA NA 17 1 0 0
+"Sweet Clock" "A20 Plus" 0 178 179 178 3 6 8 12 NA 0 0 0
+"Sword of Vengeance" "A20 Plus" 0 208 208 208 5 9 13 16 NA 0 0 0
+"take me higher (A20 Plus)" "A20 Plus" 0 140 140 140 3 5 10 13 NA 0 0 0
+"Taking It To The Sky (PLUS step)" "A20 Plus" 0 135 135 135 2 6 9 13 NA 0 0 0
+"Telecaster B-boy" "A20 Plus" 0 182 182 182 2 5 9 12 NA 0 0 0
+"THIS IS MY LAST RESORT" "A20 Plus" 0 110 220 0 5 9 12 15 NA 0 0 0
+"Together Going My Way" "A20 Plus" 0 155 155 155 2 5 9 13 NA 0 0 0
+"Tokyo shinwa" "A20 Plus" 0 98 197 0 5 9 13 17 NA 0 0 0
+"Triple Cross" "A20 Plus" 0 196 196 196 7 9 13 17 NA 0 0 0
+"Tsuioku no aria" "A20 Plus" 0 130 130 130 2 4 7 11 NA 0 0 0
+"Twinkle Wonderland" "A20 Plus" 0 188 188 188 3 7 10 13 NA 0 0 0
+"TYPHON" "A20 Plus" 0 112 450 0 5 10 14 17 NA 0 0 0
+"Uh-Oh" "A20 Plus" 0 175 175 175 3 7 11 14 NA 0 0 0
+"Umeyukiyo" "A20 Plus" 0 167 167 167 3 7 11 14 NA 0 0 0
+"Usotsuki yokochou wa amemoyou" "A20 Plus" 0 110 110 110 2 5 8 11 NA 0 0 0
+"Vertigo" "A20 Plus" 0 150 174 0 3 7 12 15 NA 0 0 0
+"Watashi wo disco ni tsuretette TOKYO" "A20 Plus" 0 142 142 142 3 9 11 14 NA 0 0 0
+"We're so Happy" "A20 Plus" 0 185 185 185 5 9 13 16 NA 0 0 0
+"We Can Win The Fight" "A20 Plus" 0 119 119 119 2 5 8 11 NA 0 0 0
+"X-ray binary" "A20 Plus" 0 150 150 150 2 5 10 13 NA 0 0 0
+"YU-MOU-MU-HI" "A20 Plus" 0 201 201 201 4 8 11 14 NA 0 0 0
+"Yumebuki" "A20 Plus" 0 200 200 200 4 8 12 15 NA 0 0 0
+"Yuni's Nocturnal Days" "A20 Plus" 0 153 153 153 3 6 10 14 NA 0 0 0
+"Yuni's Nocturnal Days" "A20 Plus" 1 153 153 153 NA NA NA NA 18 0 0 0
+"[ ]DENTITY" "A3" 0 100 200 0 4 8 14 17 NA 0 0 0
+"3y3s" "A3" 0 191 191 191 4 9 14 17 NA 0 1 0
+"9th Outburst" "A3" 0 82 326 0 3 7 11 15 NA 0 0 0
+"Ability" "A3" 0 154 154 154 2 5 11 16 NA 0 0 0
+"Abrupt Madness" "A3" 0 185 185 185 3 8 13 17 NA 0 0 0
+"Acid,Tribal & Dance (DDR EDITION)" "A3" 0 63 286 0 3 5 11 14 NA 0 0 0
+"Acid,Tribal & Dance (DDR EDITION)" "A3" 1 63 286 0 NA NA NA NA 17 0 0 0
+"Adrenaline" "A3" 0 70 140 0 2 5 10 15 NA 0 0 0
+"ALBIDA" "A3" 0 185 185 185 3 9 13 16 NA 0 0 0
+"Ambivalent Vermilia" "A3" 0 185 185 185 5 10 15 18 NA 0 1 0
+"Anthurium" "A3" 0 142 142 142 4 6 10 13 NA 0 0 0
+"Are U Ready" "A3" 0 155 155 155 3 7 11 13 NA 0 0 0
+"Aria" "A3" 0 90 180 0 4 9 13 17 NA 0 0 0
+"Awakening Wings" "A3" 0 190 190 190 2 5 10 11 NA 0 0 0
+"Ayumi Magical Showtime" "A3" 0 187 187 187 2 5 9 13 NA 0 0 0
+"Battle Against a True Hero" "A3" 0 75 150 0 2 7 12 15 NA 0 0 0
+"Battle Against a True Hero" "A3" 1 75 150 0 NA NA NA NA 18 0 0 0
+"Be With You (Still Miss you)" "A3" 0 116 116 116 1 5 8 12 NA 0 0 0
+"Beluga" "A3" 0 132 132 132 1 4 7 11 NA 0 0 0
+"Black Emperor" "A3" 0 30 195 0 5 9 14 17 NA 0 0 0
+"Black Emperor" "A3" 1 30 195 0 NA NA NA NA 18 0 0 0
+"BLUE FOG, SILVER BULLET" "A3" 0 92 185 0 5 8 12 15 NA 0 0 0
+"BONE BORN" "A3" 0 135 135 135 2 5 10 13 NA 0 0 0
+"BREAKING THE FUTURE" "A3" 0 45 720 0 6 10 15 18 NA 0 0 0
+"BREAKING THE FUTURE" "A3" 1 45 720 0 NA NA NA NA 19 0 0 0
+"BREDLI" "A3" 0 128 128 128 2 6 12 16 NA 0 0 0
+"Broken" "A3" 0 148 148 148 2 5 9 13 NA 0 0 0
+"C-C-C-N-N-N" "A3" 0 162 180 0 2 5 10 15 NA 0 0 1
+"C-C-C-N-N-N" "A3" 1 162 180 0 NA NA NA NA 17 0 1 0
+"CANDY (UFO mix)" "A3" 0 180 180 180 2 6 10 15 NA 0 0 0
+"chaplet" "A3" 0 100 200 0 3 8 12 17 NA 0 0 0
+"Chikuwa parfait da yo CKP (Yvya Remix)" "A3" 0 205 205 205 4 7 10 12 NA 1 0 0
+"Chikuwa parfait da yo CKP (Yvya Remix)" "A3" 1 205 205 205 NA NA NA NA 16 1 0 0
+"Chromatic Burst" "A3" 0 170 170 170 2 7 12 17 NA 0 0 0
+"Chucchu Machu Picchu" "A3" 0 130 130 130 3 7 11 14 NA 0 0 0
+"Closer to my Heart (jun remix)" "A3" 0 145 145 145 2 7 11 14 NA 0 0 0
+"Colorful minutes" "A3" 0 152 152 152 2 4 7 11 NA 0 0 0
+"Come Back to Me (Feel It)" "A3" 0 165 165 165 3 7 10 14 NA 0 0 0
+"Come To m1dy" "A3" 0 112 450 0 6 11 15 17 NA 0 0 0
+"Come To m1dy" "A3" 1 112 450 0 NA NA NA NA 18 0 0 0
+"Comet skater" "A3" 0 150 150 150 3 4 10 15 NA 0 1 0
+"Complete Game Victory" "A3" 0 200 200 200 2 8 12 17 NA 0 0 0
+"Concertino in Blue" "A3" 0 103 155 0 3 5 12 16 NA 0 0 0
+"concon" "A3" 0 190 190 190 3 7 12 14 NA 0 0 0
+"Confeito concerto" "A3" 0 142 142 142 2 6 10 14 NA 1 0 0
+"Continue to the real world" "A3" 0 93 186 0 3 7 12 16 NA 0 0 0
+"Crystarium" "A3" 0 130 130 130 2 6 11 15 NA 0 0 0
+"Curry Up" "A3" 0 165 165 165 2 6 10 13 NA 0 0 0
+"Dance Phenomena" "A3" 0 71 284 0 3 5 10 12 NA 0 0 0
+"Dance With The Dead" "A3" 0 150 150 150 3 8 12 15 NA 0 0 0
+"DDR System Songs+Replicant Mix" "A3" 0 159 159 159 1 5 10 13 NA 0 0 0
+"Death by Glamour" "A3" 0 148 148 148 3 7 11 14 NA 0 0 0
+"Death by Glamour" "A3" 1 148 148 148 NA NA NA NA 17 0 0 0
+"Debug Dance" "A3" 0 151 151 151 3 8 11 15 NA 0 0 0
+"Deep tenDon Reflex" "A3" 0 180 180 180 3 7 11 15 NA 0 0 0
+"Deep tenDon Reflex" "A3" 1 180 180 180 NA NA NA NA 17 0 0 0
+"DIABLOSIS Naga" "A3" 0 200 200 200 3 11 15 17 NA 0 0 1
+"DIABLOSIS Naga" "A3" 1 200 200 200 NA NA NA NA 18 0 1 0
+"DOUBLE TORNARD" "A3" 0 153 153 153 4 7 12 15 NA 0 0 0
+"Drive Away" "A3" 0 100 200 0 2 7 12 17 NA 0 0 0
+"Drive My Heart" "A3" 0 145 145 145 2 5 8 13 NA 0 0 0
+"DUAL STRIKER" "A3" 0 185 185 185 7 9 13 17 NA 0 0 0
+"Easy Peasy" "A3" 0 138 138 138 2 4 10 14 NA 0 0 0
+"Electronic Sports Complex" "A3" 0 110 220 0 6 10 14 17 NA 0 0 0
+"EMOTiON TRiPPER" "A3" 0 170 170 170 2 5 10 14 NA 0 0 0
+"Environ [De-SYNC] (feat. lythe)" "A3" 0 160 160 160 4 9 12 15 NA 0 0 0
+"Eon Break" "A3" 0 178 356 0 4 8 13 16 NA 0 0 0
+"Eon Break" "A3" 1 178 356 0 NA NA NA NA 18 0 0 0
+"Euphoric Fragmentation" "A3" 0 90 180 0 4 8 12 16 NA 0 0 0
+"Finale" "A3" 0 48 190 0 2 5 8 13 NA 0 0 0
+"Finale" "A3" 1 48 190 0 NA NA NA NA 15 0 0 0
+"Finally Dive" "A3" 0 146 146 146 3 6 12 16 NA 1 0 0
+"Fleur" "A3" 0 180 180 180 4 9 12 16 NA 0 0 0
+"Flip Flap" "A3" 0 175 175 175 3 6 8 14 NA 0 0 0
+"GERBERA" "A3" 0 102 205 0 4 9 14 17 NA 0 0 0
+"Get it" "A3" 0 174 174 174 3 7 12 16 NA 0 0 0
+"Get Your Wish" "A3" 0 20 321 0 3 6 9 14 NA 0 0 0
+"glacia" "A3" 0 186 186 186 4 9 14 16 NA 0 0 0
+"GLITTER" "A3" 0 184 184 184 4 8 12 16 NA 0 0 0
+"Glitter Flatter Scatter" "A3" 0 98 197 0 6 9 14 17 NA 0 0 0
+"GLOW THE CROWN" "A3" 0 174 174 174 3 8 14 17 NA 0 0 0
+"Go Down" "A3" 0 126 126 126 2 5 10 14 NA 0 0 0
+"Go To The Oasis" "A3" 0 182 182 182 3 6 12 15 NA 0 0 0
+"Good Sound United" "A3" 0 100 200 0 5 9 13 16 NA 0 0 0
+"GRADIUS REMIX (UUDDLRLRBA Ver.)" "A3" 0 128 128 128 2 6 8 12 NA 0 0 0
+"GROOVE 04" "A3" 0 155 155 155 4 8 11 16 NA 0 0 0
+"HANIPAGANDA" "A3" 0 90 181 0 3 7 12 16 NA 1 0 0
+"Hashire melonpan" "A3" 0 170 170 170 2 5 10 14 NA 1 0 0
+"Heavens and the Earth" "A3" 0 70 70 70 2 5 7 11 NA 0 0 0
+"Hold Tight" "A3" 0 130 130 130 1 3 8 12 NA 0 0 0
+"Hou" "A3" 0 57 912 0 7 11 16 18 NA 0 0 0
+"Hou" "A3" 1 57 912 0 NA NA NA NA 19 0 0 0
+"I-W-U (I Want U)" "A3" 0 150 150 150 3 7 12 17 NA 0 0 0
+"I WANT YOUR LOVE (Darwin remix)" "A3" 0 170 170 170 2 4 9 13 NA 0 0 0
+"Ichizu" "A3" 0 160 160 160 2 6 12 15 NA 0 0 0
+"Indigo Nocturne" "A3" 0 150 150 150 2 6 12 15 NA 0 0 0
+"INFINITE WORLD" "A3" 0 167 167 167 3 5 11 14 NA 1 0 0
+"insist" "A3" 0 136 136 136 2 7 12 15 NA 0 0 0
+"Jungle Dance" "A3" 0 155 155 155 3 7 12 16 NA 0 0 0
+"JUST BELIEVE" "A3" 0 160 160 160 2 7 10 14 NA 0 0 0
+"Kanbu de tomatte sugu tokeru ~ kyouki no Udongein" "A3" 0 100 400 0 3 8 11 14 NA 0 0 0
+"Kill The Night" "A3" 0 165 165 165 2 6 11 14 NA 1 0 0
+"Kill The Night" "A3" 1 165 165 165 NA NA NA NA 16 1 0 0
+"Kilonova" "A3" 0 150 150 150 4 9 13 17 NA 0 0 0
+"KING" "A3" 0 166 166 166 2 8 13 16 NA 0 0 0
+"Kiyarora eisei no kiseki" "A3" 0 150 150 150 4 7 12 16 NA 0 0 0
+"Koi no hyoketsu otenba yukemuri Cirno onsen" "A3" 0 57 188 0 2 7 12 15 NA 0 0 0
+"Kyoka suigetsurou (DDR EDITION)" "A3" 0 175 175 175 2 6 11 14 NA 0 0 0
+"Last Summer" "A3" 0 132 132 132 2 5 10 12 NA 0 0 0
+"Let's DANCE aROUND!!" "A3" 0 63 252 0 3 7 11 14 NA 0 0 0
+"Let Me Know" "A3" 0 75 150 0 4 7 11 15 NA 0 0 0
+"Let Me Show You" "A3" 0 170 170 170 3 7 11 15 NA 0 0 0
+"Like A Star" "A3" 0 175 175 175 4 7 12 14 NA 0 0 0
+"Lilieze to enryuu Laevateinn" "A3" 0 200 200 200 4 8 13 16 NA 0 0 0
+"little steps" "A3" 0 155 155 155 3 6 11 15 NA 0 0 0
+"Look at the Sky" "A3" 0 115 115 115 1 3 6 10 NA 0 0 0
+"Lose Your Sense" "A3" 0 44 350 0 6 9 13 17 NA 0 0 0
+"LOVE EAST" "A3" 0 168 168 168 3 6 11 15 NA 1 0 0
+"LOVE SHINE (Body Grooverz 2006 mix)" "A3" 0 177 177 177 3 7 12 16 NA 0 0 0
+"MA-TSU-RI" "A3" 0 160 160 160 3 7 10 13 NA 0 0 0
+"MANA" "A3" 0 98 195 0 3 7 11 15 NA 0 0 0
+"mathematical good-bye" "A3" 0 182 182 182 3 10 14 17 NA 0 0 0
+"Megalara Garuda" "A3" 0 90 180 0 5 9 16 17 NA 0 0 0
+"Megalara Garuda" "A3" 1 90 180 0 NA NA NA NA 18 0 0 0
+"MEGALOVANIA" "A3" 0 120 240 0 4 9 12 16 NA 0 0 0
+"MEGALOVANIA" "A3" 1 120 240 0 NA NA NA NA 18 0 0 0
+"melody H4CKER" "A3" 0 155 155 155 2 6 12 15 NA 0 0 0
+"memory DATAMOSHER" "A3" 0 115 460 0 6 9 13 16 NA 0 0 0
+"Mentanpindoradora" "A3" 0 92 740 0 2 7 11 16 NA 0 0 0
+"Mess With My Emotions" "A3" 0 130 130 130 1 3 9 12 NA 0 0 0
+"Metamorphic" "A3" 0 200 200 200 6 11 14 16 NA 0 0 0
+"Meumeupettantan!! (ZAQUVA Remix)" "A3" 0 200 200 200 4 7 10 13 NA 1 0 0
+"Meumeupettantan!! (ZAQUVA Remix)" "A3" 1 200 200 200 NA NA NA NA 17 1 0 0
+"Mixed nuts" "A3" 0 150 150 150 1 5 8 15 NA 0 0 0
+"Murasakibana" "A3" 0 134 201 0 3 7 12 16 NA 0 0 0
+"Musician" "A3" 0 120 120 120 1 3 8 12 NA 0 0 0
+"My Drama" "A3" 0 220 220 220 7 10 13 15 NA 0 0 0
+"Myu, myu, Mullru" "A3" 0 150 150 150 3 7 11 13 NA 0 0 0
+"Nanahoshi" "A3" 0 166 166 166 2 6 11 15 NA 0 0 0
+"Nanairo light" "A3" 0 135 135 135 3 5 11 14 NA 1 0 0
+"New Millennium" "A3" 0 60 300 0 6 12 15 17 NA 0 0 0
+"New Millennium" "A3" 1 60 300 0 NA NA NA NA 18 0 0 0
+"Next FUTURE" "A3" 0 192 192 192 2 6 10 15 NA 0 0 0
+"Not Alone" "A3" 0 155 155 155 3 7 13 16 NA 0 0 0
+"ON-DO" "A3" 0 210 210 210 3 8 12 14 NA 0 0 0
+"On the Night of a Still Wind" "A3" 0 155 155 155 3 6 11 14 NA 0 0 0
+"Open Your Eyes" "A3" 0 82 82 82 2 5 7 9 NA 0 0 0
+"PARADISE" "A3" 0 125 125 125 2 6 9 12 NA 0 0 0
+"perditus paradisus" "A3" 0 172 172 172 4 8 14 17 NA 0 0 0
+"Perfect eater" "A3" 0 175 175 175 3 6 12 17 NA 0 0 0
+"PERSIAN LAND" "A3" 0 90 180 0 4 7 12 15 NA 0 0 0
+"Phlox" "A3" 0 185 185 185 4 7 11 15 NA 0 0 0
+"Playing With Fire" "A3" 0 160 160 160 2 7 10 14 NA 0 0 0
+"Polaris no uta" "A3" 0 170 170 170 2 5 9 13 NA 0 0 0
+"Polaris no uta" "A3" 1 170 170 170 NA NA NA NA 16 0 0 0
+"Poppin' candy fever!" "A3" 0 190 190 190 2 4 10 14 NA 0 0 0
+"Positive dance time" "A3" 0 210 210 210 2 4 8 12 NA 0 0 0
+"Prettiful!" "A3" 0 129 129 129 2 5 10 15 NA 0 0 0
+"Pump Pump Pump" "A3" 0 156 156 156 2 6 11 15 NA 0 0 0
+"Pure Rude" "A3" 0 175 175 175 3 7 13 15 NA 0 0 0
+"Qwerty" "A3" 0 160 160 160 2 6 10 14 NA 0 0 0
+"Racing with Time (NAOKI's 999 remix)" "A3" 0 157 157 157 2 7 11 15 NA 0 0 0
+"Rave in the Shell" "A3" 0 75 300 0 3 7 12 16 NA 0 0 0
+"Renaikansoku -2021 manatsu no ending ver.-" "A3" 0 188 188 188 3 8 12 14 NA 0 0 0
+"Respec fujin" "A3" 0 135 135 135 2 5 10 15 NA 0 0 0
+"Rinne no karasu" "A3" 0 198 198 198 3 8 12 14 NA 0 0 0
+"Rise As One" "A3" 0 90 180 0 2 7 12 18 NA 0 0 0
+"ROCK THE PARTY" "A3" 0 128 128 128 3 5 13 16 NA 0 0 0
+"Ryoushi no umi no Lindwurm" "A3" 0 280 280 280 5 10 14 17 NA 0 0 0
+"Ryoushi no umi no Lindwurm" "A3" 1 280 280 280 NA NA NA NA 18 0 0 0
+"Saisoku saikou shutter girl" "A3" 0 160 160 160 4 7 12 16 NA 0 0 0
+"Saisoku saikou shutter girl" "A3" 1 160 160 160 NA NA NA NA 18 0 0 0
+"SAY A PRAYER" "A3" 0 97 97 97 2 4 6 8 NA 0 0 0
+"SAYONARA disco light" "A3" 0 159 159 159 3 6 9 13 NA 0 0 0
+"SAYONARA disco light" "A3" 1 159 159 159 NA NA NA NA 17 1 0 0
+"Sayonara heaven" "A3" 0 111 111 111 1 3 9 13 NA 0 0 0
+"Scarlet keisatsu no ghetto patrol 24 ji" "A3" 0 160 160 160 3 7 11 15 NA 0 0 0
+"Scarlet keisatsu no ghetto patrol 24 ji" "A3" 1 160 160 160 NA NA NA NA 18 0 0 0
+"Sector" "A3" 0 80 160 0 5 8 12 16 NA 0 0 0
+"Senkyakubanrai moumantai!" "A3" 0 168 168 168 3 6 12 16 NA 1 0 0
+"Settin' the Scene" "A3" 0 110 110 110 1 4 9 12 NA 0 0 0
+"SHIN HEBI HIME" "A3" 0 115 230 0 5 10 14 17 NA 0 0 0
+"Shuwa spa daisakusen" "A3" 0 140 140 140 1 5 10 14 NA 1 0 0
+"SISYPHUS" "A3" 0 45 360 0 5 10 14 17 NA 0 0 0
+"SISYPHUS" "A3" 1 45 360 0 NA NA NA NA 18 0 0 0
+"SMASH" "A3" 0 80 320 0 2 7 12 17 NA 0 0 0
+"Snow Garland Fairy" "A3" 0 200 200 200 3 8 13 17 NA 0 0 0
+"Something Comforting" "A3" 0 144 144 144 2 3 7 13 NA 0 0 0
+"SOUVENIR" "A3" 0 158 158 158 2 4 7 12 NA 0 0 0
+"Sparkle Dreams" "A3" 0 180 180 180 3 8 13 17 NA 0 0 0
+"spring pony" "A3" 0 150 150 150 2 6 12 15 NA 0 0 0
+"STAY (Joey Riot remix)" "A3" 0 150 150 150 2 6 9 12 NA 0 0 0
+"STAY GOLD" "A3" 0 21 330 0 5 9 12 16 NA 0 0 0
+"stellar rain" "A3" 0 148 148 148 1 5 8 13 NA 0 0 0
+"Such A Feeling" "A3" 0 120 120 120 3 6 11 14 NA 0 0 0
+"Surface" "A3" 0 150 150 150 1 4 9 12 NA 0 0 0
+"Surrender (PureFocus remix)" "A3" 0 130 130 130 2 7 10 15 NA 0 0 0
+"SURVIVAL AT THE END OF THE UNIVERSE" "A3" 0 150 200 0 5 9 14 16 NA 0 0 0
+"suspicions" "A3" 0 76 153 0 5 9 14 18 NA 0 0 1
+"Take Me" "A3" 0 100 100 100 2 5 7 11 NA 0 0 0
+"TAKE ME HIGHER (A3)" "A3" 0 140 175 0 4 8 13 16 NA 0 0 0
+"Teleportation" "A3" 0 170 170 170 4 8 12 15 NA 0 0 0
+"THE ANCIENT KING IS BACK" "A3" 0 160 160 160 3 7 11 14 NA 0 0 0
+"the beat" "A3" 0 140 140 140 4 8 11 14 NA 0 0 0
+"Throw Out" "A3" 0 96 192 0 2 6 10 15 NA 0 0 0
+"Throw Out" "A3" 1 96 192 0 NA NA NA NA 17 0 0 0
+"Tokai seifuku Girls" "A3" 0 140 140 140 2 4 10 13 NA 1 0 0
+"Tokonyatsu tropical" "A3" 0 132 132 132 3 7 12 15 NA 0 0 0
+"Too Late Snow" "A3" 0 138 138 138 2 5 10 13 NA 0 0 0
+"Towards The Horizon" "A3" 0 154 154 154 3 7 11 15 NA 0 0 0
+"Trance dance anarcky" "A3" 0 195 195 195 3 9 12 16 NA 1 0 0
+"Trance dance anarcky" "A3" 1 195 195 195 NA NA NA NA 18 1 0 0
+"TRUE LOVE (Clubstar's True Club Mix)" "A3" 0 135 135 135 2 5 9 13 NA 0 0 0
+"Ue ue shita shita hidari migi hidari migi BA" "A3" 0 124 124 124 4 6 11 12 NA 0 0 0
+"Unity" "A3" 0 120 120 120 2 5 8 12 NA 0 0 0
+"Unreality" "A3" 0 174 174 174 2 6 11 14 NA 0 0 0
+"Urban Life" "A3" 0 133 133 133 2 5 11 15 NA 0 0 0
+"Usatei" "A3" 0 190 190 190 4 8 11 14 NA 0 0 0
+"Vajra" "A3" 0 86 173 0 3 7 12 16 NA 0 0 0
+"Vajra" "A3" 1 86 173 0 NA NA NA NA 18 0 0 0
+"Valanga" "A3" 0 186 186 186 4 7 11 15 NA 0 0 0
+"Valanga" "A3" 1 186 186 186 NA NA NA NA 18 0 0 0
+"VALLIS-NERIA" "A3" 0 185 185 185 5 9 13 16 NA 0 0 0
+"VOLAQUAS" "A3" 0 106 212 0 5 11 15 18 NA 0 0 0
+"VOLAQUAS" "A3" 1 106 212 0 NA NA NA NA 19 0 0 0
+"Wakusei lollipop" "A3" 0 180 180 180 2 5 11 15 NA 0 0 0
+"WARNING WARNING WARNING" "A3" 0 172 172 172 3 6 10 13 NA 0 0 0
+"WARNING WARNING WARNING" "A3" 1 172 172 172 NA NA NA NA 17 1 0 0
+"We Will Live Together" "A3" 0 175 175 175 2 5 10 14 NA 0 0 0
+"White Stream" "A3" 0 222 222 222 4 8 13 16 NA 0 0 0
+"Wolf's Rain" "A3" 0 154 154 154 4 7 11 14 NA 0 0 0
+"Worst Plan" "A3" 0 150 150 150 4 7 12 15 NA 0 0 0
+"Wowie Zowie!" "A3" 0 128 128 128 2 6 10 14 NA 0 0 0
+"Wuv U" "A3" 0 86 346 0 3 7 10 14 NA 0 0 0
+"Yasaimashi ninniku abura oome" "A3" 0 180 180 180 2 6 12 15 NA 0 0 0
+"Yoidore shirazu" "A3" 0 115 115 115 1 3 9 13 NA 0 0 0
+"You You You" "A3" 0 146 146 146 3 6 10 13 NA 0 0 0
+"Youhishi no ue no ginga" "A3" 0 196 196 196 3 6 10 14 NA 0 0 0
+"Akatsuki" "World" 0 90 90 90 2 2 7 11 NA 0 0 0
+"Akatsuki" "World" 1 90 90 90 NA NA NA NA 13 0 0 0
+"Arcadia" "World" 0 177 177 177 3 7 10 13 NA 0 0 0
+"Bad youth awake" "World" 0 115 115 115 2 5 8 13 NA 0 0 0
+"Bloody Concerto" "World" 0 210 210 210 4 8 14 16 NA 0 1 0
+"BREAK DOWN! (World Version)" "World" 0 190 190 190 2 4 10 13 NA 1 0 0
+"Buta thunder" "World" 0 145 145 145 1 3 9 13 NA 0 0 0
+"Danmaku shinkou" "World" 0 170 170 170 3 6 10 16 NA 0 0 1
+"DanRevoAthlon" "World" 0 133 133 133 1 4 8 12 NA 0 0 0
+"Don't Stop The HYPERCORE" "World" 0 178 178 178 3 7 11 14 NA 0 0 0
+"Dozen Flower" "World" 0 178 178 178 3 7 9 12 NA 0 0 0
+"El ritmo te controla" "World" 0 118 118 118 2 6 9 12 NA 1 0 0
+"El ritmo te controla" "World" 1 118 118 118 NA NA NA NA 14 1 0 0
+"First Action" "World" 0 170 170 170 3 6 9 12 NA 0 0 0
+"Gravity Collapse" "World" 0 75 300 0 3 6 10 13 NA 0 0 1
+"Gravity Collapse" "World" 1 75 300 0 NA NA NA NA 15 0 0 1
+"Hajimari no eyes ft. Rintaru" "World" 0 128 128 128 1 5 9 11 NA 0 0 0
+"Happy Dance Day 2 U" "World" 0 137 137 137 3 7 11 14 NA 0 0 0
+"Heavy Rain" "World" 0 174 174 174 4 7 10 13 NA 0 0 0
+"Heisokuteki flation" "World" 0 176 176 176 3 7 11 14 NA 0 0 0
+"Hito mania" "World" 0 150 150 150 2 6 10 14 NA 0 0 0
+"HyperNOAH" "World" 0 152 152 152 3 5 9 12 NA 0 0 1
+"Ima koko! Kono shunkan" "World" 0 152 152 152 2 5 9 12 NA 0 0 0
+"Kirakira universe" "World" 0 155 155 155 2 8 12 15 NA 0 0 0
+"Kyokuchi daishougeki" "World" 0 138 138 138 3 6 9 12 NA 0 0 1
+"Kyoufuu all back" "World" 0 135 135 135 1 4 9 12 NA 0 0 0
+"Kyu-kurarin" "World" 0 220 220 220 3 5 9 13 NA 0 0 0
+"Lichtsaule" "World" 0 215 215 215 4 7 13 17 NA 0 1 0
+"Move On" "World" 0 170 170 170 2 7 12 15 NA 0 0 0
+"Moving On" "World" 0 140 140 140 1 3 7 11 NA 1 0 0
+"Neoki yashi no ki" "World" 0 160 160 160 2 4 8 13 NA 0 0 0
+"Niji no Sekai" "World" 0 151 151 151 3 6 11 14 NA 0 0 0
+"No Matter What" "World" 0 100 100 100 2 5 9 13 NA 1 0 0
+"Odore!! Virtual animal!!" "World" 0 180 180 180 3 7 11 15 NA 0 0 0
+"Odyssey" "World" 0 170 170 170 3 7 12 14 NA 0 0 1
+"Odyssey" "World" 1 170 170 170 NA NA NA NA 16 0 0 1
+"Ongaku (STARDOM Remix)" "World" 0 135 135 135 2 5 8 12 NA 1 0 0
+"Ongaku (STARDOM Remix)" "World" 1 135 135 135 NA NA NA NA 17 1 0 0
+"Origin Pulsation" "World" 0 170 170 170 3 6 11 14 NA 0 0 0
+"OROCHI STRIKE" "World" 0 50 200 0 3 7 12 16 NA 0 1 0
+"REINCARNATION" "World" 0 110 220 0 4 10 15 18 NA 0 1 0
+"ReRHYZE" "World" 0 200 200 200 4 9 13 16 NA 0 1 0
+"Roche Limit" "World" 0 160 160 160 3 7 11 14 NA 0 0 1
+"Roche Limit" "World" 1 160 160 160 NA NA NA NA 15 0 0 1
+"Shukusei!! Loli-kami requiem" "World" 0 165 165 165 2 4 9 14 NA 0 0 0
+"Shukusei!! Loli-kami requiem" "World" 1 165 165 165 NA NA NA NA 12 0 0 0
+"Sign wa B -New Arrange Ver.-" "World" 0 175 175 175 2 4 8 12 NA 0 0 0
+"So What" "World" 0 128 128 128 3 6 10 13 NA 0 0 0
+"So What" "World" 1 128 128 128 NA NA NA NA 8 0 0 0
+"SUPER HEROINE!!" "World" 0 186 186 186 2 5 8 13 NA 0 0 1
+"Sweetin' Fruity" "World" 0 150 150 150 3 7 10 14 NA 0 0 0
+"The 88's Instigation" "World" 0 135 135 135 1 4 8 13 NA 0 0 0
+"The Ashes of Boreas" "World" 0 148 148 148 2 4 9 13 NA 0 0 0
+"THE SAFARI (STARDOM Remix)" "World" 0 134 134 134 3 6 11 13 NA 1 0 0
+"THE SAFARI (STARDOM Remix)" "World" 1 134 134 134 NA NA NA NA 16 1 0 0
+"Tokumei M" "World" 0 140 186 0 1 4 9 13 NA 0 0 0
+"Tsuki ni murakumo hana ni kaze" "World" 0 160 162 160 3 5 9 12 NA 0 0 0
+"Tsuki ni murakumo hana ni kaze" "World" 1 160 162 160 NA NA NA NA 15 1 0 0
+"Vampire" "World" 0 164 164 164 2 6 10 13 NA 0 0 0
+"WONDER COASTER" "World" 0 172 172 172 3 6 10 13 NA 0 0 1
+"Zanzou ni tsunagareta tsuioku no HIDEAWAY" "World" 0 160 160 160 3 7 12 15 NA 0 0 1
+"39" "Removed" 0 175 175 175 4 6 8 12 NA 0 0 0
+"Ai kotoba" "Removed" 0 137 137 137 3 5 7 11 NA 0 0 0
+"Arifureta sekai seifuku" "Removed" 0 150 150 150 3 7 10 14 NA 0 0 0
+"Believe" "Removed" 0 128 128 128 2 4 9 11 NA 0 0 0
+"Break Free" "Removed" 0 130 130 130 3 6 9 11 NA 0 0 0
+"BUTTERFLY (20th Anniversary Mix)" "Removed" 0 140 140 140 3 6 9 12 NA 0 0 0
+"BUTTERFLY (20th Anniversary Mix)" "Removed" 1 140 140 140 NA NA NA NA 16 0 0 0
+"CARTOON HEROES (20th Anniversary Mix)" "Removed" 0 170 170 170 4 9 14 16 NA 0 0 0
+"CARTOON HEROES (20th Anniversary Mix)" "Removed" 1 170 170 170 NA NA NA NA 18 0 0 0
+"Dokusenyoku" "Removed" 0 117 117 117 2 5 8 11 NA 0 0 0
+"Happy" "Removed" 0 160 160 160 3 5 9 12 NA 0 0 0
+"HAVE YOU NEVER BEEN MELLOW (20th Anniversary Mix)" "Removed" 0 130 130 130 2 4 7 11 NA 0 0 0
+"HAVE YOU NEVER BEEN MELLOW (20th Anniversary Mix)" "Removed" 1 130 130 130 NA NA NA NA 17 0 0 0
+"Hello, planet" "Removed" 0 150 150 150 3 7 9 13 NA 0 0 0
+"Hillbilly Shoes" "Removed" 0 112 121 116 3 5 8 13 NA 0 0 0
+"Houkago stride" "Removed" 0 225 227 225 3 5 10 15 NA 0 0 0
+"I Want You To Know" "Removed" 0 127 136 130 1 3 8 11 NA 0 0 0
+"Koi" "Removed" 0 158 158 158 1 3 8 11 NA 0 0 0
+"Kusare gedou to chocolate" "Removed" 0 260 260 260 3 8 13 15 NA 0 0 0
+"Kusare gedou to chocolate" "Removed" 1 260 260 260 NA NA NA NA 17 0 0 0
+"Liar dance" "Removed" 0 200 200 200 4 6 9 13 NA 0 0 0
+"LONG TRAIN RUNNIN' (20th Anniversary Mix)" "Removed" 0 130 130 130 3 6 9 12 NA 0 0 0
+"LONG TRAIN RUNNIN' (20th Anniversary Mix)" "Removed" 1 130 130 130 NA NA NA NA 15 0 0 0
+"Maware! Setsugetsuka" "Removed" 0 160 160 160 2 5 8 11 NA 0 0 0
+"Maware! Setsugetsuka" "Removed" 1 160 160 160 NA NA NA NA 13 0 0 0
+"More One Night" "Removed" 0 123 123 123 3 5 8 10 NA 0 0 0
+"More One Night" "Removed" 1 123 123 123 NA NA NA NA 12 0 0 0
+"Mousou kanshou daishou renmei" "Removed" 0 110 110 110 2 4 8 12 NA 0 0 0
+"Mousou zei" "Removed" 0 134 134 134 2 5 9 11 NA 0 0 0
+"Nadame sukashi Negotiation" "Removed" 0 150 150 150 2 5 9 11 NA 0 0 0
+"Nou shou sakuretsu girl" "Removed" 0 155 157 155 3 6 10 12 NA 0 0 0
+"Nou shou sakuretsu girl" "Removed" 1 155 157 155 NA NA NA NA 14 0 0 0
+"only my railgun" "Removed" 0 143 143 143 1 4 6 9 NA 0 0 0
+"only my railgun" "Removed" 1 143 143 143 NA NA NA NA 7 0 0 0
+"Realize" "Removed" 0 206 206 206 3 6 11 14 NA 0 0 0
+"Reiwa" "Removed" 0 142 142 142 3 4 7 10 NA 0 0 0
+"Reiwa" "Removed" 1 142 142 142 NA NA NA NA 18 0 0 0
+"Rinnetensei" "Removed" 0 196 196 196 3 7 11 13 NA 0 0 0
+"Rinnetensei" "Removed" 1 196 196 196 NA NA NA NA 16 0 0 0
+"Rokuchounen to ichiya monogatari" "Removed" 0 186 186 186 4 5 9 12 NA 0 0 0
+"Rokuchounen to ichiya monogatari" "Removed" 1 186 186 186 NA NA NA NA 16 0 0 0
+"SHINY DAYS" "Removed" 0 110 110 110 1 4 8 10 NA 0 0 0
+"Shisouhan" "Removed" 0 200 200 200 3 5 10 13 NA 0 0 0
+"Shut Up and Dance" "Removed" 0 128 128 128 2 5 8 11 NA 0 0 0
+"SKY HIGH (20th Anniversary Mix)" "Removed" 0 145 145 145 2 5 9 12 NA 0 0 0
+"SKY HIGH (20th Anniversary Mix)" "Removed" 1 145 145 145 NA NA NA NA 17 0 0 0
+"Skyclad no kansokusha" "Removed" 0 167 167 167 3 6 9 12 NA 0 0 0
+"SLoWMoTIoN" "Removed" 0 160 160 160 3 5 9 12 NA 0 0 0
+"Sukina koto dakede ii desu" "Removed" 0 140 140 140 3 5 9 13 NA 0 0 0
+"The Light" "Removed" 0 160 160 160 2 5 9 13 NA 0 0 0
+"Tiger rampage" "Removed" 0 150 150 150 2 5 9 13 NA 0 0 0
+"Tiger rampage" "Removed" 1 150 150 150 NA NA NA NA 17 0 0 0
+"Time Of Our Lives" "Removed" 0 124 124 124 2 5 9 11 NA 0 0 0
+"Wake Me Up" "Removed" 0 123 129 124 3 5 9 12 NA 0 0 0
+"Youkoso Japari Park e" "Removed" 0 170 170 170 3 6 10 14 NA 0 0 0
+"Youkoso Japari Park e" "Removed" 1 170 170 170 NA NA NA NA 12 0 0 0
+"Zassou tamashii namen na yo!" "Removed" 0 145 145 145 2 5 8 11 NA 0 0 0
