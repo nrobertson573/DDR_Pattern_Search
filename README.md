@@ -1,38 +1,40 @@
 Readme DDR_Pattern_Search
 ================
 N Robertson
-2022/8/15
+2024/11/27
 
 <https://nrobertson573.shinyapps.io/shinyapp/>
 
 This RShiny application searches through the available Sinlges charts on
-Dance Dance Revolution A3 for occurrences of a specified step pattern.
-Trying to learn crossovers but having a hard time with the charts
-suggested by the community? This tool can search for crossover patterns
-in charts with specified criteria (e.g. level 9-12 charts under 160
-BPM).
+Dance Dance Revolution World for occurrences of a specified step
+pattern. Trying to learn crossovers but having a hard time with the
+charts suggested by the community? This tool can search for crossover
+patterns in charts with specified criteria (e.g. level 9-12 charts under
+160 BPM).
 
 Functionality is broken down into three steps under separate tabs.
 
--   Create a filter list of charts to search over
--   Specify a pattern to search for
--   Initiate search and browse results
+- Create a filter list of charts to search over
+- Specify a pattern to search for
+- Initiate search and browse results
 
 # Filter list
 
 Possible elements to filter over include
 
--   Minimum and Maximum chart level, ranges from 1 to 19
--   Minimum and Maximum BPM, ranges from 1 to 1050
--   Static BPM, require chart keep a constant bpm (no speedups or
-    slowdowns)
--   Difficulty, (Beginner, Basic, Difficult, Expert and Challenge)
--   Mix, From 1st mix to A3, Grand Prix (including songs from purchasing
-    the Konami soft pad), and removed songs (only includes songs removed
-    since DDR A release)
--   Event and Unlockable songs
--   Gold Cabinet Exclusives (currently A3 is Gold Cabinet exclusive in
-    the continental US)
+- Minimum and Maximum chart level, ranges from 1 to 19
+- Minimum and Maximum BPM, ranges from 1 to 1050
+- Static BPM, require chart keep a constant bpm (no speedups or
+  slowdowns)
+- Difficulty, (Beginner, Basic, Difficult, Expert and Challenge)
+- Mix, From 1st mix to World and removed songs (only includes songs
+  removed since DDR A release)
+- Unlockable songs (these should be available to unlock at any time,
+  such as extra exclusive or flare level)
+- Limited unlockable charts (such as time limited or gold cabinet
+  exclusive charts)
+- Grand Prix (charts available from purchasing DDR Grand Prix song
+  packs)
 
 BPM filters are primarily the ranges listed in game and charts may have
 sections that do not match the listed BPM (e.g. Go For The Top).
@@ -46,26 +48,25 @@ slightly drifting BPM (e.g. PARANOiA).
 A step pattern can be broken down to two components, the arrow sequence
 and the spacing between each arrow. This app considers three cases
 
--   Sequence Only (only the sequence of arrows)
--   Timing Only (only the spacing between arrows)
--   Sequence and Timing (the sequence of arrows and the spacing between
-    them)
+- Sequence Only (only the sequence of arrows)
+- Timing Only (only the spacing between arrows)
+- Sequence and Timing (the sequence of arrows and the spacing between
+  them)
 
 To create these patterns some inputs will be required
 
--   Arrow Sequence: The sequence of arrows. Input sequence of arrow
-    directions \[LDUR\]. e.g. L D R D L
--   Timing Between Steps: The length of note between each step. Input
-    note length between previous step \[4 8 12 16 etc\]. e.g. 0 16 16 16
-    16 4
--   New Step?: Pairs with arrow sequence to allow for specifying jumps
-    in Sequence Only. 1 indicates new step while 0 indicates a jump with
-    the previous arrow in the sequence.
--   Maximum Beats: Maximum number of beats Arrow Sequence must be found
-    within for Sequence Only. Numeric Input.
--   Arrows Per Step: Pairs with Timing Between Steps to allow for
-    specifying jumps in Timing Only. 1 indicates a tap while 2 indicates
-    a jump. e.g. 2 1 2 1 2
+- Arrow Sequence: The sequence of arrows. Input sequence of arrow
+  directions \[LDUR\]. e.g. L D R D L
+- Timing Between Steps: The length of note between each step. Input note
+  length between previous step \[4 8 12 16 etc\]. e.g. 0 16 16 16 16 4
+- New Step?: Pairs with arrow sequence to allow for specifying jumps in
+  Sequence Only. 1 indicates new step while 0 indicates a jump with the
+  previous arrow in the sequence.
+- Maximum Beats: Maximum number of beats Arrow Sequence must be found
+  within for Sequence Only. Numeric Input.
+- Arrows Per Step: Pairs with Timing Between Steps to allow for
+  specifying jumps in Timing Only. 1 indicates a tap while 2 indicates a
+  jump. e.g. 2 1 2 1 2
 
 All inputs should have each element separated by either spaces or
 commas.
@@ -75,9 +76,9 @@ commas.
 Sequence Only considers the sequence of arrow occurrences and not the
 timing of each step. Requires
 
--   Arrow Sequence
--   New Step?
--   Maximum Beats
+- Arrow Sequence
+- New Step?
+- Maximum Beats
 
 As an example
 
@@ -124,8 +125,8 @@ right would be picked up by searching for our example pattern.
 
 Timing Only requires specifying the following.
 
--   Arrows Per Step
--   Timing Between Steps
+- Arrows Per Step
+- Timing Between Steps
 
 This type of pattern only cares about the rhythm or spacing between
 steps and whether any steps are jumps. Consider the following which
@@ -148,8 +149,8 @@ exact same input and will generate the exact same search output.
 
 Sequence and Timing requires the following input.
 
--   Arrow Sequence
--   Timing Between Steps
+- Arrow Sequence
+- Timing Between Steps
 
 This type of pattern specification searches for exact matches of rhythm
 and arrow sequence. Consider the following pattern from Over the Period
@@ -190,12 +191,11 @@ with small searches being almost instant. Results are returned in a
 sortable table containing the chart parameters as listed in the filter
 table and three new columns.
 
--   pat_count: The amount of times the pattern is identified in the
-    chart
--   pat_minbpm: The lowest BPM the pattern occurs in the song, 0 if not
-    pattern not present
--   pat_maxbpm: The maximum BPM the pattern occurs in the song, 0 if not
-    pattern not present
+- pat_count: The amount of times the pattern is identified in the chart
+- pat_minbpm: The lowest BPM the pattern occurs in the song, 0 if not
+  pattern not present
+- pat_maxbpm: The maximum BPM the pattern occurs in the song, 0 if not
+  pattern not present
 
 By default the table is sorted by pat_count.
 
