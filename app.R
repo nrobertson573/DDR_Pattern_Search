@@ -12,11 +12,14 @@ mixes = c("1stMIX","2ndMIX","3rdMIX","4thMIX","5thMIX","6thMIX MAX","7thMIX MAX2
 clevels = seq(1,19,1)
 difficulties = c("Beginner","Basic","Difficult","Expert","Challenge")
 
+##use the date a_steps was made as a proxy for last time app updated
+dated <- format(file.info("all_steps.RData")$mtime, "%Y-%m-%d")
+
 ui <- fluidPage(
   titlePanel("Pattern Search Over Dance Dance Revoultion World Charts"),
   
   uiOutput("mygithub"),
-  h6("Updated: 2024/11/27", style="color:black"),
+  h6(textOutput("date_updated"), style="color:black"),
   headerPanel(""),
   
   tabsetPanel(
@@ -204,11 +207,15 @@ ui <- fluidPage(
       ),
       
       DTOutput("search_tab"),
-      
+
+
+
       
       ##trying to add the chart viz to bottom of search panel
       conditionalPanel(
         condition = "input.search_start > 0 & output.search_validate == ''",
+        # This one is linked by the id 'download'
+        downloadButton('download',"Download Search Results"),
         actionButton("viztoggleSP", "Visualize patterns in charts?")
       ),
       conditionalPanel(
@@ -257,6 +264,11 @@ server <- function(input, output, session) {
           href="https://github.com/nrobertson573/DDR_Pattern_Search#readme:")
   output$mygithub = renderUI({
     tagList("Github Readme link:", url)     
+  })
+  
+  ##
+  output$date_updated = renderText({
+    paste("Updated:", dated)
   })
 
   ##now reactive instead of event reactive due to other controls
@@ -706,6 +718,14 @@ server <- function(input, output, session) {
     datatable(search_tab_gen(search_res(),a20p), options = list(order=list(8, 'desc'))) %>%
       formatStyle("pat_count", color = rgb(42, 36, 82, maxColorValue = 255), backgroundColor = rgb(142, 143, 148, alpha = 50, maxColorValue = 255))
   })
+  
+  output$download <- downloadHandler(
+    filename = function(){paste0("DDR_Pattern_Search_Results_",Sys.time(),".csv")},
+    content = function(fname){
+      write.csv(search_tab_gen(search_res(),a20p), fname)
+    }
+  )
+  
   
   observeEvent(input$search_start, {
     updateSelectizeInput(session, inputId = "chart_to_viz", choices = sort(filterlist()))
